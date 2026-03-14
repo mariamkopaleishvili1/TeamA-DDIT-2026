@@ -23,6 +23,12 @@ Teams that arrive at Weekend 2 without Sprint 1 deliverables lose the most valua
 
 ---
 
+
+## Meeting Norms
+
+- Gega Mukhigulashvili: Busy Mon-Fri 4pm-1am
+
+---
 ## Hypothesis Testing Plan
 
 From your hypothesis log v1, identify the five hypotheses you will test before Weekend 2. Assign each to an owner. Assign a due date that allows the recorder to integrate findings before the pre-weekend review.
