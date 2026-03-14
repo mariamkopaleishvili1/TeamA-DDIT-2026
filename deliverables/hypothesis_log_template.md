@@ -16,11 +16,14 @@ Update this log after each research session or team meeting. Treat it as a livin
 
 | ID | Hypothesis | Evidence needed | Evidence collected | Status | Revision notes |
 |---|---|---|---|---|---|
-| H1 |  |  |  | Active |  |
+| H1 The Decline in Medicaid Membership Was Driven by the Post‑Pandemic “Unwinding” Process Rather Than True Loss of Eligibility — Creating a Temporary Structural Shock to Insurer Enrollment |  |  | Active |  |
 | H2 |  |  |  | Active |  |
 | H3 |  |  |  | Active |  |
 | H4 |  |  |  | Active |  |
 | H5 |  |  |  | Active |  |
+
+Draft Hypothesis:
+Starting in Q3 2023, Medicaid insurers such as Elevance Health experienced a sharp decline in membership primarily due to the federally mandated “Medicaid Unwinding” process, which required states to resume eligibility redeterminations after a three‑year freeze during the COVID‑19 pandemic. This created a sudden, non-market-driven purge of members — many removed for procedural or administrative reasons rather than true ineligibility. As states completed unwinding through 2024, large-scale disenrollments continued, producing an artificially sharp decline in membership across all Medicaid managed care organizations (MCOs). Additional pressure came from state-level operational challenges, high procedural disenrollment rates, uneven reenrollment pathways, and delays in application processing. Thus, the decline reflects a policy-driven disruption rather than competitive displacement or demand weakness.
 
 ## Status definitions
 
