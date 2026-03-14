@@ -16,10 +16,10 @@ Teams that arrive at Weekend 2 without Sprint 1 deliverables lose the most valua
 
 ## Team Information
 
-- Team name:
-- Industry context:
-- Sprint 1 owner (Recorder role for this sprint):
-- Members:
+- Team name: Team A
+- Industry context: Finance
+- Sprint 1 owner (Recorder role for this sprint): Mariam Kopaleishvili
+- Members: Mariam Piranishvili, Gega Mukhigulashvili, Ani Rusieshvili, Mariam Kopaleishvili
 
 ---
 
@@ -111,8 +111,8 @@ Start from the disruption diagnostic. The options should respond to the strategi
 
 ## Meeting Schedule
 
-| Meeting | Date | Time | Duration | Purpose |
-|---|---|---|---|---|
+| Meeting   | Date | Time | Duration | Purpose |
+|---|---|---|--  -|---|
 | Sprint kickoff | March 15 (Sunday evening) | | 30 min | Divide hypothesis and research assignments; confirm owners and dates |
 | Week 1 check-in | March 22 | | 45 min | Review H1 and H2 findings; surface blockers; adjust if needed |
 | Working session | March 27–29 | | 90 min | Integrate competitive landscape updates; discuss preliminary options |
