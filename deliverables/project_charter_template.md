@@ -29,8 +29,14 @@ Describe the industry and the focal organisation or organisation type in three s
 - Industry: Fintech
 - Geographic market: Georgia
 - Focal organisation type (e.g., incumbent retail bank, regional hospital network, last-mile logistics operator): TBC Bank, Bank of Georgia
-- Why this context has meaningful disruption underway now: 
+- Why this context has meaningful disruption underway now: The global rise of event‑based financial products (e.g., political markets, macro‑event futures, entertainment/sports forecasting) and their rapid adoption in the U.S. and EU demonstrate strong demand for “information markets.” At the same time, Georgia’s fintech environment is evolving: payment digitization is accelerating, crypto usage is widespread relative to population, and regulators are actively modernizing financial and digital‑asset frameworks. This combination of consumer readiness, regulatory fluidity, and market white space creates an opportunity for a first‑mover to introduce predictive financial instruments in a compliant way.
 - Public data availability: what sources exist for this industry?
+  Georgian National Bank (NBG) regulatory guidelines, fintech licensing frameworks, and digital‑asset regulations
+  Ministry of Finance and Parliamentary records on gambling, futures, derivatives, and financial markets
+  Polymarket, Kalshi, PredictIt, Metaculus public data and investor reports
+  Academic research on prediction markets
+  Global industry analyses, crypto adoption reports, and consumer‑behavior studies in Georgia
+  Georgian economic and political event datasets (GEOstat, NBG, IFI reports)
 
 ---
 
@@ -51,16 +57,17 @@ How should [focal organisation] respond to [specific disruption force] in order 
 
 Write three versions and select one:
 
-- Version A:
-- Version B:
-- Version C:
-- Selected version and reason for selection:
+- Version A: How should a Georgian fintech prediction‑market startup design and launch a Polymarket/Kalshi‑style event‑trading platform while navigating Georgia’s financial, gambling, and digital‑asset regulations?
+- Version B: How should TBC Bank or Bank of Georgia enter the prediction‑market space—or partner with a startup—to capture emerging demand for event‑based financial products while controlling regulatory and reputational risk?
+- Version C: How should a new prediction‑market operator position itself in Georgia to achieve rapid user adoption and regulatory approval while maintaining financial sustainability and avoiding classification as gambling?
+- Selected version and reason for selection: Selected version: Version A - How should a Georgian fintech startup launch a Polymarket/Kalshi‑type prediction‑market product in Georgia in order to achieve regulatory approval, attract early users, and reach sustainable scale while managing legal, reputational, and platform‑risk constraints?
+This phrasing is specific (focuses on a Georgian startup modeled after Polymarket/Kalshi), answerable within the semester (regulatory review + market sizing + product design), consequential (mistakes could make the product illegal or unviable), and contested (reasonable analysts disagree on where prediction markets should sit legally and operationally).
 
 ### Why this question matters
 
-- What happens if the client gets the answer wrong:
-- What is at stake financially:
-- What is at stake competitively:
+- What happens if the client gets the answer wrong: The product could be classified as illegal gambling, resulting in immediate shutdown and fines. The venture could be denied licensing by the National Bank of Georgia, preventing launch entirely. The platform could attract the wrong type of users (speculators, arbitrage bots) and fail to build trust.
+- What is at stake financially: Failure to meet compliance standards could block payment‑provider integrations, eliminating the platform’s ability to earn transaction fees.
+- What is at stake competitively: Georgia currently has no major prediction‑market operator, so the first compliant mover could secure dominant network‑effects and user liquidity.
 
 ---
 
