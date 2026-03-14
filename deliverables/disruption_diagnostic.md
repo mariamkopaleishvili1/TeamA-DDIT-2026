@@ -10,19 +10,38 @@ Do not force every case into "disruption." Precision matters.
 
 ## Part 1. Define the incumbent market
 
-- Industry:
-- Main incumbent firms:
-- Traditional business model:
+- Industry: Fintech
+- Main incumbent firms: TBC Capital, Bank of Georgia Brokerage, Galt & Taggart, crypto exchanges used informally (e.g., Binance, Coinbase), and local betting companies (partial overlap).
+- Traditional business model: Brokerages rely on trading commissions, custody fees, FX spread, and larger minimum trade sizes. Banks rely on deposit gathering, wealth products, portfolio management fees, and conservative financial instruments.
+Retail speculation requires significant starting capital, financial literacy, and complex onboarding
 - Primary basis of competition before the challenger appeared:
+  Trust in banking brands
+  Access to listed equities/bonds
+  Research, analysis, and advisor‑driven investing
+  Trading tools & “serious investor” positioning
+  Barriers: literacy, minimum capital, account requirements
 
 ---
 
 ## Part 2. Define the challenger or technology shift
 
-- Challenger firm or technology:
+- Challenger firm or technology: A Polymarket/Kalshi‑style prediction‑market platform offering event‑based, $1 outcome contracts.
 - Initial offering:
+  Micro‑contracts (as low as $1)
+  Zero trading fees (revenue via bid–ask spreads)
+  Liquid event markets (elections, inflation prints, sports, crypto events)
+  Fast onboarding + intuitive yes/no structure
 - Initial target users:
+  Young (18–35), tech‑savvy Georgians
+  Non‑consumers of traditional brokerage (those priced out or intimidated by stocks)
+  Sports bettors, crypto users, and news‑driven speculators
+  Low‑capital individuals seeking simple speculation instruments
 - Why it seemed interesting or threatening:
+  Wide range of trading topics
+  Removes complexity of stock investing
+  Reduces cost by 70–90% vs. traditional brokerage
+  Opens trading access to non‑consumers
+  Challenges the incumbents’ future retail growth engine
 
 ---
 
