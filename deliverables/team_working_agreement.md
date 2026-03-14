@@ -16,7 +16,7 @@ Teams that arrive at Weekend 2 without Sprint 1 deliverables lose the most valua
 
 ## Team Information
 
-- Team name: Team Aa
+- Team name: Team AAA+
 - Industry context: Finance
 - Sprint 1 owner (Recorder role for this sprint): Mariam Kopaleishvili
 - Members: Mariam Piranishvili, Gega Mukhigulashvili, Ani Rusieshvili, Mariam Kopaleishvili
