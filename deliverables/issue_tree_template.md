@@ -19,8 +19,8 @@ Write the central strategic question in one sentence.
 Why are the margins contacting in healthcare industry?
 
 **Your draft**
-- Core question:
-- Why this question matters:
+- Core question: 
+- Why this question matters: 
 
 ---
 
