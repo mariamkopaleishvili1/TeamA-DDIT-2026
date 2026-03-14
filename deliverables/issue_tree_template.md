@@ -14,11 +14,11 @@ Use this template after your team has agreed on a client context and a broad str
 
 Write the central strategic question in one sentence.
 
+How will a prediction‑market fintech disrupt incumbent banks and brokerages in Georgia, and what drivers determine whether the fintech (vs. incumbents) wins customer adoption and profitable scale?
 
 **Your draft**
-- Core question: Why are the margins contacting in healthcare industry?
-- Why this question matters: Profits shrink and consumer bears the price increase. 
-
+- Core question: How will a prediction‑market fintech disrupt incumbent banks and brokerages in Georgia, and what drivers determine whether the fintech (vs. incumbents) wins customer adoption and profitable scale?
+- Why this question matters: If incumbents misread this shift, they lose deposits, trading activity, and data advantages to a low‑cost event‑trading venue; if the fintech misreads it, network effects never form and the model stalls.
 ---
 
 ## Part 2. First-level branches
@@ -33,23 +33,23 @@ Common examples:
 
 **Branch 1**
 - Label: Service 
-- Why it belongs:
+- Why it belongs: For retail users, the battle is won or lost on experience: onboarding friction, dispute/resolution speed for event outcomes, customer support responsiveness, and the credibility of how markets settle. If service is slow or opaque, trust collapses and users revert to banks/brokers (or betting sites).
 
 **Branch 2**
 - Label: Price
-- Why it belongs:
+- Why it belongs: Prediction markets compete on total trading cost (fees + spread + slippage), funding/withdrawal costs, and payout speed. If the fintech delivers a lower effective cost per trade or faster settlement than brokers (and avoids “house edge” economics of betting), price becomes a durable wedge.
 
 **Branch 3**
-- Label: 
-- Why it belongs:
+- Label: Product
+- Why it belongs: The core disruption is product differentiation: event‑based contracts that retail can understand and trade in small sizes (vs. complex derivatives); breadth and local relevance of markets (elections, macro prints, sports, crypto events); liquidity depth at best prices; and transparent, rule‑based resolution (oracle design). Superior product-market fit triggers network effects incumbents struggle to copy quickly.
 
 **Branch 4**
-- Label:
-- Why it belongs:
+- Label: Distribution
+- Why it belongs: Winning requires efficient acquisition and reach: app store availability, embedded payment rails, partnerships (banks/PSPs, media, creators), and community channels (Telegram/YouTube/Discord). If the fintech cannot scale distribution, incumbents retain the funnel via existing banking apps and brokerage platforms.
 
 **Branch 5, optional**
-- Label:
-- Why it belongs:
+- Label:  Regulatory & Risk
+- Why it belongs: Classification (financial instrument vs. gambling), licensing, KYC/AML, responsible‑use features, and data/privacy controls determine whether the platform can operate at scale and advertise broadly. A compliant posture opens payment rails and institutional partnerships; a misstep blocks distribution and raises capital costs.
 
 ---
 
