@@ -12,13 +12,13 @@ The charter is separate from the Team Charter. The Team Charter covers how you w
 
 ## Team Information
 
-- Team name:
-- Industry context:
-- Members:
-- Instructor:
-- Semester:
-- Version:
-- Date last updated:
+- Team name: Team AAA+
+- Industry context: Fintech
+- Members: Mariam Kopaleishvili, Mariam Piranishvili, Ani Rusieshvili, Gega Mukhigulashvili
+- Instructor: Zeshan Ahmad
+- Semester: Spring 2026
+- Version: 1
+- Date last updated: 03/14/2026
 
 ---
 
@@ -26,10 +26,10 @@ The charter is separate from the Team Charter. The Team Charter covers how you w
 
 Describe the industry and the focal organisation or organisation type in three sentences. Be specific. A vague client context produces vague analysis.
 
-- Industry:
-- Geographic market:
-- Focal organisation type (e.g., incumbent retail bank, regional hospital network, last-mile logistics operator):
-- Why this context has meaningful disruption underway now:
+- Industry: Fintech
+- Geographic market: Georgia
+- Focal organisation type (e.g., incumbent retail bank, regional hospital network, last-mile logistics operator): TBC Bank, Bank of Georgia
+- Why this context has meaningful disruption underway now: 
 - Public data availability: what sources exist for this industry?
 
 ---
