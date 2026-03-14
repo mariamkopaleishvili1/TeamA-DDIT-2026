@@ -16,7 +16,7 @@ Write the central strategic question in one sentence.
 
 **Format suggestion**
 
-How should [client or focal company] respond to [digital disruption force] in order to [strategic goal]?
+Why are the margins contacting in healthcare industry?
 
 **Your draft**
 - Core question:
