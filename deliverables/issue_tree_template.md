@@ -14,13 +14,10 @@ Use this template after your team has agreed on a client context and a broad str
 
 Write the central strategic question in one sentence.
 
-**Format suggestion**
-
-Why are the margins contacting in healthcare industry?
 
 **Your draft**
-- Core question: 
-- Why this question matters: 
+- Core question: Why are the margins contacting in healthcare industry?
+- Why this question matters: Profits shrink and consumer bears the price increase. 
 
 ---
 
@@ -29,22 +26,21 @@ Why are the margins contacting in healthcare industry?
 Break the problem into three to five top-level drivers.
 
 Common examples:
-- market shifts,
-- customer shifts,
+- regulatory shifts,
 - technology shifts,
 - competitive response,
 - organizational capability.
 
 **Branch 1**
-- Label:
+- Label: Service 
 - Why it belongs:
 
 **Branch 2**
-- Label:
+- Label: Price
 - Why it belongs:
 
 **Branch 3**
-- Label:
+- Label: 
 - Why it belongs:
 
 **Branch 4**
