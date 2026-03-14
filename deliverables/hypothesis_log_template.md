@@ -16,7 +16,7 @@ Update this log after each research session or team meeting. Treat it as a livin
 
 | ID | Hypothesis | Evidence needed | Evidence collected | Status | Revision notes |
 |---|---|---|---|---|---|
-| H1 | The Decline in Medicaid Membership Was Driven by the Post‑Pandemic “Unwinding” Process Rather Than True Loss of Eligibility — Creating a Temporary Structural Shock to Insurer Enrollment  |  | Active |  |
+| H1 | The Decline in Medicaid Membership Was Driven by the Post‑Pandemic “Unwinding” Process Rather Than True Loss of Eligibility — Creating a Temporary Structural Shock to Insurer Enrollment  | | | Active |  |
 | H2 |  |  |  | Active |  |
 | H3 |  |  |  | Active |  |
 | H4 |  |  |  | Active |  |
