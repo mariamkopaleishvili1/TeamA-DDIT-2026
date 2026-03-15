@@ -41,6 +41,47 @@ Examples:
 ### Placement notes
 Describe where each competitor sits and why.
 
+                    Digital-Native Architecture
+                              ↑
+                              |
+    Pave Bank                 |                 CityPay.io
+    (programmable,            |                 (crypto payments,
+    API-first, cloud)         |                 Tether-backed,
+                              |                 mobile-first)
+                              |
+    Space (TBC)               |                 Bybit
+    (neobank subsidiary,       |                 (derivatives exchange,
+    rapid deployment)          |                 global tech, local VASP)
+                              |
+    Solo (Bank of              |                 Binance
+    Georgia)                  |                 (global exchange,
+    (premium digital,         |                 GEL support,
+    but legacy core)           |                 local partnerships)
+                              |
+    DataMind                  |                 GeCrypto
+    (SaaS platform,            |                 (physical + digital,
+    cloud analytics)           |                 app-based, fast)
+                              |
+    AzRy                      |                 1tab
+    (B2B infrastructure,       |                 (Telegram bot,
+    hybrid systems)            |                 multi-city, agile)
+                              |
+    Payze                      
+    (payment gateway,          |                 Cryptomat
+    API-driven but              |                 (ATM network,
+    limited scale)             |                 cash-dependent,
+                              |                 no digital platform)
+                              |
+                              ↓
+    Liberty Bank                                (No competitors in
+    (branch-heavy,                              this quadrant:
+    legacy systems,         Legacy Infrastructure  unregulated + legacy)
+    rural focus)
+                              |
+                              |
+    ←———————————————————————————————————————————————→
+    Regulatory Integration              Regulatory Flexibility
+
 ---
 
 ## Part 3. Interpretation
