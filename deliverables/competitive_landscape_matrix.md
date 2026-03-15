@@ -45,7 +45,127 @@ Top (Digital-Native): Built digital-first or digital-only, API-driven, cloud-bas
 Bottom (Legacy Infrastructure): Built on traditional core banking systems, branch-dependent, hybrid digital-physical models, slower technology iteration
 
 ### Placement notes
-Describe where each competitor sits and why.
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Set up the plot
+fig, ax = plt.subplots(figsize=(14, 10))
+
+# Define competitors with coordinates (x, y)
+# X: 0=High Regulatory Integration, 10=High Regulatory Flexibility
+# Y: 0=Legacy Infrastructure, 10=Digital-Native Architecture
+
+competitors = {
+    'Pave Bank': (2, 9.5, '#1f77b4', 'Digital Bank'),
+    'Space (TBC)': (2.5, 8, '#1f77b4', 'Neobank'),
+    'Solo (Bank of Georgia)': (2.5, 6, '#1f77b4', 'Digital Platform'),
+    'DataMind': (3, 7, '#ff7f0e', 'B2B SaaS'),
+    'Payze': (4, 5, '#ff7f0e', 'Payment Gateway'),
+    'AzRy': (3, 4, '#ff7f0e', 'Infrastructure'),
+    'Liberty Bank': (1, 1, '#2ca02c', 'Universal Bank'),
+    'CityPay.io': (8, 9, '#d62728', 'Crypto Payments'),
+    'Binance': (8.5, 8, '#d62728', 'Global Exchange'),
+    'Bybit': (8.5, 7, '#d62728', 'Derivatives Exchange'),
+    'Kraken': (8, 6.5, '#d62728', 'Global Exchange'),
+    'Werty': (7, 5, '#9467bd', 'Local Crypto Exchange'),
+    '1tab': (7.5, 6, '#9467bd', 'Local Crypto Exchange'),
+    'GeCrypto': (7, 4, '#9467bd', 'Local Crypto Exchange'),
+    'Cryptomat': (8, 2, '#8c564b', 'Crypto ATM Network')
+}
+
+# Plot competitors
+for name, (x, y, color, category) in competitors.items():
+    ax.scatter(x, y, s=400, c=color, alpha=0.7, edgecolors='black', linewidth=1.5, zorder=5)
+    
+    # Adjust text position based on location to avoid overlap
+    if name == 'Pave Bank':
+        ax.annotate(name, (x, y), xytext=(x-0.8, y+0.3), fontsize=10, fontweight='bold')
+    elif name == 'Space (TBC)':
+        ax.annotate(name, (x, y), xytext=(x+0.3, y+0.3), fontsize=10, fontweight='bold')
+    elif name == 'Solo (Bank of Georgia)':
+        ax.annotate(name, (x, y), xytext=(x+0.3, y-0.4), fontsize=9, fontweight='bold')
+    elif name == 'DataMind':
+        ax.annotate(name, (x, y), xytext=(x+0.3, y+0.3), fontsize=10, fontweight='bold')
+    elif name == 'Payze':
+        ax.annotate(name, (x, y), xytext=(x+0.3, y-0.4), fontsize=10, fontweight='bold')
+    elif name == 'AzRy':
+        ax.annotate(name, (x, y), xytext=(x+0.3, y-0.4), fontsize=10, fontweight='bold')
+    elif name == 'Liberty Bank':
+        ax.annotate(name, (x, y), xytext=(x+0.3, y-0.4), fontsize=10, fontweight='bold')
+    elif name == 'CityPay.io':
+        ax.annotate(name, (x, y), xytext=(x+0.3, y+0.3), fontsize=10, fontweight='bold')
+    elif name == 'Binance':
+        ax.annotate(name, (x, y), xytext=(x+0.3, y+0.3), fontsize=10, fontweight='bold')
+    elif name == 'Bybit':
+        ax.annotate(name, (x, y), xytext=(x+0.3, y-0.4), fontsize=10, fontweight='bold')
+    elif name == 'Kraken':
+        ax.annotate(name, (x, y), xytext=(x+0.3, y-0.4), fontsize=10, fontweight='bold')
+    elif name == 'Werty':
+        ax.annotate(name, (x, y), xytext=(x-0.6, y+0.3), fontsize=9, fontweight='bold')
+    elif name == '1tab':
+        ax.annotate(name, (x, y), xytext=(x+0.3, y+0.3), fontsize=10, fontweight='bold')
+    elif name == 'GeCrypto':
+        ax.annotate(name, (x, y), xytext=(x-0.7, y-0.4), fontsize=9, fontweight='bold')
+    elif name == 'Cryptomat':
+        ax.annotate(name, (x, y), xytext=(x+0.3, y-0.4), fontsize=10, fontweight='bold')
+
+# Add quadrant lines
+ax.axhline(y=5, color='gray', linestyle='--', alpha=0.5, linewidth=1)
+ax.axvline(x=5, color='gray', linestyle='--', alpha=0.5, linewidth=1)
+
+# Add quadrant labels
+ax.text(2.5, 9.5, 'Digital-Native +\nRegulated', fontsize=11, ha='center', 
+        bbox=dict(boxstyle='round', facecolor='lightblue', alpha=0.3))
+ax.text(7.5, 9.5, 'Digital-Native +\nFlexible', fontsize=11, ha='center',
+        bbox=dict(boxstyle='round', facecolor='lightcoral', alpha=0.3))
+ax.text(2.5, 1.5, 'Legacy +\nRegulated', fontsize=11, ha='center',
+        bbox=dict(boxstyle='round', facecolor='lightgreen', alpha=0.3))
+ax.text(7.5, 1.5, 'Legacy +\nFlexible\n(Empty)', fontsize=11, ha='center',
+        bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.3))
+
+# Set axis labels and title
+ax.set_xlabel('Regulatory Integration ← → Regulatory Flexibility', fontsize=13, fontweight='bold')
+ax.set_ylabel('Legacy Infrastructure ← → Digital-Native Architecture', fontsize=13, fontweight='bold')
+ax.set_title('Georgia Fintech Competitive Positioning Map\n(Based on NBG Licensed Entities)', 
+             fontsize=15, fontweight='bold', pad=20)
+
+# Set axis limits and ticks
+ax.set_xlim(0, 10)
+ax.set_ylim(0, 10)
+ax.set_xticks([0, 2.5, 5, 7.5, 10])
+ax.set_xticklabels(['High\nIntegration', '', 'Neutral', '', 'High\nFlexibility'])
+ax.set_yticks([0, 2.5, 5, 7.5, 10])
+ax.set_yticklabels(['Legacy\nInfrastructure', '', 'Neutral', '', 'Digital-Native\nArchitecture'])
+
+# Add legend by category
+categories = {
+    'Traditional Banks': '#1f77b4',
+    'B2B Fintech/Infrastructure': '#ff7f0e', 
+    'Global Crypto Exchanges': '#d62728',
+    'Local Crypto Exchanges': '#9467bd',
+    'Crypto Infrastructure': '#8c564b'
+}
+
+legend_elements = [plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=color, 
+                              markersize=12, label=cat, markeredgecolor='black') 
+                   for cat, color in categories.items()]
+ax.legend(handles=legend_elements, loc='upper left', bbox_to_anchor=(1.02, 1), fontsize=10)
+
+# Add grid
+ax.grid(True, alpha=0.3, linestyle=':')
+
+# Tight layout to fit legend
+plt.tight_layout()
+
+# Save the figure
+plt.savefig('/mnt/kimi/output/georgia_fintech_positioning_map.png', dpi=300, bbox_inches='tight', 
+            facecolor='white', edgecolor='none')
+plt.show()
+
+print("Positioning map saved to: /mnt/kimi/output/georgia_fintech_positioning_map.png")
+
 
 ---
 
