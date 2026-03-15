@@ -29,10 +29,11 @@ Regulatory accessibility (especially the sandbox) keeps the door open. The domin
 - Strategic implication: Engage the NBG sandbox proactively before a competitor does. The sandbox grants regulatory breathing room for 12–24 months with reduced compliance overhead. Filing first creates a de-facto first-mover status in a jurisdiction with no playbook for this product category.
 
 ## Bargaining power of buyers
-- Who are the main buyers? 
-- How concentrated are they?
-- How easy is switching?
-- Force rating: Low / Medium / High
+- Who are the main buyers? Retail users, skewing toward urban, digitally active Georgians aged 18–35. The Findex 2021 data shows 70.5% of Georgian adults hold transaction accounts and 62% have made at least one digital payment — a high baseline for a $6,086 per-capita-GDP country. Yet only 5.6% of household financial assets flow into securities, revealing a vast and latent pool of savers who have never been offered a compelling active-participation product. [The Finech Times](https://thefintechtimes.com/richie-not-done-yet-fintech-in-the-caucasus-armenia-azerbaijan-georgia/)
+- How concentrated are they? Extremely fragmented. Georgia's population is 3.8 million; the addressable urban digitally-banked audience is perhaps 800,000–1.2 million. No single user segment is concentrated enough to exert individual pricing power. The risk is collective behavior: users vote with engagement and churn is digital, silent, and near-instantaneous.
+- How easy is switching? Trivially easy — every product in this space is a free-to-download mobile app. Switching costs are effectively zero beyond sunk emotional investment in an active position. Behavioral stickiness must be engineered through product design (streaks, leaderboards, social features) rather than lock-in contractual mechanisms.
+- Force rating: High
+Users hold all the UX leverage. Any friction in onboarding, deposit/withdrawal, or contract resolution will be immediately punished with churn and negative word-of-mouth.
 - Strategic implication:
 
 ## Bargaining power of suppliers
