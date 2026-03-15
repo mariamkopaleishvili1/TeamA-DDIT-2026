@@ -53,6 +53,7 @@ Binary outcome structures similar to derivative products (price-based win/loss s
 Micro-transaction capabilities lowering barriers to entry
 Digital-native user experience appealing to Georgia's young, tech-savvy demographic (median age 38.5, 82% urbanization rate)
 - Why would customers switch?
+
 | **Driver**                 | **Customer Motivation**                                                                                                         |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | **Speed & Accessibility** | Instant account opening and immediate transaction capability vs. traditional bank KYC delays of 24–48 hours.                     |
