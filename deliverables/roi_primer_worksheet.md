@@ -10,11 +10,12 @@ A business case with one scenario is not a business case. It is a wish list. A b
 
 ## Team Information
 
-- Team name:
-- Industry context:
-- Members:
-- Date completed:
-- Version:
+- Team name: Team AAA+
+- Industry context: Fintech
+- Members: Gega Mukhigulashvili, Mariam Piranishvili, Mariam Kopaleishvili 
+- Date completed: 03/15/2026
+- Version: 1
+
 
 ---
 
