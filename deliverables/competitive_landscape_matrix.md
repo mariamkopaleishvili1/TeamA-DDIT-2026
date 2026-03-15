@@ -20,6 +20,13 @@ Use it after completing the broader competitive landscape template.
 | **Payze**                  | E-commerce platforms, SMEs, service providers needing cross-border payments                                      | Payment gateway for Georgia and Uzbekistan; B2B focused with API integration                                       | Multi-currency support (GEL, USD, EUR); local payment method integration; Shopify and Bitrix24 partnerships; 2.5-3% commission rates                                              | Local market expertise in post-Soviet regulatory environment; streamlined API; lower fees than international competitors (Stripe); strong Uzbekistan expansion                                                     | Limited to Georgia and Uzbekistan; small scale (11-50 employees); unfunded; intense competition from Russian players (DengiOnline, PayOnline); lacks consumer brand recognition                                    |
 | **AzRy / iPOS**            | Banks, public transportation, government, merchants needing payment infrastructure                               | B2B fintech infrastructure provider; payment systems integration; hardware and software solutions                  | Unified Money Transfer System for banks; Tbilisi Metro contactless payment system; multichannel payment gateway; self-service kiosk networks; 25% market share in POS terminals   | 20+ years market presence (founded 2004); deep integration with Georgian public infrastructure; self-funded growth; strong technical team; monopoly on transit payments                                            | Unfunded status limits growth capital; B2B only (no consumer presence); dependent on public sector contracts; limited international expansion; aging technology stack in some legacy systems                       |
 | **DataMind**               | Banks, financial institutions, enterprises needing data analytics and business intelligence                      | B2B SaaS data platform; data warehousing; AI-powered analytics; risk management tools                              | Data Unistream platform; 70% of Georgian banking sector as clients; AI assistant for financial analysis; \$2.2M valuation; \$700,000 raised                                       | Dominant market position in banking analytics; co-founders with deep banking and data architecture experience; rapid client acquisition; international expansion plans (Baltics, Eastern Europe, Central Asia, US) | Small absolute revenue scale; dependent on Georgian banking sector health; limited brand awareness outside financial sector; nascent international presence; competition from global BI players (Tableau, PowerBI) |
+| **Binance**                | Retail crypto traders, investors, freelancers                 | Global crypto exchange with Georgian VASP registration; spot/derivatives trading        | 600+ trading pairs; institutional security; GEL support; regional hub                              | World's largest exchange by volume; liquidity depth; regulatory compliance in Georgia      | High global regulatory scrutiny; complex interface; no fiat deposit insurance                |
+| **Bybit**                  | Active crypto traders, institutions, businesses               | Global crypto derivatives exchange with Georgian VASP license; spot trading; Bybit Card | Advanced derivatives; Bybit Card (Mastercard); 600+ trading pairs; OTC services                    | Strong derivatives position; recent Georgian VASP registration (2025); Tbilisi hiring      | Smaller spot share than Binance; newer Georgian entrant; limited local brand awareness       |
+| **Kraken**                 | Retail crypto investors, institutions                         | US-regulated exchange available in Georgia; spot trading; custody                       | 400+ cryptocurrencies; cold storage; customizable API; advanced charts                             | World-class security reputation; long-standing track record; available to Georgians        | Complex interface for beginners; limited Georgian-specific features; no GEL native support   |
+| **Werty**                  | Crypto investors, expats, real estate buyers                  | Licensed local crypto exchange; OTC trading; physical offices                           | Same-day payouts; cash in GEL/USD/EUR; large transactions (\$100K-\$500K+); rate locking           | Licensed by NBG; physical presence for high-trust transactions; real estate specialization | Limited to Georgia; no global brand recognition; higher spreads for small transactions       |
+| **GeCrypto**               | Retail crypto users, tourists, small investors                | Licensed crypto exchange; cash-to-crypto services; physical office                      | Best rates claim; 10,000+ clients; 250+ Google reviews; multilingual staff; Marjanishvili location | Strong local reputation; licensed; tourist-friendly; fast onboarding                       | Single location; no digital-first platform; walk-in dependent; smaller scale                 |
+| **1tab**                   | Crypto users, expats, remitters, real estate buyers           | Licensed crypto exchange; cash offices; Telegram bot integration                        | Three locations (Tbilisi, Batumi, Kutaisi); bank transfer integration; 0.1% referral bonuses       | Multi-city presence; major bank integration; tech-forward (Telegram bot); expat community  | Smaller than Werty; no mobile app; dependent on third-party banking rails                    |
+| **Cryptomat / BitXChange** | Tourists, unbanked, cash-preferred users                      | Crypto ATM network; cash-to-crypto conversion                                           | 76 ATMs in Tbilisi; 5 Batumi; 2 Kutaisi; 2 Rustavi; 1 Gori; 1 Zugdidi; BTC/LTC/USDT                | Largest ATM network; no bank account required; instant cash; convenient retail locations   | High fees (7-10%); low transaction limits; cash-only; no advanced features; regulatory risks |
 
 
 ---
@@ -28,59 +35,17 @@ Use it after completing the broader competitive landscape template.
 
 Choose two dimensions that matter strategically.
 
-Examples:
-- price vs convenience
-- scale vs specialization
-- digital integration vs legacy dependence
-- standardization vs customization
 
 ### Chosen dimensions
-- X-axis:
-- Y-axis:
+ - X-axis: Regulatory Integration vs. Regulatory Flexibility
+Left side (High Integration): Fully licensed by National Bank of Georgia, compliant with traditional banking regulations, deposit insurance, physical presence, legacy relationships with regulators
+Right side (High Flexibility): VASP registered or unregulated, crypto-native, agile with regulatory ambiguity, less constrained by traditional banking rules
+ - Y-axis: Digital-Native Architecture vs. Legacy Infrastructure
+Top (Digital-Native): Built digital-first or digital-only, API-driven, cloud-based, mobile-first UX, rapid deployment cycles
+Bottom (Legacy Infrastructure): Built on traditional core banking systems, branch-dependent, hybrid digital-physical models, slower technology iteration
 
 ### Placement notes
 Describe where each competitor sits and why.
-
-                    Digital-Native Architecture
-                              ↑
-                              |
-    Pave Bank                 |                 CityPay.io
-    (programmable,            |                 (crypto payments,
-    API-first, cloud)         |                 Tether-backed,
-                              |                 mobile-first)
-                              |
-    Space (TBC)               |                 Bybit
-    (neobank subsidiary,       |                 (derivatives exchange,
-    rapid deployment)          |                 global tech, local VASP)
-                              |
-    Solo (Bank of              |                 Binance
-    Georgia)                  |                 (global exchange,
-    (premium digital,         |                 GEL support,
-    but legacy core)           |                 local partnerships)
-                              |
-    DataMind                  |                 GeCrypto
-    (SaaS platform,            |                 (physical + digital,
-    cloud analytics)           |                 app-based, fast)
-                              |
-    AzRy                      |                 1tab
-    (B2B infrastructure,       |                 (Telegram bot,
-    hybrid systems)            |                 multi-city, agile)
-                              |
-    Payze                      
-    (payment gateway,          |                 Cryptomat
-    API-driven but              |                 (ATM network,
-    limited scale)             |                 cash-dependent,
-                              |                 no digital platform)
-                              |
-                              ↓
-    Liberty Bank                                (No competitors in
-    (branch-heavy,                              this quadrant:
-    legacy systems,         Legacy Infrastructure  unregulated + legacy)
-    rural focus)
-                              |
-                              |
-    ←———————————————————————————————————————————————→
-    Regulatory Integration              Regulatory Flexibility
 
 ---
 
