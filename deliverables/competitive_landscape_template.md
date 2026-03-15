@@ -41,8 +41,11 @@ Users hold all the UX leverage. Any friction in onboarding, deposit/withdrawal, 
 - Who are the critical suppliers?
 - How concentrated are they?
 - How replaceable are they?
+    While open banking and APIs reduce some reliance on incumbent banks, fintech firms cannot completely replace core banking infrastructure suppliers:Opening accounts still needs a licensed bank partner.Real‑time settlement and compliance require banking rails.
+bank infrastructure remains hard to substitute without licensing.
 - Force rating: Low / Medium / High
 - Strategic implication:
+
 
 ## Threat of substitutes
 - What alternatives solve the same job?
