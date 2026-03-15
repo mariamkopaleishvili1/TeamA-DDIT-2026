@@ -40,40 +40,50 @@ Users hold all the UX leverage. Any friction in onboarding, deposit/withdrawal, 
 ## Bargaining power of suppliers
 - Who are the critical suppliers?
 - How concentrated are they?
-- How replaceable are they?
-    While open banking and APIs reduce some reliance on incumbent banks, fintech firms cannot completely replace core banking infrastructure suppliers:Opening accounts still needs a licensed bank partner.Real‑time settlement and compliance require banking rails.
+- How replaceable are they? While open banking and APIs reduce some reliance on incumbent banks, fintech firms cannot completely replace core banking infrastructure suppliers:Opening accounts still needs a licensed bank partner.Real‑time settlement and compliance require banking rails.
 bank infrastructure remains hard to substitute without licensing.
-- Force rating: Low / Medium / High
-- Strategic implication:
-
+- Force rating: High
+The payment rail concentration is the critical risk. If either major bank declines to serve the platform — or uses its merchant agreement to block user transfers — the business model collapses. This is the Georgian equivalent of the "bank de-risking" problem that has strangled multiple fintech categories globally.
+- Strategic implication: Structure the payment architecture to maximize optionality from day one. Seek PSP licenses independently. Explore crypto (USDC) settlement as a backup or partial primary rail. Negotiate banking partnerships as a strategic priority, potentially offering the banks a data/co-branding value proposition to make them partners rather than gatekeepers.
 
 ## Threat of substitutes
 - What alternatives solve the same job?
+Georgia's 24 registered Virtual Asset Service Providers (VASPs) offer instant, 24/7 speculative participation that directly competes with traditional fintech investment products . These platforms provide:
+Binary outcome structures similar to derivative products (price-based win/loss scenarios)
+Micro-transaction capabilities lowering barriers to entry
+Digital-native user experience appealing to Georgia's young, tech-savvy demographic (median age 38.5, 82% urbanization rate)
 - Why would customers switch?
-- Force rating: Low / Medium / High
-- Strategic implication:
+| Driver                      | Customer Motivation                                                                                                              |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **Speed & Accessibility**   | Instant account opening vs. traditional KYC delays (24-48 hours for banks)                                                       |
+| **Lower Entry Barriers**    | Micro-investments from GEL 10 vs. traditional wealth management minimums                                                         |
+| **24/7 Availability**       | Crypto markets never close; banking limited to business hours                                                                    |
+| **Speculative Appeal**      | High-risk, high-reward profiles attract younger demographics seeking returns beyond deposit rates (currently ~9-11% in Georgia)  |
+| **UX Superiority**          | Mobile-first, gamified interfaces vs. legacy banking apps                                                                        |
+| **Social/Cultural Factors** | Crypto communities offer belonging; informal networks provide trust in low-regulation environments                               |
+
+- Force rating: Medium 
+
 
 ## Competitive rivalry
-- Number and type of competitors:
-- Basis of competition:
-- Price intensity:
-- Innovation intensity:
-- Force rating: Low / Medium / High
-- Strategic implication:
+- Number and type of competitors: Georgia's fintech competitive landscape is defined by a concentrated banking duopoly, a fragmented fintech startup ecosystem, and intense but asymmetric competition across different market segments. The sector is dominated by two systemic banks — TBC Bank and Bank of Georgia — which together control approximately 70-74% of banking assets and loans through their combined market shares of roughly 37% each. This creates a highly concentrated core where these incumbents compete fiercely for premium retail and corporate clients while maintaining largely parallel pricing strategies. Beyond this duopoly, approximately 50 active fintech firms operate in Georgia as of 2022, ranging from payment processors and digital lenders to neobanks and blockchain startups . These smaller players typically avoid direct confrontation with the banking giants, instead carving out niches in underserved segments such as micro-lending for gig economy workers, cross-border remittances, or merchant payment solutions for small retailers.
+- Basis of competition: The basis of competition varies significantly across these tiers. For TBC and Bank of Georgia, rivalry centers on digital experience differentiation, brand trust, and corporate banking relationships rather than price. Both banks have launched sophisticated digital banking platforms — TBC's Space and Bank of Georgia's Solo — which compete aggressively on user interface design, speed of onboarding, and ecosystem integration with e-commerce and lifestyle services. In contrast, the smaller fintech cohort competes primarily on accessibility and speed, targeting customers who are either unbanked or frustrated by the legacy processes of major banks. This includes faster loan approvals, simplified KYC procedures, and specialized products like buy-now-pay-later services or crypto-fiat bridges that the large banks either cannot or choose not to offer due to regulatory caution.
+- Price intensity: Price intensity in the Georgian market is moderate but selectively fierce. In traditional banking products such as deposits and mortgages, pricing remains remarkably stable due to the implicit coordination between the two dominant players, with interest rate movements closely mirroring National Bank of Georgia policy shifts rather than competitive undercutting. However, in payment processing and micro-lending, price competition intensifies significantly as fintech startups undercut bank fees to gain market share, often operating on thinner margins sustained by venture capital backing or cross-subsidization from other business lines. The payments market itself has grown from just under $1 billion in 2022 to $1.18 billion in 2023, with projections reaching $2.2 billion by 2027, attracting new entrants willing to compete aggressively on transaction fees and merchant acquisition cost
+- Innovation intensity: Innovation intensity is high and accelerating, driven by regulatory modernization and demographic tailwinds. The National Bank of Georgia's implementation of open banking frameworks in 2023, combined with sandbox licensing for fintech experiments, has lowered barriers to entry and encouraged rapid product iteration . Both major banks have responded by significantly increasing their technology investments, with TBC Bank specifically highlighting digital transformation and AI-driven customer analytics as strategic priorities in its 2024 investor communications . Meanwhile, the startup ecosystem innovates around the edges, particularly in areas like embedded finance, blockchain-based settlement, and mobile-first insurance products where regulatory ambiguity or legacy infrastructure constraints have historically limited incumbent agility.
+- Force rating: Given these dynamics, the overall force rating for competitive rivalry is Medium-High. While the market avoids the pure price destruction seen in fully commoditized sectors, the combination of duopolistic intensity at the top, disruptive pressure from below, and rapid technological change creates a challenging environment where sustained competitive advantage requires continuous investment in digital capabilities and customer experience. The 70% asset concentration provides stability but also invites regulatory scrutiny and fintech disruption, while the fragmented nature of the remaining 30% ensures persistent competitive pressure from agile challengers.
+- Strategic implication: For new entrants, success requires either extreme specialization in segments the major banks ignore or a partnership strategy that leverages incumbent infrastructure while delivering superior UX. For the dominant banks, the imperative is to maintain innovation velocity despite scale advantages, as the 24 registered VASPs and growing fintech cohort demonstrate that regulatory compliance and brand trust — while powerful — are no longer sufficient to prevent customer defection among digitally native demographics. Both TBC and Bank of Georgia must balance defensive protection of their core deposit and lending franchises with offensive investments in platform ecosystems that embed financial services into broader digital lifestyles, thereby raising switching costs and blurring the lines between banking and non-banking financial services.
 
 ---
 
 # Part 2. Value chain analysis
 
-Map the chain.
-
-| Stage | Main activities | Main actors | Profit concentration | Digital pressure points |
-|---|---|---|---|---|
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-
+| Stage                                      | Main activities                                                                  | Main actors                                                                                                                       | Profit concentration                                                                                                                    | Digital pressure points                                                                                                                                                     |
+| ------------------------------------------ | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Customer Acquisition & KYC**             | Digital onboarding, identity verification, credit scoring, regulatory compliance | TBC Bank (Space), Bank of Georgia (Solo), Liberty Bank, VASPs, credit bureaus                                                     | **Medium** — High CAC due to fragmented channels; incumbents leverage brand trust, fintechs buy growth                                  | Biometric KYC lags behind global standards; 24-48 hour onboarding vs. instant in mature markets; data silos between banks and non-bank lenders                              |
+| **Core Banking & Payments Infrastructure** | Deposit taking, transaction processing, clearing/settlement, card networks, FX   | NBG (regulator/settlement), TBC, Bank of Georgia, Liberty Bank, international card schemes (Visa/Mastercard), 24 registered VASPs | **High** — Duopoly captures 70-74% of profit pool; payments volume growing 15% annually to \$2.2B by 2027                               | Legacy core systems limit real-time capabilities; open banking APIs (2023 launch) still immature ; instant payment rails underdeveloped vs. EU/UK                           |
+| **Lending & Credit Provision**             | Retail loans, mortgages, SME credit, micro-lending, risk pricing                 | TBC, Bank of Georgia (dominant), fintech lenders (Silknet Financial, etc.), P2P platforms, informal lenders                       | **High** — Net interest margins 6-8% ; concentrated in top two banks; fintechs nibbling at subprime segments                            | AI-driven credit scoring nascent; alternative data (telco, utility) underutilized; SME lending remains relationship-based not algorithmic                                   |
+| **Wealth Management & Investment**         | Deposit products, securities trading, pension funds, crypto speculation          | Bank of Georgia (securities arm), TBC, international brokers, 24 VASPs, informal investment clubs                                 | **Low-Medium** — Underdeveloped vs. regional peers; crypto VASPs capturing speculative flows that traditional wealth management ignores | Robo-advisors absent; fractional investing unavailable; retail investor base small (limited capital market culture); VASPs offer closest UX to "investment" for mass market |
+| **Distribution & Customer Engagement**     | Mobile apps, branches, agents, call centers, social media, merchant partnerships | All banks, fintechs, telecoms (Silknet, Magti), retail networks, e-commerce platforms                                             | **Medium** — Shifting to digital; branch costs still heavy (incumbents); fintechs 100% digital but lack scale                           | Super-app race underway (Space, Solo competing); embedded finance partnerships (telcos, ride-hailing) emerging; customer data fragmentation across 50+ fintechs             |
 ### Value chain interpretation
 - Which stage appears most vulnerable?
 - Which stage appears most defensible?
