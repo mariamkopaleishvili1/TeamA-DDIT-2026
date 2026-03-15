@@ -53,15 +53,14 @@ Binary outcome structures similar to derivative products (price-based win/loss s
 Micro-transaction capabilities lowering barriers to entry
 Digital-native user experience appealing to Georgia's young, tech-savvy demographic (median age 38.5, 82% urbanization rate)
 - Why would customers switch?
-| Driver                      | Customer Motivation                                                                                                              |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| **Speed & Accessibility**   | Instant account opening vs. traditional KYC delays (24-48 hours for banks)                                                       |
-| **Lower Entry Barriers**    | Micro-investments from GEL 10 vs. traditional wealth management minimums                                                         |
-| **24/7 Availability**       | Crypto markets never close; banking limited to business hours                                                                    |
-| **Speculative Appeal**      | High-risk, high-reward profiles attract younger demographics seeking returns beyond deposit rates (currently ~9-11% in Georgia)  |
-| **UX Superiority**          | Mobile-first, gamified interfaces vs. legacy banking apps                                                                        |
-| **Social/Cultural Factors** | Crypto communities offer belonging; informal networks provide trust in low-regulation environments                               |
-
+| **Driver**                 | **Customer Motivation**                                                                                                         |
+|---------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| **Speed & Accessibility** | Instant account opening and immediate transaction capability vs. traditional bank KYC delays of 24–48 hours.                     |
+| **Lower Entry Barriers**  | Ability to start with micro‑investments (e.g., GEL 10) rather than meeting high minimums required by traditional wealth services.|
+| **24/7 Availability**     | Crypto and fintech platforms operate continuously, while banking services are constrained by business hours and settlement cycles.|
+| **Speculative Appeal**    | High‑risk/high‑reward opportunities appeal to younger users seeking returns higher than standard deposit rates (~9–11% in Georgia).|
+| **UX Superiority**        | Mobile‑first interfaces, gamified flows, and simplified decision-making outperform legacy banking app experiences.               |
+| **Social/Cultural Factors** | Strong online communities create trust and belonging; informal networks encourage adoption where financial literacy is limited. |
 - Force rating: Medium 
 
 
