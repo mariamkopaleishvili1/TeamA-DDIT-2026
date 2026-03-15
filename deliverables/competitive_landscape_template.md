@@ -19,14 +19,17 @@ Use all three. They answer different questions.
 # Part 1. Porter Five Forces
 
 ## Threat of new entrants
-- Barriers to entry:
-- Sources of advantage for current leaders:
-- Likely new entrants:
-- Force rating: Low / Medium / High
-- Strategic implication:
+- Barriers to entry: 
+Regulation: Georgian fintech entry barriers are real but navigable. On the regulatory side, a platform that frames itself as a financial product must obtain a Payment Service Provider (PSP) license from the National Bank of Georgia (NBG) — a regime with 35 licensed PSPs already active.
+Capital: 
+- Sources of advantage for current leaders: TBC Capital's brokerage arm doubled its customer base to 100,000+ in 2025 and grew AUM from $735M to $850M — it already owns the distribution channel through the ubiquitous TBC app. Investing.com Galt & Taggart, the investment-banking arm of the LSE-listed Bank of Georgia Group (BGEO), holds the 2025 Euromoney "Best Broker in Georgia" title and deep institutional relationships. Euromoney These incumbents benefit from bundled financial relationships — users who already have their payroll, savings, mortgage, and investment account with one entity face a high perceived switching cost even if the product itself is free to leave.
+- Likely new entrants: The 24 registered VASPs (crypto asset service providers) represent the most crypto-native adjacent threat. International platforms — Polymarket has expanded globally, and Kalshi is actively pursuing international partnerships — could seek Georgian regulatory approval as a pilot CIS/Caucasus market. Regional fintech accelerators in Armenia and Azerbaijan could produce cross-border players. Crucially, the NBG regulatory sandbox (established 2020) was specifically designed for exactly this category of innovative product and has already piloted equity crowdfunding models and tokenized deposits, making it the natural first port of call for a prediction market applicant.
+- Force rating: Medium
+Regulatory accessibility (especially the sandbox) keeps the door open. The dominant threat is not legal barriers but distribution dominance by the two banking groups. A focused, well-capitalized entrant with a differentiated product can overcome this — but execution margin for error is thin. 
+- Strategic implication: Engage the NBG sandbox proactively before a competitor does. The sandbox grants regulatory breathing room for 12–24 months with reduced compliance overhead. Filing first creates a de-facto first-mover status in a jurisdiction with no playbook for this product category.
 
 ## Bargaining power of buyers
-- Who are the main buyers?
+- Who are the main buyers? 
 - How concentrated are they?
 - How easy is switching?
 - Force rating: Low / Medium / High
