@@ -1,7 +1,7 @@
 # Competitive Landscape Template
 
 
-**Industry Context Note:** Georgia's fintech sector is concentrated in payments and digital banking, with approximately 50 active fintech firms as of 2022 [BTU](https://btu.edu.ge/wp-content/uploads/2024/01/Fintech-market-in-Georgia-structure-and-main-trends.pdf), a $1.18 billion payments market in 2023 projected to reach $2.2 billion by 2027 [The Finech Times](https://thefintechtimes.com/richie-not-done-yet-fintech-in-the-caucasus-armenia-azerbaijan-georgia/), and two banks (TBC Bank and Bank of Georgia) controlling approximately 70-74% of banking assets through their combined market share in loans and deposits [MarketBeat](https://www.marketbeat.com/instant-alerts/tbc-bank-group-investor-day-targets-15-loan-growth-23-roe-and-teases-uzbekistan-ipo-option-2026-02-24/). No prediction market platform exists in Georgia (the country) as of 2025 — the white space remains total. Globally, Polymarket and Kalshi have demonstrated explosive product-market fit, together processing $44 billion in combined volume in 2025 and each targeting $20B valuations in 2026, validating that a compliant, micro-stakes event-trading product can achieve institutional scale from a standing start [Forbes](https://www.forbes.com/sites/boazsobrado/2025/12/16/how-prediction-markets-actually-grew-in-2025/).
+**Industry Context Note:** Georgia's fintech sector is concentrated in payments and digital banking, with approximately 50 active fintech firms as of 2022 [BTU](https://btu.edu.ge/wp-content/uploads/2024/01/Fintech-market-in-Georgia-structure-and-main-trends.pdf), a $1.18 billion payments market in 2023 projected to reach $2.2 billion by 2027 [The Finech Times](https://thefintechtimes.com/richie-not-done-yet-fintech-in-the-caucasus-armenia-azerbaijan-georgia/), and two banks (TBC Bank and Bank of Georgia) controlling approximately 70-74% of banking assets through their combined market share in loans and deposits [MarketBeat](https://www.marketbeat.com/instant-alerts/tbc-bank-group-investor-day-targets-15-loan-growth-23-roe-and-teases-uzbekistan-ipo-option-2026-02-24/).
 
 
 
@@ -61,6 +61,7 @@ Digital-native user experience appealing to Georgia's young, tech-savvy demograp
 | **Speculative Appeal**    | High‑risk/high‑reward opportunities appeal to younger users seeking returns higher than standard deposit rates (~9–11% in Georgia).|
 | **UX Superiority**        | Mobile‑first interfaces, gamified flows, and simplified decision-making outperform legacy banking app experiences.               |
 | **Social/Cultural Factors** | Strong online communities create trust and belonging; informal networks encourage adoption where financial literacy is limited. |
+
 - Force rating: Medium 
 
 
