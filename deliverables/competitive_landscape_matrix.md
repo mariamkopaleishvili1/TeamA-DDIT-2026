@@ -46,7 +46,22 @@ Bottom (Legacy Infrastructure): Built on traditional core banking systems, branc
 
 ### Placement notes
 
-Positioning map saved to: /mnt/kimi/output/georgia_fintech_positioning_map.png
+Quadrant 1: Digital-Native + Regulated (Upper-Left)
+Pave Bank sits at the extreme top-left as Georgia's only purpose-built digital bank. Its API-first architecture and programmable accounts represent maximum digital nativity, while its December 2023 NBG license provides full regulatory integration. This positioning is unique but precarious—its negative ROA (-14.16%) and minimal market share (0.01%) demonstrate that building a digital-native bank from scratch is capital-intensive and slow to scale, even with 0% corporate tax advantages.
+Space (TBC) occupies the upper-left but closer to center. It leverages TBC's regulatory integration and balance sheet while operating as a separately branded neobank. Its 8-month launch timeline and 38.8% loan market share demonstrate that incumbent-backed digital transformation can outpace pure startups. However, its dependence on TBC's legacy core creates friction that Pave Bank avoids.
+DataMind sits in the upper-mid-left as a B2B SaaS provider. Its cloud-native Data Unistream platform serves 70% of Georgian banks, making it digitally advanced but indirectly dependent on the regulated banking sector. Its $2.2M valuation and $700,000 raised indicate early-stage scale with international ambitions.
+Quadrant 2: Digital-Native + Flexible (Upper-Right)
+CityPay.io anchors the extreme upper-right. Its $12M funding from Tether, 600+ merchant partnerships, and instant fiat conversion architecture represent the most sophisticated crypto-native fintech in Georgia. Its positioning avoids direct competition with banks by specializing in crypto payment processing rather than deposit-taking.
+Binance and Bybit occupy the upper-right as global exchanges with Georgian VASP registrations. Binance's liquidity depth and GEL support provide local relevance, while Bybit's 2025 entry and Tbilisi hiring signal commitment. Both leverage global technology stacks with minimal local regulatory constraint compared to banks.
+Kraken sits slightly lower than Binance/Bybit due to its more limited Georgian functionality—available to residents but without the dedicated local partnerships that Binance has developed.
+Quadrant 3: Legacy + Regulated (Lower-Left)
+Solo (Bank of Georgia) sits mid-left, lower than Space. Despite premium digital interfaces, it remains tethered to legacy core systems and organizational culture. Its ~37% market share and strongest brand recognition provide defensive moats, but its slower agility creates vulnerability to faster digital competitors.
+Payze and AzRy occupy the center-left as B2B infrastructure players. Payze's API-driven gateway and AzRy's transit payment monopoly demonstrate that regulatory integration without full digital transformation creates a crowded, low-margin middle ground.
+Liberty Bank anchors the bottom-left with 500+ branches and maximum physical infrastructure. Its weakest digital capabilities and high cost-to-income ratio make it vulnerable to digital migration, but its government relationships and rural penetration provide defensive stability.
+Quadrant 4: Legacy + Flexible (Lower-Right)
+Cryptomat sits alone in this quadrant as the only major player combining physical ATM infrastructure with minimal regulatory integration. Its 86 ATMs across Georgia serve cash-dependent users, but high fees (7-10%) and low limits constrain scalability. This quadrant is otherwise empty, suggesting that combining legacy physical operations with regulatory flexibility is structurally unattractive—either players formalize (moving left) or digitize (moving up).
+Werty, 1tab, and GeCrypto cluster in the mid-right. These licensed local exchanges combine physical presence (offices, cash desks) with VASP regulatory flexibility. Werty's large transaction specialization ($100K-$500K), 1tab's Telegram bot integration, and GeCrypto's tourist focus demonstrate niche differentiation within the flexible regulatory tier.
+
 ---
 
 ## Part 3. Interpretation
