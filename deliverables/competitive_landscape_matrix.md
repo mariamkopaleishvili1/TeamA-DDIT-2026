@@ -44,6 +44,41 @@ Right side (High Flexibility): VASP registered or unregulated, crypto-native, ag
 Top (Digital-Native): Built digital-first or digital-only, API-driven, cloud-based, mobile-first UX, rapid deployment cycles
 Bottom (Legacy Infrastructure): Built on traditional core banking systems, branch-dependent, hybrid digital-physical models, slower technology iteration
 
+DIGITAL-NATIVE ARCHITECTURE
+                                   (API-first, Cloud, Mobile)
+                                                ▲
+                                                |
+   [QUADRANT 1: Digital + Regulated]            |    [QUADRANT 2: Digital + Flexible]
+                                                |
+    ● Pave Bank                                 |                                 ● CityPay.io
+                                                |
+                                                |
+            ● Space / TBC                       |                   ● Binance
+                                                |                     ● Bybit
+                                                |
+                   ● DataMind                   |                 ● Kraken
+                                                |
+                                                |
+                                                |
+HIGH REGULATORY ◄━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━► HIGH REGULATORY
+INTEGRATION                                     |                                 FLEXIBILITY
+(Full NBG Licenses,                             |         (VASP Registered, Unregulated, Crypto)
+ Physical Branches,                             |
+ Legacy Oversight)                              |
+                       ● Payze                  |             ● Werty
+              ● Solo (BoG)                      |               ● 1tab
+                    ● AzRy                      |                 ● GeCrypto
+                                                |
+                                                |
+                                                |
+                                                |
+    ● Liberty Bank                              |                                   ● Cryptomat
+                                                |
+   [QUADRANT 3: Legacy + Regulated]             |    [QUADRANT 4: Legacy + Flexible]
+                                                ▼
+                                      LEGACY INFRASTRUCTURE 
+                                 (Core Banking, Cash, Physical)
+
 ### Placement notes
 
  - Quadrant 1: Digital-Native + Regulated (Upper-Left)
@@ -67,17 +102,17 @@ Werty, 1tab, and GeCrypto cluster in the mid-right. These licensed local exchang
 ## Part 3. Interpretation
 
  - Which competitor appears best positioned?
-TBC Bank / Space: In the traditional and neobanking space, Space is best positioned. It successfully balances the trust, regulatory integration, and capital access of an incumbent (TBC) with the digital agility of a startup. Grabbing ~40% market share in deposits while innovating rapidly gives it a distinct moat against both sluggish traditional banks and underfunded fintechs.
+ TBC Bank / Space: In the traditional and neobanking space, Space is best positioned. It successfully balances the trust, regulatory integration, and capital access of an incumbent (TBC) with the digital agility of a startup. Grabbing ~40% market share in deposits while innovating rapidly gives it a distinct moat against both sluggish traditional banks and underfunded fintechs.
 CityPay.io: In the crypto/fintech space, CityPay.io is uniquely positioned. With $12M in funding, backing from Tether, and 600+ merchant partnerships, it essentially owns the "Digital-Native + Flexible" quadrant for B2B crypto-fiat payments. Its 20% lower fees and strong B2B integration protect it from the global consumer exchanges (Binance/Bybit).
  - Which competitor is most vulnerable?
-Liberty Bank: Despite its size and government contracts, Liberty is structurally vulnerable. Its massive physical infrastructure (500+ branches) results in a high cost-to-income ratio, and its weak digital capabilities make it highly susceptible to disruption as rural and lower-income demographics inevitably migrate to smartphones and digital banking.
+ Liberty Bank: Despite its size and government contracts, Liberty is structurally vulnerable. Its massive physical infrastructure (500+ branches) results in a high cost-to-income ratio, and its weak digital capabilities make it highly susceptible to disruption as rural and lower-income demographics inevitably migrate to smartphones and digital banking.
 Cryptomat: Operating in the "Legacy + Flexible" quadrant, Cryptomat is highly vulnerable. Its business model relies on physical cash infrastructure with exorbitant fees (7-10%). As digital literacy grows, competitors offer lower-fee fiat-to-crypto offramps, and local platforms integrate seamless bank transfers, physical crypto ATMs will struggle to survive.
 Pave Bank (Short-term): While strategically brilliant on paper, Pave Bank's negative profitability (-14.16% ROA) and microscopic market share (0.01%) make it financially vulnerable. It is burning capital to build digital-native, regulated infrastructure and faces a race against time to acquire customers before funding dries up.
  - Is the market crowding around one position?
-Yes, the market is heavily crowded in two specific areas:
+ Yes, the market is heavily crowded in two specific areas:
 The Local Crypto Broker/OTC Market (Mid-Right): Werty, GeCrypto, and 1tab are clustered together, offering highly similar services (physical cash-to-crypto, expat/tourist focus, VASP licensing). They are heavily competing for the same localized, high-trust transactional volume.
 Legacy-Regulated Core (Lower-Left): Traditional universal banks (BoG, Liberty) and B2B infrastructure providers (AzRy) are crowded in the legacy-regulated space. They rely on deep regulatory moats, legacy technology, and established physical or institutional networks. Competition here is slow-moving but fiercely defensive.
  - Where is there white space?
-Pure Consumer Neobanking (Upper-Left): While Space operates here, it is still tethered to TBC's legacy core. Pave Bank is here, but focuses on corporate/crypto multi-asset clients. There is a glaring white space for a standalone, purely digital consumer neobank (a true Georgian equivalent to Revolut or Monzo) that targets mass-market retail without the legacy debt of the big two incumbents.
+ Pure Consumer Neobanking (Upper-Left): While Space operates here, it is still tethered to TBC's legacy core. Pave Bank is here, but focuses on corporate/crypto multi-asset clients. There is a glaring white space for a standalone, purely digital consumer neobank (a true Georgian equivalent to Revolut or Monzo) that targets mass-market retail without the legacy debt of the big two incumbents.
 Embedded Finance / BaaS for SMEs: There is room for API-driven fintechs to bridge the gap between traditional banking and modern business software. Currently, Payze and AzRy offer payment gateways, but full-scale Banking-as-a-Service (BaaS) that allows non-banks to embed lending and accounts seamlessly remains largely unexploited.
 Regulated Digital-First Crypto Wallets: The transition between fiat and crypto is currently handled by physical OTC desks (Werty/GeCrypto) or complex global exchanges (Binance). A locally regulated, highly intuitive, digital-first retail app that bridges Georgian bank accounts (GEL) with crypto natively, without requiring physical visits represents major untapped potential.
