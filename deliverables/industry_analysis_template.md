@@ -79,8 +79,24 @@ What digital technologies are changing this industry?
 ## Part 5. Customer shifts
 
 - What do customers expect now that they did not expect five years ago?
+    - Instant, frictionless digital payments without multi-step authentication
+    - Mobile-first financial service access with intuitive UX
+    - Zero or minimal transaction fees for digital services
+    - Access to international investment markets through local platforms (TBC Capital offers 60 exchanges) 
+    - Cryptocurrency trading and custody services from regulated providers
 - What digital behaviors are now normal?
+    - Mobile wallet usage for daily transactions (TBC Pay, Liberty Pay)
+    - QR code payments at retail locations
+    - Online account opening and KYC verification
+    - Cross-border e-commerce purchases from Turkey, EU, and China 
+    - Daily fantasy sports participation (legal alternative to sports betting)
 - What frictions are customers less willing to tolerate?
+    - Long onboarding processes and excessive documentation
+    - High minimum investment thresholds (though TBC Capital has no minimum) 
+    - Lack of mobile-optimized interfaces
+    - Cash-only merchant restrictions
+    - Delayed settlement times for digital transactions
+    - Complex fee structures (customers prefer transparent, low-cost pricing)
 
 ---
 
@@ -88,9 +104,11 @@ What digital technologies are changing this industry?
 
 | Company | Position in market | Main strengths | Main vulnerabilities |
 |---|---|---|---|
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+|TBC Bank / TBC Capital |Leading digital and retail banking platform; strongest neobanking franchise; TBC Capital provides brokerage services to 60 exchanges  |Established trust, comprehensive mobile ecosystem (TBC Pay), regulatory relationships, no minimum account thresholds, access to international markets  |Legacy infrastructure constraints; conservative approach to novel products; focus on traditional securities rather than event contracts  |
+|Bank of Georgia / Galt & Taggart  |Second largest bank; Galt & Taggart provides investment banking and brokerage  |Strong corporate client base, access to regional markets (Azerbaijan, Uzbekistan, Kazakhstan, Turkey) , established trading infrastructure  |Limited retail fintech innovation; traditional brokerage fee structures (USD 0.02 per security, min USD 4)  |
+|Binance / Bybit  |Dominant global crypto VASPs in Georgia.  |Deep liquidity, massive asset variety, advanced trading tech  |Complex interface for beginners, no fiat deposit insurance, global regulatory scrutiny.  |
+|CityPay.io  |Leading B2B crypto payment processor.  |Lowest fees, 600+ merchants, strong investor backing ($12M).  |Highly dependent on crypto market cycles, limited direct-to-consumer mobile presence.  |
+
 
 ---
 
