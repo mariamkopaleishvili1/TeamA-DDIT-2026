@@ -90,50 +90,61 @@ Common examples:
 | **B** | **Embedded Finance & Partnerships** | PSP integrations (CityPay.io, Payze, local banks), merchant partnerships, media outlet collaborations for event sponsorship                                                              |
 | **C** | **Community & Viral Mechanics**     | Telegram group engagement, Discord community management, referral programs, social trading features, leaderboards. *Network effects critical in 3.7M population market*                  |
 
+**Branch 5: Regulatory & Risk**
+|       | Sub-driver                             | Description                                                                                                                                                                                                                      |
+| ----- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **A** | **Regulatory Classification Pathway**  | NBG sandbox entry for "innovative payment service" vs. gambling commission route, legal opinion on event contracts as derivatives vs. betting. *Evidence: NBG has authority to define virtual asset services via normative acts* |
+| **B** | **Compliance Infrastructure**          | KYC/AML vendor selection, transaction monitoring, suspicious activity reporting, sanctions screening (OFAC/EU), record retention policies                                                                                        |
+| **C** | **Responsible Use & Market Integrity** | Self-exclusion tools, deposit limits, cooling-off periods, insider trading monitoring. *Evidence: 22% understand compound interest; 37% fail risk diversification questions*                                                     |
+
+
 
 ## Part 4. Hypothesis extraction
-
-Convert each major branch into a testable hypothesis.
-
 **Hypothesis 1**
-- Statement:
-- Why it seems plausible:
+|                            |                                                                                                                                                                                                                                                                                                                                       |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Statement**              | If the platform achieves sub-2-minute onboarding with Georgian language support and mobile-first design, it will capture 40%+ of target users (18-35 tech-savvy Georgians) who abandoned traditional brokerage due to complexity, despite TBC Capital's zero-commission \$1 fractional investing offering                             |
+| **Why it seems plausible** | TBC Capital launched zero-commission, \$1 fractional investing in October 2023, yet retail GSE participation remains at ~8%. The barrier is not price or capital but onboarding friction and product complexity. Georgian brokerage requires banking relationships and financial literacy; event contracts remove this cognitive load |
 
 **Hypothesis 2**
-- Statement:
-- Why it seems plausible:
+|                            |                                                                                                                                                                                                                                                                                                                                                                                                      |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Statement**              | If the platform launches with 20+ locally relevant event markets (Georgian elections, regional sports, macro prints) with \$50K+ daily liquidity per market, it will activate non-consumers (the 92% of Georgians not in retail brokerage) and trigger organic network effects within 6 months                                                                                                       |
+| **Why it seems plausible** | Only ~8% of GSE equity holders are retail investors; banks purchase 80-90% of GEL bonds. 66% of Georgians prefer short-term thinking, yet incumbent brokerage products are long-term by nature (equities). Event contracts align with behavioral preference and require no financial analysis skills. 54% high financial literacy suggests capability exists, but product mismatch blocks engagement |
 
 **Hypothesis 3**
-- Statement:
-- Why it seems plausible:
+|                            |                                                                                                                                                                                                                                                                                                                                         |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Statement**              | If the platform maintains effective trading costs below 2% all-in (spread + funding + withdrawal) and settles events within 24 hours, it will retain users against informal crypto alternatives (3-5% spread) and betting sites (8-12% house edge)                                                                                      |
+| **Why it seems plausible** | Informal crypto exchange spreads in Georgia range 3-5%; betting sites extract 8-12% house edge. While TBC Capital neutralized pure cost advantage for banked customers, unbanked and underbanked populations still face high friction costs. Speed of settlement is a differentiator versus traditional brokerage T+2 settlement cycles |
 
 **Hypothesis 4**
-- Statement:
-- Why it seems plausible:
 
----
+|                            |                                                                                                                                                                                                                                                                                                                              |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Statement**              | If the platform secures NBG sandbox approval and partnerships with 2+ major Georgian PSPs within 12 months, it will achieve 10x lower customer acquisition cost versus unregulated alternatives and unlock the 66% short-term preference population                                                                          |
+| **Why it seems plausible** | NBG has authority to define new virtual asset services through normative acts, suggesting a regulatory pathway exists. Trust and payment integration are primary barriers for Georgian fintech; NBG sandbox provides regulatory halo effect. PSP partnerships enable seamless GEL funding, critical for mass market adoption |
+
+
 
 ## Part 5. Evidence plan
 
-For each hypothesis, list the evidence required.
+| Hypothesis | What evidence is needed                                                                                                                                                                           | Where will we look                                                                                                            | Who owns it                  |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| **H1**     | Onboarding completion rates, time to first trade metrics, drop-off points in funnel, user testing feedback on Georgian language UX, comparison to TBC Capital app onboarding                      | Platform analytics (Mixpanel/Amplitude), user interviews, mystery shopping TBC Capital onboarding, A/B test results           | Product Team                 |
+| **H2**     | Daily active users by market category, liquidity depth metrics, organic referral rates, engagement time per local vs. global event, validation of 8% retail participation baseline                | Platform analytics, GSE annual reports, NBG statistics, market maker reports, social listening on Georgian crypto communities | Growth & Research            |
+| **H3**     | Spread data vs. competitors, user churn analysis by cost tier, settlement speed metrics, price elasticity testing, total cost benchmarking against Binance P2P and local betting                  | Internal trading data, competitor mystery shopping, user surveys on switching motivation, withdrawal time distributions       | Finance & Analytics          |
+| **H4**     | NBG sandbox application timeline, legal opinions on classification, PSP partnership term sheets, customer acquisition cost by channel, conversion rate differential for "NBG regulated" messaging | NBG Financial Innovation Office, Georgian law firms, partnership agreements, marketing attribution data, trust surveys        | Legal & Business Development |
 
-| Hypothesis | What evidence is needed | Where will we look | Who owns it |
-|---|---|---|---|
-| H1 |  |  |  |
-| H2 |  |  |  |
-| H3 |  |  |  |
-| H4 |  |  |  |
-
----
 
 ## Quality check
 
-Before finalizing, ask:
-
-- Are branches overlapping?
-- Did we structure the problem rather than the solution?
-- Does each branch connect to the core question?
-- Can each hypothesis be tested with evidence?
+| Question                                               | Assessment                                                                                                                                                                                                           |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Are branches overlapping?                              | No. Service (experience quality), Price (cost economics), Product (instrument design), Distribution (acquisition channels), and Regulatory (compliance framework) are mutually exclusive and collectively exhaustive |
+| Did we structure the problem rather than the solution? | Yes. Branches focus on market forces and user adoption drivers, not specific technical implementations                                                                                                               |
+| Does each branch connect to the core question?         | Yes. Each branch directly influences whether the fintech wins customer adoption and profitable scale versus incumbents                                                                                               |
+| Can each hypothesis be tested with evidence?           | Yes. All four hypotheses have quantifiable metrics and identifiable data sources for validation or falsification                                                                                                     |
 
 ## Deliverable
 
