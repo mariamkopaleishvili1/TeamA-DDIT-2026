@@ -16,7 +16,7 @@ Update this log after each research session or team meeting. Treat it as a livin
 
 | ID | Hypothesis | Evidence needed | Evidence collected | Status | Revision notes |
 |---|---|---|---|---|---|
-| H1 |  Prediction‑market platforms will pull retail users away from traditional brokerages and banks because the effective cost of placing a trade (fees + minimum capital required) is at least 70–90% lower — with $1 micro‑contracts and zero trading fees — compared to the minimum ticket sizes and fee structures of Georgian brokerage accounts. |  |  | Active |  |
+| H1 |  Prediction‑market platforms will pull retail users away from traditional brokerages and banks because the effective cost of placing a trade (fees + minimum capital required) is at least 70–90% lower, with $1 micro‑contracts and zero trading fees, compared to the minimum ticket sizes and fee structures of Georgian brokerage accounts. |  |  | Active |  |
 | H2 | Prediction‑market platforms will attract at least 2–3× more first‑time retail traders than Georgian brokerages because Georgia’s brokerage market is underdeveloped (low volumes, low active accounts) and at least 60% of the population lacks the financial literacy needed for traditional stock trading, making event‑based $1 contracts a more intuitive entry point. |  |  | Active |  |
 | H3 |  |  |  | Active |  |
 | H4 |  |  |  | Active |  |
