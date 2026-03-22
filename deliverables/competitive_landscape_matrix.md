@@ -82,7 +82,6 @@ INTEGRATION                                     |                               
                                       LEGACY INFRASTRUCTURE 
                                  (Core Banking, Cash, Physical)
 
-                               
 ### Placement notes
 
  - Quadrant 1: Digital-Native + Regulated (Upper-Left)
