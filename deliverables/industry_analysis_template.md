@@ -45,24 +45,20 @@ This analysis includes Georgian retail fintech apps, VASP-registered crypto exch
 Identify three to five major trends.
 
 ### Trend 1
-- Description:
-- Why it matters strategically:
-- Evidence:
+- Description: Regulatory maturation and NBG's proactive fintech supervision framework
+- Why it matters strategically:The National Bank of Georgia has established a comprehensive regulatory infrastructure including a Financial Innovation Office (2019), regulatory sandbox (2020), open banking framework (2021), and VASP registration requirements (2023) [World Bank](https://www.worldbank.org/en/news/feature/2023/10/02/digital-payments-in-georgia-bolstering-the-regulatory-environment-and-developing-infrastructure-for-an-inclusive-future). NBG's 2023-2025 supervisory strategy explicitly prioritizes enhanced fintech supervision. This creates a pathway for compliant market entry but raises barriers for unregulated activities.
+- Evidence: NBG amended the Law on Payment Systems and Payment Services to align with EU PSD2, applied to join SEPA, and established mandatory VASP registration with GEL 5,000 fees and AML/KYC compliance requirements World Bank](https://www.worldbank.org/en/news/feature/2023/10/02/digital-payments-in-georgia-bolstering-the-regulatory-environment-and-developing-infrastructure-for-an-inclusive-future).
 
 ### Trend 2
-- Description:
-- Why it matters strategically:
-- Evidence:
+- Description: Accelerating digital payment adoption and cashless transaction growth
+- Why it matters strategically: The shift from ATM-dominated transactions to POS and internet-based payments is expanding the addressable market for digital financial services. Over 60% of online purchases in Georgia are now made via mobile devices [PayAtlas](https://payatlas.com/countries/georgia-ge). This behavioral shift creates receptivity for novel digital products including micro-stakes prediction markets.
+- Evidence:  In 2022, Georgia recorded 114.8 million online operations (+16.4% YoY) with 8.16 billion GEL transferred (+25.6% YoY) [BTU](https://btu.edu.ge/wp-content/uploads/2024/01/Fintech-market-in-Georgia-structure-and-main-trends.pdf). The share of ATM transactions is gradually decreasing while POS and internet transaction growth rates significantly exceed ATM growth.
 
 ### Trend 3
-- Description:
-- Why it matters strategically:
-- Evidence:
+- Description: Cryptocurrency integration and VASP regulatory clarity
+- Why it matters strategically: Georgia's crypto-friendly environment (0% corporate tax on foreign-sourced IT services, individual income tax exemption on crypto profits) combined with mandatory VASP registration creates infrastructure for blockchain-based prediction markets. However, virtual assets are explicitly not recognized as legal tender, and payments using crypto are generally prohibited except for VASP service provision.
+- Evidence: VASPs must register with NBG, implement AML/KYC procedures, and comply with the Travel Rule for transactions exceeding $1,000 [gegidze.com](https://www.gegidze.com/post/vasp-registration-in-georgia-full-compliance-guide). The September 2025 proposed amendments expand NBG authority to define new virtual asset services through normative acts.
 
-### Trend 4, optional
-- Description:
-- Why it matters strategically:
-- Evidence:
 
 ---
 
@@ -70,11 +66,13 @@ Identify three to five major trends.
 
 What digital technologies are changing this industry?
 
-| Technology | Current use | Likely strategic impact | Evidence |
-|---|---|---|---|
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| Technology                        | Current use                                          | Likely strategic impact                                                                                                                                      | Evidence                                                                                                            |
+| --------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
+| **Blockchain & Smart Contracts**  | VASP-registered exchanges, crypto custody services   | Enables trustless prediction market settlement and transparent outcome resolution; regulatory uncertainty remains regarding non-VASP blockchain applications | NBG VASP regulations require registration for "administration of trading platforms for convertible virtual assets" [Andersen](https://ge.andersen.com/georgia-virtual-asset-services/)  |
+| **Open Banking APIs**             | Phase 1 launched 2021, non-bank inclusion 2023       | Enables account aggregation and payment initiation for prediction market funding; reduces friction for micro-deposits                                        | NBG issued regulations for non-bank inclusion in open banking in 2023 [World Bank](https://www.worldbank.org/en/news/feature/2023/10/02/digital-payments-in-georgia-bolstering-the-regulatory-environment-and-developing-infrastructure-for-an-inclusive-future)                                              |
+| **Mobile Payment Infrastructure** | TBC Pay, Liberty Pay, Georgian Card instant payments | Provides payment rails for low-cost micro-transactions essential for retail prediction markets; 60%+ mobile commerce adoption                                | Georgian Card facilitates QR code and contactless payments; mobile-first shopping dominates [PayAtlas](https://payatlas.com/countries/georgia-ge)                        |
+| **AI/ML for Credit Scoring**      | Alternative lending platforms                        | Could enable reputation-based prediction market participation limits and risk management; not yet applied to trading platforms                               | Fintech startups offering data-driven credit solutions [BTUAI](https://btuai.ge/en/fintech-market-perspectives-in-georgia-a-new-era-of-digital-finance/)                                                             |
+
 
 ---
 
