@@ -80,29 +80,15 @@ INTEGRATION                                     |                               
                                  (Core Banking, Cash, Physical)
 
 
-quadrantChart
-    title Georgian Banking & Crypto Competitive Landscape
-    x-axis High Regulatory Integration --> High Regulatory Flexibility
-    y-axis Legacy Infrastructure --> Digital-Native Architecture
-    quadrant-1 Digital-Native & Flexible
-    quadrant-2 Digital-Native & Regulated
-    quadrant-3 Legacy & Regulated
-    quadrant-4 Legacy & Flexible
-    Pave Bank: [0.05, 0.95]
-    Space / TBC: [0.25, 0.80]
-    DataMind: [0.35, 0.65]
-    CityPay.io: [0.95, 0.95]
-    Binance: [0.85, 0.80]
-    Bybit: [0.80, 0.75]
-    Kraken: [0.70, 0.65]
-    Payze: [0.45, 0.45]
-    Solo / BoG: [0.20, 0.40]
-    AzRy: [0.30, 0.35]
-    Liberty Bank: [0.05, 0.10]
-    Werty: [0.65, 0.45]
-    1tab: [0.70, 0.40]
-    GeCrypto: [0.75, 0.35]
-    Cryptomat: [0.95, 0.10]
+## Digital / Regulatory Quadrant Map
+
+| Quadrant | Description | Players |
+|---------|-------------|---------|
+| **Q1: Digital + Regulated** | API-first, cloud-native, but under strict regulatory oversight | Pave Bank, Space/TBC, DataMind |
+| **Q2: Digital + Flexible** | Cloud-native, API-first, high regulatory flexibility | CityPay.io, Binance, Bybit, Kraken, Werty, 1tab, GeCrypto, Cryptomat |
+| **Q3: Legacy + Regulated** | Core banking systems, branches, full licensing | Liberty Bank, Solo (BoG), Payze, AzRy |
+| **Q4: Legacy + Flexible** | Legacy infrastructure with lighter oversight | — |
+
 
 ### Placement notes
 
