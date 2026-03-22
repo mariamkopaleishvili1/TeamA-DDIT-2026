@@ -59,15 +59,23 @@ Now break each first-level branch into sub-drivers.
 
 ### Your breakdown
 
-**Branch 1 sub-drivers**
-- A:
-- B:
-- C:
+**Branch 1 Service
+sub-drivers**
 
+| A |Onboarding Friction                    
+Time to first trade (minutes vs. days), identity verification complexity, Georgian language support, mobile-first UX vs. desktop legacy systems of banks. Evidence: TBC Capital offers zero-commission mobile app but still requires banking relationship.
+| B | Market Settlement & Dispute Resolution
+Oracle reliability, transparent rule enforcement, speed of payout after event resolution, appeals process for contested outcomes. *Critical given 22% compound interest literacy gap*                                                                       |
+| C | Customer Support                 
+Local language availability (Georgian), response time (minutes vs. days), resolution authority, community moderation quality on Telegram/Discord                                                                                                            |
 **Branch 2 sub-drivers**
-- A:
-- B:
-- C:
+Branch 2: Price
+
+|       | Sub-driver                         | Description                                                                                                                                                                                                  |
+| ----- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **A** | **Trading Costs**                  | Zero commission vs. spread-based revenue model, bid-ask width, slippage on local event markets. *Evidence: TBC Capital already offers zero-commission; Galt & Taggart charges \$0.02 per security (min \$5)* |
+| **B** | **Funding & Withdrawal Economics** | Payment method fees (bank transfer, card, crypto), currency conversion costs (GEL/USD/EUR), withdrawal speed and minimum thresholds                                                                          |
+| **C** | **Total Cost vs. Alternatives**    | Effective cost per \$1 traded vs. informal crypto exchange rates (3-5% spread) and betting house edge (8-12%). *Evidence: Cost parity with TBC Capital, advantage over informal alternatives*                |
 
 **Branch 3 sub-drivers**
 - A:
