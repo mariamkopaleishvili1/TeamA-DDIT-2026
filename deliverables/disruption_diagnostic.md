@@ -82,10 +82,10 @@ Did incumbents have a rational reason to ignore the entrant at first?
 | **Did the entrant improve over time?**             | Too early to assess in Georgia (market does not exist as of March 2026). Global precedent: Polymarket improved from \$1M to \$500M+ monthly volume (2024-2025) by adding CFTC-regulated Kalshi acquisition, oracle reliability, and political event liquidity.                                                  |
 | **Did it move toward the mainstream market?**      | Globally, yes: Polymarket/Kalshi moved from crypto-native users to mainstream retail during 2024 US election cycle. In Georgia, mainstream would mean capturing banked customers from TBC Capital's \$1 fractional investing, requiring product evolution beyond price.                                         |
 | **What changed in cost, convenience, or quality?** | Cost: Zero commission became standard (TBC Capital matched). Convenience: Sub-2-minute onboarding vs. days for brokerage. Quality: Oracle resolution transparency vs. advisor-driven research. Global evolution: CFTC regulation (Kalshi) improved trust quality; settlement speed improved from days to hours. |
-Evidence:
-TBC Capital's October 2023 launch of zero-commission, $1 fractional investing shows incumbents can match cost quickly. The sustainable trajectory must shift to convenience (onboarding speed) and quality (local event relevance, short-term alignment). Global prediction markets improved through regulatory legitimacy (CFTC approval) and oracle reliability, not just price cuts.
 
 ---
+Evidence:
+TBC Capital's October 2023 launch of zero-commission, $1 fractional investing shows incumbents can match cost quickly. The sustainable trajectory must shift to convenience (onboarding speed) and quality (local event relevance, short-term alignment). Global prediction markets improved through regulatory legitimacy (CFTC approval) and oracle reliability, not just price cuts.
 
 ## Part 5. Classification
 
