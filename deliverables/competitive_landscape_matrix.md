@@ -81,44 +81,6 @@ INTEGRATION                                     |                               
                                  (Core Banking, Cash, Physical)
 
 
-<pre>
-```text
-DIGITAL-NATIVE ARCHITECTURE
-(API-first, Cloud, Mobile)
-▲
-|
-[QUADRANT 1: Digital + Regulated] | [QUADRANT 2: Digital + Flexible]
-|
-● Pave Bank | ● CityPay.io
-|
-|
-● Space / TBC | ● Binance
-| ● Bybit
-|
-● DataMind | ● Kraken
-|
-|
-|
-HIGH REGULATORY ◄━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━► HIGH REGULATORY
-INTEGRATION | FLEXIBILITY
-(Full NBG Licenses, | (VASP Registered, Unregulated, Crypto)
-Physical Branches, |
-Legacy Oversight) |
-● Payze | ● Werty
-● Solo (BoG) | ● 1tab
-● AzRy | ● GeCrypto
-|
-|
-|
-|
-● Liberty Bank | ● Cryptomat
-|
-[QUADRANT 3: Legacy + Regulated] | [QUADRANT 4: Legacy + Flexible]
-▼
-LEGACY INFRASTRUCTURE
-(Core Banking, Cash, Physical)
-```
-</pre>
 
 ### Placement notes
 
