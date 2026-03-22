@@ -45,8 +45,7 @@ Top (Digital-Native): Built digital-first or digital-only, API-driven, cloud-bas
 Bottom (Legacy Infrastructure): Built on traditional core banking systems, branch-dependent, hybrid digital-physical models, slower technology iteration
 
 
-### Chart
-
+### Competition Chart
 DIGITAL-NATIVE ARCHITECTURE
                                    (API-first, Cloud, Mobile)
                                                 ▲
@@ -81,9 +80,6 @@ INTEGRATION                                     |                               
                                                 ▼
                                       LEGACY INFRASTRUCTURE 
                                  (Core Banking, Cash, Physical)
-
-
-
 ### Placement notes
 
  - Quadrant 1: Digital-Native + Regulated (Upper-Left)
