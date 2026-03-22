@@ -62,13 +62,13 @@ All claims used in Weekend 2 must be supported by a named source. Record source,
 
 Identify what is incomplete or weakly evidenced in the competitive landscape v1 based on Weekend 1 workshop feedback.
 
-| Section | Gap or Weakness | Research Action | Owner | Due Date |
-|---|---|---|---|---|
-| Porter's Five Forces | | | | |
-| Value chain | | | | |
-| New entrants or substitutes | | | | |
-| Jobs-to-be-done analysis | | | | |
-| Competitive positioning matrix | | | | |
+| Section                  | Gap or Weakness                                  | Research Action                                | Owner                | Due Date |
+| ------------------------ | ------------------------------------------------ | ---------------------------------------------- | -------------------- | -------- |
+| Porter’s Five Forces     | Buyer behavior is described but not quantified   | Add churn/switching data or proxy metrics      | Mariam Piranishvili  | March 29 |
+| Value chain              | Weak quantification of profit distribution       | Add % estimates or benchmarks for margins      | Gega Mukhigulashvili | March 29 |
+| New entrants/substitutes | Crypto vs prediction markets not deeply compared | Build side-by-side comparison (UX, cost, risk) | Ani Rusieshvili      | March 29 |
+| Jobs-to-be-done          | Strong concept but not structured enough         | Turn into 2–3 clear job statements + triggers  | Mariam Kopaleishvili | March 22 |
+| Positioning matrix       | Already strong but lacks visual/data proof       | Add 1–2 data points per key player             | Gega Mukhigulashvili | March 22 |
 
 ---
 
