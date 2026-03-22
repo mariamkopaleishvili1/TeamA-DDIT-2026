@@ -54,7 +54,7 @@ DIGITAL-NATIVE ARCHITECTURE
     ● Pave Bank                                 |                                 ● CityPay.io
                                                 |
                                                 |
-            ● Space / TBC                       |                   ● Binance
+            ● Space TBC                         |                   ● Binance
                                                 |                     ● Bybit
                                                 |
                    ● DataMind                   |                 ● Kraken
@@ -67,7 +67,7 @@ INTEGRATION                                     |                               
  Physical Branches,                             |
  Legacy Oversight)                              |
                        ● Payze                  |             ● Werty
-              ● Solo (BoG)                      |               ● 1tab
+              ● Solo BoG                        |               ● 1tab
                     ● AzRy                      |                 ● GeCrypto
                                                 |
                                                 |
