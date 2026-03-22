@@ -116,9 +116,9 @@ What digital technologies are changing this industry?
 
 | Entrant or substitute | Business model | Why it matters | Threat level |
 |---|---|---|---|
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+|Traditional Sports Betting Apps (Adjarabet)  |High-margin, house-banked fiat gambling.  |They currently hold the retail speculative capital that a prediction market aims to capture. |High  |
+|Pave Bank  |Fully digital bank with programmable crypto and fiat accounts.  |They possess the licenses and API architecture to offer embedded speculation tools or partner with new entrants. |Medium  |
+|Local OTC Crypto Desks (Werty, GeCrypto)  |Physical cash-to-crypto conversion and OTC trading.  |They serve the high-trust, cash-heavy demographic but lack the digital scale required for micro-stakes speculation.  |Low  |
 
 ---
 
@@ -126,8 +126,8 @@ What digital technologies are changing this industry?
 
 Write three to five implications for your focal client.
 
-1.
-2.
-3.
-4.
-5.
+1.Regulatory Positioning is the Moat: Launching under the NBG VASP framework is mandatory to secure local banking rails and clearly distinguish the platform from sportsbooks. Kalshi's CFTC regulatory approval was its ultimate competitive advantage.
+2.Target the Interface Gap: Existing global exchanges (Binance) are too complex, and traditional banks (BoG) are too conservative. A highly intuitive, mobile-first UI focusing on simple "Yes or No" contracts will win the entry-level retail speculator.
+3.Leverage Existing Payment Rails: The platform must partner with local API gateways (like Payze or CityPay) to offer instant, zero-fee GEL onboarding, drastically lowering the barrier to entry for micro-stakes users.
+4.Start with Hyper-Local Markets: Initial traction requires prediction contracts that Georgians care about (local elections, GEL exchange rates, regional sports) to build a local community before expanding to global events like Polymarket does.
+5.Subsidize Liquidity Early: To compete with established brokerages, the new platform must act as an initial market maker to guarantee tight spreads and zero trading fees, burning capital early to capture retail wallet share.
