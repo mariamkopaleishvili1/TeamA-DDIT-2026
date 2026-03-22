@@ -93,42 +93,42 @@ By April 2, your team must have three preliminary strategic options for the clie
 
 Start from the disruption diagnostic. The options should respond to the strategic problem statement, not to generic best practices. Each option must be distinct: if two options feel similar, combine them or sharpen the distinction.
 
-Option A: "Regulatory First-Mover"
+**Option A: "Regulatory First-Mover"**
 
-Working title: Licensed VASP-Plus Platform
-Core logic: Secure the most comprehensive regulatory approval possible (beyond standard VASP registration) to create an unassailable moat against later entrants and unlock banking partnerships. Position as a regulated financial market infrastructure provider rather than a speculative trading app, explicitly distinguishing from gambling through CFTC-style "event contracts" framework.
-Evidence that supports this direction:
-NBG's 2023-2025 supervisory strategy prioritizes enhanced fintech supervision and has authority to define new virtual asset services through normative acts
+**Working title**: Licensed VASP-Plus Platform
+**Core logic**: Secure the most comprehensive regulatory approval possible (beyond standard VASP registration) to create an unassailable moat against later entrants and unlock banking partnerships. Position as a regulated financial market infrastructure provider rather than a speculative trading app, explicitly distinguishing from gambling through CFTC-style "event contracts" framework.
+**Evidence that supports this direction:**
 Kalshi's CFTC approval was its ultimate competitive advantage; Polymarket's regulatory ambiguity created operational risk
 Georgian banks currently block transactions to unlicensed gambling sites—regulatory clarity enables payment rail access
 Pave Bank's existence proves digital-native + fully licensed positioning is possible (though capital-intensive)
-Key question that must be answered before committing to this option:
-What specific NBG license category permits event-based contracts without triggering gambling classification, and what is the minimum viable timeline to secure it (given that waiting for full regulatory clarity may cede 6-12 months to faster competitors)?
-Owner for developing the argument: [Team member with strongest regulatory research]
-Option B: "Crypto-Native Trojan Horse"
+**Key question that must be answered before committing to this option:
+**What specific NBG license category permits event-based contracts without triggering gambling classification, and what is the minimum viable timeline to secure it (given that waiting for full regulatory clarity may cede 6-12 months to faster competitors)?
+**Owner for developing the argument**: [Team member with strongest regulatory research]
 
-Working title: DeFi-First Hybrid
-Core logic: Launch immediately under existing VASP framework using USDC/crypto rails to bypass banking duopoly dependency, then layer in GEL fiat access through CityPay.io partnership or Pave Bank integration. Optimize for speed-to-market and global liquidity, accepting regulatory ambiguity as manageable risk given Georgia's crypto-friendly environment (0% corporate tax on foreign-sourced IT services).
-Evidence that supports this direction:
-CityPay.io's $12M funding and 600+ merchant partnerships prove crypto-fiat bridges can achieve scale in Georgia
+**Option B**: "Crypto-Native Trojan Horse"
+
+**Working title**: DeFi-First Hybrid
+**Core logic**: Launch immediately under existing VASP framework using USDC/crypto rails to bypass banking duopoly dependency, then layer in GEL fiat access through CityPay.io partnership or Pave Bank integration. Optimize for speed-to-market and global liquidity, accepting regulatory ambiguity as manageable risk given Georgia's crypto-friendly environment (0% corporate tax on foreign-sourced IT services).
+**Evidence that supports this direction:
+**CityPay.io's $12M funding and 600+ merchant partnerships prove crypto-fiat bridges can achieve scale in Georgia
 24 registered VASPs already operate with NBG registration—regulatory path exists and is proven
 Binance/Bybit VASP registrations demonstrate global players see Georgia as viable crypto hub
 TBC Capital's zero-commission $1 investing weakens "regulated competitor" advantage—speed matters more than regulatory purity
-Key question that must be answered before committing to this option:
-Can the platform achieve sufficient GEL liquidity and local user trust without direct integration to TBC/BoG banking rails, and what is the contingency if NBG restricts crypto-to-fiat payment flows for prediction market use cases?
-Owner for developing the argument: [Team member with strongest fintech/crypto market knowledge]
-Option C: "Incumbent Partnership Play"
+**Key question that must be answered before committing to this option:
+**Can the platform achieve sufficient GEL liquidity and local user trust without direct integration to TBC/BoG banking rails, and what is the contingency if NBG restricts crypto-to-fiat payment flows for prediction market use cases?
+**Owner for developing the argument:** [Team member with strongest fintech/crypto market knowledge]
+**Option C: "Incumbent Partnership Play"**
 
-Working title: White-Label Infrastructure Provider
-Core logic: Abandon standalone consumer brand; instead build prediction market infrastructure and license it to TBC Bank (Space) or Bank of Georgia (Solo) as an embedded product. Trade ownership and margin for distribution scale, regulatory cover, and immediate access to 70-74% of banking customers.
-Evidence that supports this direction:
+**Working title**: White-Label Infrastructure Provider
+**Core logic**: Abandon standalone consumer brand; instead build prediction market infrastructure and license it to TBC Bank (Space) or Bank of Georgia (Solo) as an embedded product. Trade ownership and margin for distribution scale, regulatory cover, and immediate access to 70-74% of banking customers.
+**Evidence that supports this direction:**
 TBC Capital doubled its brokerage customer base to 100,000+ in 2025—incumbents are investing in retail trading growth
 Space and Solo are competing aggressively on ecosystem integration; event contracts would differentiate their platforms
 Banking duopoly controls payment rails; partnership eliminates the single highest supplier power risk identified in your Five Forces analysis
 DataMind's B2B SaaS model (70% of Georgian banks as clients) proves infrastructure plays can achieve dominant market position
-Key question that must be answered before committing to this option:
-Do TBC or Bank of Georgia have appetite for prediction market products given reputational risk, and what terms (revenue share, data rights, exclusivity) would they demand that might make the business model unviable for a startup?
-Owner for developing the argument: [Team member with strongest banking/corporate strategy background]
+**Key question that must be answered before committing to this option:
+**Do TBC or Bank of Georgia have appetite for prediction market products given reputational risk, and what terms (revenue share, data rights, exclusivity) would they demand that might make the business model unviable for a startup?
+**Owner for developing the argument**: [Team member with strongest banking/corporate strategy background]
 
 ---
 
