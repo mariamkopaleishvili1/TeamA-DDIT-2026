@@ -57,14 +57,15 @@ Common examples:
 
 
 
-**Branch 1 Service sub-drivers**
+**Branch 1 Service**
 
 |       | Sub-driver                                 | Description                                                                                                                                                                                                                                                 |
 | ----- | ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **A** | **Onboarding Friction**                    | Time to first trade (minutes vs. days), identity verification complexity, Georgian language support, mobile-first UX vs. desktop legacy systems of banks. *Evidence: TBC Capital offers zero-commission mobile app but still requires banking relationship* |
 | **B** | **Market Settlement & Dispute Resolution** | Oracle reliability, transparent rule enforcement, speed of payout after event resolution, appeals process for contested outcomes. *Critical given 22% compound interest literacy gap*                                                                       |
-| **C** | **Customer Support**                       | Local language availability (Georgian), response time (minutes vs. days), resolution authority, community moderation quality on Telegram/Discord                                                                                                            |
-**Branch 2 Price sub-drivers**
+| **C** | **Customer Support**                       | Local language availability (Georgian), response time (minutes vs. days), resolution authority, community moderation quality on Telegram/Discord                                                                                    |
+
+**Branch 2 Price**
 
 
 
@@ -74,7 +75,7 @@ Common examples:
 | **B** | **Funding & Withdrawal Economics** | Payment method fees (bank transfer, card, crypto), currency conversion costs (GEL/USD/EUR), withdrawal speed and minimum thresholds                                                                          |
 | **C** | **Total Cost vs. Alternatives**    | Effective cost per \$1 traded vs. informal crypto exchange rates (3-5% spread) and betting house edge (8-12%). *Evidence: Cost parity with TBC Capital, advantage over informal alternatives*                |
 
-**Branch 3  Product sub-drivers**
+**Branch 3  Product**
 |       | Sub-driver                          | Description                                                                                                                                                                                              |
 | ----- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **A** | **Contract Design & Accessibility** | Micro-contract sizes (\$1 minimum), binary yes/no structure, intuitive event descriptions. *Evidence: TBC Capital matches \$1 minimum, so differentiation is cognitive simplicity, not price*            |
@@ -82,7 +83,7 @@ Common examples:
 | **C** | **Resolution Infrastructure**       | Oracle selection (third-party vs. hybrid), rule transparency, multi-signature validation, resistance to manipulation. *Critical for trust in small market*                                               |
 
 
-**Branch 4   Distribution sub-drivers**
+**Branch 4   Distribution**
 |       | Sub-driver                          | Description                                                                                                                                                                              |
 | ----- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **A** | **Digital Acquisition Channels**    | App store optimization (iOS/Android), paid social (Facebook/Instagram/TikTok), influencer partnerships (Georgian crypto/finance YouTubers). *Target: 66% short-term oriented population* |
