@@ -46,6 +46,7 @@ Bottom (Legacy Infrastructure): Built on traditional core banking systems, branc
 
 
 ### Competition Chart
+
 DIGITAL-NATIVE ARCHITECTURE
                                    (API-first, Cloud, Mobile)
                                                 ▲
@@ -80,6 +81,8 @@ INTEGRATION                                     |                               
                                                 ▼
                                       LEGACY INFRASTRUCTURE 
                                  (Core Banking, Cash, Physical)
+
+                               
 ### Placement notes
 
  - Quadrant 1: Digital-Native + Regulated (Upper-Left)
