@@ -82,38 +82,41 @@ INTEGRATION                                     |                               
 
 
 <pre>
-```mermaid
-quadrantChart
-title Competitive Landscape Matrix
-x-axis "High Regulatory Integration" --> "High Regulatory Flexibility"
-y-axis "Legacy Infrastructure" --> "Digital-Native Architecture"
-quadrant-1 "Digital + Flexible"
-quadrant-2 "Digital + Regulated"
-quadrant-3 "Legacy + Regulated"
-quadrant-4 "Legacy + Flexible"
-
-%% Quadrant 2 (Top Left)
-Pave Bank: [0.10, 0.90]
-Space / TBC: [0.25, 0.75]
-DataMind: [0.35, 0.60]
-
-%% Quadrant 1 (Top Right)
-CityPay.io: [0.90, 0.90]
-Binance: [0.85, 0.75]
-Bybit: [0.80, 0.68]
-Kraken: [0.70, 0.60]
-
-%% Quadrant 3 (Bottom Left)
-Payze: [0.40, 0.45]
-Solo (BoG): [0.20, 0.40]
-AzRy: [0.30, 0.35]
-Liberty Bank: [0.10, 0.15]
-
-%% Quadrant 4 (Bottom Right)
-Werty: [0.65, 0.45]
-1tab: [0.70, 0.40]
-GeCrypto: [0.75, 0.35]
-Cryptomat: [0.90, 0.15]
+```text
+DIGITAL-NATIVE ARCHITECTURE
+(API-first, Cloud, Mobile)
+▲
+|
+[QUADRANT 1: Digital + Regulated] | [QUADRANT 2: Digital + Flexible]
+|
+● Pave Bank | ● CityPay.io
+|
+|
+● Space / TBC | ● Binance
+| ● Bybit
+|
+● DataMind | ● Kraken
+|
+|
+|
+HIGH REGULATORY ◄━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━► HIGH REGULATORY
+INTEGRATION | FLEXIBILITY
+(Full NBG Licenses, | (VASP Registered, Unregulated, Crypto)
+Physical Branches, |
+Legacy Oversight) |
+● Payze | ● Werty
+● Solo (BoG) | ● 1tab
+● AzRy | ● GeCrypto
+|
+|
+|
+|
+● Liberty Bank | ● Cryptomat
+|
+[QUADRANT 3: Legacy + Regulated] | [QUADRANT 4: Legacy + Flexible]
+▼
+LEGACY INFRASTRUCTURE
+(Core Banking, Cash, Physical)
 ```
 </pre>
 
