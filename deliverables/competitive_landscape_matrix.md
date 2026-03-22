@@ -44,6 +44,7 @@ Right side (High Flexibility): VASP registered or unregulated, crypto-native, ag
 Top (Digital-Native): Built digital-first or digital-only, API-driven, cloud-based, mobile-first UX, rapid deployment cycles
 Bottom (Legacy Infrastructure): Built on traditional core banking systems, branch-dependent, hybrid digital-physical models, slower technology iteration
 
+
 DIGITAL-NATIVE ARCHITECTURE
                                    (API-first, Cloud, Mobile)
                                                 ▲
@@ -80,15 +81,41 @@ INTEGRATION                                     |                               
                                  (Core Banking, Cash, Physical)
 
 
-## Digital / Regulatory Quadrant Map
+<pre>
+```mermaid
+quadrantChart
+title Competitive Landscape Matrix
+x-axis "High Regulatory Integration" --> "High Regulatory Flexibility"
+y-axis "Legacy Infrastructure" --> "Digital-Native Architecture"
+quadrant-1 "Digital + Flexible"
+quadrant-2 "Digital + Regulated"
+quadrant-3 "Legacy + Regulated"
+quadrant-4 "Legacy + Flexible"
 
-| Quadrant | Description | Players |
-|---------|-------------|---------|
-| **Q1: Digital + Regulated** | API-first, cloud-native, but under strict regulatory oversight | Pave Bank, Space/TBC, DataMind |
-| **Q2: Digital + Flexible** | Cloud-native, API-first, high regulatory flexibility | CityPay.io, Binance, Bybit, Kraken, Werty, 1tab, GeCrypto, Cryptomat |
-| **Q3: Legacy + Regulated** | Core banking systems, branches, full licensing | Liberty Bank, Solo (BoG), Payze, AzRy |
-| **Q4: Legacy + Flexible** | Legacy infrastructure with lighter oversight | — |
+%% Quadrant 2 (Top Left)
+Pave Bank: [0.10, 0.90]
+Space / TBC: [0.25, 0.75]
+DataMind: [0.35, 0.60]
 
+%% Quadrant 1 (Top Right)
+CityPay.io: [0.90, 0.90]
+Binance: [0.85, 0.75]
+Bybit: [0.80, 0.68]
+Kraken: [0.70, 0.60]
+
+%% Quadrant 3 (Bottom Left)
+Payze: [0.40, 0.45]
+Solo (BoG): [0.20, 0.40]
+AzRy: [0.30, 0.35]
+Liberty Bank: [0.10, 0.15]
+
+%% Quadrant 4 (Bottom Right)
+Werty: [0.65, 0.45]
+1tab: [0.70, 0.40]
+GeCrypto: [0.75, 0.35]
+Cryptomat: [0.90, 0.15]
+```
+</pre>
 
 ### Placement notes
 
