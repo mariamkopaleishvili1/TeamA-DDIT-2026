@@ -104,13 +104,14 @@ List at least three topics that look related to your strategic question but are 
 
 For each non-goal, state why it is out of scope, not just that it is.
 
-| Non-Goal | Why Out of Scope |
-|---|---|
-| 1. | |
-| 2. | |
-| 3. | |
-| 4. | |
-| 5. | |
+| Non-Goal                                                  | Why Out of Scope                                                                                                                                                                                                                                                                    |
+| --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. **International expansion strategy**                   | Georgian regulatory and market dynamics are unique; adding other jurisdictions such as Armenia, Azerbaijan, or EU markets would dilute focus from the core NBG approval challenge and require separate regulatory analysis beyond the semester timeline.                            |
+| 2. **Blockchain infrastructure development**              | The project assumes use of existing blockchain rails such as Ethereum or Polygon, or third-party oracle providers; building proprietary chain infrastructure is capital-intensive and not required for MVP launch.                                                                  |
+| 3. **Sports betting operator acquisition or partnership** | Betting companies operate under a different legal framework requiring gambling licenses; mixing with financial instrument classification creates regulatory confusion, reputational risk, and conflicts with the strategic goal of distinguishing prediction markets from gambling. |
+| 4. **Corporate or institutional B2B prediction markets**  | Enterprise risk management and supply chain forecasting represent a distinct business model with different sales cycles, contract structures, and liquidity requirements; the focus is retail consumer adoption for network effects.                                                |
+| 5. **Full banking license acquisition**                   | Pave Bank's model proves this is possible but requires 250,000 GEL minimum capital and 12-18 month timeline; prediction market platforms can operate under lighter PSP or VASP frameworks without becoming full banks.                                                              |
+
 
 ---
 
