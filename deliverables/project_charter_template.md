@@ -123,27 +123,29 @@ State at least three assumptions that enable the analysis. An assumption is a co
 
 We assume [specific condition] for the purpose of this project because [basis or rationale]. This assumption is [low / medium / high] risk of being wrong. If it is wrong, the analysis [describe impact on the strategic question or recommendation].
 
-### Assumption 1
+**Assumption 1**
 
-- Statement:
-- Basis:
-- Risk of being wrong:
-- Impact if wrong:
+**Statement**: We assume NBG will classify event-based prediction contracts as a "virtual asset service" or "innovative payment service" rather than gambling, provided the platform implements responsible use features and avoids sports betting overlap for the purpose of this project because NBG has authority to define new virtual asset services via normative acts (September 2025 amendments), the sandbox framework exists for innovative products, and global precedent exists through Kalshi's CFTC approval as "event contracts" versus gambling.
 
-### Assumption 2
+**Risk of being wrong**: Medium-High
 
-- Statement:
-- Basis:
-- Risk of being wrong:
-- Impact if wrong:
+**Impact if wrong**: The analysis must discard the "NBG Sandbox First-Mover" strategic option entirely, force reliance on either offshore operation without GEL rails or gambling license acquisition with associated social stigma and advertising restrictions, and fundamentally invalidate the regulatory positioning moat that underpins the entire business case.
 
-### Assumption 3
+**Assumption 2**
 
-- Statement:
-- Basis:
-- Risk of being wrong:
-- Impact if wrong:
+**Statement**: We assume TBC Bank and/or Bank of Georgia will provide payment rail access to a regulated prediction market platform, or viable crypto-fiat bridge alternatives such as CityPay.io or Pave Bank integration exist for the purpose of this project because Georgian law requires PSPs to block transactions to unlicensed gambling sites implying licensed platforms can access rails, Pave Bank demonstrates digital-native licensed alternatives are possible, and CityPay.io has proven 600+ merchant partnerships for crypto-fiat bridges.
 
+**Risk of being wrong**: Medium
+
+**Impact if wrong**: The analysis must eliminate the "Incumbent Partnership" strategic option, force reliance solely on crypto-native rails (USDC) limiting addressable market to crypto-literate users (~5-10% of target demographic), and pivot entirely to the "Crypto-Native Trojan Horse" option with associated regulatory enforcement risks and inability to advertise broadly.
+
+**Assumption 3**
+
+**Statement**: We assume at least 100,000 Georgians (2.6% of population, ~10% of urban 18-35 demographic) will actively trade on a prediction market platform if offered localized events, $1 minimum contracts, and mobile-first UX for the purpose of this project because TBC Capital reached 100,000+ brokerage customers in 2025 with traditional equities demonstrating market depth, 66% short-term preference suggests latent demand unmet by existing products, and 8% retail GSE participation leaves 92% non-consumers available for activation.
+
+**Risk of being wrong:** Medium
+
+**Impact if wrong**: The analysis shows network effects never form, liquidity remains insufficient for market making causing spreads to widen and user churn, the platform fails to reach critical mass for sustainable unit economics, and all three strategic options become unviable regardless of regulatory or partnership success.
 ### Additional assumptions (add as needed)
 
 ---
