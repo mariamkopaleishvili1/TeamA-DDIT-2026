@@ -79,22 +79,22 @@ Define what is explicitly in scope. Be precise. Broad scope statements lead to u
 
 List five to eight specific areas of analysis the project will cover.
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
+1. Regulatory classification pathway analysis, examining NBG sandbox eligibility, the regulatory distinction between VASP, payment service, and gambling classification, and the timeline and compliance requirements required for legal operation in Georgia.
+2. Market sizing and customer segmentation, quantifying TAM, SAM, and SOM for prediction markets in Georgia, specifically measuring the 66% short-term preference population and the activation potential among the 92% of Georgians not currently participating in retail brokerage.
+3. Competitive positioning and dynamics, applying Porter's Five Forces to understand banking duopoly supplier power, buyer fragmentation, and threat of substitutes, while mapping the value chain and positioning competitors across the Regulatory Integration versus Digital Architecture matrix.
+4. Customer jobs-to-be-done and behavior analysis, identifying functional needs such as instant payments and micro-contracts, emotional needs including financial competence and social belonging, and the specific triggers that cause users to switch from crypto platforms, betting sites, or traditional banks.
+5. Product-market fit and UX strategy, evaluating contract design choices including the critical distinction between one-dollar micro-contracts and TBC Capital's existing one-dollar fractional investing, the localization of events around Georgian elections, sports, and macroeconomic indicators, and the infrastructure for oracle-based resolution mechanisms.
+6. Economic model and unit economics, defining revenue models comparing spread-based versus commission structures, assessing market maker requirements and liquidity subsidies needed for network effects, and modeling customer acquisition costs across regulated versus unregulated channels.
+7. Strategic options development, rigorously evaluating three distinct paths: the NBG Sandbox First-Mover approach, the Crypto-Native Trojan Horse strategy, and the Incumbent Partnership Play, establishing clear decision criteria and tradeoffs for each.
+8. Risk governance and implementation, designing responsible use features including self-exclusion tools and deposit limits, building AML and KYC compliance frameworks, and constructing the phased 18-month roadmap with appropriate governance structures.
 
 ### Scope boundaries
 
-- Geographic scope:
-- Time horizon for analysis:
-- Which part of the value chain:
-- Which customer segments:
-- Which competitors or entrants:
+- Geographic scope: Georgia and neighboring countries
+- Time horizon for analysis: An 18-month implementation roadmap for the Sprint 3 deliverable, which aligns with the NBG sandbox timeline of 12 to 24 months plus a 6-month post-approval launch window, alongside 3-year financial projections to validate sustainable unit economics and breakeven trajectory referencing Pave Bank's achievement of breakeven in 8 months.
+- Which part of the value chain: Customer acquisition through digital onboarding, the trading platform layer including contract design and oracle resolution, and settlement infrastructure through PSP partnerships; deep primary market making infrastructure is excluded and will rely on automated market makers or third-party liquidity, and proprietary blockchain development is excluded in favor of existing rails.
+- Which customer segments: Urban, digitally active Georgians aged 18 to 35 who exhibit the 66% short-term preference behavior and 54% financial literacy rates; rural unbanked populations dependent on Liberty Bank's 500-plus branch network are excluded, high-net-worth individuals served by Solo and Bank of Georgia premium segments are excluded, and corporate or institutional B2B markets are excluded as requiring a distinct business model.
+- Which competitors or entrants: Direct competitors including TBC Capital through Space, Galt and Taggart through Solo and Bank of Georgia, the 24 NBG-registered VASPs including Binance, Bybit, Werty, GeCrypto, and 1tab, plus CityPay.io, Payze, AzRy, and Cryptomat; indirect competitors including traditional sports betting operators like Adjarabet, informal crypto P2P markets through Binance P2P, real estate speculation as an alternative investment, and consumption or cash hoarding behaviors; plus the global threat of Polymarket and Kalshi should they pursue international expansion; traditional corporate lending, SME banking, insurance products, remittance specialists like Wise and Western Union, and unregulated offshore gambling sites are excluded from competitive analysis.
 
 ---
 
