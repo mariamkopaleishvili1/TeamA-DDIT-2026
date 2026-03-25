@@ -192,11 +192,12 @@ Identify the primary sources you will use for each major area of analysis.
 
 Identify three risks that could prevent the team from producing high-quality deliverables. For each, state a mitigation.
 
-| Risk | Probability | Impact | Mitigation |
-|---|---|---|---|
-| 1. | | | |
-| 2. | | | |
-| 3. | | | |
+| Risk                                                                                                     | Probability | Impact                                                                                 | Mitigation                                                                                                                                                                                                                                                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------- | ----------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. **Insufficient primary source evidence for hypothesis testing by March 29 deadline**                  | Medium      | Critical (weakens strategic options; forces reliance on assumptions for midterm)       | Prioritize highest-leverage sources first: NBG sandbox inquiry (Gega), TBC Capital pricing (Mariam P.), market sizing data (Mariam K.); use secondary sources (World Bank, academic papers) with clear attribution; flag evidence gaps explicitly in deliverables; schedule working session March 29 to triangulate findings and fill gaps with proxy data |
+| 2. **Key hypothesis invalidated late in Sprint 1 (e.g., TBC Capital already offers equivalent product)** | Medium      | Critical (forces strategic pivot with limited time; undermines differentiation thesis) | Build early warning system: test H1 (cost advantage) and H2 (non-consumer activation) by March 22; maintain parallel option development (all three options assume different hypothesis outcomes); schedule Week 1 check-in March 22 to surface findings early; preserve Option C (Incumbent Partnership) as fallback if differentiation proves weak        |
+| 3. **Cannot access primary source data (TBC Capital app features, NBG internal statistics)**             | Medium      | High (weakens hypothesis testing; reduces evidence quality for midterm)                | Build relationships with Tbilisi-based university contacts for app access; substitute with public investor presentations and annual reports; use global benchmarks (Robinhood, eToro UX) with clear assumption flags; conduct user interviews (n=10) to proxy for app behavior; assign Mariam Piranishvili as owner                                        |
+
 
 ---
 
