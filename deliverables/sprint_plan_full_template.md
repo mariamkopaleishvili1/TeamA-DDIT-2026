@@ -77,26 +77,30 @@ All claims introduced at the next weekend must be supported by a named primary s
 
 ## Strategic Options Development
 
-By the end of this sprint, the team must have three preliminary strategic options for the client. These do not need to be fully developed, but each must be distinct, named, and defensible.
+### Strategic Option A
 
-Strategic Option A
-Working title: NBG Sandbox First
-Core logic in one sentence: Secure NBG regulatory approval as "innovative payment service" before launch, using sandbox to establish compliance credibility and unlock PSP partnerships, accepting 6-12 month delay for long-term scalability.
-Primary evidence that supports it: NBG has authority to define virtual asset services via normative acts; sandbox provides regulatory halo; H3 predicts 10x lower CAC; Georgian fintech ecosystem requires regulatory clarity
-Most important risk or tradeoff: Time-to-market delay allows informal competitors to consolidate; NBG may classify as gambling, blocking pathway entirely
-Owner for development: Regulatory Analyst
-Strategic Option B
-Working title: Stealth Market Entry
-Core logic in one sentence: Launch with crypto-native rails (USDC settlement) to bypass Georgian banking infrastructure, targeting 66% short-term preference population through Telegram/Discord, optimizing for speed over compliance.
-Primary evidence that supports it: Global precedent: Polymarket operated offshore before CFTC registration; Georgian crypto adoption high; informal channels (Binance P2P) already serve this need; H2 supports non-consumer activation
-Most important risk or tradeoff: Regulatory enforcement risk; inability to advertise broadly; limited to crypto-literate users; reputational damage if classified as illegal gambling
-Owner for development: Product Strategist
-Strategic Option C
-Working title: Incumbent Partnership
-Core logic in one sentence: Partner with TBC Capital or Bank of Georgia to white-label prediction markets as "trading game" within existing apps, leveraging licenses and trust while introducing event contracts through established channels.
-Primary evidence that supports it: TBC Capital has zero-commission infrastructure; banks seek younger demographics; partnership avoids regulatory uncertainty; incumbents have 8% retail penetration but want growth
-Most important risk or tradeoff: Loss of strategic autonomy; revenue sharing reduces margins; incumbents may reject "gambling-like" products; slow decision-making; conflicts with H1 revised (differentiation diluted)
-Owner for development: Competitive Intelligence
+- Working title: Regulatory Sandbox Pathway
+- Core logic in one sentence: Position the platform as a financial derivative tool focused on macro-economic and civic outcomes to secure National Bank of Georgia sandbox approval and avoid gambling classification.
+- Primary evidence that supports it: NBG sandbox frameworks and precedent for innovative financial services Legal opinions indicating classification flexibility before formal precedent Strong alignment with H3 (regulatory approval → lower CAC + PSP access)
+- Most important risk or tradeoff: Risk of delayed approval or rejection by NBG Potential constraints on product scope and market types
+- Owner for development: Ani Rusieshvili
+
+### Strategic Option B
+
+- Working title: VASP-Registered Crypto-Native Platform
+- Core logic in one sentence: Launch as a VASP-registered platform using stablecoin settlement (USDC), positioning event contracts as prediction tokens under Georgia’s virtual asset framework.
+- Primary evidence that supports it: Georgia’s crypto-friendly regulatory environment and tax regime Existing VASP registration pathways and operational precedents Global benchmarks (e.g., Polymarket-style tokenized prediction markets)
+- Most important risk or tradeoff: Limited fiat accessibility (dependence on VASP partners) Regulatory reclassification risk if tokens are treated as gambling instruments
+- Owner for development: Gega Mukhigulashvili
+
+
+### Strategic Option C
+
+- Working title: Responsible Speculation Bridge
+- Core logic in one sentence: Differentiate by embedding strict loss limits and educational guardrails to position the platform as a safe entry point for first-time retail participants.
+- Primary evidence that supports it: 60%+ financial literacy gap and low retail participation (H2) Regulatory preference for consumer protection frameworks (H5) Behavioral design evidence reducing churn and improving trust
+- Most important risk or tradeoff: Reduced monetization due to limits on user activity May weaken appeal for high-frequency or experienced traders
+- Owner for development: Mariam Piranishvili
 
 ---
 
