@@ -63,10 +63,10 @@ Identify what needs to be added to or revised in the competitive landscape based
 | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ---------------------------------------------- | -------- |
 | 1.   | NBG Regulatory Pathway: Map sandbox process, timeline, success rates; identify normative acts for event contracts; assess gambling vs. financial instrument classification | Mariam Piranishvili      | 3-page regulatory memo with decision tree      | March 30 |
 | 2.   | Georgian Retail Financial Behavior: Quantify 66% short-term preference segment; estimate TAM/SAM/SOM for prediction markets                                                | Mariam Kopaleishvili           | Market sizing model; 2-page summary            | March 26 |
-| 3.   | TBC Capital Competitive Analysis: Document app features, onboarding, positioning; identify exploitable gaps                                                                | Competitive Intelligence | Feature matrix; SWOT; 2-page brief             | March 25 |
+| 3.   | TBC Capital Competitive Analysis: Document app features, onboarding, positioning; identify exploitable gaps                                                                | Ani Rusieshvili | Feature matrix; SWOT; 2-page brief             | March 25 |
 | 4.   | Global Regulatory Benchmarking: Analyze CFTC (Kalshi), FCA, MAS, EU MiCA approaches; extract lessons for NBG                                                               | Gega Mukhigulashvili      | Benchmarking report with recommendations       | March 28 |
 | 5.   | PSP Partnership Mapping: Identify PSPs for prediction markets; assess integration, revenue share, settlement                                                               | Mariam Piranishvili       | PSP landscape with prioritization matrix       | March 28 |
-| 6.   | Sports Betting Market Analysis: Quantify Georgian betting market, demographics, regulation; assess crossover potential                                                     | Mariam Kopaleishvili         | Betting market analysis with overlap estimates | March 26 |
+| 6.   | Sports Betting Market Analysis: Quantify Georgian betting market, demographics, regulation; assess crossover potential                                                     | Ani Ruseishvili         | Betting market analysis with overlap estimates | March 26 |
 
 
 ### Source quality rule
