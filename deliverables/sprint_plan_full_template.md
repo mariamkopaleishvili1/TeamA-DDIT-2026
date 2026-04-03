@@ -48,11 +48,11 @@ Identify what needs to be added to or revised in the competitive landscape based
 
 | Section                            | What Needs to Change                                                                                                       | Owner                    | Source                                                | Due Date |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ----------------------------------------------------- | -------- |
-| Porter's Five Forces update        | Add threat of substitutes: informal crypto (Binance P2P) and betting sites as direct competitors; quantify switching costs | Competitive Intelligence | Georgian Gambling Commission; crypto volume estimates | March 27 |
-| Value chain refinement             | Map prediction market value chain: oracles, market makers, PSPs, liquidity providers vs. incumbent brokerage               | Finance Analyst          | Kalshi/Polymarket analysis; NBG payment data          | March 28 |
-| New entrant or substitute addition | Add TBC Capital mobile app (launched Oct 2023) as direct competitor; reframe as "event contracts vs. fractional stocks"    | Research Lead            | TBC Capital app analysis; UX comparison               | March 25 |
-| Jobs-to-be-done gaps               | Identify JTBD TBC Capital cannot serve: short-term speculation, entertainment, social trading, local events                | Product Strategist       | JTBD interviews (n=8); DFS literature                 | March 27 |
-| Competitive matrix update          | Add "Time Horizon" and "Event Locality" axes; position on "Short-term vs. Long-term" and "Global vs. Local"                | Competitive Intelligence | Positioning analysis; feature comparison              | March 29 |
+| Porter's Five Forces update        | Add threat of substitutes: informal crypto (Binance P2P) and betting sites as direct competitors; quantify switching costs | Gega Mukhigulashvili | Georgian Gambling Commission; crypto volume estimates | March 27 |
+| Value chain refinement             | Map prediction market value chain: oracles, market makers, PSPs, liquidity providers vs. incumbent brokerage               | Ani Rusieshvili          | Kalshi/Polymarket analysis; NBG payment data          | March 28 |
+| New entrant or substitute addition | Add TBC Capital mobile app (launched Oct 2023) as direct competitor; reframe as "event contracts vs. fractional stocks"    | Gega Mukhigulashvili            | TBC Capital app analysis; UX comparison               | March 25 |
+| Jobs-to-be-done gaps               | Identify JTBD TBC Capital cannot serve: short-term speculation, entertainment, social trading, local events                | Mariam Piranishvili       | JTBD interviews (n=8); DFS literature                 | March 27 |
+| Competitive matrix update          | Add "Time Horizon" and "Event Locality" axes; position on "Short-term vs. Long-term" and "Global vs. Local"                | Mariam Kopaleishvili | Positioning analysis; feature comparison              | March 29 |
 
 
 ---
