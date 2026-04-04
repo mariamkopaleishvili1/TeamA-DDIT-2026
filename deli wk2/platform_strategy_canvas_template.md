@@ -135,3 +135,41 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 - **Does the first move pass the specificity test: could someone actually execute it?** Yes—the action specifies exact NBG contact (innovationoffice@nbg.gov.ge), sandbox parameters (12 months, GEL 1M deposits), and regulatory classification sought (financial instruments vs. gambling).
 
 - **Have you confronted the chicken-and-egg problem if you recommended Build?** Yes—critical mass threshold (10,000 users, GEL 5M open interest) is defined; seed liquidity will come from market maker partnerships and potential NBG tolerance for internal market making during sandbox phase; GEL/USD rate contracts have natural hedging demand from exporters/importers facing 4.53% annual volatility [[76]](https://www.geostat.ge/en/modules/categories/26/exchange-rates).
+
+## Reference Links
+
+[1] https://www.fintechgeorgia.ge/fintech-in-georgia/  
+[3] https://www.theblock.co/post/331953/kalshi-raises-50-million-at-20-billion-valuation  
+[4] https://www.geostat.ge/media/uploads/files/economy/ICT%20Usage%20in%20Households%20and%20by%20Individuals%202023.pdf  
+[6] https://www.bloomberg.com/news/articles/2025-11-14/kalshi-raises-50-million-at-20-billion-valuation  
+[8] https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf  
+[9] https://www.fintechgeorgia.ge/fintech-in-georgia/  
+[10] https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia  
+[11] https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia  
+[14] https://www.coindesk.com/markets/2024/11/12/polymarket-crypto-prediction-market-hits-1b-in-monthly-volume-for-first-time/  
+[17] https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape  
+[18] https://cointelegraph.com/news/georgia-crypto-regulation-vasp-registration  
+[19] https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape  
+[20] https://www.legalsportsreport.com/georgia-sports-betting/  
+[21] https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape  
+[22] https://www.goinvest.gov.ge/uploads/Virtual%20Assets%20Service%20Provider%20Registration%20and%20Supervision.pdf  
+[26] https://www.galtandtaggart.com/ge/wealth-management/brokerage  
+[28] https://www.gamingintelligence.com/regulation/georgia-tightens-gambling-regulations-further/  
+[30] https://www.nbg.gov.ge/uploads/pressreleases/2025/Amendments_to_the_Law_on_Operating_of_the_Virtual_Assets.pdf  
+[31] https://www.legalsportsreport.com/georgia-sports-betting/  
+[46] https://gse.ge/Uploads/2024%20Annual%20Report.pdf  
+[48] https://www.bloomberg.com/news/articles/2025-10-28/draftkings-and-fanduel-face-new-challengers-in-daily-fantasy-sports  
+[50] https://www.kalshi.com/  
+[51] https://www.tbcbank.ge/en/corporate/tbc-capital/tbc-capital-individuals  
+[56] https://www.galtandtaggart.com/ge/research/fixed-income/georgian-bond-market-2024  
+[60] https://www.guru99.com/polymarket-review.html  
+[64] https://www.worldbank.org/en/country/georgia/publication/financial-inclusion-national-survey-2022  
+[65] https://www.nbg.gov.ge/uploads/pressreleases/2025/Financial_Literacy_Survey_2024.pdf  
+[70] https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory  
+[71] https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi  
+[72] https://www.tbccapital.ge/en/research/macro/tbc-capital-forecasts-gel-to-strengthen-to-260-against-usd-by-end-of-year  
+[75] https://www.nbg.gov.ge/en/pages/financial-innovation-office  
+[76] https://www.geostat.ge/en/modules/categories/26/exchange-rates  
+[77] https://www.economist.com/finance-and-economics/2024/12/19/georgias-currency-is-tumbling-as-its-politics-turns-volatile  
+[79] https://www.nbg.gov.ge/uploads/pressreleases/2025/Press_Release_on_the_Tokenized_Deposits_Sandbox_Project.pdf  
+[82] https://www.cec.gov.ge/en/cec/municipal-elections-2025
