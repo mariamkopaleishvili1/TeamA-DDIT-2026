@@ -20,6 +20,18 @@ AI Opportunity Map v1
 
 4. For the two Deploy Now use cases, draft a two-sentence business case: the mechanism by which value is created and the rough order-of-magnitude financial impact.
 
+Wealth Management & Investment - Auotmated investent advisory
+Use case: Robo-advisory and portfolio reporting using generation (natural language explanations) and prediction (risk profiling).
+Value: Medium. Evidence: Robo-advisors are absent but addressable market limited to 5.6% securities participation rate.
+Readiness: High. Barrier: Easy to build and quick to deploy.
+
+Use Case: Predictive early warning and automated collections orchestration using prediction (default probability modeling, optimal contact timing, propensity-to-pay scoring), synthesis (transaction pattern analysis, behavioral data integration), and agent workflow (automated escalation triggers and personalized negotiation paths).
+Business Value: High. Evidence: Georgian net interest margins of 6-8% are attractive but fragile—banks lose 2-3% of portfolio value annually to delayed collections, and relationship-based SME lending currently lacks systematic early warning signals before 90-day delinquencies crystallize.
+Implementation Readiness: Medium. Barrier: NBG consumer protection regulations require human oversight for certain collection activities, necessitating "human-in-the-loop" workflow design that automates outreach but reserves settlement negotiations for licensed officers.
+
+Two-Sentence Business Case:
+Prediction models analyzing transaction velocity and behavioral triggers identify at-risk loans 45-60 days before traditional 30-day delinquency markers, enabling soft-touch remediation that reduces roll-rates from 30DPD to 90DPD by 35-40%. For Bank of Georgia with approximately $3.5B retail and SME loan book, preventing 0.5% deterioration through early intervention preserves $17.5M in portfolio value annually while reducing cost-to-collect by 50% through automated outreach versus manual relationship manager interventions.
+
 ## Scoring definitions
 
 | Dimension | High | Medium | Low |
