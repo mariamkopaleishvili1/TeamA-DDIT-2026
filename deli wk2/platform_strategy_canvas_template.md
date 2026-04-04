@@ -51,7 +51,7 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 - Information on market-implied probabilities for economic and political outcomes
 
 **What they receive:**
-- $1 GEL (0.37 USD) minimum contracts—99.9% lower capital barrier than Galt & Taggart's $1,000 minimum [[26]](https://www.galtandtaggart.com/ge/wealth-management/brokerage)
+- $1 GEL (0.37 USD) minimum contracts,99.9% lower capital barrier than Galt & Taggart's $1,000 minimum [[26]](https://www.galtandtaggart.com/ge/wealth-management/brokerage)
 - Zero-commission trading (maker orders free; taker fees only)
 - Transparent probability pricing on events they understand (GEL rates, local elections) vs. complex stock analysis
 - Mobile-first UX matching 60%+ mobile commerce penetration in Georgia [[4]](https://www.geostat.ge/media/uploads/files/economy/ICT%20Usage%20in%20Households%20and%20by%20Individuals%202023.pdf)
@@ -59,9 +59,9 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 **Current number or market size:**
 - 54% of Georgians achieve "high" financial knowledge (5+ correct answers out of 7), indicating baseline sophistication [[65]](https://www.nbg.gov.ge/uploads/pressreleases/2025/Financial_Literacy_Survey_2024.pdf)
-- Only 34% prefer long-term financial thinking; 66% focus on short-term needs—perfect alignment with event contracts [[65]](https://www.nbg.gov.ge/uploads/pressreleases/2025/Financial_Literacy_Survey_2024.pdf)
+- Only 34% prefer long-term financial thinking; 66% focus on short-term needs,perfect alignment with event contracts [[65]](https://www.nbg.gov.ge/uploads/pressreleases/2025/Financial_Literacy_Survey_2024.pdf)
 - 40.93% voter turnout in 2025 local elections (3.7 million population) suggests ~1.5 million politically engaged citizens [[82]](https://www.cec.gov.ge/en/cec/municipal-elections-2025)
-- Tbilisi saw only 31.08% turnout—urban apathy creates information demand [[82]](https://www.cec.gov.ge/en/cec/municipal-elections-2025)
+- Tbilisi saw only 31.08% turnout,urban apathy creates information demand [[82]](https://www.cec.gov.ge/en/cec/municipal-elections-2025)
 
 ---
 
@@ -69,7 +69,7 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 **Primary network effect type:** Data network effects (cross-side with indirect network effects)
 
-**Mechanism description:** As more traders participate, the price discovery improves—Kalshi's mode has "perfectly matched the realized federal funds rate by the day of each meeting since 2022, a feat not achieved by either surveys or futures" [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory). Improved accuracy attracts more sophisticated traders (producers), which improves liquidity and spreads, attracting more retail consumers. The platform becomes the "source of truth" for Georgian macro expectations, creating a self-reinforcing information monopoly. Federal Reserve research confirms Kalshi provides "statistically significant improvement" over Bloomberg consensus for CPI forecasting [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)[[71]](https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi).
+**Mechanism description:** As more traders participate, the price discovery improves,Kalshi's mode has "perfectly matched the realized federal funds rate by the day of each meeting since 2022, a feat not achieved by either surveys or futures" [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory). Improved accuracy attracts more sophisticated traders (producers), which improves liquidity and spreads, attracting more retail consumers. The platform becomes the "source of truth" for Georgian macro expectations, creating a self-reinforcing information monopoly. Federal Reserve research confirms Kalshi provides "statistically significant improvement" over Bloomberg consensus for CPI forecasting [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)[[71]](https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi).
 
 **Critical mass threshold:** Based on Kalshi's development trajectory and Georgian market size, approximately 10,000 active users with GEL 5 million in open interest needed for self-sustaining liquidity. At this threshold, bid-ask spreads tighten to <5%, attracting institutional hedgers and justifying market maker investment.
 
@@ -91,7 +91,7 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 - NBG's authority to "define new virtual asset services independently through normative acts" creates regulatory flexibility [[30]](https://www.nbg.gov.ge/uploads/pressreleases/2025/Amendments_to_the_Law_on_Operating_of_the_Virtual_Assets.pdf)
 
 **Data assets available:**
-- None currently—must build from zero
+- None currently,must build from zero
 - Can access public data: Geostat (inflation, GDP), NBG (exchange rates, monetary policy), CEC (election results)
 - Can license data from TBC Capital (which produces macro research on GEL/USD forecasts) [[72]](https://www.tbccapital.ge/en/research/macro/tbc-capital-forecasts-gel-to-strengthen-to-260-against-usd-by-end-of-year)
 
@@ -128,13 +128,13 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 ## Quality Check
 
-- **Is the recommendation specific, not vague?** Yes—"Build" is explicitly selected with three distinct, evidence-based justifications.
+- **Is the recommendation specific, not vague?** Yes,"Build" is explicitly selected with three distinct, evidence-based justifications.
 
-- **Are the three justification reasons distinct and evidence-based?** Yes—(1) NBG sandbox framework and regulatory flexibility [[75]](https://www.nbg.gov.ge/en/pages/financial-innovation-office)[[30]](https://www.nbg.gov.ge/uploads/pressreleases/2025/Amendments_to_the_Law_on_Operating_of_the_Virtual_Assets.pdf); (2) competitive gap in Georgian market and DFS validation [[26]](https://www.galtandtaggart.com/ge/wealth-management/brokerage)[[82]](https://www.cec.gov.ge/en/cec/municipal-elections-2025); (3) unit economics and Kalshi precedent [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)[[71]](https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi).
+- **Are the three justification reasons distinct and evidence-based?** Yes,(1) NBG sandbox framework and regulatory flexibility [[75]](https://www.nbg.gov.ge/en/pages/financial-innovation-office)[[30]](https://www.nbg.gov.ge/uploads/pressreleases/2025/Amendments_to_the_Law_on_Operating_of_the_Virtual_Assets.pdf); (2) competitive gap in Georgian market and DFS validation [[26]](https://www.galtandtaggart.com/ge/wealth-management/brokerage)[[82]](https://www.cec.gov.ge/en/cec/municipal-elections-2025); (3) unit economics and Kalshi precedent [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)[[71]](https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi).
 
-- **Does the first move pass the specificity test: could someone actually execute it?** Yes—the action specifies exact NBG contact (innovationoffice@nbg.gov.ge), sandbox parameters (12 months, GEL 1M deposits), and regulatory classification sought (financial instruments vs. gambling).
+- **Does the first move pass the specificity test: could someone actually execute it?** Yes,the action specifies exact NBG contact (innovationoffice@nbg.gov.ge), sandbox parameters (12 months, GEL 1M deposits), and regulatory classification sought (financial instruments vs. gambling).
 
-- **Have you confronted the chicken-and-egg problem if you recommended Build?** Yes—critical mass threshold (10,000 users, GEL 5M open interest) is defined; seed liquidity will come from market maker partnerships and potential NBG tolerance for internal market making during sandbox phase; GEL/USD rate contracts have natural hedging demand from exporters/importers facing 4.53% annual volatility [[76]](https://www.geostat.ge/en/modules/categories/26/exchange-rates).
+- **Have you confronted the chicken-and-egg problem if you recommended Build?** Yes,critical mass threshold (10,000 users, GEL 5M open interest) is defined; seed liquidity will come from market maker partnerships and potential NBG tolerance for internal market making during sandbox phase; GEL/USD rate contracts have natural hedging demand from exporters/importers facing 4.53% annual volatility [[76]](https://www.geostat.ge/en/modules/categories/26/exchange-rates).
 
 ## Reference Links
 
