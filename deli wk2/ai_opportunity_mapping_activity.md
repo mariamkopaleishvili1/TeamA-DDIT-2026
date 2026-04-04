@@ -20,6 +20,8 @@ AI Opportunity Map v1
 
 4. For the two Deploy Now use cases, draft a two-sentence business case: the mechanism by which value is created and the rough order-of-magnitude financial impact.
 
+****KIMI Generated on 04/04/2026:****
+
 **Value Chain Activities and AI Use Cases**
 
 **Customer Acquisition & KYC**
