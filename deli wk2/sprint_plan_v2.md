@@ -35,7 +35,7 @@ Minimum two meetings per week for Weeks 1 to 4. Minimum three meetings per week 
 | 4 | Platform dynamics | Mariam Kopaleishvili | Ani Ruseishvili | April 19 |
 | 5 | Strategic options evaluation |Mariam Kopaleishvili  | Ani Ruseishvili | April 26 |
 | 6 | Business model detail |Everyone  | Everyone | April 26 |
-| 7 | Transformation roadmap | Ani Ruseishvili|  | May 3 |
+| 7 | Transformation roadmap | Ani Ruseishvili| Mariam Piranishvili | May 3 |
 | 8 | ROI and financial case | Gega Mukhigulashvili | Everyone | May 3 |
 | 9 | Risk assessment |Mariam Piranishvili | Everyone | May 10 |
 | 10 | Implementation logic | Mariam Piranishvili | Gega Mukhigulashvili  | May 10 |
