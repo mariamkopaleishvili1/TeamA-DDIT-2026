@@ -14,11 +14,12 @@ Complete during the Sunday Three Horizons workshop. Use your AI Opportunity Map 
 
 AI augmentation of existing processes. High readiness, high near-term ROI.
 
-| # | Initiative name | Description | Investment estimate | Funding source | Link to AI Opportunity Map |
-|---|---|---|---|---|---|
-| H1-1 |  |  |  |  |  |
-| H1-2 |  |  |  |  |  |
-| H1-3 |  |  |  |  |  |
+| #        | Initiative name                            | Description                                                                                                                                                                                                                                                                                                                                                              | Investment estimate                                                                           | Funding source                                                | Link to AI Opportunity Map                            |
+| -------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------- |
+| **H1-1** | **T-Bot Autonomous Agent Upgrade**         | Transform rule-based T-Bot (handling 33% of requests) into agentic AI capable of autonomous resolution for card disputes, loan restructuring, and account troubleshooting. Deploys prediction for intent anticipation, generation for contextual responses, and agent workflows for core banking system execution. Target: 70% autonomous resolution, 24/7 availability. | GEL 3.5M (software licensing GEL 1.2M, integration GEL 1.5M, change management GEL 0.8M)      | Operational efficiency budget (contact center cost reduction) | Deploy Now: T-Bot upgrade to autonomous agent         |
+| **H1-2** | **Microloan Decisioning Expansion to 90%** | Extend automated underwriting from 77% to 90% of microloans (under GEL 100,000) using predictive models on alternative data (mobile money patterns, utility payments, POS history). Reduces time-to-yes from 2 hours to 3 minutes and cost-per-loan from GEL 120 to GEL 35.                                                                                              | GEL 2.8M (model development GEL 1.0M, data infrastructure GEL 1.2M, risk validation GEL 0.6M) | Retail banking P\&L (cost-to-serve reduction + volume growth) | Deploy Now: Real-time microloan decisioning expansion |
+| **H1-3** | **Real-Time Payment Fraud Interception**   | Deploy advanced predictive models for sub-second payment fraud detection across Space neobank and traditional channels. Integrates behavioral biometrics with transaction pattern analysis to reduce false positives by 25% while maintaining 99.5% fraud capture rate.                                                                                                  | GEL 2.2M (platform upgrade GEL 1.0M, model deployment GEL 0.8M, monitoring GEL 0.4M)          | Risk management budget (fraud loss prevention)                | Deploy Now: Real-time payment fraud interception      |
+
 
 ---
 
