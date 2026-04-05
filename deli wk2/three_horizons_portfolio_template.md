@@ -14,37 +14,92 @@ Complete during the Sunday Three Horizons workshop. Use your AI Opportunity Map 
 
 AI augmentation of existing processes. High readiness, high near-term ROI.
 
-| #        | Initiative name                            | Description                                                                                                                                                                                                                                                                                                                                                              | Investment estimate                                                                           | Funding source                                                | Link to AI Opportunity Map                            |
-| -------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------- |
-| **H1-1** | **T-Bot Autonomous Agent Upgrade**         | Transform rule-based T-Bot (handling 33% of requests) into agentic AI capable of autonomous resolution for card disputes, loan restructuring, and account troubleshooting. Deploys prediction for intent anticipation, generation for contextual responses, and agent workflows for core banking system execution. Target: 70% autonomous resolution, 24/7 availability. | GEL 3.5M (software licensing GEL 1.2M, integration GEL 1.5M, change management GEL 0.8M)      | Operational efficiency budget (contact center cost reduction) | Deploy Now: T-Bot upgrade to autonomous agent         |
-| **H1-2** | **Microloan Decisioning Expansion to 90%** | Extend automated underwriting from 77% to 90% of microloans (under GEL 100,000) using predictive models on alternative data (mobile money patterns, utility payments, POS history). Reduces time-to-yes from 2 hours to 3 minutes and cost-per-loan from GEL 120 to GEL 35.                                                                                              | GEL 2.8M (model development GEL 1.0M, data infrastructure GEL 1.2M, risk validation GEL 0.6M) | Retail banking P\&L (cost-to-serve reduction + volume growth) | Deploy Now: Real-time microloan decisioning expansion |
-| **H1-3** | **Real-Time Payment Fraud Interception**   | Deploy advanced predictive models for sub-second payment fraud detection across Space neobank and traditional channels. Integrates behavioral biometrics with transaction pattern analysis to reduce false positives by 25% while maintaining 99.5% fraud capture rate.                                                                                                  | GEL 2.2M (platform upgrade GEL 1.0M, model deployment GEL 0.8M, monitoring GEL 0.4M)          | Risk management budget (fraud loss prevention)                | Deploy Now: Real-time payment fraud interception      |
-|H1-4	| Prediction Market Intelligence Partnership	| Strategic data partnership with emerging prediction market platforms (Kalshi/Polymarket-type operators or regional equivalents) to access crowd-sourced forecasting data on Georgian economic indicators, currency stability, and sector-specific risks. Establishes API feeds for macro risk signals and early warning indicators.	| GEL 1.5M (partnership fees GEL 0.7M, API infrastructure GEL 0.5M, data science team GEL 0.3M) |	Treasury/Risk budget (market risk management enhancement) |	New: Alternative data for macro risk forecasting (High future value, High readiness)  |
-
----
-
-## Horizon 2: Nurture and Build (12 to 36 months)
-
-Platform pilots, data infrastructure, emerging business opportunities. Requires capital commitment before ROI is visible.
-
-| #        | Initiative name                              | Description                                                                                                                                                                                                                                                                                            | Investment estimate                                                                                                                         | Funding source                                                                                                     | Prerequisite from H1                                                                                                                   |
-| -------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
-| **H2-1** | **AI-Powered Collateral Valuation Platform** | Computer vision and market data synthesis system for automated real estate valuation. Reduces appraisal time from 5 days to 24 hours by analyzing property photos, location data, and comparable transactions. Enables mortgage pipeline acceleration and reduces external appraiser dependency.       | GEL 6.5M (Georgian property database build GEL 2.5M, CV model training GEL 2.0M, NBG compliance framework GEL 1.5M, pilot rollout GEL 0.5M) | H1 efficiency gains (GEL 4.25M annual microloan savings + GEL 18M contact center savings) + Capital markets budget | H1-2 microloan automation proving alternative data model reliability; H1-1 agent infrastructure for customer notification workflows    |
-| **H2-2** | **Trade Finance Document Intelligence**      | Generative AI system for extraction, validation, and reconciliation of trade documents (invoices, bills of lading, certificates) for TBC Capital. Automates 3-day manual checking to 4 hours, handles bilingual Georgian/English documents, and integrates with SWIFT messaging for corporate clients. | GEL 5.0M (document training set creation GEL 1.5M, LLM fine-tuning GEL 1.8M, integration GEL 1.2M, pilot with 5 major clients GEL 0.5M)     | H1 efficiency gains + TBC Capital corporate banking fees                                                           | H1-1 agent workflow architecture for exception handling; H1-3 fraud detection NLP capabilities for document anomaly detection          |
-| **H2-3** | **Open Banking Data Infrastructure**         | Foundational platform for consented customer data aggregation across Georgian financial institutions. Enables next-generation credit scoring, proactive financial wellness, and ecosystem partnerships. Includes API gateway, consent management, and data standardization layers.                     | GEL 4.5M (API infrastructure GEL 2.0M, data governance framework GEL 1.5M, NBG sandbox participation GEL 1.0M)                              | Strategic transformation fund + H1 ROI carryforward                                                                | H1-2 alternative data capabilities proving external data integration value; H1-1 customer trust metrics from T-Bot satisfaction scores |
-
-
----
-
-## Horizon 3: Create and Options (36 months+)
-
-AI-first operating model experiments, new market creation. Low probability, high upside. Only viable after H2 infrastructure is in place.
-
-| #        | Initiative name                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Investment estimate                                                                                                                       | Funding source                                                                                           | Prerequisite from H2                                                                                                                                             |
-| -------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **H3-1** | **AI-First Neobank Operating Model (Space 2.0)**     | Complete Space reinvention as autonomous digital bank: AI agents handle 95% of interactions, self-learning credit models, predictive life-event banking, embedded finance marketplace. Target: 500K autonomous-active customers.                                                                                                                                                                                                                                                              | GEL 12.0M (platform rebuild GEL 5.0M, AI orchestration GEL 4.0M, ecosystem GEL 2.0M, marketing GEL 1.0M)                                  | H2 platform monetization (mortgage fees GEL 8M + SME lending GEL 5M)                                     | H2-1 alternative credit proving algorithmic lending at scale; H2-2 collateral valuation for instant secured lending; H2-3 open banking for ecosystem data feeds  |
-| **H3-2** | **Prediction Market-Driven Risk Analytics Platform** | **Advanced integration of prediction market data into core risk management**: Using H1-4 partnership foundation, deploy crowd-sourced intelligence for real-time Georgian economic forecasting, currency risk prediction, and sectoral stress testing. Creates proprietary "wisdom of crowds" risk signals for trading, treasury, and corporate advisory. Positions TBC as first-mover when prediction markets achieve mainstream financial adoption (projected \$trillions volume by 2030) . | GEL 8.0M (data science platform GEL 3.0M, proprietary indices GEL 2.5M, client-facing analytics GEL 2.0M, regulatory navigation GEL 0.5M) | H2 efficiency gains + DFI partnerships (EBRD/IFC) + Potential equity stake in regional prediction market | H2-1 macro risk signal integration proving value; H2-3 open banking demonstrating external data monetization; H1-4 partnership matured to data licensing revenue |
-
+AI Opportunity Map Application: Georgian Fintech Transformation
+H1: Defend and Extend (0-12 months)
+AI Characteristic: AI augmentation of existing processes. High readiness, high near-term ROI.
+Prerequisite: Clean data for the process; governance for AI output; change management
+Consequence if Skipped: AI pilot cannot scale; employees work around it
+H1.1: Loan A/R Collections Optimization
+Table
+Attribute	Detail
+AI Capabilities	Prediction (default probability, optimal contact timing, propensity-to-pay), Synthesis (transaction pattern analysis, behavioral integration), Agent workflow (automated escalation, personalized negotiation paths)
+Business Value	High — Prevents 0.5% portfolio deterioration on $3.5B loan book = $17.5M annual value preservation; reduces cost-to-collect 50%
+Evidence	Georgian banks lose 2-3% of portfolio value annually to delayed collections; relationship-based SME lending lacks early warning before 90-day delinquencies crystallize
+Implementation Readiness	High — 6 months. Barrier: NBG consumer protection requires human-in-the-loop design for settlement negotiations
+Funding Source	Current operations efficiency
+H1.2: Real-Time Payment Fraud Detection
+Table
+Attribute	Detail
+AI Capabilities	Prediction (anomaly detection, behavioral biometrics), Synthesis (device fingerprinting, location correlation), Agent workflow (auto-blocking, step-up authentication)
+Business Value	High — Cards dominate 89% of e-purchases; mobile wallet concentration creates attack surface; fraud losses directly impact 6-8% net interest margins
+Evidence	Georgian Card instant payment infrastructure exists; mobile commerce penetration shifts fraud risk to digital channels
+Implementation Readiness	High — 4-6 months on existing transaction monitoring systems
+Funding Source	Current operations efficiency
+H1.3: Customer Service Automation
+Table
+Attribute	Detail
+AI Capabilities	Generation (Georgian-language conversational AI), Synthesis (customer history integration), Agent workflow (intent classification, routing)
+Business Value	Medium — Addresses "non-negotiable" mobile-first UX requirement; Georgian consumers show "low tolerance for friction"
+Evidence	Mobile commerce adoption creates demand for frictionless digital service; existing chatbot infrastructure reduces build complexity
+Implementation Readiness	High — 3-6 months with established escalation protocols
+Funding Source	Current operations efficiency
+H1.4: Wealth Management Robo-Advisory (MVP)
+Table
+Attribute	Detail
+AI Capabilities	Generation (natural language portfolio explanations), Prediction (risk profiling, return forecasting), Synthesis (market data aggregation)
+Business Value	High — TBC Capital launched zero-commission, $1-minimum fractional investing in October 2023 via mobile app, offering 6,000+ US stocks and ETFs (TBC Capital Individuals); captures 92% of adults excluded from equity markets (retail participation in GSE equities is approximately 8% (Georgian Stock Exchange 2024 Annual Report))
+Evidence	Galt & Taggart maintains $1,000 entry threshold and $5 minimum transaction fees (Galt & Taggart Brokerage); TBC Capital has no minimum threshold and no account opening fees (Galt & Taggart Brokerage); "pervasive lack of knowledge" among Georgian investors creates advisory gap (TBC Capital Research)
+Implementation Readiness	High — 6 months leveraging existing TBC Capital brokerage infrastructure
+Funding Source	Current operations efficiency
+H2 Dependency	Creates customer base and transaction data for H2.1 Open Banking personalization
+H2: Nurture and Build (12-36 months)
+AI Characteristic: AI-enabled new services, platform pilots, data infrastructure. Requires capital before ROI.
+Prerequisite: Modern data architecture; API integration; platform governance
+Consequence if Skipped: H2 platform cannot integrate with H1 operations
+H2.1: Open Banking-Powered Personalization Platform
+Table
+Attribute	Detail
+AI Capabilities	Synthesis (multi-account transaction analysis), Prediction (spending forecasting, cash flow optimization), Generation (personalized insights), Agent workflow (automated savings, bill optimization)
+Business Value	High — NBG launched first phase of Open Banking in 2021 and issued regulations for non-bank inclusion in May 2023 (Fintech Georgia); non-banking institutions can now engage as providers of account information and payment initiation services (NBG Financial Innovation Office)
+Evidence	NBG established Financial Innovation Office in 2019, introduced regulatory sandbox in 2020, and is applying to join SEPA (Fintech Georgia); World Bank Georgia Financial Inclusion and Accountability Project (2019-2023) improved financial infrastructure and consumer protection (World Bank Financial Inclusion Georgia)
+Implementation Readiness	Medium — 12-18 months. Barrier: API standardization incomplete across Georgian banks; requires NBG-mandated common specifications
+Funding Source	H1 cash reserves ($17.5M+ annually from H1.1, $2-3M from H1.4)
+H1 Prerequisites	H1.4 customer base; H1.1-H1.3 data governance maturity
+H3 Enabler	Critical path item: Clean, governed, accessible customer data and API infrastructure required for H3.1 prediction market settlement and KYC
+H2.2: AI-Powered SME Credit Scoring
+Table
+Attribute	Detail
+AI Capabilities	Prediction (credit default probability, loan pricing), Synthesis (alternative data integration), Generation (automated decision explanations for NBG compliance)
+Business Value	Medium-High — Alternative lending identified as key fintech segment; SME segment underserved by collateral-based traditional lending
+Evidence	World Bank FIA project (2019-2023) supported enabling framework for capital market development and movable assets-based lending (World Bank Financial Inclusion Georgia); financial reporting accuracy improved to 85% for medium enterprises and 91% for small enterprises (World Bank Financial Inclusion Georgia)
+Implementation Readiness	Medium — 18-24 months. Barrier: Limited alternative data availability; requires utility payments, mobile money, e-commerce integration via H2.1 infrastructure
+Funding Source	H1 cash reserves
+H1 Prerequisites	H1.1 collections data
+H2 Prerequisites	H2.1 data architecture for alternative data integration
+H3: Create and Options (36+ months)
+AI Characteristic: AI-first operating model experiments. Low probability, high upside.
+Prerequisite: Full H2 infrastructure; AI-literate leadership; proven change management
+Consequence if Skipped: H3 vision is credible to announce but not to execute
+H3.1: Georgian Prediction Market Platform
+Table
+Attribute	Detail
+AI Capabilities	Prediction (probability pricing, market sentiment), Generation (natural language market explanations), Synthesis (multi-source outcome resolution), Agent workflow (automated market making, liquidity management)
+Business Value	High — No regulated prediction market exists in Georgia; Kalshi and Polymarket generated combined volume exceeding $37 billion in 2025 (International Banker); Kalshi's macro prediction markets on CPI, unemployment, and Fed decisions outperform Bloomberg consensus forecasts (Kalshi Blog - CPI Prediction)
+Evidence	Kalshi secured CFTC approval as Designated Contract Market and won legal victory in September 2024 to offer election event contracts (Kalshi Blog - Legal Victory); NBG has authority to "define new virtual asset services independently through normative acts" (NBG Virtual Assets Regulation); NBG launched AI Sandbox pilot project in June 2025 for fintech innovation (NBG AI Sandbox)
+Implementation Readiness	Low — 24-36 months. Barrier: Regulatory classification undefined; requires NBG sandbox entry and determination (financial instrument vs. gambling vs. VASP); Georgia gambling law prohibits online gambling with fines of 10,000-20,000 GEL and participation restricted to 25+ (SBC News Georgia Gambling)
+Funding Source	H1 cash reserves + H2 platform credibility with NBG
+H2 Prerequisites	H2.1 clean data infrastructure (settlement, KYC, outcome resolution); H1.4 proven AI advisory customer base; H1-H2 established NBG relationship for sandbox application (innovationoffice@nbg.gov.ge) (NBG Financial Innovation Office)
+Critical Sequencing	H3.1 fails if H2.1 skipped: prediction markets require real-time, governed, API-accessible data for transparent outcome resolution and customer fund management
+H3.2: AI-First Regulatory Compliance Automation
+Table
+Attribute	Detail
+AI Capabilities	Synthesis (regulatory document monitoring), Prediction (compliance risk scoring), Generation (automated filing drafts), Agent workflow (compliance calendar, escalation)
+Business Value	Medium — NBG's "proactive fintech supervision framework" prioritizes enhancing fintech supervision in 2023-2025 strategy (Fintech Georgia); VASP registration mandatory since July 2023; NBG adopted comprehensive VASP supervisory framework including prudential supervision, consumer protection, cybersecurity, and operational risk management (Cointelegraph Georgia VASP)
+Evidence	NBG's authority to define new virtual asset services creates regulatory uncertainty requiring adaptive systems (NBG Virtual Assets Regulation); 0% corporate tax on foreign IT services creates compliance complexity (Cointelegraph Georgia Crypto)
+Implementation Readiness	Medium — 24-30 months. Barrier: Georgian reporting standards still evolving; requires H3-level adaptive AI
+Funding Source	H2 platform monetization
+H2 Prerequisites	H2.1 platform governance maturity
+H3 Prerequisites	H3.1 regulatory classification precedent
 ---
 
 ## Funding logic
