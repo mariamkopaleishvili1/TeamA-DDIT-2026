@@ -22,7 +22,8 @@ AI Opportunity Map v1
 
 ##
 Value Chain Activities & AI Use Cases
-1. Customer Acquisition & Onboarding
+1.
+Customer Acquisition & Onboarding
 Automated KYC & Identity Verification
 Capability: Synthesis (document extraction) + Prediction (fraud scoring)
 Value: High Readiness: High
@@ -144,6 +145,8 @@ Why Medium Readiness: Requires 12-18 months to negotiate data sharing agreements
 4. Trade Finance Document Intelligence (H2-2)
 Mechanism: Uses synthesis to extract data from unstructured trade documents (invoices, bills of lading, certificates of origin) and generation to validate consistency across document sets, automating the 3-day manual checking process for TBC Capital's corporate clients. Handles bilingual Georgian/English documents and integrates with SWIFT messaging for end-to-end automation.
 Why Medium Readiness: Requires 12-15 months to build training datasets of Georgian trade documents, fine-tune LLMs for local language financial terminology, establish regulatory clarity on AI-processed trade documentation, and pilot with 5 major corporate clients before scaling.
+
+
 Scoring Rationale Summary
 KYC Automation: High Value because greater than 10% impact on customer acquisition (35% to 5% abandonment = 6x improvement). High Readiness because document extraction and fraud scoring proven; TBC already has 90-second business onboarding.
 Real-time Fraud: High Value because greater than 10% impact on fraud losses plus operational efficiency. High Readiness because real-time scoring infrastructure exists; behavioral biometrics mature technology.
