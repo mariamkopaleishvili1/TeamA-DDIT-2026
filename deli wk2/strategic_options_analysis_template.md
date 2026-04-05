@@ -74,7 +74,7 @@ Value creation shifts from transaction volume to recurring subscription revenue 
 | ----------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------- |
 | **Option 1: Sandbox**   | Ask the central bank (NBG) for permission first. Use regular money (GEL). Act like a serious financial tool. | "Play by the rules, get approval first" |
 | **Option 2: Crypto**    | Register as a crypto company. Use digital dollars (USDC). Faster start but only crypto people can use it.    | "Use crypto, skip some rules"           |
-| **Option 3: Safe Mode** | Strict daily loss limits (\$37 max), mandatory lessons, cooling-off periods. Charge monthly fees.            | "Be the 'responsible' choice"           |
+| **Option 3: Safe Mode** | Strict daily loss limits (\GEL 40 max), mandatory lessons, cooling-off periods. Charge monthly fees.            | "Be the 'responsible' choice"           |
 
 ---
 
