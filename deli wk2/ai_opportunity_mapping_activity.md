@@ -101,6 +101,20 @@ Use Case 8: Regulatory Compliance Automation (FUTURE OPTION)
 
 AI Capabilities: Synthesis (multi-source regulatory document monitoring), Prediction (compliance risk scoring, reporting deadline forecasting), Generation (automated regulatory filing drafts, policy update summaries), Agent workflow (compliance calendar management, escalation for regulatory changes)
 
+| Citation | Source                                                                                                                                                  |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \[1]     | [Fintech Georgia - Fintech in Georgia](https://www.fintechgeorgia.ge/fintech-in-georgia/)                                                               |
+| \[4]     | [Geostat ICT Usage in Households 2023](https://www.geostat.ge/media/uploads/files/economy/ICT%20Usage%20in%20Households%20and%20Individuals%202023.pdf) |
+| \[11]    | [Statista Digital Payments Georgia](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia)                                              |
+| \[18]    | [Cointelegraph Georgia Crypto Regulation](https://cointelegraph.com/news/georgia-crypto-regulation-vasp-registration)                                   |
+| \[19]    | [GFSIS Georgia Cryptocurrency Regulation](https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape)                          |
+| \[30]    | [NBG Amendments to Virtual Assets Law](https://www.nbg.gov.ge/uploads/pressreleases/2025/Amendments_to_the_Law_on_Operating_of_the_Virtual_Assets.pdf)  |
+| \[31]    | [Legal Sports Report Georgia](https://www.legalsportsreport.com/georgia-sports-betting/)                                                                |
+| \[46]    | [Georgian Stock Exchange 2024 Annual Report](https://gse.ge/Uploads/2024%20Annual%20Report.pdf)                                                         |
+| \[48]    | [Bloomberg DFS Challengers](https://www.bloomberg.com/news/articles/2025-10-28/draftkings-and-fanduel-face-new-challengers-in-daily-fantasy-sports)     |
+| \[51]    | [TBC Capital Individuals](https://www.tbcbank.ge/en/corporate/tbc-capital/tbc-capital-individuals)                                                      |
+| \[65]    | [NBG Financial Literacy Survey 2024](https://www.nbg.gov.ge/uploads/pressreleases/2025/Financial_Literacy_Survey_2024.pdf)                              |
+| \[75]    | [NBG Financial Innovation Office](https://www.nbg.gov.ge/en/pages/financial-innovation-office)                                                          |
 
 
 
