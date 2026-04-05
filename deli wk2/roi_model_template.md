@@ -206,23 +206,3 @@ AUC benchmark for ML-based retail early-warning systems versus simpler regressio
 Useful for recurring AI run-cost logic: cloud, experimentation, compliance, and monitoring costs.
 
 ---
-
-## Quality Check Verification
-
-- [x] Every number has a source or assumption label (A1-A6)
-- [x] Three differentiated scenarios (Downside/Base/Upside)
-- [x] Contingency line present (20% = 1.4M GEL)
-- [x] Change management cost category present and non-zero (16% of total)
-- [x] Recurring run costs explicitly modeled and deducted
-- [x] TBC-specific 2024 metrics used (25.0B GEL gross loans, 14.65B GEL retail+MSME, 2.2% NPL, 0.5% cost of risk)
-- [x] Defensible under Q&A with industry benchmarks
-
----
-
-## File Information
-
-**Filename:** `roi_model_tbc_collections_ai.md`  
-**Version:** 2.0 (Revised per feedback)  
-**Date:** 2026-04-05  
-**Prepared for:** TBC Bank Strategic Planning  
-**Classification:** Internal Use - Strategic Planning
