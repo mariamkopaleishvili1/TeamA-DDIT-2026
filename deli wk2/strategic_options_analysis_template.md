@@ -11,7 +11,7 @@ Complete during the Sunday Strategic Options workshop. Use your three preliminar
 
 ### Description
 
-Positions the platform as a financial derivative tool for macroeconomic and civic outcomes (GEL/USD rates, local elections) to secure NBG sandbox approval. Settles in GEL through licensed payment providers (TBC Pay, Liberty Pay), avoiding gambling restrictions that prohibit users under 25 and ban advertising [1]. Emphasizes information aggregation, transparent probability pricing, and educational market making to secure classification as a financial instrument. 12-month sandbox period allows testing with up to GEL 1 million in customer deposits while building regulatory relationships before full licensing [2].
+Positions the platform as a financial derivative tool for macroeconomic and civic outcomes (GEL/USD rates, local elections) to secure NBG sandbox approval. Settles in GEL through licensed payment providers (TBC Pay, Liberty Pay), avoiding gambling restrictions that prohibit users under 25 and ban advertising [[1]]. Emphasizes information aggregation, transparent probability pricing, and educational market making to secure classification as a financial instrument. 12-month sandbox period allows testing with up to GEL 1 million in customer deposits while building regulatory relationships before full licensing [[2]].
 
 ### Financial logic 
 
