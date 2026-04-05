@@ -271,7 +271,6 @@ TBC's board should approve the **base case budget of 8.5M GEL** with explicit co
 
 - If regulatory environment shifts (NBG tightens collections rules), redirect 300K GEL from efficiency savings to compliance automation to maintain competitive position.
 
-The 19-month payback is not exciting enough to justify reckless execution, but solid enough to commit disciplined resources. The real value is not the 47M GEL itself—it is the capability TBC builds to deploy AI across other domains (fraud, pricing, customer acquisition). This is a **platform investment disguised as a collections project**.
 ---
 
 ## Business Case Mechanism
