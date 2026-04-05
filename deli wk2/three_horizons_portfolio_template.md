@@ -127,9 +127,29 @@ H3 initiatives fail if the foundational work of H2 has not been done. You cannot
 | H2 | Modern data architecture; API integration; platform governance | H2 platform cannot integrate with H1 operations |
 | H3 | Full H2 infrastructure; AI-literate leadership; proven change management | H3 vision is credible to announce but not to execute |
 
+| From               | To   | Dependency Type               | Criticality                                                      |
+| ------------------ | ---- | ----------------------------- | ---------------------------------------------------------------- |
+| H1.1 Collections   | H2.1 | Cash flow funding             | **Critical** — No H2 build without \$17.5M annual preservation   |
+| H1.4 Robo-Advisory | H2.1 | Customer base + data          | **Critical** — No personalization without users and transactions |
+| H1.1-H1.3          | H2.1 | Data governance maturity      | **Critical** — Fragmented data breaks platform integration       |
+| H2.1               | H2.2 | Alternative data architecture | Required — SME scoring needs unified data pipes                  |
+| H2.1               | H3.1 | Settlement/KYC infrastructure | **Existential** — Prediction market cannot operate without       |
+| H1-H2              | H3.1 | NBG regulatory relationship   | **Critical** — Sandbox application requires credibility          |
+| H2.1               | H3.2 | Platform governance           | Required — Adaptive compliance needs mature data governance      |
+
+
 ## Funding logic
 
 The most sophisticated midterm recommendations show: fund H1 from current efficiency gains, use H1 cash and credibility to fund H2 infrastructure, and reserve H3 optionality for when the data foundation is in place.
+
+| Horizon     | Source                         | Amount                    | Destination                                         |
+| ----------- | ------------------------------ | ------------------------- | --------------------------------------------------- |
+| **H1**      | Current operations efficiency  | Base funding              | Self-funding via efficiency gains                   |
+| **H1 → H2** | H1.1 Collections optimization  | **\$17.5M annually**      | H2.1 Open Banking platform infrastructure (\$8-12M) |
+| **H1 → H2** | H1.4 Robo-advisory fees        | **\$2-3M annually**       | H2.2 SME credit scoring alternative data (\$3-5M)   |
+| **H2 → H3** | H2.1 platform monetization     | Projected \$10M+ annually | H3.1 Prediction market sandbox and build (\$15-25M) |
+| **Reserve** | H1 efficiency + H2 credibility | NBG relationship capital  | H3.1 sandbox application, legal classification      |
+
 
 ## How to use in this course
 
