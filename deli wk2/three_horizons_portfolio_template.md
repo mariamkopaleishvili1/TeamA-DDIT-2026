@@ -1,22 +1,23 @@
-# Three Horizons Portfolio Template
+# Three Horizons Framework
 
-## Purpose
+## Source
+McKinsey strategy research. Widely applied in transformation and innovation portfolio management.
 
-Structure transformation investments across short, medium, and long term. This portfolio becomes the sequencing logic for your midterm transformation roadmap.
+## Core idea
 
-## Instructions
+Every organisation undergoing transformation must manage three portfolios simultaneously. The common error is treating them as sequential rather than parallel.
 
-Complete during the Sunday Three Horizons workshop. Use your AI Opportunity Map from Saturday as the primary input. Initiatives in the Deploy Now quadrant map to Horizon 1. Initiatives in the Invest to Enable quadrant map to Horizon 2.
+## The three horizons
 
----
+| Horizon | Time frame | Focus | AI-era characteristics |
+|---|---|---|---|
+| H1: Defend and Extend | Now to 12 months | Maximise performance of existing model using AI for efficiency | AI augmentation of existing processes. High readiness, high near-term ROI. |
+| H2: Nurture and Build | 12 to 36 months | Develop emerging opportunities; build platform and data capabilities | AI-enabled new services, platform pilots, data infrastructure. Requires capital before ROI. |
+| H3: Create and Options | 36 months+ | Create viable options on future scenarios; experiment with disruptive models | AI-first operating model experiments. Low probability, high upside. |
 
-## Horizon 1: Defend and Extend (Now to 12 months)
-AI Opportunity Map Application: Georgian Fintech Transformation
-H1: Defend and Extend (0-12 months)
-AI Characteristic: AI augmentation of existing processes. High readiness, high near-term ROI.
-Prerequisite: Clean data for the process; governance for AI output; change management
-Consequence if Skipped: AI pilot cannot scale; employees work around it
-H1.1: Loan A/R Collections Optimization
+### 
+
+#### H1.1: Loan A/R Collections Optimization
 | Attribute                    | Detail                                                                                                                                                                                                               |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **AI Capabilities**          | Prediction (default probability, optimal contact timing, propensity-to-pay), Synthesis (transaction pattern analysis, behavioral integration), Agent workflow (automated escalation, personalized negotiation paths) |
@@ -25,8 +26,7 @@ H1.1: Loan A/R Collections Optimization
 | **Implementation Readiness** | **High** — 6 months. Barrier: NBG consumer protection requires human-in-the-loop design for settlement negotiations                                                                                                  |
 | **Funding Source**           | Current operations efficiency                                                                                                                                                                                        |
 
-
-H1.2: Real-Time Payment Fraud Detection
+#### H1.2: Real-Time Payment Fraud Detection
 
 | Attribute                    | Detail                                                                                                                                                                 |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -36,7 +36,8 @@ H1.2: Real-Time Payment Fraud Detection
 | **Implementation Readiness** | **High** — 4-6 months on existing transaction monitoring systems                                                                                                       |
 | **Funding Source**           | Current operations efficiency                                                                                                                                          |
 
-H1.3: Customer Service Automation
+#### H1.3: Customer Service Automation
+
 | Attribute                    | Detail                                                                                                                                      |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | **AI Capabilities**          | Generation (Georgian-language conversational AI), Synthesis (customer history integration), Agent workflow (intent classification, routing) |
@@ -45,7 +46,8 @@ H1.3: Customer Service Automation
 | **Implementation Readiness** | **High** — 3-6 months with established escalation protocols                                                                                 |
 | **Funding Source**           | Current operations efficiency                                                                                                               |
 
-H1.4: Wealth Management Robo-Advisory (MVP)
+#### H1.4: Wealth Management Robo-Advisory (MVP)
+
 | Attribute                    | Detail                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **AI Capabilities**          | Generation (natural language portfolio explanations), Prediction (risk profiling, return forecasting), Synthesis (market data aggregation)                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -56,27 +58,24 @@ H1.4: Wealth Management Robo-Advisory (MVP)
 | **H2 Dependency**            | Creates customer base and transaction data for H2.1 Open Banking personalization                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 
-H2: Nurture and Build (12-36 months)
-AI Characteristic: AI-enabled new services, platform pilots, data infrastructure. Requires capital before ROI.
-Prerequisite: Modern data architecture; API integration; platform governance
-Consequence if Skipped: H2 platform cannot integrate with H1 operations
-H2.1: Open Banking-Powered Personalization Platform
+### H2: Nurture and Build (12-36 months)
 
+#### H2.1: Open Banking-Powered Personalization Platform
 
-| Attribute                    | Detail                                                                                                                                           
-
+| Attribute                    | Detail                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **AI Capabilities**          | Synthesis (multi-account transaction analysis), Prediction (spending forecasting, cash flow optimization), Generation (personalized insights), Agent workflow (automated savings, bill optimization)                                                                                                                                                                                                                                                                                   |
 | **Business Value**           | **High** — NBG launched first phase of Open Banking in 2021 and issued regulations for non-bank inclusion in May 2023 ([Fintech Georgia](https://www.fintechgeorgia.ge/fintech-in-georgia/)); non-banking institutions can now engage as providers of account information and payment initiation services ([NBG Financial Innovation Office](https://www.nbg.gov.ge/en/pages/financial-innovation-office))                                                                             |
 | **Evidence**                 | NBG established Financial Innovation Office in 2019, introduced regulatory sandbox in 2020, and is applying to join SEPA ([Fintech Georgia](https://www.fintechgeorgia.ge/fintech-in-georgia/)); World Bank Georgia Financial Inclusion and Accountability Project (2019-2023) improved financial infrastructure and consumer protection ([World Bank Financial Inclusion Georgia](https://www.worldbank.org/en/country/georgia/publication/financial-inclusion-national-survey-2022)) |
 | **Implementation Readiness** | **Medium** — 12-18 months. Barrier: API standardization incomplete across Georgian banks; requires NBG-mandated common specifications                                                                                                                                                                                                                                                                                                                                                  |
 | **Funding Source**           | H1 cash reserves (\$17.5M+ annually from H1.1, \$2-3M from H1.4)                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **H1 Prerequisites**         | H1.4 customer base; H1.1-H1.3 data governance maturity                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **H3 Enabler**               | **Critical path item**: Clean, governed, accessible customer data and API infrastructure required for H3.1 prediction market settlement and KYC                                                                                                                                                                              
-|
-H2.2: AI-Powered SME Credit Scoring
+| **H3 Enabler**               | **Critical path item**: Clean, governed, accessible customer data and API infrastructure required for H3.1 prediction market settlement and KYC                                                                                                                                                                                                                                                                                                                                        |
 
+#### H2.2: AI-Powered SME Credit Scoring
 
-| Attribute                    | Detail                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+| Attribute                    | Detail                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **AI Capabilities**          | Prediction (credit default probability, loan pricing), Synthesis (alternative data integration), Generation (automated decision explanations for NBG compliance)                                                                                                                                                                                                                                                                                                                                                               |
 | **Business Value**           | **Medium-High** — Alternative lending identified as key fintech segment; SME segment underserved by collateral-based traditional lending                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Evidence**                 | World Bank FIA project (2019-2023) supported enabling framework for capital market development and movable assets-based lending ([World Bank Financial Inclusion Georgia](https://www.worldbank.org/en/country/georgia/publication/financial-inclusion-national-survey-2022)); financial reporting accuracy improved to 85% for medium enterprises and 91% for small enterprises ([World Bank Financial Inclusion Georgia](https://www.worldbank.org/en/country/georgia/publication/financial-inclusion-national-survey-2022)) |
@@ -85,13 +84,13 @@ H2.2: AI-Powered SME Credit Scoring
 | **H1 Prerequisites**         | H1.1 collections data                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **H2 Prerequisites**         | H2.1 data architecture for alternative data integration                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
-H3: Create and Options (36+ months)
-AI Characteristic: AI-first operating model experiments. Low probability, high upside.
-Prerequisite: Full H2 infrastructure; AI-literate leadership; proven change management
-Consequence if Skipped: H3 vision is credible to announce but not to execute
-H3.1: Georgian Prediction Market Platform
 
+### H3: Create and Options (36+ months)
 
+#### H3.1: Georgian Prediction Market Platform
+
+| Attribute                    | Detail                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **AI Capabilities**          | Prediction (probability pricing, market sentiment), Generation (natural language market explanations), Synthesis (multi-source outcome resolution), Agent workflow (automated market making, liquidity management)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | **Business Value**           | **High** — No regulated prediction market exists in Georgia; Kalshi and Polymarket generated combined volume exceeding \$37 billion in 2025 ([International Banker](https://internationalbanker.com/finance/accounting-for-the-explosive-growth-in-prediction-markets/)); Kalshi's macro prediction markets on CPI, unemployment, and Fed decisions outperform Bloomberg consensus forecasts ([Kalshi Blog - CPI Prediction](https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi))                                                                                                                                                                                                           |
 | **Evidence**                 | Kalshi secured CFTC approval as Designated Contract Market and won legal victory in September 2024 to offer election event contracts ([Kalshi Blog - Legal Victory](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)); NBG has authority to "define new virtual asset services independently through normative acts" ([NBG Virtual Assets Regulation](https://nbg.gov.ge/en/media/news/the-national-bank-of-georgia-develops-regulation-on-virtual-asset-services)); NBG launched AI Sandbox pilot project in June 2025 for fintech innovation ([NBG AI Sandbox](https://nbg.gov.ge/en/media/news/the-national-bank-of-georgia-launches-a-pilot-project-for-an-a-i-sandbox-within-its-regul)) |
@@ -100,7 +99,8 @@ H3.1: Georgian Prediction Market Platform
 | **H2 Prerequisites**         | **H2.1 clean data infrastructure** (settlement, KYC, outcome resolution); H1.4 proven AI advisory customer base; H1-H2 established NBG relationship for sandbox application (<innovationoffice@nbg.gov.ge>) ([NBG Financial Innovation Office](https://www.nbg.gov.ge/en/pages/financial-innovation-office))                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Critical Sequencing**      | **H3.1 fails if H2.1 skipped**: prediction markets require real-time, governed, API-accessible data for transparent outcome resolution and customer fund management                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
-H3.2: AI-First Regulatory Compliance Automation
+
+#### H3.2: AI-First Regulatory Compliance Automation
 
 | Attribute                    | Detail                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -113,23 +113,24 @@ H3.2: AI-First Regulatory Compliance Automation
 | **H3 Prerequisites**         | H3.1 regulatory classification precedent                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
 
+#### 
 
+## Sequencing logic
 
+H3 initiatives fail if the foundational work of H2 has not been done. You cannot run an AI-first operating model if your data is not clean, governed, and accessible.
 
+| Horizon | Prerequisite | Consequence if skipped |
+|---|---|---|
+| H1 | Clean data for the process; governance for AI output; change management | AI pilot cannot scale; employees work around it |
+| H2 | Modern data architecture; API integration; platform governance | H2 platform cannot integrate with H1 operations |
+| H3 | Full H2 infrastructure; AI-literate leadership; proven change management | H3 vision is credible to announce but not to execute |
 
-## Quality check
+## Funding logic
 
-Before finalizing:
-- Is there at least one initiative per horizon?
-- yes, 3 in H1, 3 in H2, 2 in H3
-- Is the sequencing logical: does H2 depend on H1 outputs?
-- yes, H2-1 requires H1-2 alternative data proof; H2-2 requires H1-1 agent architecture; H2-3 requires H1 customer trust metrics.
-- Is the funding logic explicit?
-- yes, H1 generates GEL 22.5M annually funding 87% of H2; H2 generates GEL 11M fees funding H3
-- Do H1 initiatives match your AI Opportunity Map Deploy Now quadrant?
-- yes, H1-1 = T-Bot agent; H1-2 = Microloan expansion; H1-3 = Fraud interception (all from Deploy Now)
+The most sophisticated midterm recommendations show: fund H1 from current efficiency gains, use H1 cash and credibility to fund H2 infrastructure, and reserve H3 optionality for when the data foundation is in place.
 
-## Deliverable
+## How to use in this course
 
-Save in your team folder as:
-`three_horizons_portfolio_v1.md`
+1. Assign AI Opportunity Map initiatives to the appropriate horizon.
+2. Show explicit sequencing and dependencies.
+3. Include the funding logic in the midterm transformation roadmap section.
