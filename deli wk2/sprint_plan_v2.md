@@ -65,8 +65,8 @@ Minimum two meetings per week for Weeks 1 to 4. Minimum three meetings per week 
 
 | # | Research question | Owner | Due date |
 |---|---|---|---|
-| 1 |  |  |  |
-| 2 |  |  |  |
+| 1 |Regulations   |  Mariam Piranishvili|  |
+| 2 | How many does it cost  | Gega Mukhigulashvili |  |
 | 3 |  |  |  |
 
 ---
