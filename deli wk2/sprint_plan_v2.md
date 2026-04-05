@@ -65,9 +65,9 @@ Minimum two meetings per week for Weeks 1 to 4. Minimum three meetings per week 
 
 | # | Research question | Owner | Due date |
 |---|---|---|---|
-| 1 |Regulations   |  Mariam Piranishvili|  |
-| 2 | How many does it cost  | Gega Mukhigulashvili |  |
-| 3 |  |  |  |
+| 1 |Regulations&limitations  |  Mariam Piranishvili|  |
+| 2 | How much does it cost to set up poly market platform | Gega Mukhigulashvili |  |
+| 3 | How much liquidity needed to operate flowlessly? |  |  |
 
 ---
 
