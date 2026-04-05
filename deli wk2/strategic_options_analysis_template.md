@@ -69,6 +69,13 @@ Value creation shifts from transaction volume to recurring subscription revenue 
 | Competitive defensibility (H/M/L) | High | Medium | Low |
 | Justification | First-mover advantage in regulated Georgian prediction markets with NBG sandbox association creating trust barrier. No prediction market industry exists as of March 2026 [18]. Regulatory relationships and compliance infrastructure become moats against later entrants. | VASP registration provides compliance barrier but technology is replicable. Global platforms like Polymarket could theoretically serve Georgian users via VPN, though NBG supervision is increasing [[19]](https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape). Crypto-native positioning limits defensibility against international competitors with superior liquidity [[20]](https://www.coindesk.com/markets/2024/11/12/polymarket-crypto-prediction-market-hits-1b-in-monthly-volume-for-first-time/). | Responsible positioning is easily copied by competitors; loss limits and education are not proprietary. DFS apps already offer community features and responsible gaming tools [[21]](https://www.legalsportsreport.com/georgia-sports-betting/). Subscription model creates switching costs but low retention if constraints feel punitive. |
 
+
+| Option                  | What it is                                                                                                   | More Details                          |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------- |
+| **Option 1: Sandbox**   | Ask the central bank (NBG) for permission first. Use regular money (GEL). Act like a serious financial tool. | "Play by the rules, get approval first" |
+| **Option 2: Crypto**    | Register as a crypto company. Use digital dollars (USDC). Faster start but only crypto people can use it.    | "Use crypto, skip some rules"           |
+| **Option 3: Safe Mode** | Strict daily loss limits (\$37 max), mandatory lessons, cooling-off periods. Charge monthly fees.            | "Be the 'responsible' choice"           |
+
 ---
 
 ## Recommendation
