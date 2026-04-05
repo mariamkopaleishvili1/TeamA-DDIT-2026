@@ -2,18 +2,22 @@
 
 ## Executive Summary
 
-This document presents the financial case for implementing predictive early warning and automated collections orchestration at TBC Bank using AI/ML capabilities. The model projects a **10-month payback period** in the base case, with cumulative cash flow of **125.8M GEL ($46.6M USD)** over 5 years.
+This document presents the financial case for implementing predictive early warning and automated collections orchestration at TBC Bank using AI/ML capabilities. The revised model projects a **19-month payback period** in the base case, with cumulative cash flow of **47.4M GEL ($17.6M USD)** over 5 years.
+
+**Reviewer's take:** the original model looked overstated because it used high-end benchmark outcomes, did not clearly deduct recurring run costs, and tied scenarios too heavily to a single model-accuracy variable. This revised version uses TBC's actual 2024 scale metrics and more conservative ramp-up assumptions. [^1^] [^2^] [^5^]
 
 ---
 
 ## Part 1. Revenue Impact (Annual)
 
+**Note:** Parts 1 and 2 below reflect the **revised base case gross benefit**. Net cash flow in Part 4 deducts recurring annual run costs for cloud, MLOps, model monitoring, vendor support, and governance. [^11^]
+
 | Revenue driver | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 | Assumption ID |
-|---|---|---|---|---|---|---|
-| NPL reduction through early warning (recovery improvement) | 8,400,000 GEL ($3.1M) | 12,600,000 GEL ($4.7M) | 16,800,000 GEL ($6.2M) | 18,900,000 GEL ($7.0M) | 21,000,000 GEL ($7.8M) | [A1] |
-| Cure rate improvement (accounts brought current) | 3,500,000 GEL ($1.3M) | 5,250,000 GEL ($1.9M) | 7,000,000 GEL ($2.6M) | 8,750,000 GEL ($3.2M) | 10,500,000 GEL ($3.9M) | [A2] |
-| Customer retention value (prevented churn) | 2,100,000 GEL ($780K) | 3,150,000 GEL ($1.2M) | 4,200,000 GEL ($1.6M) | 5,250,000 GEL ($1.9M) | 6,300,000 GEL ($2.3M) | [A3] |
-| **Total revenue impact** | **14,000,000 GEL ($5.2M)** | **21,000,000 GEL ($7.8M)** | **28,000,000 GEL ($10.4M)** | **32,900,000 GEL ($12.2M)** | **37,800,000 GEL ($14.0M)** | |
+|---|---:|---:|---:|---:|---:|---|
+| NPL reduction through early warning (charge-off avoidance and recovery improvement) | 2,800,000 GEL ($1.0M) | 5,000,000 GEL ($1.9M) | 6,500,000 GEL ($2.4M) | 7,600,000 GEL ($2.8M) | 9,000,000 GEL ($3.3M) | [A1] |
+| Cure rate improvement (accounts brought current earlier) | 1,200,000 GEL ($440K) | 2,400,000 GEL ($890K) | 3,400,000 GEL ($1.3M) | 4,100,000 GEL ($1.5M) | 4,800,000 GEL ($1.8M) | [A2] |
+| Customer retention value (prevented churn / relationship preservation) | 600,000 GEL ($220K) | 1,100,000 GEL ($410K) | 1,600,000 GEL ($590K) | 2,000,000 GEL ($740K) | 2,400,000 GEL ($890K) | [A3] |
+| **Total revenue impact** | **4,600,000 GEL ($1.7M)** | **8,500,000 GEL ($3.1M)** | **11,500,000 GEL ($4.3M)** | **13,700,000 GEL ($5.1M)** | **16,200,000 GEL ($6.0M)** | |
 
 *Exchange rate: 1 USD = 2.70 GEL (approximate average)*
 
@@ -22,49 +26,60 @@ This document presents the financial case for implementing predictive early warn
 ## Part 2. Cost Impact (Annual Savings)
 
 | Cost driver | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 | Assumption ID |
-|---|---|---|---|---|---|---|
-| Collections staff efficiency (30% productivity gain) | 2,800,000 GEL ($1.0M) | 4,200,000 GEL ($1.6M) | 5,600,000 GEL ($2.1M) | 6,300,000 GEL ($2.3M) | 7,000,000 GEL ($2.6M) | [A4] |
-| Reduced call center operations (automated outreach) | 1,400,000 GEL ($520K) | 2,100,000 GEL ($780K) | 2,800,000 GEL ($1.0M) | 3,500,000 GEL ($1.3M) | 4,200,000 GEL ($1.6M) | [A5] |
-| Compliance and legal cost reduction | 700,000 GEL ($260K) | 1,050,000 GEL ($390K) | 1,400,000 GEL ($520K) | 1,750,000 GEL ($650K) | 2,100,000 GEL ($780K) | [A6] |
-| **Total cost savings** | **4,900,000 GEL ($1.8M)** | **7,350,000 GEL ($2.7M)** | **9,800,000 GEL ($3.6M)** | **11,550,000 GEL ($4.3M)** | **13,300,000 GEL ($4.9M)** | |
+|---|---:|---:|---:|---:|---:|---|
+| Collections staff efficiency (workflow automation and prioritization) | 600,000 GEL ($220K) | 1,000,000 GEL ($370K) | 1,300,000 GEL ($480K) | 1,600,000 GEL ($590K) | 1,800,000 GEL ($670K) | [A4] |
+| Reduced call center operations (digital self-service and automated outreach) | 300,000 GEL ($110K) | 500,000 GEL ($190K) | 700,000 GEL ($260K) | 800,000 GEL ($300K) | 900,000 GEL ($330K) | [A5] |
+| Compliance and legal cost reduction | 200,000 GEL ($74K) | 300,000 GEL ($110K) | 400,000 GEL ($150K) | 450,000 GEL ($170K) | 500,000 GEL ($190K) | [A6] |
+| **Total cost savings** | **1,100,000 GEL ($410K)** | **1,800,000 GEL ($670K)** | **2,400,000 GEL ($890K)** | **2,850,000 GEL ($1.1M)** | **3,200,000 GEL ($1.2M)** | |
 
 ---
 
 ## Part 3. Investment Required (Year 0)
 
 | Cost category | Amount (GEL) | Amount (USD) | Proportion of total | Notes |
-|---|---|---|---|---|
-| Technology platform and licensing (ML/AI engines, cloud infrastructure) | 1,400,000 | $520,000 | 20% | Azure/AWS ML services, predictive analytics licenses |
-| Implementation and integration (core banking, CRM, data warehouse) | 2,450,000 | $910,000 | 35% | System integration with TBC's existing Space platform |
-| People and change management (training, hiring data scientists) | 1,750,000 | $650,000 | 25% | Critical for organizational adoption |
-| Programme management and governance | 700,000 | $260,000 | 10% | Agile delivery, regulatory compliance oversight |
-| Data infrastructure (data lake, real-time streaming) | 700,000 | $260,000 | 10% | Transaction pattern analysis, behavioral data integration |
-| Contingency (20%) | 1,400,000 | $520,000 | 20% | Risk buffer for implementation delays |
-| **Total investment** | **8,400,000 GEL** | **$3,120,000** | **100%** | |
+|---|---:|---:|---:|---|
+| Technology platform and licensing (decision engine, outreach, model tooling) | 1,300,000 | $480,000 | 15% | Vendor software, model serving, orchestration layer |
+| Implementation and integration (core banking, CRM, dialer, data warehouse) | 2,300,000 | $850,000 | 27% | Highest-risk workstream; integration complexity drives cost |
+| People and change management (training, analytics product owners, SMEs) | 1,400,000 | $520,000 | 16% | Needed to convert model outputs into frontline action |
+| Programme management and governance | 700,000 | $260,000 | 8% | Risk, compliance, model governance, PMO |
+| Data infrastructure (feature store, streaming, monitoring, audit logs) | 1,400,000 | $520,000 | 16% | Required for real-time early-warning and model monitoring |
+| Contingency (c.20% of pre-contingency build cost) | 1,400,000 | $520,000 | 16% | Buffer for delivery delays, model remediation, data issues |
+| **Total investment** | **8,500,000 GEL** | **$3,150,000** | **100%** | |
+
+**Why this is more credible than the original:** the original table's proportions did not reconcile cleanly, and it also did not make room for recurring run cost. This version keeps the upfront build in a similar range, but treats ongoing operating cost separately in Part 4. A mid-size bank AI program example cited by CostPerform includes meaningful platform, training, experimentation, and ongoing usage/compliance costs, which is directionally consistent with modeling recurring run cost rather than treating everything as one-off. [^11^]
 
 ---
 
 ## Part 4. Summary Model
 
+**Important modeling note:** Net cash flow below is **after recurring annual run cost**. In the base case, run cost is assumed at **1.8M GEL in Year 1**, rising gradually to **2.2M GEL by Year 5** for cloud, MLOps, model monitoring, support, and governance. This was a missing item in the original draft. [^11^]
+
 | Metric | Downside | Base Case | Upside |
+|---|---:|---:|---:|
+| Total investment (Year 0) | 8,500,000 GEL ($3.15M) | 8,500,000 GEL ($3.15M) | 8,500,000 GEL ($3.15M) |
+| Year 1 net cash flow | 2,100,000 GEL ($780K) | 3,900,000 GEL ($1.4M) | 6,700,000 GEL ($2.5M) |
+| Year 2 net cash flow | 4,600,000 GEL ($1.7M) | 8,400,000 GEL ($3.1M) | 12,800,000 GEL ($4.7M) |
+| Year 3 net cash flow | 6,900,000 GEL ($2.6M) | 11,900,000 GEL ($4.4M) | 16,800,000 GEL ($6.2M) |
+| Year 4 net cash flow | 8,600,000 GEL ($3.2M) | 14,450,000 GEL ($5.4M) | 19,500,000 GEL ($7.2M) |
+| Year 5 net cash flow | 9,400,000 GEL ($3.5M) | 17,200,000 GEL ($6.4M) | 20,800,000 GEL ($7.7M) |
+| Cumulative cash flow (Year 5, after initial investment) | 23,100,000 GEL ($8.6M) | 47,350,000 GEL ($17.6M) | 68,100,000 GEL ($25.2M) |
+| **Payback period** | **27 months** | **19 months** | **14 months** |
+| **NPV (10% discount rate)** | **14,100,000 GEL ($5.2M)** | **31,500,000 GEL ($11.7M)** | **47,000,000 GEL ($17.4M)** |
+| **IRR** | **50%** | **85%** | **120%** |
+
+### Scenario Assumptions: Downside / Base Case / Upside
+
+| Assumption name | Downside | Base Case | Upside |
 |---|---|---|---|
-| Total investment (Year 0) | 8,400,000 GEL ($3.1M) | 8,400,000 GEL ($3.1M) | 8,400,000 GEL ($3.1M) |
-| Year 1 net cash flow | 6,300,000 GEL ($2.3M) | 10,500,000 GEL ($3.9M) | 14,700,000 GEL ($5.5M) |
-| Year 2 net cash flow | 12,600,000 GEL ($4.7M) | 20,000,000 GEL ($7.4M) | 28,000,000 GEL ($10.4M) |
-| Year 3 net cash flow | 18,900,000 GEL ($7.0M) | 28,000,000 GEL ($10.4M) | 39,200,000 GEL ($14.5M) |
-| Year 4 net cash flow | 22,050,000 GEL ($8.2M) | 35,000,000 GEL ($13.0M) | 49,000,000 GEL ($18.2M) |
-| Year 5 net cash flow | 25,200,000 GEL ($9.3M) | 42,700,000 GEL ($15.8M) | 59,800,000 GEL ($22.2M) |
-| Cumulative cash flow (Year 5) | 76,050,000 GEL ($28.2M) | 125,800,000 GEL ($46.6M) | 188,100,000 GEL ($69.7M) |
-| **Payback period** | **16 months** | **10 months** | **7 months** |
-| **NPV (10% discount rate)** | **52,000,000 GEL ($19.3M)** | **89,000,000 GEL ($33.0M)** | **135,000,000 GEL ($50.0M)** |
-| **IRR** | **78%** | **142%** | **198%** |
+| Relative model uplift vs current scorecard (Gini improvement) | 10% | 18% | 28% |
+| Reduction in annual write-offs / charge-offs on in-scope retail + MSME portfolio | 3% | 6% | 9% |
+| Cure-rate uplift on early-stage delinquency (30–89 DPD equivalent) | 8% | 12% | 18% |
+| Digital self-service migration from assisted collections contacts | 15% | 25% | 35% |
+| Productivity gain in collections operations | 15% | 25% | 35% |
+| Benefit realization ramp | 25% / 45% / 65% / 80% / 90% | 35% / 60% / 80% / 90% / 100% | 45% / 75% / 90% / 100% / 100% |
+| Recurring annual run cost | 1.9M–2.3M GEL | 1.8M–2.2M GEL | 1.8M–2.2M GEL |
 
-### Key Differentiating Assumption Between Scenarios
-
-- **Assumption name:** Early warning model accuracy (predictive power measured by Gini coefficient improvement)
-- **Downside value:** 15% relative Gini uplift over current logistic regression (conservative, limited data integration)
-- **Base case value:** 25% relative Gini uplift (standard ML implementation with full transaction data)
-- **Upside value:** 35% relative Gini uplift (advanced ensemble models with external data sources)
+**Why these scenario assumptions make more sense:** the original model made scenario differentiation too dependent on one "Gini uplift" number. In practice, realized ROI also depends on adoption, workflow redesign, digital migration, and the speed of benefit ramp. The base-case **18% Gini uplift** is deliberately below the roughly **22% relative Gini uplift** implied by the retail early-warning academic paper's AUC comparison, while the upside only assumes 28%, not 35%. [^10^]
 
 ---
 
@@ -72,12 +87,12 @@ This document presents the financial case for implementing predictive early warn
 
 | ID | Assumption | Basis | Year 1 Impact if Assumption Changes by 20% |
 |---|---|---|---|
-| A1 | NPL reduction of 20% through early intervention | [^94^] Industry benchmark: AI-driven collections reduce NPLs by up to 20%; TBC loan book ~3.5B GEL; 0.5% improvement = 17.5M GEL annual preservation | NPV decreases by 12M GEL if only 16% reduction achieved |
-| A2 | Cure rate improvement of 25% on early-stage delinquencies | [^107^] Debtrak benchmark: 15-25% improvement in recovery rates with predictive analytics; TBC early-stage delinquency volume ~280M GEL | Revenue impact drops by 2.8M GEL if only 20% improvement |
-| A3 | Customer retention value: preventing 15% churn in at-risk accounts | [^97^] Behavioral Signals case study: 20.1% increase in recovery with personalized routing; estimated CLV of retained customer = 350 GEL | Retention value decreases by 1.4M GEL if only 12% prevented |
-| A4 | Collections staff productivity gain of 30% | [^107^] Debtrak: 30-40% agent productivity improvement with AI-powered tools; TBC collections team ~150 FTEs at 45K GEL average cost | Savings reduced by 1.1M GEL if only 24% productivity gain |
-| A5 | Call center automation of 40% routine inquiries | [^102^] FICO: Right-party contact rates rarely exceed 8-10% traditionally; AI improves to 25-30%; cost per contact reduced 60% | Savings reduced by 560K GEL if only 32% automated |
-| A6 | Compliance cost reduction of 20% through automated audit trails | [^110^] CR Software: AI maintains detailed logs, reduces compliance risks; NBG regulatory scrutiny increasing | Savings reduced by 280K GEL if only 16% reduction |
+| A1 | **6% reduction in annual write-offs / charge-offs at steady state** through earlier intervention and better prioritization | TBC reported **GEL 154.2M write-offs** in 2024. McKinsey cites **5–15%** charge-off reduction from next-gen value-at-risk assessment and an **8% reduction in charge-off losses** at a North American lender. Base case uses the lower half of that range. [^1^] [^2^] | Year 1 benefit decreases by **~560K GEL** if only **4.8%** is achieved |
+| A2 | **12% cure-rate improvement** on early-stage delinquency via digital-first contact, propensity-to-pay scoring, and self-service | McKinsey finds digitally contacted digital-first customers make **12% more payments**; another bank achieved **15% more customers cured through self-service**. FICO notes early-stage accounts behave differently and many cure quickly, which is exactly where ML segmentation helps. [^3^] [^4^] [^7^] | Year 1 benefit decreases by **~240K GEL** if only **9.6%** is achieved |
+| A3 | **Customer retention value of 300 GEL per saved relationship** | TBC generated **GEL 1.245B net profit** and had **1.701M monthly active customers**, implying profit per active customer well above this proxy; 300 GEL is conservative for preserved relationship value. McKinsey also cites **25%+ engagement uplift** in digital-first collections environments. [^1^] [^4^] | Year 1 value decreases by **~120K GEL** if retention value is only **240 GEL** |
+| A4 | **25% productivity gain** across collections operations and assisted servicing | TBC's staff cost was **GEL 439.8M** across **9,149 employees**, or roughly **48K GEL per employee**. McKinsey cites **5–10% collector-capacity uplift** from better self-cure identification, while Debtrak and CR cite much larger manual-work reductions; 25% is a midpoint, not a top-end claim. [^1^] [^2^] [^8^] [^9^] | Year 1 savings decrease by **~120K GEL** if productivity gain is only **20%** |
+| A5 | **25% assisted-to-digital migration** of routine collections interactions | McKinsey cites one bank moving **40% of inbound clients** to self-service and another achieving **15% lower cost to collect**. FICO notes traditional right-party-contact rates via phone rarely exceed **8–10%**, supporting a digital-first shift. [^4^] [^6^] | Year 1 savings decrease by **~60K GEL** if migration reaches only **20%** |
+| A6 | **15% reduction in compliance / legal cost** through audit trails, frequency controls, and more consistent treatment | Debtrak says modern platforms can reduce complaints by **30–40%**, and McKinsey highlights lower conduct risk; base case assumes only half that order of magnitude for direct financial benefit. [^8^] [^4^] | Year 1 savings decrease by **~40K GEL** if only **12%** reduction is achieved |
 
 ---
 
@@ -87,54 +102,53 @@ This document presents the financial case for implementing predictive early warn
 
 | Term | Definition | Context |
 |---|---|---|
-| **GEL** | Georgian Lari (national currency) | Primary currency for all TBC Bank operations |
-| **M** | Million | e.g., 14M GEL = 14,000,000 GEL |
-| **K** | Thousand | e.g., 350K = 350,000 |
-| **NPV** | Net Present Value | Sum of discounted future cash flows minus initial investment; positive NPV indicates value-creating investment |
-| **IRR** | Internal Rate of Return | Annualized rate of return that makes NPV equal zero; 142% IRR means investment returns 142% annually |
-| **Payback Period** | Time to recover initial investment | 10 months = investment fully recovered by month 10 |
+| **GEL** | Georgian Lari (national currency) | Primary currency for TBC Bank operations |
+| **M** | Million | e.g., 4.6M GEL = 4,600,000 GEL |
+| **K** | Thousand | e.g., 220K = 220,000 |
+| **NPV** | Net Present Value | Sum of discounted future cash flows minus initial investment |
+| **IRR** | Internal Rate of Return | Discount rate that makes NPV equal zero |
+| **Payback Period** | Time to recover initial investment | Base case revised to 19 months |
 
 ### Banking and Credit Terms
 
 | Term | Definition | Context |
 |---|---|---|
-| **NPL** | Non-Performing Loan | Loan where borrower has stopped making payments for 90+ days (90 DPD) |
-| **DPD** | Days Past Due | Number of days since payment deadline missed (e.g., 30 DPD, 90 DPD) |
-| **Roll-rate** | Migration rate between delinquency buckets | Percentage of 30 DPD accounts that become 90 DPD |
-| **Cure Rate** | Percentage of delinquent accounts brought current | Accounts that resume regular payments after delinquency |
-| **NPL Ratio** | Non-performing loans / Total loans | Key banking metric; TBC typically manages this through provisions |
-| **Provision** | Money set aside for expected loan losses | Regulatory requirement based on expected credit losses |
+| **NPL** | Non-Performing Loan | Loan generally 90+ days past due |
+| **DPD** | Days Past Due | Number of missed days since due date |
+| **Roll-rate** | Migration between delinquency buckets | Example: 30 DPD to 60/90 DPD |
+| **Cure Rate** | Share of delinquent accounts brought current | Core value driver in early collections |
+| **Cost of Risk** | Credit impairment expense relative to loans | TBC reported 0.5% in 2024 |
+| **Provision** | Reserve for expected credit losses | Regulatory / accounting loss recognition |
 
 ### AI/ML Terms
 
 | Term | Definition | Context |
 |---|---|---|
-| **Gini Coefficient** | Measure of predictive model discrimination | Higher Gini = better model at distinguishing good/bad borrowers; 25% uplift means model is 25% better than current method |
-| **Prediction** | AI capability: forecasting future outcomes | e.g., probability of default, optimal contact time |
-| **Synthesis** | AI capability: combining disparate data sources | e.g., merging transaction patterns with behavioral data |
-| **Agent Workflow** | AI capability: automated decision and action chains | e.g., triggering escalations, routing to specific collectors |
-| **Propensity-to-Pay** | ML model predicting likelihood of repayment | Score from 0-100% used to prioritize collection efforts |
-| **Early Warning** | Predictive system flagging at-risk accounts before delinquency | 45-60 days before traditional 30 DPD markers |
+| **Gini Coefficient** | Measure of model discrimination | Higher Gini = better ability to separate higher-risk from lower-risk borrowers |
+| **Early Warning** | Detection of financial stress before hard delinquency | Uses transaction, behavioral, and servicing signals |
+| **Propensity-to-Pay** | Probability a customer will pay if contacted now | Used for sequencing and treatment selection |
+| **Agent Workflow** | Automated decision and action chain | Determines who to contact, when, and how |
+| **Digital-first collections** | Outreach through app, SMS, email, portal before heavy agent effort | Important for cost-to-collect reduction |
 
 ### Operational Terms
 
 | Term | Definition | Context |
 |---|---|---|
-| **FTE** | Full-Time Equivalent | One full-time employee; 150 FTEs = 150 full-time staff |
-| **CLV** | Customer Lifetime Value | Total revenue expected from customer over relationship lifetime |
-| **Cost-to-Collect** | Total collection costs / Amount recovered | Industry benchmark: 15% traditional, 3-5% with AI |
-| **Right-Party Contact (RPC)** | Successfully reaching the actual debtor | AI improves RPC rates from 8-10% to 25-30% |
-| **First-Party Collections** | Bank's internal collection efforts | Before selling debt to third-party agencies |
-| **Third-Party Collections** | External debt collection agencies | Typically used for 180+ DPD accounts |
+| **FTE** | Full-Time Equivalent | One full-time employee |
+| **CLV** | Customer Lifetime Value | Proxy for retained-relationship economics |
+| **Cost-to-Collect** | Collection cost / amount recovered | Reduced through self-service and better prioritization |
+| **Right-Party Contact (RPC)** | Reaching the actual debtor | Traditional phone RPC is often only 8–10% |
+| **First-Party Collections** | Bank's internal collections activity | Main scope of this model |
+| **Third-Party Collections** | External debt collectors / agencies | Usually later-stage accounts |
 
 ### Scenario Planning Terms
 
 | Term | Definition | Context |
 |---|---|---|
-| **Base Case** | Most likely scenario (25% Gini uplift) | Used for primary financial planning |
-| **Downside** | Conservative scenario (15% Gini uplift) | Stress testing with limited data integration |
-| **Upside** | Optimistic scenario (35% Gini uplift) | Best-case with advanced ensemble models |
-| **Sensitivity Analysis** | Testing how 20% assumption changes affect outcomes | Shows robustness of investment case |
+| **Base Case** | Most likely scenario | Moderate uplift, normal ramp, recurring run cost included |
+| **Downside** | Conservative scenario | Lower model lift, weaker adoption, slower ramp |
+| **Upside** | Optimistic but still credible scenario | Stronger model lift and adoption, faster ramp |
+| **Sensitivity Analysis** | Testing the outcome if assumptions move | Shows robustness of the case |
 
 ---
 
@@ -142,48 +156,73 @@ This document presents the financial case for implementing predictive early warn
 
 ### How Value is Created
 
-**Step 1: Prediction** identifies at-risk loans 45-60 days before traditional 30-day delinquency markers using transaction pattern analysis (synthesis of telco, utility, and behavioral data) [^94^][^105^].
+**Step 1: Prediction** identifies at-risk retail and MSME borrowers before they migrate deeper into delinquency. This is supported by both bank-industry practice and academic evidence that machine-learning early-warning models outperform simpler regression approaches. [^10^] [^5^]
 
-**Step 2: Automated workflows** trigger personalized outreach at optimal contact times (propensity-to-pay scoring), reducing roll-rates from 30 DPD to 90 DPD by 35-40% [^94^][^107^].
+**Step 2: Automated workflows** use those predictions to choose the right treatment, sequence, and channel. McKinsey shows that digitally contacted digital-first customers make **12% more payments**, and FICO highlights the weakness of legacy phone-only outreach where right-party-contact rates often stay around **8–10%**. [^3^] [^6^]
 
-**Step 3:** Early intervention preserves portfolio value (17.5M GEL annually for 3.5B GEL book) while reducing manual collection costs by 60-70% through automation [^94^][^107^].
+**Step 3: Earlier and more targeted intervention** reduces charge-offs, improves cures, shifts low-complexity work into self-service, and lowers cost-to-collect. McKinsey cites **5–15% charge-off reduction**, **15%+ lower cost of collections**, and **20–25% NPL reduction** at leading institutions that redesigned collections end-to-end; this model uses materially more conservative values because TBC already starts from relatively strong asset quality. [^2^] [^4^] [^1^]
 
 ### Order of Magnitude
 
-For TBC Bank's ~3.5B GEL retail and SME loan book:
-- **Portfolio protection:** Preventing 0.5% deterioration = 17.5M GEL annual value preservation
-- **Cost reduction:** Reducing cost-to-collect from 15% to 3% on ~280M GEL early-stage delinquency volume [^107^]
-- **Combined impact:** 18.9M GEL Year 1 benefit vs. 8.4M GEL investment = 2.25x return in Year 1
+For TBC Bank's in-scope **retail + MSME** book of approximately **14.65B GEL**, the more relevant anchors are not generic "20% NPL reduction" marketing claims, but TBC's actual **GEL 154.2M write-offs**, **GEL 56.8M recoveries**, **2.2% NPL ratio**, and **0.5% cost of risk**. On that base, a **6% write-off / charge-off improvement** implies about **9M GEL** of mature annual value, which is directionally sensible. [^1^]
+
+Adding cure-rate improvement and operating savings brings the **Year 5 gross annual benefit to 19.4M GEL**, against **8.5M GEL upfront investment** plus recurring run costs of roughly **1.8M–2.2M GEL per year**. That is why the revised base case still works financially, but with a more credible **19-month payback** rather than 10 months. [^4^] [^5^] [^11^]
 
 ---
 
 ## References
 
-[^94^]: ezee.ai - Bad Debt Recovery for Banks: Reducing NPAs with Data-Driven Collections  
-Source: https://ezee.ai/knowledge-base/credit-risk-insights/bad-debt-recovery-for-banks-reducing-npas-with-data-driven-collections
+[^1^]: **[TBC Bank 2024 Management Report and Financial Statements](https://assets.eu.ctfassets.net/psnuheg7hu1m/2CNySE47pbIu0GW6W0RsDk/07682ce95dd707fa80c9e7a7a85d4529/jsc-tbc-bank-management-report-and-financial-statements-2024.pdf)**  
+Gross loans, retail/MSME exposures, NPL ratio, cost of risk, staff cost, employees, write-offs, recoveries.
 
-[^97^]: Behavioral Signals - Redefining Bank's Revenues Through its Call Center  
-Source: https://behavioralsignals.com/case-studies/collections-case-study-redefining-banks-revenues-through-its-call-center/
+[^2^]: **[McKinsey – The analytics-enabled collections model](https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/the-analytics-enabled-collections-model)**  
+Savings, charge-off reduction, collector-capacity uplift, automation examples.
 
-[^101^]: DDTalks - AI for NPL Management  
-Source: https://ddtalks.com/how-ai-can-help-financial-institutions-manage-non-performing-loans-npl/
+[^3^]: **[McKinsey – Going digital in collections to improve resilience against credit losses](https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Risk/Our%20Insights/Going%20digital%20in%20collections%20to%20improve%20resilience%20against%20credit%20losses/Going-digital-in-collections-to-improve-resilience-against-credit-losses.ashx)**  
+12% payment uplift for digital-first customers, stronger full-payment rates via digital channels.
 
-[^102^]: FICO - Using AI to Improve Debt Collection Strategies  
-Source: https://www.fico.com/blogs/using-ai-to-improve-debt-collection-strategies/
+[^4^]: **[McKinsey – Holistic customer assistance through digital-first collections](https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/holistic-customer-assistance-through-digital-first-collections)**  
+20–25% NPL reduction at leading institutions, 15%+ lower cost of collections, 20% cash-collections uplift, self-service cures.
 
-[^105^]: MIT Sloan - Consumer Credit Risk Models via Machine-Learning Algorithms  
-Source: https://mitsloan.mit.edu/shared/ods/documents?DocumentID=4174
+[^5^]: **[EY – AI-enabled early warning signals framework](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-ca/services/ai/documents/ey-ai-enabled-early-warning-signal.pdf)**  
+First-year benefit ranges and potential annual loss reduction for AI-enabled early warning.
 
-[^107^]: Debtrak - ROI of Modern Debt Collection Platforms  
-Source: https://www.debtrak.com/roi-of-modern-debt-collection-platforms/
+[^6^]: **[FICO – Using AI to Improve Debt Collection Strategies](https://www.fico.com/blogs/using-ai-improve-debt-collection-strategies)**  
+Traditional RPC rates, omnichannel rationale, role of AI in digital collections.
 
-[^110^]: CR Software - How does AI improve debt collection efficiency?  
-Source: https://www.crsoftware.com/blog/how-does-ai-improve-debt-collection-efficiency/
+[^7^]: **[FICO – Debt Collection Predictive Analytics: Benefits, Types and Uses](https://www.fico.com/blogs/debt-collection-predictive-analytics-benefits-types-and-uses)**  
+Early cure behavior and the value of predictive segmentation.
 
-[^111^]: McKinsey & Company - JPMorgan Chase's Derek Waldron on AI and banking  
-Source: https://www.mckinsey.com/capabilities/quantumblack/our-insights/gen-ai-and-banking-the-jpmorgan-chase-view
+[^8^]: **[Debtrak – Top Challenges in Debt Collection Today and How Technology Can Solve Them](https://debtrak.com/blog/top-challenges-debt-collection-technology)**  
+15–25% better recoveries, 30–40% complaint reduction, manual-work reduction.
+
+[^9^]: **[C&R Software – How does AI improve debt collection efficiency?](https://blog.crsoftware.com/how-does-ai-improve-debt-collection-efficiency)**  
+Operational automation and time-saving benchmarks.
+
+[^10^]: **[ScienceDirect – Predicting retail customers' distress in the finance industry: An early warning system](https://www.sciencedirect.com/science/article/pii/S0969698924003977)**  
+AUC benchmark for ML-based retail early-warning systems versus simpler regression models.
+
+[^11^]: **[CostPerform – Uncover the Hidden Costs of AI: A Bank's Journey](https://www.costperform.com/uncover-the-hidden-costs-of-ai-a-banks-journey/)**  
+Useful for recurring AI run-cost logic: cloud, experimentation, compliance, and monitoring costs.
 
 ---
 
+## Quality Check Verification
+
+- [x] Every number has a source or assumption label (A1-A6)
+- [x] Three differentiated scenarios (Downside/Base/Upside)
+- [x] Contingency line present (20% = 1.4M GEL)
+- [x] Change management cost category present and non-zero (16% of total)
+- [x] Recurring run costs explicitly modeled and deducted
+- [x] TBC-specific 2024 metrics used (25.0B GEL gross loans, 14.65B GEL retail+MSME, 2.2% NPL, 0.5% cost of risk)
+- [x] Defensible under Q&A with industry benchmarks
+
+---
+
+## File Information
+
+**Filename:** `roi_model_tbc_collections_ai.md`  
+**Version:** 2.0 (Revised per feedback)  
+**Date:** 2026-04-05  
 **Prepared for:** TBC Bank Strategic Planning  
 **Classification:** Internal Use - Strategic Planning
