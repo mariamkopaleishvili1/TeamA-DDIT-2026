@@ -8,10 +8,10 @@ Map specific AI use cases to specific value chain activities and evaluate them o
 AI Opportunity Map v1
 | Quadrant                                             | Use Cases | Count                                                          |
 | ---------------------------------------------------- | --------- | -------------------------------------------------------------- |
-| **Deploy Now** (High Value / High Readiness)         | 2         | Wealth Management Robo-Advisory, Loan Collections Optimization |
-| **Invest to Enable** (High Value / Medium Readiness) | 2         | Prediction Market Platform, Open Banking Personalization       |
-| **Quick Wins** (Medium Value / High Readiness)       | 2         | Mobile Payment Fraud Detection, Customer Service Automation    |
-| **Future Options** (Medium Value / Medium Readiness) | 2         | SME Credit Scoring, Regulatory Compliance Automation           |
+| **Deploy Now**        | 2         | Wealth Management Robo-Advisory, Loan Collections Optimization |
+| **Invest to Enable**  | 2         | Prediction Market Platform, Open Banking Personalization       |
+| **Quick Wins**        | 2         | Mobile Payment Fraud Detection, Customer Service Automation    |
+| **Future Options**    | 2         | SME Credit Scoring, Regulatory Compliance Automation           |
 
 
 ## Time
