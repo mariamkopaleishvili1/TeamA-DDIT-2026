@@ -22,7 +22,7 @@ AI Opportunity Map v1
 
 ##
 Value Chain Activities & AI Use Cases
-1.Customer Acquisition & Onboarding
+1. Customer Acquisition & Onboarding
 Automated KYC & Identity Verification
 Capability: Synthesis (document extraction) + Prediction (fraud scoring)
 Value: High Readiness: High
