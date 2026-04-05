@@ -49,12 +49,18 @@ AI-first operating model experiments, new market creation. Low probability, high
 ---
 
 ## Funding logic
-
-How does H1 fund H2? How does H2 enable H3?
-
-- H1 generates:
-- H1 ROI funds:
-- H2 enables:
+How H1 Funds H2
+H1 generates: GEL 22.5M annual run-rate value by Month 12
+GEL 18M from T-Bot contact center efficiency (H1-1)
+GEL 4.25M from microloan automation (H1-2)
+GEL 0.25M from fraud reduction (H1-3)
+H1 ROI funds: GEL 8.5M H1 investment recovered in 4.5 months; remaining GEL 14M annual savings funds 87% of H2 capital requirement (GEL 16M) over 24-month build phase
+How H2 Enables H3
+H2 enables:
+Technical foundation: H2-3 open banking APIs provide data infrastructure for H3-1 ecosystem marketplace and H3-2 synthetic data generation
+Risk validation: H2-1 collateral AI proves regulatory acceptance of automated valuation, clearing path for H3-1 autonomous credit decisions
+Customer trust: H2-2 document intelligence establishes TBC Capital as AI-native corporate bank, creating brand permission for H3-1 consumer autonomy
+Capital formation: H2 initiatives generate GEL 11M annual fees (trade finance GEL 3M + mortgage acceleration GEL 8M) to self-fund H3 without diluting core banking P&L
 
 ---
 
@@ -62,9 +68,13 @@ How does H1 fund H2? How does H2 enable H3?
 
 Before finalizing:
 - Is there at least one initiative per horizon?
+- yes, 3 in H1, 3 in H2, 2 in H3
 - Is the sequencing logical: does H2 depend on H1 outputs?
+- yes, H2-1 requires H1-2 alternative data proof; H2-2 requires H1-1 agent architecture; H2-3 requires H1 customer trust metrics.
 - Is the funding logic explicit?
+- yes, H1 generates GEL 22.5M annually funding 87% of H2; H2 generates GEL 11M fees funding H3
 - Do H1 initiatives match your AI Opportunity Map Deploy Now quadrant?
+- yes, H1-1 = T-Bot agent; H1-2 = Microloan expansion; H1-3 = Fraud interception (all from Deploy Now)
 
 ## Deliverable
 
