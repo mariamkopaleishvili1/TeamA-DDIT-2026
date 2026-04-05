@@ -242,24 +242,3 @@ The **base case 19-month payback** reflects:
 | **Propensity-to-Pay** | ML score predicting payment likelihood |
 
 ---
-
-## Quality Check Verification
-
-- [x] Every number has source with inline citation format
-- [x] Three differentiated scenarios with multi-dimensional assumptions
-- [x] Contingency line present (20% = 1.4M GEL)
-- [x] Change management cost category non-zero (16%)
-- [x] Recurring run costs explicitly deducted in net cash flow ([CostPerform](https://www.costperform.com/uncover-the-hidden-costs-of-ai-a-banks-journey/))
-- [x] TBC-specific 2024 metrics used throughout ([TBC Bank 2024 Management Report](https://assets.eu.ctfassets.net/psnuheg7hu1m/2CNySE47pbIu0GW6W0RsDk/07682ce95dd707fa80c9e7a7a85d4529/jsc-tbc-bank-management-report-and-financial-statements-2024.pdf))
-- [x] Conservative assumptions relative to industry benchmarks ([McKinsey](https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/the-analytics-enabled-collections-model)) ([Debtrak](https://debtrak.com/blog/top-challenges-debt-collection-technology)) ([FICO](https://www.fico.com/blogs/using-ai-improve-debt-collection-strategies))
-- [x] Detailed calculation methodology provided
-
----
-
-## File Information
-
-**Filename:** `roi_model_tbc_collections_ai.md`  
-**Version:** Final  
-**Date:** 2026-04-05  
-**Prepared for:** TBC Bank Strategic Planning  
-**Classification:** Internal Use - Strategic Planning
