@@ -16,7 +16,7 @@ Positions the platform as a financial derivative tool for macroeconomic and civi
 
 ### Financial logic 
 
-Value creation stems from bid-ask spreads (2-4% take rate) and interest income on idle balances (3.75-4% APY following Kalshi's model) [[3]](https://www.kalshi.com/). The key financial assumption is achieving 1,000 active users with GEL 200 average monthly volume within 4 months of full launch, generating $100,000 monthly revenue at 2% take rate. ROI depends on maintaining customer acquisition costs below $15 per user through DFS-style referral programs and podcast sponsorships [[4]](https://www.bloomberg.com/news/articles/2025-10-28/draftkings-and-fanduel-face-new-challengers-in-daily-fantasy-sports). Requires GEL 2-3 million seed capital for sandbox compliance, technology development, and initial liquidity provision, with break-even projected at month 18 assuming 60% quarter-over-quarter user growth.
+Value creation stems from bid-ask spreads (2-4% take rate) and interest income on idle balances (3.75-4% APY following Kalshi's model) [[3]](https://www.kalshi.com/). The key financial assumption is achieving 1,000 active users with GEL 200 average monthly volume within 4 months of full launch, generating GEL 20 000 monthly revenue at 2% take rate. ROI depends on maintaining customer acquisition costs below $15 per user through DFS-style referral programs and podcast sponsorships [[4]](https://www.bloomberg.com/news/articles/2025-10-28/draftkings-and-fanduel-face-new-challengers-in-daily-fantasy-sports). Requires GEL 2-3 million seed capital for sandbox compliance, technology development, and initial liquidity provision, with break-even projected at month 18 assuming 60% quarter-over-quarter user growth.
 
 ### Risk assessment
 
