@@ -15,6 +15,8 @@ Every organisation undergoing transformation must manage three portfolios simult
 | H2: Nurture and Build | 12 to 36 months | Develop emerging opportunities; build platform and data capabilities | AI-enabled new services, platform pilots, data infrastructure. Requires capital before ROI. |
 | H3: Create and Options | 36 months+ | Create viable options on future scenarios; experiment with disruptive models | AI-first operating model experiments. Low probability, high upside. |
 
+### H1: Defend and Extend
+
 ### 
 
 #### H1.1: Loan A/R Collections Optimization
