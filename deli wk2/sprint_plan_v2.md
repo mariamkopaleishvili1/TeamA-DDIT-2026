@@ -46,11 +46,11 @@ Minimum two meetings per week for Weeks 1 to 4. Minimum three meetings per week 
 
 | # | Date | Time | Agenda | Deliverable |
 |---|---|---|---|---|
-| 1 |  |  | Sprint planning and section kickoff |  |
-| 2 |  |  | Research findings review |  |
-| 3 |  |  | Sections 2, 3, 4 first draft review |  |
-| 4 |  |  | Sections 5, 6 first draft review |  |
-| 5 |  |  | Full deck assembly and logic check |  |
+| 1 |April 6  | 19:00 | Sprint planning and section kickoff |  |
+| 2 | April 6 | 19:00 | Research findings review |  |
+| 3 | April 6 | 19:00 | Sections 2, 3, 4 first draft review |  |
+| 4 | April 6 |19:00  | Sections 5, 6 first draft review |  |
+| 5 | April 6 | 19:00 | Full deck assembly and logic check |  |
 | 6 |  |  | ROI model review and challenge |  |
 | 7 |  |  | Sections 7, 8 draft review |  |
 | 8 |  |  | Full deck second review |  |
