@@ -1,5 +1,3 @@
-# Strategic Options Analysis Template
-
 ## Purpose
 
 Evaluate three structurally distinct strategic options using a consistent criteria framework and produce a defended recommendation.
@@ -91,47 +89,48 @@ If NBG explicitly refuses to classify event contracts as financial instruments d
 
 ## References
 
-[1] Gaming Intelligence. "Georgia tightens gambling regulations further." July 2024.
+[1] Gaming Intelligence. "Georgia tightens gambling regulations further." July 2024. <https://www.gamingintelligence.com/regulation/georgia-tightens-gambling-regulations-further/>
 
-[2] National Bank of Georgia. "Financial Innovation Office." 2025.
+[2] National Bank of Georgia. "Financial Innovation Office." 2025. <https://www.nbg.gov.ge/en/pages/financial-innovation-office>
 
-[3] Kalshi. Platform documentation and fee structure. 2025.
+[3] Kalshi. Platform documentation and fee structure. 2025. <https://www.kalshi.com/>
 
-[4] Bloomberg. "DraftKings and FanDuel face new challengers in daily fantasy sports." October 2025.
+[4] Bloomberg. "DraftKings and FanDuel face new challengers in daily fantasy sports." October 2025. <https://www.bloomberg.com/news/articles/2025-10-28/draftkings-and-fanduel-face-new-challengers-in-daily-fantasy-sports>
 
-[5] GFSIS. "Georgia's cryptocurrency regulation landscape." 2024.
+[5] GFSIS. "Georgia's cryptocurrency regulation landscape." 2024. <https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape>
 
-[6] CoinTelegraph. "Georgia crypto regulation VASP registration." 2023.
+[6] CoinTelegraph. "Georgia crypto regulation VASP registration." 2023. <https://cointelegraph.com/news/georgia-crypto-regulation-vasp-registration>
 
-[7] Guru99. "Polymarket review." 2025.
+[7] Guru99. "Polymarket review." 2025. <https://www.guru99.com/polymarket-review.html>
 
-[8] World Bank. "Financial Inclusion National Survey 2022: Georgia."
+[8] World Bank. "Financial Inclusion National Survey 2022: Georgia." <https://www.worldbank.org/en/country/georgia/publication/financial-inclusion-national-survey-2022>
 
-[9] GFSIS. "Georgia's cryptocurrency regulation landscape." 2024.
+[9] GFSIS. "Georgia's cryptocurrency regulation landscape." 2024. <https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape>
 
-[10] Georgian Stock Exchange. "2024 Annual Report."
+[10] Georgian Stock Exchange. "2024 Annual Report." <https://gse.ge/Uploads/2024%20Annual%20Report.pdf>
 
-[11] National Bank of Georgia. "Financial Literacy Survey 2024." 2025.
+[11] National Bank of Georgia. "Financial Literacy Survey 2024." 2025. <https://www.nbg.gov.ge/uploads/pressreleases/2025/Financial_Literacy_Survey_2024.pdf>
 
-[12] National Bank of Georgia. "Amendments to the Law on Operating of the Virtual Assets." 2025.
+[12] National Bank of Georgia. "Amendments to the Law on Operating of the Virtual Assets." 2025. <https://www.nbg.gov.ge/uploads/pressreleases/2025/Amendments_to_the_Law_on_Operating_of_the_Virtual_Assets.pdf>
 
-[13] National Statistics Office of Georgia. "ICT Usage in Households and by Individuals 2023."
+[13] National Statistics Office of Georgia. "ICT Usage in Households and by Individuals 2023." <https://www.geostat.ge/media/uploads/files/economy/ICT%20Usage%20in%20Households%20and%20by%20Individuals%202023.pdf>
 
-[14] The Block. "Kalshi raises $50 million at $2 billion valuation." November 2025.
+[14] The Block. "Kalshi raises $50 million at $2 billion valuation." November 2025. <https://www.theblock.co/post/331953/kalshi-raises-50-million-at-20-billion-valuation>
 
-[15] Bloomberg. "Kalshi raises $50 million at $2 billion valuation." November 2025.
+[15] Bloomberg. "Kalshi raises $50 million at $2 billion valuation." November 2025. <https://www.bloomberg.com/news/articles/2025-11-14/kalshi-raises-50-million-at-20-billion-valuation>
 
-[16] TBC Bank. "TBC Capital individual brokerage services." 2024.
+[16] TBC Bank. "TBC Capital individual brokerage services." 2024. <https://www.tbcbank.ge/en/corporate/tbc-capital/tbc-capital-individuals>
 
-[17] Galt & Taggart. "Wealth management brokerage." 2024.
+[17] Galt & Taggart. "Wealth management brokerage." 2024. <https://www.galtandtaggart.com/ge/wealth-management/brokerage>
 
 [18] Strategic Analysis: Georgian Prediction Market Platform Launch. "Part 8. Strategic Implications." March 2026.
 
-[19] GFSIS. "Georgia's cryptocurrency regulation landscape." 2024.
+[19] GFSIS. "Georgia's cryptocurrency regulation landscape." 2024. <https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape>
 
-[20] CoinDesk. "Polymarket crypto prediction market hits $1B in monthly volume for first time." November 2024.
+[20] CoinDesk. "Polymarket crypto prediction market hits $1B in monthly volume for first time." November 2024. <https://www.coindesk.com/markets/2024/11/12/polymarket-crypto-prediction-market-hits-1b-in-monthly-volume-for-first-time/>
 
-[21] Legal Sports Report. "Georgia sports betting and DFS." 2025.
+[21] Legal Sports Report. "Georgia sports betting and DFS." 2025. <https://www.legalsportsreport.com/georgia-sports-betting/>
+
 ## Quality check
 
 Before finalizing:
@@ -139,8 +138,3 @@ Before finalizing:
 - Does every justification cell reference evidence from your competitive landscape or AI opportunity map?
 - Is the recommendation paragraph written Pyramid Principle style: conclusion first, evidence second?
 - Is the condition specific enough that you could actually observe it?
-
-## Deliverable
-
-Save in your team folder as:
-`strategic_options_analysis_v1.md`
