@@ -29,10 +29,10 @@ Minimum two meetings per week for Weeks 1 to 4. Minimum three meetings per week 
 
 | # | Section | Primary owner | Reviewer | Draft due |
 |---|---|---|---|---|
-| 1 | Executive summary | Gega Mukhigulashvili |  | May 18 |
+| 1 | Executive summary | Gega Mukhigulashvili | Everyone | May 18 |
 | 2 | Industry and competitive context |Gega Mukhigulashvili  | Mariam Kopaleishvili  | April 19 |
 | 3 | AI landscape and opportunity |Ani Ruseishvili  | Everyone | April 19 |
-| 4 | Platform dynamics | Mariam Kopaleishvili |  | April 19 |
+| 4 | Platform dynamics | Mariam Kopaleishvili | Ani Ruseishvili | April 19 |
 | 5 | Strategic options evaluation |Mariam Kopaleishvili  | Ani Ruseishvili | April 26 |
 | 6 | Business model detail |Everyone  | Everyone | April 26 |
 | 7 | Transformation roadmap | Ani Ruseishvili|  | May 3 |
