@@ -72,12 +72,12 @@ This document presents the financial case for implementing predictive early warn
 
 | ID | Assumption | Basis | Year 1 Impact if Assumption Changes by 20% |
 |---|---|---|---|
-| A1 | NPL reduction of 20% through early intervention | Industry benchmark: AI-driven collections reduce NPLs by up to 20%; TBC loan book ~3.5B GEL; 0.5% improvement = 17.5M GEL annual preservation | NPV decreases by 12M GEL if only 16% reduction achieved |
-| A2 | Cure rate improvement of 25% on early-stage delinquencies | Debtrak benchmark: 15-25% improvement in recovery rates with predictive analytics; TBC early-stage delinquency volume ~280M GEL | Revenue impact drops by 2.8M GEL if only 20% improvement |
-| A3 | Customer retention value: preventing 15% churn in at-risk accounts | Behavioral Signals case study: 20.1% increase in recovery with personalized routing; estimated CLV of retained customer = 350 GEL | Retention value decreases by 1.4M GEL if only 12% prevented |
-| A4 | Collections staff productivity gain of 30% | Debtrak: 30-40% agent productivity improvement with AI-powered tools; TBC collections team ~150 FTEs at 45K GEL average cost | Savings reduced by 1.1M GEL if only 24% productivity gain |
-| A5 | Call center automation of 40% routine inquiries | FICO: Right-party contact rates rarely exceed 8-10% traditionally; AI improves to 25-30%; cost per contact reduced 60% | Savings reduced by 560K GEL if only 32% automated |
-| A6 | Compliance cost reduction of 20% through automated audit trails | CR Software: AI maintains detailed logs, reduces compliance risks; NBG regulatory scrutiny increasing | Savings reduced by 280K GEL if only 16% reduction |
+| A1 | NPL reduction of 20% through early intervention | [^94^] Industry benchmark: AI-driven collections reduce NPLs by up to 20%; TBC loan book ~3.5B GEL; 0.5% improvement = 17.5M GEL annual preservation | NPV decreases by 12M GEL if only 16% reduction achieved |
+| A2 | Cure rate improvement of 25% on early-stage delinquencies | [^107^] Debtrak benchmark: 15-25% improvement in recovery rates with predictive analytics; TBC early-stage delinquency volume ~280M GEL | Revenue impact drops by 2.8M GEL if only 20% improvement |
+| A3 | Customer retention value: preventing 15% churn in at-risk accounts | [^97^] Behavioral Signals case study: 20.1% increase in recovery with personalized routing; estimated CLV of retained customer = 350 GEL | Retention value decreases by 1.4M GEL if only 12% prevented |
+| A4 | Collections staff productivity gain of 30% | [^107^] Debtrak: 30-40% agent productivity improvement with AI-powered tools; TBC collections team ~150 FTEs at 45K GEL average cost | Savings reduced by 1.1M GEL if only 24% productivity gain |
+| A5 | Call center automation of 40% routine inquiries | [^102^] FICO: Right-party contact rates rarely exceed 8-10% traditionally; AI improves to 25-30%; cost per contact reduced 60% | Savings reduced by 560K GEL if only 32% automated |
+| A6 | Compliance cost reduction of 20% through automated audit trails | [^110^] CR Software: AI maintains detailed logs, reduces compliance risks; NBG regulatory scrutiny increasing | Savings reduced by 280K GEL if only 16% reduction |
 
 ---
 
@@ -142,31 +142,46 @@ This document presents the financial case for implementing predictive early warn
 
 ### How Value is Created
 
-**Step 1: Prediction** identifies at-risk loans 45-60 days before traditional 30-day delinquency markers using transaction pattern analysis (synthesis of telco, utility, and behavioral data).
+**Step 1: Prediction** identifies at-risk loans 45-60 days before traditional 30-day delinquency markers using transaction pattern analysis (synthesis of telco, utility, and behavioral data) [^94^][^105^].
 
-**Step 2: Automated workflows** trigger personalized outreach at optimal contact times (propensity-to-pay scoring), reducing roll-rates from 30 DPD to 90 DPD by 35-40%.
+**Step 2: Automated workflows** trigger personalized outreach at optimal contact times (propensity-to-pay scoring), reducing roll-rates from 30 DPD to 90 DPD by 35-40% [^94^][^107^].
 
-**Step 3:** Early intervention preserves portfolio value (17.5M GEL annually for 3.5B GEL book) while reducing manual collection costs by 60-70% through automation.
+**Step 3:** Early intervention preserves portfolio value (17.5M GEL annually for 3.5B GEL book) while reducing manual collection costs by 60-70% through automation [^94^][^107^].
 
 ### Order of Magnitude
 
 For TBC Bank's ~3.5B GEL retail and SME loan book:
 - **Portfolio protection:** Preventing 0.5% deterioration = 17.5M GEL annual value preservation
-- **Cost reduction:** Reducing cost-to-collect from 15% to 3% on ~280M GEL early-stage delinquency volume
+- **Cost reduction:** Reducing cost-to-collect from 15% to 3% on ~280M GEL early-stage delinquency volume [^107^]
 - **Combined impact:** 18.9M GEL Year 1 benefit vs. 8.4M GEL investment = 2.25x return in Year 1
 
 ---
 
-## References and Benchmark Sources
+## References
 
-| Source | Finding | Citation |
-|---|---|---|
-| McKinsey Global Institute | AI in banking could generate $200-340B annual value | Global banking AI opportunity assessment |
-| Debtrak (Collections Software) | 15-25% improvement in recovery rates; 30-40% agent productivity gain | Modern debt collection platform ROI |
-| Behavioral Signals | 20.1% increase in recovery with AI-powered call routing | Banking call center case study |
-| MIT Sloan | Machine learning reduces credit losses by 6-25% | Consumer credit risk model research |
-| FICO | Traditional right-party contact rates 8-10%; AI improves to 25-30% | AI debt collection strategies |
-| CR Software | Automated compliance logging reduces regulatory risk | AI collections efficiency report |
+[^94^]: ezee.ai - Bad Debt Recovery for Banks: Reducing NPAs with Data-Driven Collections  
+Source: https://ezee.ai/knowledge-base/credit-risk-insights/bad-debt-recovery-for-banks-reducing-npas-with-data-driven-collections
+
+[^97^]: Behavioral Signals - Redefining Bank's Revenues Through its Call Center  
+Source: https://behavioralsignals.com/case-studies/collections-case-study-redefining-banks-revenues-through-its-call-center/
+
+[^101^]: DDTalks - AI for NPL Management  
+Source: https://ddtalks.com/how-ai-can-help-financial-institutions-manage-non-performing-loans-npl/
+
+[^102^]: FICO - Using AI to Improve Debt Collection Strategies  
+Source: https://www.fico.com/blogs/using-ai-to-improve-debt-collection-strategies/
+
+[^105^]: MIT Sloan - Consumer Credit Risk Models via Machine-Learning Algorithms  
+Source: https://mitsloan.mit.edu/shared/ods/documents?DocumentID=4174
+
+[^107^]: Debtrak - ROI of Modern Debt Collection Platforms  
+Source: https://www.debtrak.com/roi-of-modern-debt-collection-platforms/
+
+[^110^]: CR Software - How does AI improve debt collection efficiency?  
+Source: https://www.crsoftware.com/blog/how-does-ai-improve-debt-collection-efficiency/
+
+[^111^]: McKinsey & Company - JPMorgan Chase's Derek Waldron on AI and banking  
+Source: https://www.mckinsey.com/capabilities/quantumblack/our-insights/gen-ai-and-banking-the-jpmorgan-chase-view
 
 ---
 
