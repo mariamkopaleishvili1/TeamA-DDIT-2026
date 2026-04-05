@@ -8,10 +8,10 @@ A project without a clear problem statement drifts. This worksheet forces the te
 
 ## Part 1. Context
 
-- Industry:
-- Focal company or client:
-- Primary disruption force:
-- Why this matters now:
+- Industry: Georgian Fintech (Digital Payments, Investment Platforms, and Emerging Prediction Markets)
+- Focal company or client: Early-stage Georgian fintech venture seeking to launch a regulated prediction market platform
+- Primary disruption force: The global validation of event-based prediction markets as financial instruments (CFTC-regulated Kalshi/Polymarket processing $44B+ annually) meeting Georgia's underserved retail speculation demand and restrictive gambling framework that pushes users toward offshore or unregulated alternatives
+- Why this matters now: Georgia's NBG has established a regulatory sandbox framework actively accepting applications, the 2025 local elections demonstrated 40.93% voter engagement (indicating civic interest), GEL volatility (4.53% depreciation in 2024) creates hedging demand, and TBC Capital's recent launch of zero-commission $1 investing has raised the competitive bar for differentiation.
 
 ---
 
@@ -19,8 +19,19 @@ A project without a clear problem statement drifts. This worksheet forces the te
 
 Describe the client's current position.
 - Strengths:
+   - First-mover advantage in an undefined market category (no regulated prediction markets exist in Georgia as of March 2026)
+   - Favorable regulatory pathway via NBG Innovation Office sandbox (innovationoffice@nbg.gov.ge) with precedent from tokenized deposits sandbox (February 2025)
+   - NBG's authority to define new virtual asset services through normative acts provides regulatory flexibility
+   - High mobile commerce penetration (60%+) and intermediate financial literacy (54% high knowledge) create receptive user base
+   - Georgia's crypto-friendly tax regime (0% corporate tax on foreign IT services) supports technology infrastructure
 - Vulnerabilities:
+   - No existing customer base or brand recognition in financial services
+   - Zero data assets or proprietary market information currently available
+   - TBC Capital already offers zero-commission $1 fractional investing, weakening pure cost-based differentiation
+   - Risk of regulatory misclassification as gambling (which faces under-25 prohibition, advertising bans, and GEL 15,000-30,000 fines)
+   - Low retail participation in existing Georgian Stock Exchange (only ~8% retail investors) indicates potential market education challenges
 - Strategic tension:
+  The client must move fast to capture first-mover advantage and establish data network effects before potential competitors enter, yet must move cautiously to secure regulatory classification as financial instruments rather than gambling, which requires extensive NBG engagement that could delay launch and consume limited capital.
 
 ---
 
@@ -33,6 +44,7 @@ How should [client] respond to [specific disruption force] in order to [strategi
 
 ### Draft
 - Problem statement:
+How should the Georgian fintech venture structure and position a prediction market platform to capture retail speculation demand from incumbent brokerages and DFS(Digital Financial Services) alternatives while securing NBG regulatory approval as a financial information market, managing the constraint that Georgia's gambling framework prohibits participation for citizens under 25 and carries severe penalties for unlicensed operators.
 
 ---
 
@@ -40,10 +52,9 @@ How should [client] respond to [specific disruption force] in order to [strategi
 
 List one or two nearby questions that look related but are not the central question.
 
-1.
-2.
+1. How can the client obtain a gambling license to operate sports betting in Georgia? (This is excluded because prediction markets must be positioned as skill-based financial instruments distinct from games of chance; seeking gambling classification would subject the platform to under-25 prohibitions, advertising bans, and punitive taxation that would destroy unit economics.)
+2. Should the client launch an unregulated offshore prediction market accessible to Georgians via VPN? (This is excluded because NBG's VASP (Virtual Asset Service Provider) registration requirements and AML (Anti-Money Laundering) enforcement create legal risk for unlicensed operators; the strategic focus is on compliant market structure, not regulatory arbitrage.)
 
-This helps keep scope clean.
 
 ---
 
@@ -51,6 +62,6 @@ This helps keep scope clean.
 
 If the team answers this question well, what should become clearer?
 
-- Criterion 1:
-- Criterion 2:
-- Criterion 3:
+- Criterion 1: Clear regulatory pathway classification. Specifically whether event contracts on macro-economic and civic outcomes fall under NBG's securities supervision, VASP registration, or require novel legislative treatment, with documented sandbox admission requirements and timeline.
+- Criterion 2: Defensible differentiation strategy: articulating how prediction markets provide value distinct from both TBC Capital's zero-commission brokerage (product intuition vs. cost) and DFS (Digital Financial Services) platforms (financial instrument credibility vs. entertainment), with specific UX and positioning requirements.
+- Criterion 3: Economically viable unit economics at scale—validated assumptions on customer acquisition costs (benchmarked against DFS low-CAC models), required take rates or fees, critical mass thresholds (10,000 users/GEL 5M open interest), and path to profitability given Georgia's operational cost structure and NBG supervision requirements.
