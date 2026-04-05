@@ -22,17 +22,14 @@ AI Opportunity Map v1
 
 ##
 Value Chain Activities & AI Use Cases
-1.
-Customer Acquisition & Onboarding
+1.Customer Acquisition & Onboarding
 Automated KYC & Identity Verification
 Capability: Synthesis (document extraction) + Prediction (fraud scoring)
 Value: High Readiness: High
 Evidence: The 24-48 hour KYC timeline versus instant verification in mature markets creates 30-40% abandonment rates at onboarding; reducing to 90 seconds captures GEL 6M annual value
-
 Next-best-product Recommendation
 Capability: Prediction
 Value: Medium Readiness: High
-
 Synthetic Identity Fraud Detection
 Capability: Generation
 Value: Medium Readiness: Medium
@@ -42,7 +39,6 @@ T-Bot Autonomous Agent Upgrade
 Capability: Agent Workflow + Prediction + Generation
 Value: High Readiness: High
 Evidence: Current 33% automation with rule-based system; agentic AI achieving 70% autonomous resolution reduces GEL 18M annual contact center costs
-
 Voice Biometric Authentication
 Capability: PredictionValue: Medium
 Implementation Readiness: Medium
@@ -56,13 +52,11 @@ Microloan Automation Expansion (77% to 90%)
 Capability: Prediction (alternative data scoring)
 Value: High Readiness: High
 Evidence: Manual underwriting of 50,000 applications at GEL 120 cost versus automated GEL 35 cost saves GEL 4.25M annually plus GEL 11.5M incremental NIM from 12% conversion lift
-
 Alternative Credit Scoring for SMEs
 Capability: Synthesis (telco/utility data) + Prediction (default modeling)
 Value: High Readiness: Medium
 Evidence: 40% of MSMEs underserved with $500M+ unmet demand; algorithmic lending versus relationship-based captures material market share
 Barrier: Data sharing agreements with telecom providers (Silknet, Magti) not yet standardized
-
 AI Collateral Valuation (Real Estate)
 Capability: Prediction + Synthesis
 Value: High Readiness: Medium
@@ -77,7 +71,6 @@ Real-time Payment Fraud Interception
 Capability: Prediction (anomaly detection)
 Value: High Readiness: High
 Evidence: $2.2B payments market growing 15% annually attracts sophisticated fraud; sub-second interception prevents GEL 2M+ annual losses while maintaining 99.5% capture rate
-
 Behavioral Biometric Continuous Auth
 Capability: Prediction
 Value: Medium Readiness: Low
@@ -91,7 +84,6 @@ Prediction Market Intelligence Integration
 Capability: Prediction (crowd-sourced forecasting)
 Value: High Readiness: High
 Evidence: Early partnership with emerging platforms provides alternative macro risk signals reducing hedging costs GEL 0.5M annually with strategic optionality for H3 monetization
-
 Algorithmic Trading Optimization
 Capability: Prediction
 Value: Medium Readiness: Low
@@ -103,12 +95,10 @@ Capability: Synthesis (extraction) + Generation (validation)
 Value: High Readiness: Medium
 Evidence: 3-day manual document checking for TBC Capital's 27 transactions (USD 89M) reduced to 4 hours enables 50% volume increase without headcount
 Barrier: Requires 12-15 months to train models on Georgian/English bilingual trade documents and integrate with SWIFT messaging
-
 AI-powered Collateral Valuation
 Capability: Prediction + Synthesis
 Value: High Readiness: Medium
 Barrier: Requires H2 infrastructure build; see Lending section
-
 Robo-advisory for Securities
 Capability: Prediction + Generation
 Value: Medium Readiness: Low
@@ -118,12 +108,10 @@ Barrier: NBG regulatory framework for algorithmic investment advice undefined an
 Intelligent Document Processing
 Capability: Synthesis
 Value: Medium Readiness: High
-
 AI Code Generation for Legacy Modernization
 Capability: Generation
 Business Value: Medium Readiness: Low
 Barrier: Core banking system dependencies require extensive regression testing protocols
-
 Open Banking API Infrastructure
 Capability: Synthesis + Agent Workflow
  Value: High Readiness: Medium
