@@ -185,20 +185,5 @@ Source: https://www.mckinsey.com/capabilities/quantumblack/our-insights/gen-ai-a
 
 ---
 
-## Quality Check Verification
-
-- [x] Every number has a source or assumption label (A1-A6)
-- [x] Three differentiated scenarios (Downside/Base/Upside)
-- [x] Contingency line present (20% = 1.4M GEL)
-- [x] Change management cost category present and non-zero (25% of total)
-- [x] Defensible under Q&A with industry benchmarks
-
----
-
-## File Information
-
-**Filename:** `roi_model_tbc_collections_ai.md`  
-**Version:** 1.0  
-**Date:** 2026-04-05  
 **Prepared for:** TBC Bank Strategic Planning  
 **Classification:** Internal Use - Strategic Planning
