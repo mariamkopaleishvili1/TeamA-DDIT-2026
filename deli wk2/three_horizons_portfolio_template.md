@@ -23,9 +23,9 @@ Every organisation undergoing transformation must manage three portfolios simult
 | Attribute                    | Detail                                                                                                                                                                                                               |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **AI Capabilities**          | Prediction (default probability, optimal contact timing, propensity-to-pay), Synthesis (transaction pattern analysis, behavioral integration), Agent workflow (automated escalation, personalized negotiation paths) |
-| **Business Value**           | **High** — Prevents 0.5% portfolio deterioration on \$3.5B loan book = **\$17.5M annual value preservation**; reduces cost-to-collect 50%                                                                            |
+| **Business Value**           | **High** - Prevents 0.5% portfolio deterioration on \$3.5B loan book = **\$17.5M annual value preservation**; reduces cost-to-collect 50%                                                                            |
 | **Evidence**                 | Georgian banks lose 2-3% of portfolio value annually to delayed collections; relationship-based SME lending lacks early warning before 90-day delinquencies crystallize                                              |
-| **Implementation Readiness** | **High** — 6 months. Barrier: NBG consumer protection requires human-in-the-loop design for settlement negotiations                                                                                                  |
+| **Implementation Readiness** | **High** - 6 months. Barrier: NBG consumer protection requires human-in-the-loop design for settlement negotiations                                                                                                  |
 | **Funding Source**           | Current operations efficiency                                                                                                                                                                                        |
 
 #### H1.2: Real-Time Payment Fraud Detection
