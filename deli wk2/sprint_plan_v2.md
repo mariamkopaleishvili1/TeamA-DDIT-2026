@@ -29,16 +29,16 @@ Minimum two meetings per week for Weeks 1 to 4. Minimum three meetings per week 
 
 | # | Section | Primary owner | Reviewer | Draft due |
 |---|---|---|---|---|
-| 1 | Executive summary |  |  | May 18 |
-| 2 | Industry and competitive context |  |  | April 19 |
-| 3 | AI landscape and opportunity |  |  | April 19 |
-| 4 | Platform dynamics |  |  | April 19 |
-| 5 | Strategic options evaluation |  |  | April 26 |
-| 6 | Business model detail |  |  | April 26 |
-| 7 | Transformation roadmap |  |  | May 3 |
-| 8 | ROI and financial case |  |  | May 3 |
-| 9 | Risk assessment |  |  | May 10 |
-| 10 | Implementation logic |  |  | May 10 |
+| 1 | Executive summary | Gega Mukhigulashvili |  | May 18 |
+| 2 | Industry and competitive context |Gega Mukhigulashvili  | Mariam Kopaleishvili  | April 19 |
+| 3 | AI landscape and opportunity |Ani Ruseishvili  | Everyone | April 19 |
+| 4 | Platform dynamics | Mariam Kopaleishvili |  | April 19 |
+| 5 | Strategic options evaluation |Mariam Kopaleishvili  | Ani Ruseishvili | April 26 |
+| 6 | Business model detail |Everyone  | Everyone | April 26 |
+| 7 | Transformation roadmap | Ani Ruseishvili|  | May 3 |
+| 8 | ROI and financial case | Gega Mukhigulashvili | Everyone | May 3 |
+| 9 | Risk assessment |Mariam Piranishvili | Everyone | May 10 |
+| 10 | Implementation logic | Mariam Piranishvili | Gega Mukhigulashvili  | May 10 |
 
 ---
 
