@@ -195,6 +195,83 @@ The **base case 19-month payback** reflects:
 - Realistic ramp-up acknowledging organizational adoption curves
 - Explicit deduction of recurring run costs (often ignored in vendor ROI calculators) ([CostPerform](https://www.costperform.com/uncover-the-hidden-costs-of-ai-a-banks-journey/))
 
+
+## The Three Scenarios: What Actually Happens in Each Case
+
+### Downside Case: "The Implementation Struggle" (27-Month Payback, 50% IRR)
+
+**What goes wrong:** The model gets built but the organization does not change. Data scientists deliver accurate predictions, but frontline collectors ignore the new system and continue calling the same accounts they always have. The IT integration takes 6 months longer than planned, pushing go-live into Year 2. Middle managers resist the automation, fearing job losses, and quietly throttle the rollout to protect their teams. The digital self-service portal launches but only 15% of customers use it—most still call the hotline because they do not trust the app or were never properly notified.
+
+**The numbers:** Write-off reduction hits only 3% instead of 6% because early warnings are not acted upon. Cure rates improve just 8% because agents still use old scripts. Digital migration stalls at 15%. The project delivers 23M GEL over 5 years—still positive, but barely compelling against other uses of capital.
+
+**Why this happens:** This is the most common outcome in bank AI projects globally. The technology works; the people do not. McKinsey's research shows 70% of digital transformations fail due to people and process issues, not technology limitations ([McKinsey](https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/the-analytics-enabled-collections-model)). TBC would experience this if it under-invests in change management (the model allocates 1.4M GEL—16% of budget—but this could prove insufficient if senior leadership does not actively sponsor the behavioral shift).
+
+**Survival:** Yes, TBC survives this scenario. The investment still pays back, but the opportunity cost is significant. TBC continues losing share to nimbler competitors while the 8.5M GEL investment generates mediocre returns. The board becomes skeptical of future AI initiatives.
+
+---
+
+### Base Case: "The Disciplined Execution" (19-Month Payback, 85% IRR)
+
+**What goes right:** TBC follows the plan with professional discipline. The 8.5M GEL investment is deployed as budgeted. The change management program successfully retrains 150 collections staff to trust and use the AI recommendations—productivity gains hit 25% not because people work harder, but because they work on the right accounts. The Space digital platform integration enables 25% of customers to self-serve through the app, reducing call volume. The early warning system identifies at-risk borrowers 45 days earlier, and relationship managers actually intervene—reducing write-offs by 6%.
+
+**The numbers:** Year 1 delivers 3.9M GEL net cash flow despite implementation delays. By Year 3, the system operates at 80% effectiveness. Cumulative 47M GEL over 5 years. The 19-month payback is respectable for a bank technology investment—faster than core system replacements, slower than simple automation.
+
+**Why this is realistic:** This assumes TBC performs at industry median levels. The 18% Gini uplift for the prediction model is below the 22% academic benchmark, acknowledging that real-world data is messier than research datasets ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0969698924003977)). The 6% write-off reduction sits at the bottom of McKinsey's 5-15% range because TBC's 2.2% NPL ratio leaves less room for improvement than a bank starting at 8% NPL ([McKinsey](https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/the-analytics-enabled-collections-model)).
+
+**The critical success factor:** Sustained executive attention for 18 months. Not just the CEO announcing the project, but monthly steering committee reviews where business leaders confront adoption metrics and remove blockers. Without this, the base case slips toward downside.
+
+---
+
+### Upside Case: "The Industry Leader" (14-Month Payback, 120% IRR)
+
+**What goes exceptionally well:** TBC's Space platform proves more powerful than expected—the digital self-service portal achieves 35% migration because the UX team nail the customer journey. The data science team accesses external data (telco payments, utility records) that improves model accuracy to 28% Gini uplift, above academic benchmarks. A competitor bank suffers a public collections scandal, causing regulators to favor TBC's compliant, documented approach. TBC's Galt & Taggart brokerage arm leverages the same prediction infrastructure to offer differentiated products to corporate clients.
+
+**The numbers:** Year 1 net cash flow hits 6.7M GEL as benefits materialize faster. Write-off reduction reaches 9%, approaching the top of McKinsey's range. Cumulative 68M GEL over 5 years. The 14-month payback and 120% IRR make this one of TBC's best-performing strategic initiatives.
+
+**Why this is possible but not probable:** This requires multiple independent factors to align—technical excellence, customer behavior change, competitive dynamics, and regulatory luck. Each factor has maybe 60% probability individually; combined probability is roughly 20%. TBC should not budget for this scenario, but leadership should recognize the upside optionality if execution exceeds expectations.
+
+**Strategic implication:** If upside materializes, TBC gains a sustainable competitive advantage. The prediction infrastructure becomes a platform for adjacent products—credit line management, fraud detection, even the prediction market platform discussed in strategic optionality analysis. The 8.5M GEL investment creates capabilities that competitors would need 24-36 months to replicate.
+
+---
+
+## Scenario Comparison Summary
+
+| Dimension | Downside: "Implementation Struggle" | Base Case: "Disciplined Execution" | Upside: "Industry Leader" |
+|---|---|---|---|
+| **Payback** | 27 months | 19 months | 14 months |
+| **5-Year Return** | 23M GEL | 47M GEL | 68M GEL |
+| **IRR** | 50% | 85% | 120% |
+| **Primary Risk** | People ignore the system | Adoption plateaus at 80% | None—execution exceeds plan |
+| **Key Driver** | Change management fails | Professional execution | External data + competitive shock |
+| **Probability** | 30% | 50% | 20% |
+
+---
+
+## Why the Base Case Is the Right Anchor
+
+The 19-month payback and 85% IRR represent a "good but not heroic" outcome. This is appropriate because:
+
+1. **TBC's starting position is strong.** A bank with 5% NPL and manual processes could target 20% write-off reduction. TBC's 2.2% NPL and existing Space platform means the ceiling is lower—6% reduction is realistic, 15% is not.
+
+2. **Georgian market constraints.** While TBC has 38.8% market share, the 70% urban digital penetration is not 95% like Nordic markets. Some customers will never adopt self-service, limiting digital migration to 25-35% range, not 60%+.
+
+3. **Recurring costs are real.** The model explicitly deducts 1.8-2.2M GEL annual run cost for cloud, monitoring, and compliance. Many vendor ROI calculators ignore this, showing inflated returns. TBC's finance team would catch this omission during due diligence.
+
+4. **Ramp-up curves matter.** Benefits do not appear on Day 1. Month 1-6 is implementation. Month 7-12 is pilot with 30% coverage. Full deployment requires 18-24 months. The base case reflects this reality; the upside case assumes acceleration that rarely occurs.
+
+---
+
+## The Single Most Important Decision
+
+TBC's board should approve the **base case budget of 8.5M GEL** with explicit contingency triggers:
+
+- If change management metrics (training completion, system login rates, recommendation adherence) fall below 70% by Month 9, deploy additional 500K GEL for intensive coaching or risk slipping to downside scenario.
+
+- If model accuracy (Gini uplift) exceeds 25% by Month 6, accelerate external data acquisition to capture upside scenario.
+
+- If regulatory environment shifts (NBG tightens collections rules), redirect 300K GEL from efficiency savings to compliance automation to maintain competitive position.
+
+The 19-month payback is not exciting enough to justify reckless execution, but solid enough to commit disciplined resources. The real value is not the 47M GEL itself—it is the capability TBC builds to deploy AI across other domains (fraud, pricing, customer acquisition). This is a **platform investment disguised as a collections project**.
 ---
 
 ## Business Case Mechanism
