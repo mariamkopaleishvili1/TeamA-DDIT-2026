@@ -24,7 +24,10 @@ H1.1: Loan A/R Collections Optimization
 | **Evidence**                 | Georgian banks lose 2-3% of portfolio value annually to delayed collections; relationship-based SME lending lacks early warning before 90-day delinquencies crystallize                                              |
 | **Implementation Readiness** | **High** — 6 months. Barrier: NBG consumer protection requires human-in-the-loop design for settlement negotiations                                                                                                  |
 | **Funding Source**           | Current operations efficiency                                                                                                                                                                                        |
+
+
 H1.2: Real-Time Payment Fraud Detection
+
 | Attribute                    | Detail                                                                                                                                                                 |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **AI Capabilities**          | Prediction (anomaly detection, behavioral biometrics), Synthesis (device fingerprinting, location correlation), Agent workflow (auto-blocking, step-up authentication) |
