@@ -9,7 +9,7 @@ Evaluate three structurally distinct strategic options using a consistent criter
 Complete during the Sunday Strategic Options workshop. Use your three preliminary strategic options from the inter-weekend sprint as the starting point. If two options overlap significantly, restructure before starting.
 
 ---
-## Option 1: [Regulatory Sandbox Pathway]
+## Option 1: Regulatory Sandbox Pathway
 
 ### Description
 
@@ -19,39 +19,39 @@ Positions the platform as a financial derivative tool for macroeconomic and civi
 
 Value creation stems from bid-ask spreads (2-4% take rate) and interest income on idle balances (3.75-4% APY following Kalshi's model). The key financial assumption is achieving 100,000 active users with $50 average monthly volume within 24 months of full launch, generating $100,000 monthly revenue at 2% take rate. ROI depends on maintaining customer acquisition costs below $15 per user through DFS-style referral programs and podcast sponsorships. Requires GEL 2-3 million seed capital for sandbox compliance, technology development, and initial liquidity provision, with break-even projected at month 18 assuming 60% quarter-over-quarter user growth.
 
-### Risk assessment (one paragraph)
+### Risk assessment
 
 **Top risk:** Regulatory reclassification as gambling after launch, which would trigger GEL 15,000-30,000 fines, advertising bans, and exclusion of users under 25, devastating the target demographic. **Mitigation:** Secure written NBG confirmation of financial instrument classification before public launch, potentially through a no-action letter or formal sandbox agreement that explicitly excludes gambling law applicability.
 
 ---
 
-## Option 2: [VASP-Registered Crypto-Native Platform]
+## Option 2: VASP-Registered Crypto-Native Platform
 
-### Description (one paragraph)
+### Description 
 
 Launches as a VASP-registered platform using stablecoin settlement (USDC) under existing NBG virtual asset regulations, positioning event contracts as "prediction tokens" or convertible virtual assets. Leverages Georgia's 0% corporate tax on foreign IT services and mandatory VASP registration framework (effective July 2023) to operate with regulatory clarity while avoiding traditional securities law complexity. Fiat on-ramps flow through registered VASP partners or international payment processors, accepting that direct GEL integration is restricted. Targets crypto-native users and international participants, offering global event markets alongside Georgian-specific contracts, with blockchain settlement providing transparent, auditable outcomes.
 
-### Financial logic (one paragraph)
+### Financial logic 
 
 Value creation derives from trading fees (taker-only, 0.5-1%), withdrawal fees, and potential token appreciation if the platform issues a utility token. The key financial assumption is capturing 5% of Georgian crypto holders (estimated 50,000-100,000 based on regional penetration rates) plus international users seeking exposure to Georgian political and economic outcomes. ROI depends on maintaining blockchain infrastructure costs below $20,000 monthly and achieving $10 million monthly notional volume within 12 months. Requires $1-1.5 million in seed capital, with faster path to revenue (6-9 months) due to lighter regulatory burden, but caps total addressable market at crypto-literate users and faces banking relationship challenges for fiat conversion.
 
-### Risk assessment (one paragraph)
+### Risk assessment 
 
 **Top risk:** NBG expanding VASP restrictions to prohibit event-based virtual assets or restricting fiat off-ramps for prediction market winnings, effectively trapping user capital. **Mitigation:** Diversify settlement rails across multiple stablecoins and maintain relationships with 3+ VASP partners to prevent single-point-of-failure, while proactively engaging NBG to confirm that prediction tokens fall within permitted "convertible virtual asset" definitions.
 
 ---
 
-## Option 3: [Responsible Speculation Bridge]
+## Option 3: Responsible Speculation Bridge
 
-### Description (one paragraph)
+### Description 
 
 Differentiates from both traditional brokerages and unregulated betting by embedding strict daily loss limits (GEL 100 maximum daily loss per user), mandatory educational modules, and "cooling off" periods directly into core platform architecture. Positioned as a "safe stepping stone" for the 92% of Georgians without brokerage accounts, the platform partners with NBG's financial literacy initiatives and targets parents concerned about gambling risks for users aged 18-25. Requires pre-funding accounts with monthly budgets rather than linking open payment methods, creating natural spending constraints. Revenue comes from subscription fees (GEL 10/month for premium features) rather than trading volume, aligning platform incentives with user financial health.
 
-### Financial logic (one paragraph)
+### Financial logic 
 
 Value creation shifts from transaction volume to recurring subscription revenue and B2B partnerships with banks seeking to convert "graduated" users to traditional brokerage accounts. The key financial assumption is 50,000 paying subscribers at GEL 10/month (GEL 6 million annual recurring revenue) by year three, with 30% annual graduation rate to partner brokerage platforms generating GEL 200 referral fees per user. ROI depends on achieving 40% gross margins through automated educational content and AI-driven personalization, requiring GEL 4-5 million in seed capital for content development and bank partnership negotiations. The model sacrifices short-term trading revenue for long-term customer lifetime value and regulatory goodwill, with break-even at month 24.
 
-### Risk assessment (one paragraph)
+### Risk assessment 
 
 **Top risk:** User rejection of artificial constraints, with competitors offering unrestricted speculation capturing the 66% of Georgians who prefer short-term financial thinking. **Mitigation:** A/B test loss limit thresholds during beta (starting at GEL 50, adjusting to GEL 150 based on retention data) and offer "challenge modes" that unlock higher limits after educational completion, preserving responsible positioning while accommodating user preferences.
 
