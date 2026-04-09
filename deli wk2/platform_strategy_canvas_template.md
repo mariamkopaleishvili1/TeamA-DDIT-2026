@@ -128,13 +128,13 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 ## Quality Check
 
-- **Is the recommendation specific, not vague?** Yes,"Build" is explicitly selected with three distinct, evidence-based justifications.
+**Is the recommendation specific, not vague?** Yes,"Build" is explicitly selected with three distinct, evidence-based justifications.
 
-- **Are the three justification reasons distinct and evidence-based?** Yes,(1) NBG sandbox framework and regulatory flexibility [[75]](https://www.nbg.gov.ge/en/pages/financial-innovation-office)[[30]](https://www.nbg.gov.ge/uploads/pressreleases/2025/Amendments_to_the_Law_on_Operating_of_the_Virtual_Assets.pdf); (2) competitive gap in Georgian market and DFS validation [[26]](https://www.galtandtaggart.com/ge/wealth-management/brokerage)[[82]](https://www.cec.gov.ge/en/cec/municipal-elections-2025); (3) unit economics and Kalshi precedent [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)[[71]](https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi).
+**Are the three justification reasons distinct and evidence-based?** Yes,(1) NBG sandbox framework and regulatory flexibility [[75]](https://www.nbg.gov.ge/en/pages/financial-innovation-office)[[30]](https://www.nbg.gov.ge/uploads/pressreleases/2025/Amendments_to_the_Law_on_Operating_of_the_Virtual_Assets.pdf); (2) competitive gap in Georgian market and DFS validation [[26]](https://www.galtandtaggart.com/ge/wealth-management/brokerage)[[82]](https://www.cec.gov.ge/en/cec/municipal-elections-2025); (3) unit economics and Kalshi precedent [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)[[71]](https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi).
 
-- **Does the first move pass the specificity test: could someone actually execute it?** Yes,the action specifies exact NBG contact (innovationoffice@nbg.gov.ge), sandbox parameters (12 months, GEL 1M deposits), and regulatory classification sought (financial instruments vs. gambling).
+ **Does the first move pass the specificity test: could someone actually execute it?** Yes,the action specifies exact NBG contact (innovationoffice@nbg.gov.ge), sandbox parameters (12 months, GEL 1M deposits), and regulatory classification sought (financial instruments vs. gambling).
 
-- **Have you confronted the chicken-and-egg problem if you recommended Build?** Yes,critical mass threshold (10,000 users, GEL 5M open interest) is defined; seed liquidity will come from market maker partnerships and potential NBG tolerance for internal market making during sandbox phase; GEL/USD rate contracts have natural hedging demand from exporters/importers facing 4.53% annual volatility [[76]](https://www.geostat.ge/en/modules/categories/26/exchange-rates).
+**Have you confronted the chicken-and-egg problem if you recommended Build?** Yes,critical mass threshold (10,000 users, GEL 5M open interest) is defined; seed liquidity will come from market maker partnerships and potential NBG tolerance for internal market making during sandbox phase; GEL/USD rate contracts have natural hedging demand from exporters/importers facing 4.53% annual volatility [[76]](https://www.geostat.ge/en/modules/categories/26/exchange-rates).
 
 ## Reference Links
 
@@ -322,16 +322,16 @@ What is the one specific action the client must take in the next 6 months?
 
 Before finalizing:
 
-- [x] **Is the recommendation specific, not vague?** 
+ **Is the recommendation specific, not vague?** 
   - Yes: BUILD via VASP registration, not generic "enter market"
 
-- [x] **Are the three justification reasons distinct and evidence-based?**
+ **Are the three justification reasons distinct and evidence-based?**
   - Yes: Regulatory pathway (capability), competitive whitespace (dynamics), tax/unit economics (financial)
 
-- [x] **Does the first move pass the specificity test: could someone actually execute it?**
+ **Does the first move pass the specificity test: could someone actually execute it?**
   - Yes: Concrete deliverable (pre-registration consultation), defined owner, measurable outcome, budget range
 
-- [x] **Have you confronted the chicken-and-egg problem if you recommended Build?**
+ **Have you confronted the chicken-and-egg problem if you recommended Build?**
   - Yes: Platform will seed initial liquidity through treasury allocation (1-2% of raise) to ensure tight spreads at launch, targeting 20 markets with $50,000 TVL each before retail marketing spend
 
 ---
@@ -529,16 +529,16 @@ What is the one specific action the client must take in the next 6 months?
 
 Before finalizing:
 
-- [x] **Is the recommendation specific, not vague?** 
+ **Is the recommendation specific, not vague?** 
   - Yes: BUILD via "Financial Education Platform" classification with mandatory loss limits and NBG FinEdu integration, not generic "enter market"
 
-- [x] **Are the three justification reasons distinct and evidence-based?**
+ **Are the three justification reasons distinct and evidence-based?**
   - Yes: Regulatory whitespace (capability), competitive absence + global precedent (dynamics), TAM of 1.57M excluded gamblers + NBG partnership reducing CAC (financial)
 
-- [x] **Does the first move pass the specificity test: could someone actually execute it?**
+ **Does the first move pass the specificity test: could someone actually execute it?**
   - Yes: Concrete deliverable (formal NBG proposal with 4 components), defined owner (CEO + CPO with specific experience), measurable success metric (written approval + 4 pilot KPIs), budget range ($200K-$350K)
 
-- [x] **Have you confronted the chicken-and-egg problem if you recommended Build?**
+ **Have you confronted the chicken-and-egg problem if you recommended Build?**
   - Yes: Platform will subsidize initial liquidity and absorb negative balance risk to attract first users; NBG FinEdu partnership provides distribution channel to 950,000 financially literate prospects; 1.57M excluded gamblers create pent-up demand for legal alternative
 
 ---
