@@ -105,9 +105,9 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 **Reason 1 (client capabilities):** The client possesses (or can assemble) the technical and regulatory capabilities to build a CFTC-aligned prediction market platform. NBG's regulatory sandbox framework explicitly supports "testing innovative financial services in a controlled environment" with "continuous collaboration with the regulator" [[TBC Capital]](https://tbccapital.ge/en/). The sandbox allows defining "new regulatory requirements or amend existing ones based on practical experience," creating a viable path to establish prediction markets as financial instruments rather than gambling. The NBG's 2023-2025 supervisory strategy prioritizes fintech development, and the tokenized deposits sandbox project (launched February 2025) demonstrates openness to novel financial products [[NBG]](https://www.nbg.gov.ge).
 
-**Reason 2 (competitive dynamics):** No incumbent in Georgia offers event-based macro-economic or civic outcome trading. TBC Capital and Galt & Taggart focus on traditional securities with $1,000+ minimums and fee structures that exclude retail participation [[Galt and Taggart]](https://www.galtandtaggart.com/ge). Daily fantasy sports (DFS) apps demonstrate user appetite for event-based speculation but operate in regulatory gray areas and lack financial instrument credibility. By securing NBG sandbox approval and positioning as a "financial derivative tool for information aggregation" (distinct from gambling), the client creates a defensible regulatory moat. The Federal Reserve's validation that Kalshi macro markets match or exceed traditional forecasting accuracy [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)[[71]](https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi) provides powerful evidence for NBG approval.
+**Reason 2 (competitive dynamics):** No incumbent in Georgia offers event-based macro-economic or civic outcome trading. TBC Capital and Galt & Taggart focus on traditional securities with $1,000+ minimums and fee structures that exclude retail participation [[Galt and Taggart]](https://www.galtandtaggart.com/ge). Daily fantasy sports (DFS) apps demonstrate user appetite for event-based speculation but operate in regulatory gray areas and lack financial instrument credibility. By securing NBG sandbox approval and positioning as a "financial derivative tool for information aggregation" (distinct from gambling), the client creates a defensible regulatory moat. The Federal Reserve's validation that Kalshi macro markets match or exceed traditional forecasting accuracy[[Kashi]](https://www.kalshi.com) provides powerful evidence for NBG approval.
 
-**Reason 3 (financial logic):** Unit economics favor building over joining/acquiring. At 100,000 active users with GEL 50 average monthly volume and 2% take rate, monthly revenue reaches GEL 100,000 (~$37,000). With Georgia's low operational costs and zero maker fees reducing friction, break-even is achievable at 25,000-30,000 active users. The NBG sandbox requires no upfront licensing fees (unlike full VASP registration at GEL 5,000 [[19]](https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape)), reducing initial capital requirements to GEL 500,000-1,000,000 for technology development and regulatory compliance. Kalshi's $20 billion valuation [[3]](https://www.theblock.co/post/331953/kalshi-raises-50-million-at-20-billion-valuation) and $44 billion 2025 volume [[6]](https://www.bloomberg.com/news/articles/2025-11-14/kalshi-raises-50-million-at-20-billion-valuation) demonstrate massive TAM if Georgian model expands regionally.
+**Reason 3 (financial logic):** Unit economics favor building over joining/acquiring. At 100,000 active users with GEL 50 average monthly volume and 2% take rate, monthly revenue reaches GEL 100,000 (~$37,000). With Georgia's low operational costs and zero maker fees reducing friction, break-even is achievable at 25,000-30,000 active users. The NBG sandbox requires no upfront licensing fees (unlike full VASP registration at GEL 5,000 [[GFSIS]](https://www.gfsis.org.ge)), reducing initial capital requirements to GEL 500,000-1,000,000 for technology development and regulatory compliance. Kalshi's $20 billion valuation and $44 billion 2025 volume demonstrate massive TAM if Georgian model expands regionally.
 
 ---
 
@@ -127,50 +127,23 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 **Is the recommendation specific, not vague?** Yes,"Build" is explicitly selected with three distinct, evidence-based justifications.
 
-**Are the three justification reasons distinct and evidence-based?** Yes,(1) NBG sandbox framework and regulatory flexibility [[75]](https://www.nbg.gov.ge/en/pages/financial-innovation-office)[[30]](https://www.nbg.gov.ge/uploads/pressreleases/2025/Amendments_to_the_Law_on_Operating_of_the_Virtual_Assets.pdf); (2) competitive gap in Georgian market and DFS validation [[26]](https://www.galtandtaggart.com/ge/wealth-management/brokerage)[[82]](https://www.cec.gov.ge/en/cec/municipal-elections-2025); (3) unit economics and Kalshi precedent [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)[[71]](https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi).
+**Are the three justification reasons distinct and evidence-based?** Yes,(1) NBG sandbox framework and regulatory flexibility 
 
  **Does the first move pass the specificity test: could someone actually execute it?** Yes,the action specifies exact NBG contact (innovationoffice@nbg.gov.ge), sandbox parameters (12 months, GEL 1M deposits), and regulatory classification sought (financial instruments vs. gambling).
 
-**Have you confronted the chicken-and-egg problem if you recommended Build?** Yes,critical mass threshold (10,000 users, GEL 5M open interest) is defined; seed liquidity will come from market maker partnerships and potential NBG tolerance for internal market making during sandbox phase; GEL/USD rate contracts have natural hedging demand from exporters/importers facing 4.53% annual volatility [[76]](https://www.geostat.ge/en/modules/categories/26/exchange-rates).
+**Have you confronted the chicken-and-egg problem if you recommended Build?** Yes,critical mass threshold (10,000 users, GEL 5M open interest) is defined; seed liquidity will come from market maker partnerships and potential NBG tolerance for internal market making during sandbox phase; GEL/USD rate contracts have natural hedging demand from exporters/importers facing 4.53% annual volatility 
 
 ## Reference Links
-
 [1] https://fintechs.ge  
+[2] https://www.kalshi.com/  
 [3] https://www.theblock.co/post/331953/kalshi-raises-50-million-at-20-billion-valuation  
 [4] https://www.geostat.ge/ka  
+[5] https://www.cec.gov.ge/en/cec/municipal-elections-2025  
 [6] https://www.bloomberg.com/news/articles/2025-11-14/kalshi-raises-50-million-at-20-billion-valuation  
+[7] https://www.galtandtaggart.com/ge  
 [8] https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf  
-[9] https://fintechs.ge  
-[10] https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia  
-[11] https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia  
-[14] https://www.coindesk.com/markets/2026/04/06/polymarket-reveals-a-full-exchange-upgrade-to-take-control-of-its-own-trading-and-truth  
-[17] https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape  
-[18]    
-[19] https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape  
-[20] https://www.legalsportsreport.com/georgia-sports-betting/  
-[21] https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape  
-[22] https://www.goinvest.gov.ge/uploads/Virtual%20Assets%20Service%20Provider%20Registration%20and%20Supervision.pdf  
-[26] https://www.galtandtaggart.com/ge/wealth-management/brokerage  
-[28] https://www.gamingintelligence.com/regulation/georgia-tightens-gambling-regulations-further/  
-[30] https://www.nbg.gov.ge/uploads/pressreleases/2025/Amendments_to_the_Law_on_Operating_of_the_Virtual_Assets.pdf  
-[31] https://www.legalsportsreport.com/georgia-sports-betting/  
-[46] https://gse.ge/Uploads/2024%20Annual%20Report.pdf  
-[48] https://www.bloomberg.com/news/articles/2025-10-28/draftkings-and-fanduel-face-new-challengers-in-daily-fantasy-sports  
-[50] https://www.kalshi.com/  
-[51] https://www.tbcbank.ge/en/corporate/tbc-capital/tbc-capital-individuals  
-[56] https://www.galtandtaggart.com/ge/research/fixed-income/georgian-bond-market-2024  
-[60] https://www.guru99.com/polymarket-review.html  
-[64] https://www.worldbank.org/en/country/georgia/publication/financial-inclusion-national-survey-2022  
-[65] https://www.nbg.gov.ge/uploads/pressreleases/2025/Financial_Literacy_Survey_2024.pdf  
-[70] https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory  
-[71] https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi  
-[72] https://www.tbccapital.ge/en/research/macro/tbc-capital-forecasts-gel-to-strengthen-to-260-against-usd-by-end-of-year  
-[75] https://www.nbg.gov.ge/en/pages/financial-innovation-office  
-[76] https://www.geostat.ge/en/modules/categories/26/exchange-rates  
-[77] https://www.economist.com/finance-and-economics/2024/12/19/georgias-currency-is-tumbling-as-its-politics-turns-volatile  
-[79] https://www.nbg.gov.ge/uploads/pressreleases/2025/Press_Release_on_the_Tokenized_Deposits_Sandbox_Project.pdf  
-[82] https://www.cec.gov.ge/en/cec/municipal-elections-2025
-
+[9] https://www.tbccapital.ge/en/research  
+[10] https://gse.ge  
 
 ## Option B: VASP-Registered Crypto-Native Platform
 
@@ -184,9 +157,9 @@ This canvas maps the client's position in the platform competitive structure and
 
 ## Industry Context
 
-The Republic of Georgia has established one of the most crypto-friendly regulatory frameworks in the region. As of April 2025, there are **24 registered VASPs** operating under National Bank of Georgia supervision [[1]](https://fintechs.ge). The NBG has developed comprehensive regulations including the "Regulation on the Initial Offering of Stable Virtual Assets" which mandates 100% reserve backing and aligns with global best practices including EU MiCA, US Genius Act, and Dubai VARA frameworks [[2]](https://nbg.gov.ge/en). The Georgian fintech market is projected to reach **$2.31 billion in digital payments by 2024** with 18.6% growth [[3]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia), while the NBG has explicitly prioritized blockchain-based financial infrastructure and smart contract programmability in its Fintech Development Strategy [[1]](https://fintechs.ge).
+The Republic of Georgia has established one of the most crypto-friendly regulatory frameworks in the region. As of April 2025, there are **24 registered VASPs** operating under National Bank of Georgia supervision [[Fintechs]](https://fintechs.ge). The NBG has developed comprehensive regulations including the "Regulation on the Initial Offering of Stable Virtual Assets" which mandates 100% reserve backing and aligns with global best practices including EU MiCA, US Genius Act, and Dubai VARA frameworks [[NBG]](https://nbg.gov.ge/en). The Georgian fintech market is projected to reach **$2.31 billion in digital payments by 2024** with 18.6% growth [[Statista]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia), while the NBG has explicitly prioritized blockchain-based financial infrastructure and smart contract programmability in its Fintech Development Strategy [[1]](https://fintechs.ge).
 
-**Prediction Market Perspective:** Globally, prediction markets have exploded from $50 million weekly volume to over **$6 billion weekly** following the 2024 U.S. election, with Polymarket (decentralized, crypto-native) and Kalshi (CFTC-regulated) emerging as the two dominant models [[4]](https://www.geostat.ge/ka). Polymarket reached $140 million TVL and $3 billion cumulative trading volume during the election period [[5]](https://www.coindesk.com/markets/2026/04/06/polymarket-reveals-a-full-exchange-upgrade-to-take-control-of-its-own-trading-and-truth), while Kalshi raised $185 million at a $2 billion valuation [[6]](https://www.bloomberg.com/news/articles/2025-11-14/kalshi-raises-50-million-at-20-billion-valuation).
+**Prediction Market Perspective:** Globally, prediction markets have exploded from $50 million weekly volume to over **$6 billion weekly** following the 2024 U.S. election, with Polymarket (decentralized, crypto-native) and Kalshi (CFTC-regulated) emerging as the two dominant models [[Geostat]](https://www.geostat.ge/ka). Polymarket reached $140 million TVL and $3 billion cumulative trading volume during the election period [[Coindesk]](https://www.coindesk.com/markets/2026/04/06/polymarket-reveals-a-full-exchange-upgrade-to-take-control-of-its-own-trading-and-truth), while Kalshi raised $185 million at a $2 billion valuation [[Bloomberg]](https://www.bloomberg.com/news/articles/2025-11-14/kalshi-raises-50-million-at-20-billion-valuation).
 
 ---
 
@@ -218,7 +191,7 @@ Who produces value on the platform? What do they get from participation?
   - First-mover advantage in an emerging asset class with limited competition
   - Regulatory clarity enabling banking relationships and institutional capital deployment
 
-- **Current number or market size:** As of April 2025, **24 registered VASPs** operate in Georgia [[1]](https://fintechs.ge). The global prediction market liquidity provider ecosystem includes sophisticated actors from both DeFi (Polygon, Ethereum L2s) and TradFi (jumping in post-Kalshi v. CFTC). Locally, Georgian VASPs currently focus on exchange/wallet services,none yet offer structured event contracts, creating a **blue ocean opportunity** for first entrants.
+- **Current number or market size:** As of April 2025, **24 registered VASPs** operate in Georgia [[Fintechs]](https://fintechs.ge). The global prediction market liquidity provider ecosystem includes sophisticated actors from both DeFi (Polygon, Ethereum L2s) and TradFi (jumping in post-Kalshi v. CFTC). Locally, Georgian VASPs currently focus on exchange/wallet services,none yet offer structured event contracts, creating a **blue ocean opportunity** for first entrants.
 
 ---
 
@@ -240,7 +213,7 @@ Who consumes value on the platform? What do they get from participation?
   - Non-custodial or custodial wallet options with instant conversion to fiat via VASP partners
   - Educational guardrails (daily loss limits, risk warnings) embedded in the platform
 
-- **Current number or market size:** The Georgian digital payments market exceeded **$1 billion in 2023** and is projected to reach **$2.31 billion by 2024** [[3]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia). Internet banking penetration is growing rapidly,**114.8 million online operations** conducted in 2022 (+16.4% YoY) with **8.16 billion GEL transferred** (+25.6% YoY) [[7]](https://nbg.gov.ge/en). Critically, Georgia's population shows high digital adoption but **92% remain uninvested in capital markets**, representing a massive latent demand for accessible speculation vehicles. The Fintech Association of Georgia reports approximately **35 member companies** as of April 2025 [[1]](https://fintechs.ge), indicating a maturing ecosystem but still early-stage retail investment penetration.
+- **Current number or market size:** The Georgian digital payments market exceeded **$1 billion in 2023** and is projected to reach **$2.31 billion by 2024** [[Statista]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia). Internet banking penetration is growing rapidly,**114.8 million online operations** conducted in 2022 (+16.4% YoY) with **8.16 billion GEL transferred** (+25.6% YoY) [[NBG]](https://nbg.gov.ge/en). Critically, Georgia's population shows high digital adoption but **92% remain uninvested in capital markets**, representing a massive latent demand for accessible speculation vehicles. The Fintech Association of Georgia reports approximately **35 member companies** as of April 2025 [[Fintechs]](https://fintechs.ge), indicating a maturing ecosystem but still early-stage retail investment penetration.
 
 ---
 
@@ -270,19 +243,19 @@ Where does the client sit today?
 - **Current role:** producer / consumer / **potential platform operator**
 
 - **Current leverage in the market:**
-  - **Regulatory timing advantage:** NBG's VASP framework is operational (since July 2023) but prediction markets are unoccupied territory,no incumbent has combined event contracts with VASP registration [[8]](https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf)
-  - **Crypto-friendly jurisdiction:** Georgia offers 0% personal income tax on crypto gains, 15% corporate tax (only on distributed profits), and explicit legal recognition of virtual assets as non-securities [[9]](https://fintechs.ge)
-  - **Technical infrastructure:** NBG's CBDC pilot (Digital GEL) and instant payment system (IPS) development create interoperability opportunities [[1]](https://fintechs.ge)
-  - **Strategic location:** Positioned as regional fintech hub for Middle Corridor countries with cross-border sandbox initiatives [[1]](https://fintechs.ge)
+  - **Regulatory timing advantage:** NBG's VASP framework is operational (since July 2023) but prediction markets are unoccupied territory,no incumbent has combined event contracts with VASP registration [[NBG]](https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf)
+  - **Crypto-friendly jurisdiction:** Georgia offers 0% personal income tax on crypto gains, 15% corporate tax (only on distributed profits), and explicit legal recognition of virtual assets as non-securities [[FINTECHS]](https://fintechs.ge)
+  - **Technical infrastructure:** NBG's CBDC pilot (Digital GEL) and instant payment system (IPS) development create interoperability opportunities
+  - **Strategic location:** Positioned as regional fintech hub for Middle Corridor countries with cross-border sandbox initiatives 
 
 - **Data assets available:**
   - None currently (greenfield opportunity)
   - Potential partnerships with existing VASPs for KYC/AML data sharing (permitted under NBG framework)
-  - Access to NBG's synthetic data sandbox for model training [[1]](https://fintechs.ge)
+  - Access to NBG's synthetic data sandbox for model training
 
 - **Customer relationship strength:**
   - No existing retail customer base
-  - Must build trust through compliance transparency (public NBG registration display required by January 2026) [[10]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia)
+  - Must build trust through compliance transparency (public NBG registration display required by January 2026) [[Statista]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia)
   - Opportunity to leverage Georgian banking partnerships (TBC Bank, Bank of Georgia) for fiat on-ramp referrals
 
 ---
@@ -293,11 +266,11 @@ Choose one: Build / Join / Defend / Acquire
 
 - **Recommendation:** **BUILD**
 
-- **Reason 1 (client capabilities):** The VASP registration pathway provides a clear, time-bound regulatory route (2-4 months, €15,000 registration fee) [[11]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia) with defined compliance requirements rather than ambiguous gambling or securities law interpretations. The NBG's "learning-by-doing" approach to fintech supervision [[12]]( ) creates regulatory breathing room for innovative products like event contracts, especially when positioned as virtual asset trading rather than betting.
+- **Reason 1 (client capabilities):** The VASP registration pathway provides a clear, time-bound regulatory route (2-4 months, €15,000 registration fee) [[Statista]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia) with defined compliance requirements rather than ambiguous gambling or securities law interpretations. The NBG's "learning-by-doing" approach to fintech supervision creates regulatory breathing room for innovative products like event contracts, especially when positioned as virtual asset trading rather than betting.
 
-- **Reason 2 (competitive dynamics):** No Georgian incumbent offers prediction markets,neither banks (focused on traditional lending/deposits) nor existing VASPs (focused on crypto exchange/wallets). Globally, Polymarket and Kalshi demonstrate two viable models; Georgia's regulatory neutrality allows a hybrid approach combining Polymarket's crypto-native UX with Kalshi's compliance rigor. The NBG's alignment with EU MiCA and FATF standards [[2]](https://nbg.gov.ge/en) positions a Georgian platform for future regional expansion across Middle Corridor markets.
+- **Reason 2 (competitive dynamics):** No Georgian incumbent offers prediction markets,neither banks (focused on traditional lending/deposits) nor existing VASPs (focused on crypto exchange/wallets). Globally, Polymarket and Kalshi demonstrate two viable models; Georgia's regulatory neutrality allows a hybrid approach combining Polymarket's crypto-native UX with Kalshi's compliance rigor. The NBG's alignment with EU MiCA and FATF standards positions a Georgian platform for future regional expansion across Middle Corridor markets.
 
-- **Reason 3 (financial logic):** Unit economics favor a VASP-native model: zero payment processing fees via USDC settlement (vs. 2-3% card fees), 15% corporate tax only on distributed profits (vs. 20%+ gambling taxes in many jurisdictions), and minimal physical infrastructure requirements. The GEL 2.31 billion digital payments market [[3]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia) with high mobile penetration but low investment product saturation creates a large addressable market with customer acquisition costs likely 50-70% lower than mature markets.
+- **Reason 3 (financial logic):** Unit economics favor a VASP-native model: zero payment processing fees via USDC settlement (vs. 2-3% card fees), 15% corporate tax only on distributed profits (vs. 20%+ gambling taxes in many jurisdictions), and minimal physical infrastructure requirements. The GEL 2.31 billion digital payments market [[Statista]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia) with high mobile penetration but low investment product saturation creates a large addressable market with customer acquisition costs likely 50-70% lower than mature markets.
 
 ---
 
@@ -309,7 +282,7 @@ What is the one specific action the client must take in the next 6 months?
 
 - **Owner:** CEO/Regulatory Lead (external Georgian legal counsel with NBG relationships mandatory)
 
-- **Success metric:** NBG written confirmation that event contracts fall within permissible VASP activities (exchange between convertible virtual assets and administration of trading platforms) [[8]](https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf)[[13]](https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape) within 90 days; failure mode is requirement to restructure as securities or gambling entity.
+- **Success metric:** NBG written confirmation that event contracts fall within permissible VASP activities (exchange between convertible virtual assets and administration of trading platforms) [[NBG]](https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf)[[Statista]](https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape) within 90 days; failure mode is requirement to restructure as securities or gambling entity.
 
 - **Investment required (order of magnitude):** GEL 100,000-GEL 150,000 (legal/consulting for VASP registration, technical MVP development, initial liquidity seeding)
 
@@ -335,36 +308,26 @@ Before finalizing:
 
 ## Global Practice Comparison
 
-**Polymarket (Decentralized Model):** Operates on Polygon with UMA optimistic oracle resolution, achieving $140M TVL and $40M daily volume through permissionless market creation and global accessibility. Georgia's VASP model cannot replicate full decentralization (NBG requires registered entity with local physical presence and identified administrators) [[11]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia), but can adopt the automated market maker infrastructure and transparent settlement mechanics.
+**Polymarket (Decentralized Model):** Operates on Polygon with UMA optimistic oracle resolution, achieving $140M TVL and $40M daily volume through permissionless market creation and global accessibility. Georgia's VASP model cannot replicate full decentralization (NBG requires registered entity with local physical presence and identified administrators) [[Statista]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia), but can adopt the automated market maker infrastructure and transparent settlement mechanics.
 
 **Kalshi (Regulated Exchange Model):** CFTC-regulated with centralized order books, recently expanding on-chain via Solana for tokenized markets and "Builder Codes" for ecosystem development
 The Georgian platform should emulate Kalshi's regulatory rigor (NBG registration equivalent to CFTC approval) while leveraging crypto-native composability that Kalshi is only now adopting.
 
-**Key Differentiation:** Georgia's framework permits a unique hybrid,CFTC-grade compliance with DeFi-grade capital efficiency,because NBG explicitly permits commercial banks to provide virtual asset services [[8]](https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf), enabling potential partnerships for fiat on-ramps that Polymarket lacks and Kalshi only achieves through traditional banking relationships.
+**Key Differentiation:** Georgia's framework permits a unique hybrid,CFTC-grade compliance with DeFi-grade capital efficiency,because NBG explicitly permits commercial banks to provide virtual asset services [[NBG]](https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf), enabling potential partnerships for fiat on-ramps that Polymarket lacks and Kalshi only achieves through traditional banking relationships.
 
 ---
 
 ## Reference Links
 
-[1] https://fintechs.ge
-
-[2] https://nbg.gov.ge/en
-
-[3] https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia
-
-[4] https://www.geostat.ge/ka
-
-[5] https://www.coindesk.com/markets/2026/04/06/polymarket-reveals-a-full-exchange-upgrade-to-take-control-of-its-own-trading-and-truth
-
-[7] https://nbg.gov.ge/en
-
-[8] https://fintechs.ge
-
-[10] https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia
-
-[11] https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia
-
-[12] https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape
+[1] https://fintechs.ge  
+[2] https://nbg.gov.ge/en  
+[3] https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia  
+[4] https://www.geostat.ge/ka  
+[5] https://www.coindesk.com/markets/2026/04/06/polymarket-reveals-a-full-exchange-upgrade-to-take-control-of-its-own-trading-and-truth  
+[6] https://www.bloomberg.com/news/articles/2025-11-14/kalshi-raises-50-million-at-20-billion-valuation  
+[7] https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf  
+[8] https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape  
+[9] https://www.kalshi.com/  
 
 ## Option C: The Responsible Speculation Bridge
 
@@ -378,11 +341,11 @@ This canvas maps the client's position in the platform competitive structure and
 
 ## Industry Context
 
-The Republic of Georgia has implemented some of the strictest gambling regulations globally while simultaneously building a progressive fintech infrastructure. As of January 2026, **1.57 million Georgians (40% of the population)** are on the national gambling exclusion registry, with the legal gambling age raised to 25 and biometric identification mandatory for all gambling venues [[1]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling). This creates a massive vacuum for regulated, responsible speculation products that are legally distinct from gambling.
+The Republic of Georgia has implemented some of the strictest gambling regulations globally while simultaneously building a progressive fintech infrastructure. As of January 2026, **1.57 million Georgians (40% of the population)** are on the national gambling exclusion registry, with the legal gambling age raised to 25 and biometric identification mandatory for all gambling venues [[Public Gaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling). This creates a massive vacuum for regulated, responsible speculation products that are legally distinct from gambling.
 
-The National Bank of Georgia (NBG) has established robust consumer protection frameworks, including payment-to-income (PTI) limits on FX lending (20-30% depending on income level) and loan-to-value (LTV) caps [[2]](https://www.elibrary.imf.org/view/journals/002/2024/135/article-A001-en.xml). The NBG settled **85% of consumer disputes in favor of citizens in 2024**, securing GEL 300,000 in refunds and demonstrating strong regulatory commitment to financial consumer protection [[3]](https://georgiatoday.ge/nbg-over-90-consumer-disputes-settled-in-favor-of-citizens-in-2024/). The NBG also runs extensive financial literacy programs through FinEdu, reaching **950,000 children, youth and adults during Global Money Week 2024** [[4]](https://globalmoneyweek.org/countries/142-georgia.html).
+The National Bank of Georgia (NBG) has established robust consumer protection frameworks, including payment-to-income (PTI) limits on FX lending (20-30% depending on income level) and loan-to-value (LTV) caps [[ELibrary]](https://www.elibrary.imf.org/view/journals/002/2024/135/article-A001-en.xml). The NBG settled **85% of consumer disputes in favor of citizens in 2024**, securing GEL 300,000 in refunds and demonstrating strong regulatory commitment to financial consumer protection [[GeorgiaToday]](https://georgiatoday.ge/nbg-over-90-consumer-disputes-settled-in-favor-of-citizens-in-2024/). The NBG also runs extensive financial literacy programs through FinEdu, reaching **950,000 children, youth and adults during Global Money Week 2024** [[GlobalMoneyWeek]](https://globalmoneyweek.org/countries/142-georgia.html).
 
-**Global Best Practice:** Leading retail trading platforms have pioneered "responsible trading" features that could be adapted for prediction markets. eToro's Responsible Trading policy limits leverage to 1:100 and restricts investment per trade to 20% of account equity [[5]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/). IG Group provides negative balance protection ensuring retail clients cannot lose more than their account balance, alongside guaranteed stop orders and position-by-position risk limits [[6]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf). Interactive Brokers' IBKR Campus offers comprehensive financial education with eight pillars including Traders' Academy, webinars, and quant resources. These mechanisms,mandatory loss limits, educational guardrails, and negative balance protection,provide the template for a "responsible speculation" platform in Georgia.
+**Global Best Practice:** Leading retail trading platforms have pioneered "responsible trading" features that could be adapted for prediction markets. eToro's Responsible Trading policy limits leverage to 1:100 and restricts investment per trade to 20% of account equity [[GlobalBankingAndFinance]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/). IG Group provides negative balance protection ensuring retail clients cannot lose more than their account balance, alongside guaranteed stop orders and position-by-position risk limits [[IGGROUP]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf). Interactive Brokers' IBKR Campus offers comprehensive financial education with eight pillars including Traders' Academy, webinars, and quant resources. These mechanisms,mandatory loss limits, educational guardrails, and negative balance protection,provide the template for a "responsible speculation" platform in Georgia.
 
 ---
 
@@ -410,11 +373,11 @@ Who produces value on the platform? What do they get from participation?
 
 - **What they receive:**
   - Regulatory approval as "financial education platform" avoiding gambling classification and associated restrictions
-  - Access to 1.57 million excluded Georgians seeking legal speculation alternatives [[1]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling)
+  - Access to 1.57 million excluded Georgians seeking legal speculation alternatives [[PublicGaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling)
   - Partnership opportunities with NBG financial literacy initiatives (FinEdu)
   - First-mover advantage in responsible speculation category with potential regional expansion to other strict gambling jurisdictions
 
-- **Current number or market size:** Georgia's **1.57 million excluded gambling population** represents immediate addressable market [[1]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling). Global responsible trading features are now standard,eToro's policy has been in place since 2012 [[5]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/), IG's negative balance protection applies across 19 countries [[6]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf), and Interactive Brokers' education platform serves millions. No Georgian platform currently combines prediction markets with mandatory consumer protection guardrails.
+- **Current number or market size:** Georgia's **1.57 million excluded gambling population** represents immediate addressable market [[PublicGaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling). Global responsible trading features are now standard,eToro's policy has been in place since 2012 [[GlobalBankingandFinance]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/), IG's negative balance protection applies across 19 countries [[IGGroup]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf), and Interactive Brokers' education platform serves millions. No Georgian platform currently combines prediction markets with mandatory consumer protection guardrails.
 
 ---
 
@@ -425,20 +388,20 @@ Who consumes value on the platform? What do they get from participation?
 - **Consumer type:** Financially excluded Georgians seeking regulated speculation, novice retail investors requiring education-first onboarding, and self-excluded gambling addicts seeking safer alternatives
 
 - **What they seek:**
-  - Legal access to speculation following gambling exclusion (1.57 million citizens) [[1]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling)
+  - Legal access to speculation following gambling exclusion (1.57 million citizens) [[PublicGaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling)
   - Structured financial education integrated with practical experience
   - Protection from catastrophic losses through mandatory limits
   - Socially acceptable "investment gaming" distinct from stigmatized gambling
 
 - **What they receive:**
   - **Daily loss limits:** Maximum 50 GEL daily loss cap (customizable down to 10 GEL), with mandatory 24-hour cooling-off after limit reached
-  - **Educational checkpoints:** Required completion of risk assessment quizzes before first trade and monthly thereafter, integrated with NBG FinEdu curriculum [[4]](https://globalmoneyweek.org/countries/142-georgia.html)
-  - **Negative balance protection:** Account balance cannot fall below zero,platform absorbs excess losses [[6]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf)
-  - **Position limits:** Maximum 20% of account equity per trade (eToro model) [[5]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/)
+  - **Educational checkpoints:** Required completion of risk assessment quizzes before first trade and monthly thereafter, integrated with NBG FinEdu curriculum [[GlobalMoneyWeek]](https://globalmoneyweek.org/countries/142-georgia.html)
+  - **Negative balance protection:** Account balance cannot fall below zero,platform absorbs excess losses [[IgGroup]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf)
+  - **Position limits:** Maximum 20% of account equity per trade (eToro model)
   - **Transparent probability displays:** Clear odds visualization with historical accuracy data, avoiding opaque bookmaker margins
   - **Progressive unlocking:** Beginner markets only (high-probability outcomes) until educational milestones completed; advanced markets unlock with demonstrated competence
 
-- **Current number or market size:** **1.57 million excluded gambling population** [[1]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling); **92% of Georgians uninvested in capital markets**; NBG financial literacy programs reached **950,000 in 2024** [[4]](https://globalmoneyweek.org/countries/142-georgia.html); Digital payments market **$2.31 billion** [[8]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia). The intersection of excluded gamblers + digital natives + financially literate represents approximately **400,000-600,000 immediate addressable users**.
+- **Current number or market size:** **1.57 million excluded gambling population** **92% of Georgians uninvested in capital markets**; NBG financial literacy programs reached **950,000 in 2024** [[GlobalMoneyWeek]](https://globalmoneyweek.org/countries/142-georgia.html); Digital payments market **$2.31 billion** [[Statista]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia). The intersection of excluded gamblers + digital natives + financially literate represents approximately **400,000-600,000 immediate addressable users**.
 
 ---
 
@@ -470,19 +433,19 @@ Where does the client sit today?
 
 - **Current leverage in the market:**
   - **Regulatory whitespace:** No Georgian platform currently occupies the "responsible speculation" niche,gambling is heavily restricted, traditional brokerages require minimum balances and complex onboarding, crypto platforms lack educational guardrails
-  - **NBG relationship opportunity:** NBG's demonstrated commitment to consumer protection (85% dispute resolution in consumer favor) [[3]](https://georgiatoday.ge/nbg-over-90-consumer-disputes-settled-in-favor-of-citizens-in-2024/) and financial literacy investment (950,000 reached) [[4]](https://globalmoneyweek.org/countries/142-georgia.html) creates receptive environment for education-first platform
-  - **Social license:** 40% gambling exclusion rate [[1]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling) creates societal demand for legal alternatives that don't carry gambling stigma
-  - **Global precedent:** eToro (12+ years), IG Group (50+ years), Interactive Brokers (40+ years) have validated responsible trading features [[5]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/) [[6]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf) [[7]](https://www.interactivebrokers.com/campus/trading-lessons/ibkr-campus-education-and-tutorials/),client can license/adapt proven frameworks rather than inventing new standards
+  - **NBG relationship opportunity:** NBG's demonstrated commitment to consumer protection (85% dispute resolution in consumer favor) [[GeorgiaToday]](https://georgiatoday.ge/nbg-over-90-consumer-disputes-settled-in-favor-of-citizens-in-2024/) and financial literacy investment (950,000 reached) [[GlobalMoneyWeek]](https://globalmoneyweek.org/countries/142-georgia.html) creates receptive environment for education-first platform
+  - **Social license:** 40% gambling exclusion rate [[Public Gaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling) creates societal demand for legal alternatives that don't carry gambling stigma
+  - **Global precedent:** eToro (12+ years), IG Group (50+ years), Interactive Brokers (40+ years) have validated responsible trading features [[Global Banking and Finance]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/) [[Ig Group]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf) [[Interactive Brokers]](https://www.interactivebrokers.com/campus/trading-lessons/ibkr-campus-education-and-tutorials/),client can license/adapt proven frameworks rather than inventing new standards
 
 - **Data assets available:**
   - None currently (greenfield opportunity)
-  - Potential partnership with NBG FinEdu for anonymized financial literacy assessment data [[4]](https://globalmoneyweek.org/countries/142-georgia.html)
+  - Potential partnership with NBG FinEdu for anonymized financial literacy assessment data [[Global Money Week]](https://globalmoneyweek.org/countries/142-georgia.html)
   - Access to public gambling exclusion registry (1.57 million records) for targeted marketing to legal alternatives
 
 - **Customer relationship strength:**
   - No existing retail customer base
   - Must build trust through NBG co-branding and transparent responsible gaming features
-  - Opportunity to leverage NBG's 123 participating organizations in Global Money Week 2024 [[4]](https://globalmoneyweek.org/countries/142-georgia.html) for B2B2C distribution (banks, universities, youth programs)
+  - Opportunity to leverage NBG's 123 participating organizations in Global Money Week 2024 [[Global Money Week]](https://globalmoneyweek.org/countries/142-georgia.html) for B2B2C distribution (banks, universities, youth programs)
 
 ---
 
@@ -492,11 +455,11 @@ Choose one: Build / Join / Defend / Acquire
 
 - **Recommendation:** **BUILD**
 
-- **Reason 1 (client capabilities):** Georgia's unique regulatory environment,strict gambling exclusion (1.57 million citizens) [[1]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling) combined with progressive financial consumer protection (NBG's 85% dispute resolution rate) [[3]](https://georgiatoday.ge/nbg-over-90-consumer-disputes-settled-in-favor-of-citizens-in-2024/),creates a regulatory sandbox where "responsible speculation" can be defined as distinct from both gambling and traditional investing. The NBG's existing PTI/LTV limits on FX lending [[2]](https://www.elibrary.imf.org/view/journals/002/2024/135/article-A001-en.xml) provide precedent for mandatory loss limits on speculation platforms.
+- **Reason 1 (client capabilities):** Georgia's unique regulatory environment,strict gambling exclusion (1.57 million citizens) [[Public Gaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling) combined with progressive financial consumer protection (NBG's 85% dispute resolution rate) [[Georgia Today]](https://georgiatoday.ge/nbg-over-90-consumer-disputes-settled-in-favor-of-citizens-in-2024/),creates a regulatory sandbox where "responsible speculation" can be defined as distinct from both gambling and traditional investing. The NBG's existing PTI/LTV limits on FX lending [[Elibrary]](https://www.elibrary.imf.org/view/journals/002/2024/135/article-A001-en.xml) provide precedent for mandatory loss limits on speculation platforms.
 
-- **Reason 2 (competitive dynamics):** No incumbent occupies this space,banks focus on wealthy clients, crypto platforms ignore consumer protection, and gambling operators are legally excluded from 40% of population. Global platforms (eToro, IG, Interactive Brokers) have proven responsible trading features work at scale [[5]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/) [[6]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf) [[7]](https://www.interactivebrokers.com/campus/trading-lessons/ibkr-campus-education-and-tutorials/), but none have adapted to Georgia's specific regulatory context. First-mover can establish "responsible speculation" as new asset class with NBG blessing.
+- **Reason 2 (competitive dynamics):** No incumbent occupies this space,banks focus on wealthy clients, crypto platforms ignore consumer protection, and gambling operators are legally excluded from 40% of population. Global platforms (eToro, IG, Interactive Brokers) have proven responsible trading features work at scale [[Global Banking And Finance]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/) [[Ig Group]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf) [[Interactive Brokers]](https://www.interactivebrokers.com/campus/trading-lessons/ibkr-campus-education-and-tutorials/), but none have adapted to Georgia's specific regulatory context. First-mover can establish "responsible speculation" as new asset class with NBG blessing.
 
-- **Reason 3 (financial logic):** Addressable market of 1.57 million excluded gamblers [[1]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling) + 92% uninvested population creates TAM of ~2.5 million Georgians. With 10% penetration and 50 GEL average daily loss limits, platform generates sustainable revenue through spread capture (not user losses) while maintaining social license. NBG partnership reduces customer acquisition costs via financial literacy program integration [[4]](https://globalmoneyweek.org/countries/142-georgia.html).
+- **Reason 3 (financial logic):** Addressable market of 1.57 million excluded gamblers [[Public Gaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling) + 92% uninvested population creates TAM of ~2.5 million Georgians. With 10% penetration and 50 GEL average daily loss limits, platform generates sustainable revenue through spread capture (not user losses) while maintaining social license. NBG partnership reduces customer acquisition costs via financial literacy program integration [[GlobalMoneyWeek]](https://globalmoneyweek.org/countries/142-georgia.html).
 
 ---
 
@@ -504,7 +467,7 @@ Choose one: Build / Join / Defend / Acquire
 
 What is the one specific action the client must take in the next 6 months?
 
-- **Action:** Submit formal proposal to NBG Financial Stability and Supervision Department requesting "Financial Education Platform" classification (distinct from VASP and gambling licenses), including: (1) technical specification of mandatory daily loss limits (50 GEL default, user-customizable down to 10 GEL); (2) integration plan with NBG FinEdu curriculum [[4]](https://globalmoneyweek.org/countries/142-georgia.html); (3) pilot program commitment with 1,000 users demonstrating <5% complaint rate and >80% educational completion; (4) negative balance protection mechanism ensuring platform absorbs all losses exceeding user deposits [[6]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf).
+- **Action:** Submit formal proposal to NBG Financial Stability and Supervision Department requesting "Financial Education Platform" classification (distinct from VASP and gambling licenses), including: (1) technical specification of mandatory daily loss limits (50 GEL default, user-customizable down to 10 GEL); (2) integration plan with NBG FinEdu curriculum [[Global Money Week]](https://globalmoneyweek.org/countries/142-georgia.html); (3) pilot program commitment with 1,000 users demonstrating <5% complaint rate and >80% educational completion; (4) negative balance protection mechanism ensuring platform absorbs all losses exceeding user deposits [[IgGroup]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf).
 
 - **Owner:** CEO/Regulatory Lead with NBG relationship + Chief Product Officer with responsible trading platform experience (eToro/IG/Interactive Brokers alumni preferred)
 
@@ -534,13 +497,13 @@ Before finalizing:
 
 ## Global Practice Comparison
 
-**eToro Responsible Trading Model:** Pioneer since 2012 with mandatory leverage limits (1:100 max), 20% position size limits, and educational interventions [[5]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/). Georgian platform should adopt position limits but tighten further (1:5 leverage max for novices) given local risk appetite and regulatory environment.
+**eToro Responsible Trading Model:** Pioneer since 2012 with mandatory leverage limits (1:100 max), 20% position size limits, and educational interventions [[Global Banking And Finance]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/). Georgian platform should adopt position limits but tighten further (1:5 leverage max for novices) given local risk appetite and regulatory environment.
 
-**IG Group Consumer Protection Framework:** Negative balance protection, guaranteed stops, and position-by-position Limited Risk Accounts (LRAs) that force explicit stop placement [[6]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf). IG's data shows LRA users demonstrate more thoughtful trading behavior (18.5% use limit orders vs. 13% standard account users). Georgian platform should mandate LRAs for all users first 90 days.
+**IG Group Consumer Protection Framework:** Negative balance protection, guaranteed stops, and position-by-position Limited Risk Accounts (LRAs) that force explicit stop placement [[IgGroup]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf). IG's data shows LRA users demonstrate more thoughtful trading behavior (18.5% use limit orders vs. 13% standard account users). Georgian platform should mandate LRAs for all users first 90 days.
 
-**Interactive Brokers IBKR Campus:** Eight-pillar education platform including Traders' Academy, webinars, podcasts, and quant resources [[7]](https://www.interactivebrokers.com/campus/trading-lessons/ibkr-campus-education-and-tutorials/). Georgian platform should license/adapt IBKR curriculum structure but localize content (Georgian language, GEL-denominated examples, local market case studies).
+**Interactive Brokers IBKR Campus:** Eight-pillar education platform including Traders' Academy, webinars, podcasts, and quant resources [[InteractiveBrokers]](https://www.interactivebrokers.com/campus/trading-lessons/ibkr-campus-education-and-tutorials/). Georgian platform should license/adapt IBKR curriculum structure but localize content (Georgian language, GEL-denominated examples, local market case studies).
 
-**Key Differentiation:** Georgia's platform combines all three global best practices (eToro limits + IG protection + IBKR education) with NBG regulatory co-branding, creating world's first "regulator-approved responsible speculation" category. The 1.57 million gambling-excluded population [[1]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling) provides immediate product-market fit unavailable in jurisdictions with looser gambling regulations.
+**Key Differentiation:** Georgia's platform combines all three global best practices (eToro limits + IG protection + IBKR education) with NBG regulatory co-branding, creating world's first "regulator-approved responsible speculation" category. The 1.57 million gambling-excluded population [[PublicGaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling) provides immediate product-market fit unavailable in jurisdictions with looser gambling regulations.
 
 ---
 
