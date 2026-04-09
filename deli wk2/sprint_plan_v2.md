@@ -77,14 +77,15 @@ Minimum two meetings per week for Weeks 1 to 4. Minimum three meetings per week 
 - Time: 19:00 
 - Location: KIU F block
 - Format: team member presents each section under timed conditions (25 minutes total). Others ask the three hardest questions they can think of. Identify three specific weaknesses.
-| Section                               | Presenter                                 | Time allocated |
-| :------------------------------------ | :---------------------------------------- | :------------- |
-| Executive summary + Industry context  | Gega Mukhigulashvili                      | 5 min          |
-| AI landscape + Platform dynamics      | Ani Rusieshvili, Mariam Kopaleishvili     | 5 min          |
-| Strategic options + Business model    | Mariam Kopaleishvili, All                 | 5 min          |
-| Roadmap + ROI + Risk + Implementation | Mariam Piranishvili, Gega Mukhigulashvili | 5 min          |
-| Q\&A simulation                       | All                                       | 10 min         |
-| **Total**                             |                                           | **30 min**     |
+## Part 4. Dry run commitment
+
+May 8, 2026 | 19:00 | KIU F block | 25 min pres + 10 min Q&A | Find 3 weaknesses
+
+Gega Mukhigulashvili    → Executive summary + Industry context          → 5 min
+Ani Rusieshvili + Mariam Kopaleishvili  → AI landscape + Platform dynamics  → 5 min
+Mariam Kopaleishvili + All  → Strategic options + Business model          → 5 min
+Mariam Piranishvili + Gega Mukhigulashvili → Roadmap + ROI + Risk + Implementation → 5 min
+All                     → Q&A simulation                                → 10 min
 ---
 ## Part 5. Sprint risk
 
