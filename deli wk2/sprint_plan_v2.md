@@ -46,18 +46,18 @@ Minimum two meetings per week for Weeks 1 to 4. Minimum three meetings per week 
 
 | # | Date | Time | Agenda | Deliverable |
 |---|---|---|---|---|
-| 1 |April 6  | 19:00 | Sprint planning and section kickoff |  |
-| 2 | April 6 | 19:00 | Research findings review |  |
-| 3 | April 6 | 19:00 | Sections 2, 3, 4 first draft review |  |
-| 4 | April 6 |19:00  | Sections 5, 6 first draft review |  |
-| 5 | April 6 | 19:00 | Full deck assembly and logic check |  |
-| 6 |  |  | ROI model review and challenge |  |
-| 7 |  |  | Sections 7, 8 draft review |  |
-| 8 |  |  | Full deck second review |  |
-| 9 |  |  | Internal dry run (25 min + 10 min Q&A) |  |
-| 10 |  |  | Dry run feedback incorporation |  |
-| 11 |  |  | Final polish and supporting document |  |
-| 12 |  |  | Pre-submission check | Final submission |
+| 1 |April 19  | 19:00 | Sprint planning and section kickoff |  |
+| 2 | April 19 | 19:00 | Research findings review |  |
+| 3 | April 19 | 19:00 | Sections 2, 3, 4 first draft review |  |
+| 4 | April 19 |19:00  | Sections 5, 6 first draft review |  |
+| 5 | April 19| 19:00 | Full deck assembly and logic check |  |
+| 6 | May 8 |19:00  | ROI model review and challenge |  |
+| 7 | May 8 |19:00  | Sections 7, 8 draft review |  |
+| 8 | May 8 |19:00 | Full deck second review |  |
+| 9 | May 8 |19:00  | Internal dry run (25 min + 10 min Q&A) |  |
+| 10 | May 20 | 19:00 | Dry run feedback incorporation |  |
+| 11 |  May 20 | 19:00 | Final polish and supporting document |  |
+| 12 | May 20  | 19:00 | Pre-submission check | Final submission |
 
 ---
 
@@ -67,24 +67,35 @@ Minimum two meetings per week for Weeks 1 to 4. Minimum three meetings per week 
 |---|---|---|---|
 | 1 |Regulations&limitations  |  Mariam Piranishvili|  |
 | 2 | How much does it cost to set up poly market platform | Gega Mukhigulashvili |  |
-| 3 | How much liquidity needed to operate flowlessly? |  |  |
+| 3 | How much liquidity needed to operate flowlessly? | Mariam Kopaleishvili |  |
 
 ---
 
 ## Part 4. Dry run commitment
 
-- Internal dry run date:
-- Time:
-- Location:
+- Internal dry run date: May 8, 2026
+- Time: 19:00 
+- Location: KIU F block
 - Format: team member presents each section under timed conditions (25 minutes total). Others ask the three hardest questions they can think of. Identify three specific weaknesses.
+| Section                               | Presenter                                  | Time allocated |
+| ------------------------------------- | ------------------------------------------ | -------------- |
+| Executive summary + Industry context  | Gega Mukhigulashvili                       | 5 min          |
+| AI landscape + Platform dynamics      | Ani Rusieshvili + Mariam Kopaleishvili     | 5 min          |
+| Strategic options + Business model    | Mariam Kopaleishvili + Everyone            | 5 min          |
+| Roadmap + ROI + Risk + Implementation | Mariam Piranishvili + Gega Mukhigulashvili | 5 min          |
+| Q\&A simulation                       | All                                        | 10 min         |
 
 ---
 
 ## Part 5. Sprint risk
 
-- Primary risk to the sprint:
-- Mitigation:
-- Escalation: if the sprint falls two weeks behind, the team will:
+
+  |                                                                     |                                                                                                                                                                                                                                         |
+| ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Primary risk to the sprint**                                      | NBG does not provide regulatory clarity by Week 2, forcing strategic options to be built on assumptions; OR cost/liquidity data from global platforms is unavailable, undermining ROI model credibility                                 |
+| **Mitigation**                                                      | Escalate through Georgian Fintech Association for NBG warm introduction; use public CFTC filings (Kalshi) and academic studies as secondary sources; develop sensitivity analysis with high/low scenarios for all financial assumptions |
+| **Escalation:** if the sprint falls two weeks behind, the team will | Reduce scope to 2 strategic options (eliminate Incumbent Partnership as most complex); narrow to single-market MVP (Tbilisi only); request instructor guidance on assumption-based presentation format                                  |
+
 
 ## Deliverable
 
