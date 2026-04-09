@@ -51,7 +51,7 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 - Information on market-implied probabilities for economic and political outcomes
 
 **What they receive:**
-- $1 GEL (0.37 USD) minimum contracts,99.9% lower capital barrier than Galt & Taggart's $1,000 minimum [[26]](https://www.galtandtaggart.com/ge/wealth-management/brokerage)
+- 1 GEL (0.37 USD) minimum contracts,99.9% lower capital barrier than Galt & Taggart's $1,000 minimum [[26]](https://www.galtandtaggart.com/ge/wealth-management/brokerage)
 - Zero-commission trading (maker orders free; taker fees only)
 - Transparent probability pricing on events they understand (GEL rates, local elections) vs. complex stock analysis
 - Mobile-first UX matching 60%+ mobile commerce penetration in Georgia [[4]](https://www.geostat.ge/media/uploads/files/economy/ICT%20Usage%20in%20Households%20and%20by%20Individuals%202023.pdf)
@@ -255,7 +255,7 @@ Who consumes value on the platform? What do they get from participation?
 
 - **Critical mass threshold: what scale is needed for the effect to become self-sustaining?**
   - **Producer side:** 3-5 professional market makers providing liquidity on 50+ active markets with >$100,000 total value locked per major event category
-  - **Consumer side:** 5,000 monthly active users generating $500,000+ monthly trading volume
+  - **Consumer side:** 5,000 monthly active users generating  GEL 100,000+ monthly trading volume
   - **Combined:** Self-sustaining liquidity when 60% of markets maintain <5% bid-ask spreads without platform subsidy
 
 - **Risk of negative network effects:**
@@ -300,7 +300,7 @@ Choose one: Build / Join / Defend / Acquire
 
 - **Reason 2 (competitive dynamics):** No Georgian incumbent offers prediction markets,neither banks (focused on traditional lending/deposits) nor existing VASPs (focused on crypto exchange/wallets). Globally, Polymarket and Kalshi demonstrate two viable models; Georgia's regulatory neutrality allows a hybrid approach combining Polymarket's crypto-native UX with Kalshi's compliance rigor. The NBG's alignment with EU MiCA and FATF standards [[2]](https://nbg.gov.ge/en/page/regulation-on-the-initial-offering-of-stable-virtual-assets) positions a Georgian platform for future regional expansion across Middle Corridor markets.
 
-- **Reason 3 (financial logic):** Unit economics favor a VASP-native model: zero payment processing fees via USDC settlement (vs. 2-3% card fees), 15% corporate tax only on distributed profits (vs. 20%+ gambling taxes in many jurisdictions), and minimal physical infrastructure requirements. The $2.31 billion digital payments market [[3]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia) with high mobile penetration but low investment product saturation creates a large addressable market with customer acquisition costs likely 50-70% lower than mature markets.
+- **Reason 3 (financial logic):** Unit economics favor a VASP-native model: zero payment processing fees via USDC settlement (vs. 2-3% card fees), 15% corporate tax only on distributed profits (vs. 20%+ gambling taxes in many jurisdictions), and minimal physical infrastructure requirements. The GEL 2.31 billion digital payments market [[3]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia) with high mobile penetration but low investment product saturation creates a large addressable market with customer acquisition costs likely 50-70% lower than mature markets.
 
 ---
 
@@ -308,13 +308,13 @@ Choose one: Build / Join / Defend / Acquire
 
 What is the one specific action the client must take in the next 6 months?
 
-- **Action:** Submit VASP pre-registration consultation to NBG specifically framing event contracts as "convertible virtual asset trading instruments" (not gambling products), accompanied by a technical whitepaper demonstrating USDC collateralization, automated market maker mechanics, and AML travel rule compliance for all transactions exceeding $1,000 equivalent.
+- **Action:** Submit VASP pre-registration consultation to NBG specifically framing event contracts as "convertible virtual asset trading instruments" (not gambling products), accompanied by a technical whitepaper demonstrating USDC collateralization, automated market maker mechanics, and AML travel rule compliance for all transactions exceeding GEL 1,000 equivalent.
 
 - **Owner:** CEO/Regulatory Lead (external Georgian legal counsel with NBG relationships mandatory)
 
 - **Success metric:** NBG written confirmation that event contracts fall within permissible VASP activities (exchange between convertible virtual assets and administration of trading platforms) [[8]](https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf)[[13]](https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape) within 90 days; failure mode is requirement to restructure as securities or gambling entity.
 
-- **Investment required (order of magnitude):** $150,000-$250,000 (legal/consulting for VASP registration, technical MVP development, initial liquidity seeding)
+- **Investment required (order of magnitude):** GEL 100,000-GEL 150,000 (legal/consulting for VASP registration, technical MVP development, initial liquidity seeding)
 
 ---
 
@@ -332,7 +332,7 @@ Before finalizing:
   - Yes: Concrete deliverable (pre-registration consultation), defined owner, measurable outcome, budget range
 
  **Have you confronted the chicken-and-egg problem if you recommended Build?**
-  - Yes: Platform will seed initial liquidity through treasury allocation (1-2% of raise) to ensure tight spreads at launch, targeting 20 markets with $50,000 TVL each before retail marketing spend
+  - Yes: Platform will seed initial liquidity through treasury allocation (1-2% of raise) to ensure tight spreads at launch, targeting 20 markets with GEL 50,000 TVL each before retail marketing spend
 
 ---
 
@@ -536,7 +536,7 @@ Before finalizing:
   - Yes: Regulatory whitespace (capability), competitive absence + global precedent (dynamics), TAM of 1.57M excluded gamblers + NBG partnership reducing CAC (financial)
 
  **Does the first move pass the specificity test: could someone actually execute it?**
-  - Yes: Concrete deliverable (formal NBG proposal with 4 components), defined owner (CEO + CPO with specific experience), measurable success metric (written approval + 4 pilot KPIs), budget range ($200K-$350K)
+  - Yes: Concrete deliverable (formal NBG proposal with 4 components), defined owner (CEO + CPO with specific experience), measurable success metric (written approval + 4 pilot KPIs), budget range
 
  **Have you confronted the chicken-and-egg problem if you recommended Build?**
   - Yes: Platform will subsidize initial liquidity and absorb negative balance risk to attract first users; NBG FinEdu partnership provides distribution channel to 950,000 financially literate prospects; 1.57M excluded gamblers create pent-up demand for legal alternative
