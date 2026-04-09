@@ -54,7 +54,7 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 - 1 GEL (0.37 USD) minimum contracts,99.9% lower capital barrier than Galt & Taggart's $1,000 minimum [[26]](https://www.galtandtaggart.com/ge/wealth-management/brokerage)
 - Zero-commission trading (maker orders free; taker fees only)
 - Transparent probability pricing on events they understand (GEL rates, local elections) vs. complex stock analysis
-- Mobile-first UX matching 60%+ mobile commerce penetration in Georgia [[4]](https://www.geostat.ge/media/uploads/files/economy/ICT%20Usage%20in%20Households%20and%20by%20Individuals%202023.pdf)
+- Mobile-first UX matching 60%+ mobile commerce penetration in Georgia [[4]](https://www.geostat.ge/ka)
 - Real-time information aggregation showing crowd-sourced expectations (e.g., "Market implies 72% probability GEL strengthens to 2.60 by year-end") [[72]](https://www.tbccapital.ge/en/research/macro/tbc-capital-forecasts-gel-to-strengthen-to-260-against-usd-by-end-of-year)
 
 **Current number or market size:**
@@ -138,17 +138,17 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 ## Reference Links
 
-[1] https://www.fintechgeorgia.ge/fintech-in-georgia/  
+[1] https://fintechs.ge  
 [3] https://www.theblock.co/post/331953/kalshi-raises-50-million-at-20-billion-valuation  
-[4] https://www.geostat.ge/media/uploads/files/economy/ICT%20Usage%20in%20Households%20and%20by%20Individuals%202023.pdf  
+[4] https://www.geostat.ge/ka  
 [6] https://www.bloomberg.com/news/articles/2025-11-14/kalshi-raises-50-million-at-20-billion-valuation  
 [8] https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf  
-[9] https://www.fintechgeorgia.ge/fintech-in-georgia/  
+[9] https://fintechs.ge  
 [10] https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia  
 [11] https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia  
-[14] https://www.coindesk.com/markets/2024/11/12/polymarket-crypto-prediction-market-hits-1b-in-monthly-volume-for-first-time/  
+[14] https://www.coindesk.com/markets/2026/04/06/polymarket-reveals-a-full-exchange-upgrade-to-take-control-of-its-own-trading-and-truth  
 [17] https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape  
-[18] https://cointelegraph.com/news/georgia-crypto-regulation-vasp-registration  
+[18]    
 [19] https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape  
 [20] https://www.legalsportsreport.com/georgia-sports-betting/  
 [21] https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape  
@@ -187,9 +187,9 @@ This canvas maps the client's position in the platform competitive structure and
 
 ## Industry Context
 
-The Republic of Georgia has established one of the most crypto-friendly regulatory frameworks in the region. As of April 2025, there are **24 registered VASPs** operating under National Bank of Georgia supervision [[1]](https://www.fintechgeorgia.ge/fintech-in-georgia/). The NBG has developed comprehensive regulations including the "Regulation on the Initial Offering of Stable Virtual Assets" which mandates 100% reserve backing and aligns with global best practices including EU MiCA, US Genius Act, and Dubai VARA frameworks [[2]](https://nbg.gov.ge/en/page/regulation-on-the-initial-offering-of-stable-virtual-assets). The Georgian fintech market is projected to reach **$2.31 billion in digital payments by 2024** with 18.6% growth [[3]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia), while the NBG has explicitly prioritized blockchain-based financial infrastructure and smart contract programmability in its Fintech Development Strategy [[1]](https://www.fintechgeorgia.ge/fintech-in-georgia/).
+The Republic of Georgia has established one of the most crypto-friendly regulatory frameworks in the region. As of April 2025, there are **24 registered VASPs** operating under National Bank of Georgia supervision [[1]](https://fintechs.ge). The NBG has developed comprehensive regulations including the "Regulation on the Initial Offering of Stable Virtual Assets" which mandates 100% reserve backing and aligns with global best practices including EU MiCA, US Genius Act, and Dubai VARA frameworks [[2]](https://nbg.gov.ge/en). The Georgian fintech market is projected to reach **$2.31 billion in digital payments by 2024** with 18.6% growth [[3]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia), while the NBG has explicitly prioritized blockchain-based financial infrastructure and smart contract programmability in its Fintech Development Strategy [[1]](https://fintechs.ge).
 
-**Prediction Market Perspective:** Globally, prediction markets have exploded from $50 million weekly volume to over **$6 billion weekly** following the 2024 U.S. election, with Polymarket (decentralized, crypto-native) and Kalshi (CFTC-regulated) emerging as the two dominant models [[4]](https://www.geostat.ge/media/uploads/files/economy/ICT%20Usage%20in%20Households%20and%20by%20Individuals%202023.pdf). Polymarket reached $140 million TVL and $3 billion cumulative trading volume during the election period [[5]](https://www.coindesk.com/markets/2024/11/12/polymarket-crypto-prediction-market-hits-1b-in-monthly-volume-for-first-time/), while Kalshi raised $185 million at a $2 billion valuation [[6]](https://www.bloomberg.com/news/articles/2025-11-14/kalshi-raises-50-million-at-20-billion-valuation).
+**Prediction Market Perspective:** Globally, prediction markets have exploded from $50 million weekly volume to over **$6 billion weekly** following the 2024 U.S. election, with Polymarket (decentralized, crypto-native) and Kalshi (CFTC-regulated) emerging as the two dominant models [[4]](https://www.geostat.ge/ka). Polymarket reached $140 million TVL and $3 billion cumulative trading volume during the election period [[5]](https://www.coindesk.com/markets/2026/04/06/polymarket-reveals-a-full-exchange-upgrade-to-take-control-of-its-own-trading-and-truth), while Kalshi raised $185 million at a $2 billion valuation [[6]](https://www.bloomberg.com/news/articles/2025-11-14/kalshi-raises-50-million-at-20-billion-valuation).
 
 ---
 
@@ -221,7 +221,7 @@ Who produces value on the platform? What do they get from participation?
   - First-mover advantage in an emerging asset class with limited competition
   - Regulatory clarity enabling banking relationships and institutional capital deployment
 
-- **Current number or market size:** As of April 2025, **24 registered VASPs** operate in Georgia [[1]](https://www.fintechgeorgia.ge/fintech-in-georgia/). The global prediction market liquidity provider ecosystem includes sophisticated actors from both DeFi (Polygon, Ethereum L2s) and TradFi (jumping in post-Kalshi v. CFTC). Locally, Georgian VASPs currently focus on exchange/wallet services,none yet offer structured event contracts, creating a **blue ocean opportunity** for first entrants.
+- **Current number or market size:** As of April 2025, **24 registered VASPs** operate in Georgia [[1]](https://fintechs.ge). The global prediction market liquidity provider ecosystem includes sophisticated actors from both DeFi (Polygon, Ethereum L2s) and TradFi (jumping in post-Kalshi v. CFTC). Locally, Georgian VASPs currently focus on exchange/wallet services,none yet offer structured event contracts, creating a **blue ocean opportunity** for first entrants.
 
 ---
 
@@ -243,7 +243,7 @@ Who consumes value on the platform? What do they get from participation?
   - Non-custodial or custodial wallet options with instant conversion to fiat via VASP partners
   - Educational guardrails (daily loss limits, risk warnings) embedded in the platform
 
-- **Current number or market size:** The Georgian digital payments market exceeded **$1 billion in 2023** and is projected to reach **$2.31 billion by 2024** [[3]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia). Internet banking penetration is growing rapidly,**114.8 million online operations** conducted in 2022 (+16.4% YoY) with **8.16 billion GEL transferred** (+25.6% YoY) [[7]](https://nbg.gov.ge/en/statistics). Critically, Georgia's population shows high digital adoption but **92% remain uninvested in capital markets**, representing a massive latent demand for accessible speculation vehicles. The Fintech Association of Georgia reports approximately **35 member companies** as of April 2025 [[1]](https://www.fintechgeorgia.ge/fintech-in-georgia/), indicating a maturing ecosystem but still early-stage retail investment penetration.
+- **Current number or market size:** The Georgian digital payments market exceeded **$1 billion in 2023** and is projected to reach **$2.31 billion by 2024** [[3]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia). Internet banking penetration is growing rapidly,**114.8 million online operations** conducted in 2022 (+16.4% YoY) with **8.16 billion GEL transferred** (+25.6% YoY) [[7]](https://nbg.gov.ge/en). Critically, Georgia's population shows high digital adoption but **92% remain uninvested in capital markets**, representing a massive latent demand for accessible speculation vehicles. The Fintech Association of Georgia reports approximately **35 member companies** as of April 2025 [[1]](https://fintechs.ge), indicating a maturing ecosystem but still early-stage retail investment penetration.
 
 ---
 
@@ -274,14 +274,14 @@ Where does the client sit today?
 
 - **Current leverage in the market:**
   - **Regulatory timing advantage:** NBG's VASP framework is operational (since July 2023) but prediction markets are unoccupied territory,no incumbent has combined event contracts with VASP registration [[8]](https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf)
-  - **Crypto-friendly jurisdiction:** Georgia offers 0% personal income tax on crypto gains, 15% corporate tax (only on distributed profits), and explicit legal recognition of virtual assets as non-securities [[9]](https://www.fintechgeorgia.ge/fintech-in-georgia/)
-  - **Technical infrastructure:** NBG's CBDC pilot (Digital GEL) and instant payment system (IPS) development create interoperability opportunities [[1]](https://www.fintechgeorgia.ge/fintech-in-georgia/)
-  - **Strategic location:** Positioned as regional fintech hub for Middle Corridor countries with cross-border sandbox initiatives [[1]](https://www.fintechgeorgia.ge/fintech-in-georgia/)
+  - **Crypto-friendly jurisdiction:** Georgia offers 0% personal income tax on crypto gains, 15% corporate tax (only on distributed profits), and explicit legal recognition of virtual assets as non-securities [[9]](https://fintechs.ge)
+  - **Technical infrastructure:** NBG's CBDC pilot (Digital GEL) and instant payment system (IPS) development create interoperability opportunities [[1]](https://fintechs.ge)
+  - **Strategic location:** Positioned as regional fintech hub for Middle Corridor countries with cross-border sandbox initiatives [[1]](https://fintechs.ge)
 
 - **Data assets available:**
   - None currently (greenfield opportunity)
   - Potential partnerships with existing VASPs for KYC/AML data sharing (permitted under NBG framework)
-  - Access to NBG's synthetic data sandbox for model training [[1]](https://www.fintechgeorgia.ge/fintech-in-georgia/)
+  - Access to NBG's synthetic data sandbox for model training [[1]](https://fintechs.ge)
 
 - **Customer relationship strength:**
   - No existing retail customer base
@@ -296,9 +296,9 @@ Choose one: Build / Join / Defend / Acquire
 
 - **Recommendation:** **BUILD**
 
-- **Reason 1 (client capabilities):** The VASP registration pathway provides a clear, time-bound regulatory route (2-4 months, €15,000 registration fee) [[11]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia) with defined compliance requirements rather than ambiguous gambling or securities law interpretations. The NBG's "learning-by-doing" approach to fintech supervision [[12]](https://cointelegraph.com/news/georgia-crypto-regulation-vasp-registration) creates regulatory breathing room for innovative products like event contracts, especially when positioned as virtual asset trading rather than betting.
+- **Reason 1 (client capabilities):** The VASP registration pathway provides a clear, time-bound regulatory route (2-4 months, €15,000 registration fee) [[11]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia) with defined compliance requirements rather than ambiguous gambling or securities law interpretations. The NBG's "learning-by-doing" approach to fintech supervision [[12]]( ) creates regulatory breathing room for innovative products like event contracts, especially when positioned as virtual asset trading rather than betting.
 
-- **Reason 2 (competitive dynamics):** No Georgian incumbent offers prediction markets,neither banks (focused on traditional lending/deposits) nor existing VASPs (focused on crypto exchange/wallets). Globally, Polymarket and Kalshi demonstrate two viable models; Georgia's regulatory neutrality allows a hybrid approach combining Polymarket's crypto-native UX with Kalshi's compliance rigor. The NBG's alignment with EU MiCA and FATF standards [[2]](https://nbg.gov.ge/en/page/regulation-on-the-initial-offering-of-stable-virtual-assets) positions a Georgian platform for future regional expansion across Middle Corridor markets.
+- **Reason 2 (competitive dynamics):** No Georgian incumbent offers prediction markets,neither banks (focused on traditional lending/deposits) nor existing VASPs (focused on crypto exchange/wallets). Globally, Polymarket and Kalshi demonstrate two viable models; Georgia's regulatory neutrality allows a hybrid approach combining Polymarket's crypto-native UX with Kalshi's compliance rigor. The NBG's alignment with EU MiCA and FATF standards [[2]](https://nbg.gov.ge/en) positions a Georgian platform for future regional expansion across Middle Corridor markets.
 
 - **Reason 3 (financial logic):** Unit economics favor a VASP-native model: zero payment processing fees via USDC settlement (vs. 2-3% card fees), 15% corporate tax only on distributed profits (vs. 20%+ gambling taxes in many jurisdictions), and minimal physical infrastructure requirements. The GEL 2.31 billion digital payments market [[3]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia) with high mobile penetration but low investment product saturation creates a large addressable market with customer acquisition costs likely 50-70% lower than mature markets.
 
@@ -340,7 +340,8 @@ Before finalizing:
 
 **Polymarket (Decentralized Model):** Operates on Polygon with UMA optimistic oracle resolution, achieving $140M TVL and $40M daily volume through permissionless market creation and global accessibility. Georgia's VASP model cannot replicate full decentralization (NBG requires registered entity with local physical presence and identified administrators) [[11]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia), but can adopt the automated market maker infrastructure and transparent settlement mechanics.
 
-**Kalshi (Regulated Exchange Model):** CFTC-regulated with centralized order books, recently expanding on-chain via Solana for tokenized markets and "Builder Codes" for ecosystem development [[14]](https://www.coindesk.com/markets/2024/11/12/polymarket-crypto-prediction-market-hits-1b-in-monthly-volume-for-first-time/). The Georgian platform should emulate Kalshi's regulatory rigor (NBG registration equivalent to CFTC approval) while leveraging crypto-native composability that Kalshi is only now adopting.
+**Kalshi (Regulated Exchange Model):** CFTC-regulated with centralized order books, recently expanding on-chain via Solana for tokenized markets and "Builder Codes" for ecosystem development
+The Georgian platform should emulate Kalshi's regulatory rigor (NBG registration equivalent to CFTC approval) while leveraging crypto-native composability that Kalshi is only now adopting.
 
 **Key Differentiation:** Georgia's framework permits a unique hybrid,CFTC-grade compliance with DeFi-grade capital efficiency,because NBG explicitly permits commercial banks to provide virtual asset services [[8]](https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf), enabling potential partnerships for fiat on-ramps that Polymarket lacks and Kalshi only achieves through traditional banking relationships.
 
@@ -348,34 +349,25 @@ Before finalizing:
 
 ## Reference Links
 
-[1] https://www.fintechgeorgia.ge/fintech-in-georgia/
+[1] https://fintechs.ge
 
-[2] https://nbg.gov.ge/en/page/regulation-on-the-initial-offering-of-stable-virtual-assets
+[2] https://nbg.gov.ge/en
 
 [3] https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia
 
-[4] https://www.geostat.ge/media/uploads/files/economy/ICT%20Usage%20in%20Households%20and%20by%20Individuals%202023.pdf
+[4] https://www.geostat.ge/ka
 
-[5] https://www.coindesk.com/markets/2024/11/12/polymarket-crypto-prediction-market-hits-1b-in-monthly-volume-for-first-time/
+[5] https://www.coindesk.com/markets/2026/04/06/polymarket-reveals-a-full-exchange-upgrade-to-take-control-of-its-own-trading-and-truth
 
-[6] https://www.bloomberg.com/news/articles/2025-11-14/kalshi-raises-50-million-at-20-billion-valuation
+[7] https://nbg.gov.ge/en
 
-[7] https://nbg.gov.ge/en/statistics
-
-[8] https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf
-
-[9] https://www.fintechgeorgia.ge/fintech-in-georgia/
+[8] https://fintechs.ge
 
 [10] https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia
 
 [11] https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia
 
-[12] https://cointelegraph.com/news/georgia-crypto-regulation-vasp-registration
-
-[13] https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape
-
-[14] https://www.coindesk.com/markets/2024/11/12/polymarket-crypto-prediction-market-hits-1b-in-monthly-volume-for-first-time/
-
+[12] https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape
 
 ## Option C: The Responsible Speculation Bridge
 
