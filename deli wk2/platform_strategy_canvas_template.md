@@ -27,16 +27,16 @@ This canvas maps the client's position in the platform competitive structure and
 **What they receive:**
 - Profit potential from superior information or analysis
 - Risk hedging capabilities (e.g., exporters hedging GEL/USD exposure, political consultants monetizing polling insights)
-- 3.75-4% APY on idle balances (following Kalshi model) [[50]](https://www.kalshi.com/)
-- Zero maker fees; taker fees only on expected earnings (following Kalshi/Polymarket fee structures) [[50]](https://www.kalshi.com/)[[60]](https://www.guru99.com/polymarket-review.html)
+- 3.75-4% APY on idle balances (following Kalshi model) [[Kashi]](https://www.kalshi.com/)
+- Zero maker fees; taker fees only on expected earnings (following Kalshi) (https://www.kalshi.com/)
 
 **Current number or market size:** In Georgia, the addressable producer base includes:
-- ~8% retail investors in Georgian Stock Exchange (low participation creates opportunity) [[46]](https://gse.ge/Uploads/2024%20Annual%20Report.pdf)
-- Commercial banks purchasing 80-90% of GEL bonds (institutional hedging demand) [[56]](https://www.galtandtaggart.com/ge/research/fixed-income/georgian-bond-market-2024)
-- Exporters/importers with GEL/USD exposure (significant given 4.53% GEL depreciation in 2024 and ongoing volatility) [[76]](https://www.geostat.ge/en/modules/categories/26/exchange-rates)
-- Political consultants and civil society organizations with election insights (64 municipalities, 40.93% turnout in 2025 local elections creates information asymmetries) [[82]](https://www.cec.gov.ge/en/cec/municipal-elections-2025)
+- ~8% retail investors in Georgian Stock Exchange (low participation creates opportunity) [[GSE]](https://gse.ge))
+- Commercial banks purchasing 80-90% of GEL bonds (institutional hedging demand) [[Galt and Taggart]](https://www.galtandtaggart.com/ge/research/fixed-income/georgian-bond-market-2024)
+- Exporters/importers with GEL/USD exposure (significant given 4.53% GEL depreciation in 2024 and ongoing volatility) [[Geostat]](https://www.geostat.ge/en/modules/categories/26/exchange-rates)
+- Political consultants and civil society organizations with election insights (64 municipalities, 40.93% turnout in 2025 local elections creates information asymmetries) [[Cesko]](https://www.cec.gov.ge/en/cec/municipal-elections-2025)
 
-Global benchmark: Kalshi reaches $7 million maximum exposure per market with retail and institutional participation [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)
+Global benchmark: Kalshi reaches $7 million maximum exposure per market with retail and institutional participation [[Kashi]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)
 
 ---
 
@@ -47,36 +47,34 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 **What they seek:**
 - Low-cost access to macro-economic and civic outcome speculation
 - Intuitive, event-based trading (vs. complex securities analysis)
-- Short-term, defined-risk investment opportunities aligned with 66% of Georgians who prefer short-term financial thinking [[65]](https://www.nbg.gov.ge/uploads/pressreleases/2025/Financial_Literacy_Survey_2024.pdf)
+- Short-term, defined-risk investment opportunities aligned with 66% of Georgians who prefer short-term financial thinking [[NBG]](https://nbg.gov.ge)
 - Information on market-implied probabilities for economic and political outcomes
 
 **What they receive:**
-- 1 GEL (0.37 USD) minimum contracts,99.9% lower capital barrier than Galt & Taggart's $1,000 minimum [[26]](https://www.galtandtaggart.com/ge/wealth-management/brokerage)
+- 1 GEL (0.37 USD) minimum contracts,99.9% lower capital barrier than Galt & Taggart's $1,000 minimum [[Galt And Taggart]](https://www.galtandtaggart.com/ge/wealth-management/brokerage)
 - Zero-commission trading (maker orders free; taker fees only)
 - Transparent probability pricing on events they understand (GEL rates, local elections) vs. complex stock analysis
-- Mobile-first UX matching 60%+ mobile commerce penetration in Georgia [[4]](https://www.geostat.ge/ka)
-- Real-time information aggregation showing crowd-sourced expectations (e.g., "Market implies 72% probability GEL strengthens to 2.60 by year-end") [[72]](https://www.tbccapital.ge/en/research/macro/tbc-capital-forecasts-gel-to-strengthen-to-260-against-usd-by-end-of-year)
+- Mobile-first UX matching 60%+ mobile commerce penetration in Georgia [[Geostat]](https://www.geostat.ge/ka)
+- Real-time information aggregation showing crowd-sourced expectations (e.g., "Market implies 72% probability GEL strengthens to 2.60 by year-end") [[TBC Capital]](https://www.tbccapital.ge/en/research/macro/tbc-capital-forecasts-gel-to-strengthen-to-260-against-usd-by-end-of-year)
 
 **Current number or market size:**
-- 54% of Georgians achieve "high" financial knowledge (5+ correct answers out of 7), indicating baseline sophistication [[65]](https://www.nbg.gov.ge/uploads/pressreleases/2025/Financial_Literacy_Survey_2024.pdf)
-- Only 34% prefer long-term financial thinking; 66% focus on short-term needs,perfect alignment with event contracts [[65]](https://www.nbg.gov.ge/uploads/pressreleases/2025/Financial_Literacy_Survey_2024.pdf)
-- 40.93% voter turnout in 2025 local elections (3.7 million population) suggests ~1.5 million politically engaged citizens [[82]](https://www.cec.gov.ge/en/cec/municipal-elections-2025)
-- Tbilisi saw only 31.08% turnout,urban apathy creates information demand [[82]](https://www.cec.gov.ge/en/cec/municipal-elections-2025)
-
+- 54% of Georgians achieve "high" financial knowledge (5+ correct answers out of 7), indicating baseline sophistication [[NBG]](https://nbg.gov.ge/fm/პუბლიკაციები/ანგარიშები/ფინანსური_სტაბილურობის_ანგარიში/2024/fsr-2024-eng.pdf?v=43rp1)
+- Only 34% prefer long-term financial thinking; 66% focus on short-term needs,perfect alignment with event contracts [[NBG]](https://nbg.gov.ge/fm/პუბლიკაციები/ანგარიშები/ფინანსური_სტაბილურობის_ანგარიში/2024/fsr-2024-eng.pdf?v=43rp1)
+- 40.93% voter turnout in 2025 local elections (3.7 million population) suggests ~1.5 million politically engaged citizens [[Cesko]](https://www.cec.gov.ge/en/cec/municipal-elections-2025)
 ---
 
 ## Section 4. Network Effect Mechanism
 
 **Primary network effect type:** Data network effects (cross-side with indirect network effects)
 
-**Mechanism description:** As more traders participate, the price discovery improves,Kalshi's mode has "perfectly matched the realized federal funds rate by the day of each meeting since 2022, a feat not achieved by either surveys or futures" [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory). Improved accuracy attracts more sophisticated traders (producers), which improves liquidity and spreads, attracting more retail consumers. The platform becomes the "source of truth" for Georgian macro expectations, creating a self-reinforcing information monopoly. Federal Reserve research confirms Kalshi provides "statistically significant improvement" over Bloomberg consensus for CPI forecasting [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)[[71]](https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi).
+**Mechanism description:** As more traders participate, the price discovery improves,Kalshi's mode has "perfectly matched the realized federal funds rate by the day of each meeting since 2022, a feat not achieved by either surveys or futures" [[Kalshi]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory). Improved accuracy attracts more sophisticated traders (producers), which improves liquidity and spreads, attracting more retail consumers. The platform becomes the "source of truth" for Georgian macro expectations, creating a self-reinforcing information monopoly. Federal Reserve research confirms Kalshi provides "statistically significant improvement" over Bloomberg consensus for CPI forecasting [[Kalshi]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)
 
 **Critical mass threshold:** Based on Kalshi's development trajectory and Georgian market size, approximately 10,000 active users with GEL 5 million in open interest needed for self-sustaining liquidity. At this threshold, bid-ask spreads tighten to <5%, attracting institutional hedgers and justifying market maker investment.
 
 **Risk of negative network effects:**
-- **Information cascade risk:** High concentration of Georgian Dream supporters (81.68% vote share in 2025 elections) [[82]](https://www.cec.gov.ge/en/cec/municipal-elections-2025) could create one-sided markets with poor price discovery
-- **Regulatory shutdown:** If classified as gambling rather than financial instruments, platform faces GEL 15,000-30,000 fines and under-25 user prohibition [[28]](https://www.gamingintelligence.com/regulation/georgia-tightens-gambling-regulations-further/)
-- **NBG intervention correlation:** Central bank's $754 million reserve depletion (Sept-Oct 2024) to stabilize GEL [[77]](https://www.economist.com/finance-and-economics/2024/12/19/georgias-currency-is-tumbling-as-its-politics-turns-volatile) could make GEL-rate markets politically sensitive
+- **Information cascade risk:** High concentration of Georgian Dream supporters (81.68% vote share in 2025 elections) [[CEC]](https://www.cec.gov.ge/en/cec/municipal-elections-2025) could create one-sided markets with poor price discovery
+- **Regulatory shutdown:** If classified as gambling rather than financial instruments, platform faces GEL 15,000-30,000 fines and under-25 user prohibition [[Gaming Intelligigence]]([https://www.gamingintelligence.com/regulation/georgia-tightens-gambling-regulations-further/](https://www.gamingintelligence.com))
+- **NBG intervention correlation:** Central bank's $754 million reserve depletion (Sept-Oct 2024) to stabilize GEL [[Economist]](https://www.economist.com) could make GEL-rate markets politically sensitive
 
 ---
 
@@ -86,14 +84,13 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 **Current leverage in the market:**
 - First-mover advantage: No regulated prediction market exists in Georgia as of March 2026
-- Regulatory relationship pathway: NBG's Innovation Office (innovationoffice@nbg.gov.ge) accepts sandbox applications [[75]](https://www.nbg.gov.ge/en/pages/financial-innovation-office)
+- Regulatory relationship pathway: NBG's Innovation Office (innovationoffice@nbg.gov.ge) accepts sandbox applications [[NBG]](https://nbg.gov.ge/en)
 - Technical infrastructure: Can leverage existing VASP registration framework (if crypto-settled) or payment service provider partnerships (if GEL-settled)
-- NBG's authority to "define new virtual asset services independently through normative acts" creates regulatory flexibility [[30]](https://www.nbg.gov.ge/uploads/pressreleases/2025/Amendments_to_the_Law_on_Operating_of_the_Virtual_Assets.pdf)
 
 **Data assets available:**
 - None currently,must build from zero
 - Can access public data: Geostat (inflation, GDP), NBG (exchange rates, monetary policy), CEC (election results)
-- Can license data from TBC Capital (which produces macro research on GEL/USD forecasts) [[72]](https://www.tbccapital.ge/en/research/macro/tbc-capital-forecasts-gel-to-strengthen-to-260-against-usd-by-end-of-year)
+- Can license data from TBC Capital (which produces macro research on GEL/USD forecasts) [[TBC Capital]](https://www.tbccapital.ge/en/research/macro/tbc-capital-forecasts-gel-to-strengthen-to-260-against-usd-by-end-of-year)
 
 **Customer relationship strength:**
 - No existing customer base
@@ -106,9 +103,9 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 **Recommendation:** Build
 
-**Reason 1 (client capabilities):** The client possesses (or can assemble) the technical and regulatory capabilities to build a CFTC-aligned prediction market platform. NBG's regulatory sandbox framework explicitly supports "testing innovative financial services in a controlled environment" with "continuous collaboration with the regulator" [[75]](https://www.nbg.gov.ge/en/pages/financial-innovation-office). The sandbox allows defining "new regulatory requirements or amend existing ones based on practical experience," creating a viable path to establish prediction markets as financial instruments rather than gambling. The NBG's 2023-2025 supervisory strategy prioritizes fintech development, and the tokenized deposits sandbox project (launched February 2025) demonstrates openness to novel financial products [[79]](https://www.nbg.gov.ge/uploads/pressreleases/2025/Press_Release_on_the_Tokenized_Deposits_Sandbox_Project.pdf).
+**Reason 1 (client capabilities):** The client possesses (or can assemble) the technical and regulatory capabilities to build a CFTC-aligned prediction market platform. NBG's regulatory sandbox framework explicitly supports "testing innovative financial services in a controlled environment" with "continuous collaboration with the regulator" [[TBC Capital]](https://tbccapital.ge/en/). The sandbox allows defining "new regulatory requirements or amend existing ones based on practical experience," creating a viable path to establish prediction markets as financial instruments rather than gambling. The NBG's 2023-2025 supervisory strategy prioritizes fintech development, and the tokenized deposits sandbox project (launched February 2025) demonstrates openness to novel financial products [[NBG]](https://www.nbg.gov.ge).
 
-**Reason 2 (competitive dynamics):** No incumbent in Georgia offers event-based macro-economic or civic outcome trading. TBC Capital and Galt & Taggart focus on traditional securities with $1,000+ minimums and fee structures that exclude retail participation [[26]](https://www.galtandtaggart.com/ge/wealth-management/brokerage). Daily fantasy sports (DFS) apps demonstrate user appetite for event-based speculation but operate in regulatory gray areas and lack financial instrument credibility. By securing NBG sandbox approval and positioning as a "financial derivative tool for information aggregation" (distinct from gambling), the client creates a defensible regulatory moat. The Federal Reserve's validation that Kalshi macro markets match or exceed traditional forecasting accuracy [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)[[71]](https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi) provides powerful evidence for NBG approval.
+**Reason 2 (competitive dynamics):** No incumbent in Georgia offers event-based macro-economic or civic outcome trading. TBC Capital and Galt & Taggart focus on traditional securities with $1,000+ minimums and fee structures that exclude retail participation [[Galt and Taggart]](https://www.galtandtaggart.com/ge). Daily fantasy sports (DFS) apps demonstrate user appetite for event-based speculation but operate in regulatory gray areas and lack financial instrument credibility. By securing NBG sandbox approval and positioning as a "financial derivative tool for information aggregation" (distinct from gambling), the client creates a defensible regulatory moat. The Federal Reserve's validation that Kalshi macro markets match or exceed traditional forecasting accuracy [[70]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)[[71]](https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi) provides powerful evidence for NBG approval.
 
 **Reason 3 (financial logic):** Unit economics favor building over joining/acquiring. At 100,000 active users with GEL 50 average monthly volume and 2% take rate, monthly revenue reaches GEL 100,000 (~$37,000). With Georgia's low operational costs and zero maker fees reducing friction, break-even is achievable at 25,000-30,000 active users. The NBG sandbox requires no upfront licensing fees (unlike full VASP registration at GEL 5,000 [[19]](https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape)), reducing initial capital requirements to GEL 500,000-1,000,000 for technology development and regulatory compliance. Kalshi's $20 billion valuation [[3]](https://www.theblock.co/post/331953/kalshi-raises-50-million-at-20-billion-valuation) and $44 billion 2025 volume [[6]](https://www.bloomberg.com/news/articles/2025-11-14/kalshi-raises-50-million-at-20-billion-valuation) demonstrate massive TAM if Georgian model expands regionally.
 
