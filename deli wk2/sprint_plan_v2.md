@@ -81,12 +81,19 @@ Minimum two meetings per week for Weeks 1 to 4. Minimum three meetings per week 
 
 May 8, 2026 | 19:00 | KIU F block | 25 min pres + 10 min Q&A | Find 3 weaknesses
 
-Gega Mukhigulashvili    → Executive summary + Industry context          → 5 min
-Ani Rusieshvili + Mariam Kopaleishvili  → AI landscape + Platform dynamics  → 5 min
-Mariam Kopaleishvili + All  → Strategic options + Business model          → 5 min
-Mariam Piranishvili + Gega Mukhigulashvili → Roadmap + ROI + Risk + Implementation → 5 min
-All                     → Q&A simulation                                → 10 min
----
+Part 4. Dry run commitment
+
+Date: May 8, 2026
+Time: 19:00
+Location: KIU F block
+Format: Timed presentations (25 min) + hard questions. Identify 3 weaknesses.
+
+1. Executive summary + Industry context (Gega Mukhigulashvili) - 5 min
+2. AI landscape + Platform dynamics (Ani Rusieshvili, Mariam Kopaleishvili) - 5 min
+3. Strategic options + Business model (Mariam Kopaleishvili, Everyone) - 5 min
+4. Roadmap + ROI + Risk + Implementation (Mariam Piranishvili, Gega Mukhigulashvili) - 5 min
+5. Q&A simulation (All) - 10 min
+   
 ## Part 5. Sprint risk
 
 
