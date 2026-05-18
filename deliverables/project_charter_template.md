@@ -86,7 +86,7 @@ List five to eight specific areas of analysis the project will cover.
 4. Customer jobs-to-be-done and behavior analysis, identifying functional needs such as instant payments and micro-contracts, emotional needs including financial competence and social belonging, and the specific triggers that cause users to switch from crypto platforms, betting sites, or traditional banks.
 5. Product-market fit and UX strategy, evaluating contract design choices including the critical distinction between one-dollar micro-contracts and TBC Capital's existing one-dollar fractional investing, the localization of events around Georgian elections, sports, and macroeconomic indicators, and the infrastructure for oracle-based resolution mechanisms.
 6. Economic model and unit economics, defining revenue models comparing spread-based versus commission structures, assessing market maker requirements and liquidity subsidies needed for network effects, and modeling customer acquisition costs across regulated versus unregulated channels.
-7. Strategic options development, rigorously evaluating three distinct paths: the NBG Sandbox First-Mover approach, the Crypto-Native Trojan Horse strategy, and the Incumbent Partnership Play, establishing clear decision criteria and tradeoffs for each.
+7. Strategic options development, rigorously evaluating three distinct paths: the Regulatory Sandbox Pathway, the VASP-Registered Crypto-Native Platform, and the Responsible-Use Layer embedded into the sandbox-first path, establishing clear decision criteria and tradeoffs for each.
 8. Risk governance and implementation, designing responsible use features including self-exclusion tools and deposit limits, building AML and KYC compliance frameworks, and constructing the phased 18-month roadmap with appropriate governance structures.
 9. Evaluation of whether a TBC-backed model improves regulatory credibility, payment access, customer trust, and early distribution compared with a standalone startup.
 
@@ -139,7 +139,7 @@ We assume [specific condition] for the purpose of this project because [basis or
 
 **Risk of being wrong**: Medium
 
-**Impact if wrong**: The analysis must eliminate the "Incumbent Partnership" strategic option, force reliance solely on crypto-native rails (USDC) limiting addressable market to crypto-literate users (~5-10% of target demographic), and pivot entirely to the "Crypto-Native Trojan Horse" option with associated regulatory enforcement risks and inability to advertise broadly.
+**Impact if wrong**: The analysis must weaken the bank-backed sandbox pathway, force greater reliance on crypto-native rails (USDC) limiting addressable market to crypto-literate users (~5-10% of target demographic), and treat the VASP-Registered Crypto-Native Platform only as a narrower fallback with associated regulatory enforcement risks and inability to advertise broadly.
 
 **Assumption 3**
 

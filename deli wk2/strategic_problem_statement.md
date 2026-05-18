@@ -11,7 +11,7 @@ A project without a clear problem statement drifts. This worksheet forces the te
 - Industry: Georgian Fintech (Digital Payments, Investment Platforms, and Emerging Prediction Markets)
 - Focal company or client: Early-stage Georgian fintech venture seeking to launch a regulated prediction market platform
 - Primary disruption force: The global validation of event-based prediction markets through two distinct models: Kalshi as a regulated event-contract exchange model and Polymarket as a crypto-native, high-liquidity prediction-market model. This global trend intersects with Georgia's underserved retail speculation demand, restrictive gambling framework, growing digital-payment adoption, and the absence of a locally regulated prediction-market operator.
-- Why this matters now: Georgia's NBG has established a regulatory sandbox framework actively accepting applications, the 2025 local elections demonstrated 40.93% voter engagement (indicating civic interest), GEL volatility (4.53% depreciation in 2024) creates hedging demand, and TBC Capital's recent launch of zero-commission $1 investing has raised the competitive bar for differentiation.
+- Why this matters now: Georgia's NBG has established fintech engagement channels and a regulatory sandbox framework that may be relevant for pre-consultation or controlled testing, subject to eligibility and NBG confirmation. The 2025 local elections demonstrated 40.93% voter engagement (indicating civic interest), GEL volatility (4.53% depreciation in 2024) creates hedging demand, and TBC Capital's recent launch of zero-commission $1 investing has raised the competitive bar for differentiation.
 
 ---
 
@@ -20,7 +20,7 @@ A project without a clear problem statement drifts. This worksheet forces the te
 Describe the client's current position.
 - Strengths:
    - First-mover advantage in an undefined market category (no regulated prediction markets exist in Georgia as of March 2026)
-   - Favorable regulatory pathway via NBG Innovation Office sandbox (innovationoffice@nbg.gov.ge) with precedent from tokenized deposits sandbox (February 2025)
+   - Potential regulatory pathway through NBG engagement, including the Innovation Office and/or sandbox-style testing framework, subject to eligibility and NBG confirmation.
    - NBG's authority to define new virtual asset services through normative acts provides regulatory flexibility
    - High mobile commerce penetration (60%+) and intermediate financial literacy (54% high knowledge) create receptive user base
    - Georgia's crypto-friendly tax regime (0% corporate tax on foreign IT services) supports technology infrastructure

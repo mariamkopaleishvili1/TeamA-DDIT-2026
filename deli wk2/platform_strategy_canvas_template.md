@@ -67,14 +67,14 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 **Primary network effect type:** Data network effects (cross-side with indirect network effects)
 
-**Mechanism description:** As more traders participate, the price discovery improves,Kalshi's mode has "perfectly matched the realized federal funds rate by the day of each meeting since 2022, a feat not achieved by either surveys or futures" [[Kalshi]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory). Improved accuracy attracts more sophisticated traders (producers), which improves liquidity and spreads, attracting more retail consumers. The platform becomes the "source of truth" for Georgian macro expectations, creating a self-reinforcing information monopoly. Federal Reserve research confirms Kalshi provides "statistically significant improvement" over Bloomberg consensus for CPI forecasting [[Kalshi]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)
+**Mechanism description:** As more traders participate, price discovery may improve if markets are liquid, well-designed, and based on verifiable events. Kalshi's public materials suggest that some regulated event markets can produce useful forecasting signals, but the strength of that evidence and its applicability to Georgia should be verified before being used as proof. Improved liquidity could attract more informed traders, which could narrow spreads and improve user trust. The Georgian platform should aim to become a credible local signal for macro and civic expectations, not assume it will become an information monopoly.
 
-**Critical mass threshold:** Based on Kalshi's development trajectory and Georgian market size, approximately 10,000 active users with GEL 5 million in open interest needed for self-sustaining liquidity. At this threshold, bid-ask spreads tighten to <5%, attracting institutional hedgers and justifying market maker investment.
+**Critical mass threshold:** TODO: verify source. The project currently uses 10,000 active users and GEL 5 million in open interest as a planning hypothesis, but the actual threshold for self-sustaining liquidity should be validated through market-maker discussions, pilot data, and unit-economics modeling.
 
 **Risk of negative network effects:**
-- **Information cascade risk:** High concentration of Georgian Dream supporters (81.68% vote share in 2025 elections) [[CEC]](https://www.cec.gov.ge/en/cec/municipal-elections-2025) could create one-sided markets with poor price discovery
+- **Information cascade risk:** TODO: verify source. If a market attracts a politically or informationally concentrated user base, it could create one-sided markets with poor price discovery.
 - **Regulatory shutdown:** If classified as gambling rather than financial instruments, platform faces GEL 15,000-30,000 fines and under-25 user prohibition [[Gaming Intelligigence]]([https://www.gamingintelligence.com/regulation/georgia-tightens-gambling-regulations-further/](https://www.gamingintelligence.com))
-- **NBG intervention correlation:** Central bank's $754 million reserve depletion (Sept-Oct 2024) to stabilize GEL [[Economist]](https://www.economist.com) could make GEL-rate markets politically sensitive
+- **NBG intervention correlation:** TODO: verify source. GEL-rate markets could be politically sensitive if they are perceived as speculating on central bank actions or currency stress.
 
 ---
 
@@ -84,7 +84,7 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 **Current leverage in the market:**
 - First-mover advantage: No regulated prediction market exists in Georgia as of March 2026
-- Regulatory relationship pathway: NBG's Innovation Office (innovationoffice@nbg.gov.ge) accepts sandbox applications [[NBG]](https://nbg.gov.ge/en)
+- Regulatory relationship pathway: NBG engagement, including the Innovation Office and/or sandbox-style testing framework, may provide a path for pre-consultation, subject to eligibility and NBG confirmation [[NBG]](https://nbg.gov.ge/en)
 - Technical infrastructure: Can leverage existing VASP registration framework (if crypto-settled) or payment service provider partnerships (if GEL-settled)
 
 **Data assets available:**
@@ -115,7 +115,7 @@ The strongest path is not to launch first and seek approval later. The platform 
 
 ## Section 7. First Move
 
-**Action:** Submit formal application to NBG Innovation Office for regulatory sandbox participation, specifically requesting classification of macro-economic and civic event contracts as "financial information markets" under NBG supervision, with a 12-month testing period, GEL 1 million maximum user deposits, and mandatory AML/KYC compliance.
+**Action:** Submit a sandbox/pre-consultation proposal asking NBG whether limited macro and civic event contracts can be tested as a supervised financial innovation, and what legal classification, restrictions, caps, and consumer-protection controls would apply.
 
 **Owner:** Chief Regulatory Officer (or external legal counsel with NBG relationships)
 
@@ -131,9 +131,9 @@ The strongest path is not to launch first and seek approval later. The platform 
 
 **Are the three justification reasons distinct and evidence-based?** Yes,(1) NBG sandbox framework and regulatory flexibility 
 
- **Does the first move pass the specificity test: could someone actually execute it?** Yes,the action specifies exact NBG contact (innovationoffice@nbg.gov.ge), sandbox parameters (12 months, GEL 1M deposits), and regulatory classification sought (financial instruments vs. gambling).
+ **Does the first move pass the specificity test: could someone actually execute it?** Yes, the action specifies a concrete sandbox/pre-consultation proposal to NBG, while leaving classification, caps, restrictions, and consumer-protection controls for NBG confirmation.
 
-**Have you confronted the chicken-and-egg problem if you recommended Build?** Yes,critical mass threshold (10,000 users, GEL 5M open interest) is defined; seed liquidity will come from market maker partnerships and potential NBG tolerance for internal market making during sandbox phase; GEL/USD rate contracts have natural hedging demand from exporters/importers facing 4.53% annual volatility 
+**Have you confronted the chicken-and-egg problem if you recommended Build?** Yes, but the exact critical mass threshold remains a planning hypothesis. Seed liquidity should come from market-maker partnerships or other NBG-reviewed structures, and demand for GEL/USD contracts should be validated before launch.
 
 ## Reference Links
 [1] https://fintechs.ge  
