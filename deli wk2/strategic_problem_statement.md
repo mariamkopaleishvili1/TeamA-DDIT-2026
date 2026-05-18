@@ -10,7 +10,7 @@ A project without a clear problem statement drifts. This worksheet forces the te
 
 - Industry: Georgian Fintech (Digital Payments, Investment Platforms, and Emerging Prediction Markets)
 - Focal company or client: Early-stage Georgian fintech venture seeking to launch a regulated prediction market platform
-- Primary disruption force: The global validation of event-based prediction markets as financial instruments (CFTC-regulated Kalshi/Polymarket processing $44B+ annually) meeting Georgia's underserved retail speculation demand and restrictive gambling framework that pushes users toward offshore or unregulated alternatives
+- Primary disruption force: The global validation of event-based prediction markets through two distinct models: Kalshi as a regulated event-contract exchange model and Polymarket as a crypto-native, high-liquidity prediction-market model. This global trend intersects with Georgia's underserved retail speculation demand, restrictive gambling framework, growing digital-payment adoption, and the absence of a locally regulated prediction-market operator.
 - Why this matters now: Georgia's NBG has established a regulatory sandbox framework actively accepting applications, the 2025 local elections demonstrated 40.93% voter engagement (indicating civic interest), GEL volatility (4.53% depreciation in 2024) creates hedging demand, and TBC Capital's recent launch of zero-commission $1 investing has raised the competitive bar for differentiation.
 
 ---
@@ -44,7 +44,7 @@ How should [client] respond to [specific disruption force] in order to [strategi
 
 ### Draft
 - Problem statement:
-How should the Georgian fintech venture structure and position a prediction market platform to capture retail speculation demand from incumbent brokerages and DFS(Digital Financial Services) alternatives while securing NBG regulatory approval as a financial information market, managing the constraint that Georgia's gambling framework prohibits participation for citizens under 25 and carries severe penalties for unlicensed operators.
+How should the Georgian fintech venture structure and position a prediction market platform to capture retail speculation demand from incumbent brokerages and daily fantasy sports / betting-style alternatives while securing NBG regulatory approval as a financial information market, managing the constraint that Georgia's gambling framework prohibits participation for citizens under 25 and carries severe penalties for unlicensed operators.
 
 ---
 
@@ -63,5 +63,5 @@ List one or two nearby questions that look related but are not the central quest
 If the team answers this question well, what should become clearer?
 
 - Criterion 1: Clear regulatory pathway classification. Specifically whether event contracts on macro-economic and civic outcomes fall under NBG's securities supervision, VASP registration, or require novel legislative treatment, with documented sandbox admission requirements and timeline.
-- Criterion 2: Defensible differentiation strategy: articulating how prediction markets provide value distinct from both TBC Capital's zero-commission brokerage (product intuition vs. cost) and DFS (Digital Financial Services) platforms (financial instrument credibility vs. entertainment), with specific UX and positioning requirements.
-- Criterion 3: Economically viable unit economics at scale—validated assumptions on customer acquisition costs (benchmarked against DFS low-CAC models), required take rates or fees, critical mass thresholds (10,000 users/GEL 5M open interest), and path to profitability given Georgia's operational cost structure and NBG supervision requirements.
+- Criterion 2: Defensible differentiation strategy: articulating how prediction markets provide value distinct from both TBC Capital's zero-commission brokerage (product intuition vs. cost) and daily fantasy sports / betting-style alternatives (financial instrument credibility vs. entertainment), with specific UX and positioning requirements.
+- Criterion 3: Economically viable unit economics at scale—validated assumptions on customer acquisition costs (benchmarked against daily fantasy / betting-style low-CAC models), required take rates or fees, critical mass thresholds (10,000 users/GEL 5M open interest), and path to profitability given Georgia's operational cost structure and NBG supervision requirements.

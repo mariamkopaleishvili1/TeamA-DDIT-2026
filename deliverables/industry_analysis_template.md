@@ -12,13 +12,13 @@ Do not treat the industry as a vague backdrop. Define it clearly.
 
 - Industry name: Broad Fintech, Specializing in Prediction Markets
 - Geographic scope: Georgia 
-- Main product or service categories: Decentralized, crypto-based prediction market platform
+- Main product or service categories: Regulated or sandbox-tested prediction-market platform offering event-based contracts, with possible GEL-settled and crypto-settled variants.
 - Time horizon under consideration: 1 Year
 
 ### Boundary note
 What is included in the industry analysis, and what is excluded?
 
-This analysis includes Georgian retail fintech apps, VASP-registered crypto exchanges, and digital banking payment rails. It excludes traditional corporate lending, physical real estate, and unregulated offshore gambling sites. Global perspective: Similar to Kalshi in the US, success requires strict boundary separation from traditional sports betting to appease local financial regulators.
+This analysis includes Georgian retail fintech apps, VASP-registered crypto exchanges, digital banking payment rails, and possible GEL-settled and crypto-settled prediction-market routes. It excludes traditional corporate lending, physical real estate, and unregulated offshore gambling sites. The project should not assume the product is crypto-based by default. It should compare GEL-settled, bank-backed and crypto-settled/VASP routes. Global perspective: Similar to Kalshi in the US, success requires strict boundary separation from traditional sports betting to satisfy local financial regulators.
 
 ---
 
@@ -126,7 +126,7 @@ What digital technologies are changing this industry?
 
 Write three to five implications for your focal client.
 
- 1. Regulatory Positioning is the Moat: Launching under the NBG VASP framework is mandatory to secure local banking rails and clearly distinguish the platform from sportsbooks. Kalshi's CFTC regulatory approval was its ultimate competitive advantage.
+ 1. Regulatory positioning is the moat. The platform must obtain NBG comfort before public launch, but the exact legal pathway remains open: sandbox-tested financial innovation, VASP-related structure, payment-service partnership, or a new regulatory classification.
  2. Target the Interface Gap: Existing global exchanges (Binance) are too complex, and traditional banks (BoG) are too conservative. A highly intuitive, mobile-first UI focusing on simple "Yes or No" contracts will win the entry-level retail speculator.
  3. Leverage Existing Payment Rails: The platform must partner with local API gateways (like Payze or CityPay) to offer instant, zero-fee GEL onboarding, drastically lowering the barrier to entry for micro-stakes users.
  4. Start with Hyper-Local Markets: Initial traction requires prediction contracts that Georgians care about (local elections, GEL exchange rates, regional sports) to build a local community before expanding to global events like Polymarket does.

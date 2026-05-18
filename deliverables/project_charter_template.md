@@ -57,11 +57,12 @@ How should [focal organisation] respond to [specific disruption force] in order 
 
 Write three versions and select one:
 
-- Version A: How should a Georgian fintech prediction‑market startup design and launch a Polymarket/Kalshi‑style event‑trading platform while navigating Georgia’s financial, gambling, and digital‑asset regulations?
+- Version A: How should a Georgian fintech prediction-market startup design and launch a Polymarket/Kalshi-type event-trading platform while navigating Georgia's financial, gambling, and digital-asset regulations?
 - Version B: How should TBC Bank or Bank of Georgia enter the prediction‑market space—or partner with a startup—to capture emerging demand for event‑based financial products while controlling regulatory and reputational risk?
 - Version C: How should a new prediction‑market operator position itself in Georgia to achieve rapid user adoption and regulatory approval while maintaining financial sustainability and avoiding classification as gambling?
-- Selected version and reason for selection: Selected version: Version A - How should a Georgian fintech startup launch a Polymarket/Kalshi‑type prediction‑market product in Georgia in order to achieve regulatory approval, attract early users, and reach sustainable scale while managing legal, reputational, and platform‑risk constraints?
-This phrasing is specific (focuses on a Georgian startup modeled after Polymarket/Kalshi), answerable within the semester (regulatory review + market sizing + product design), consequential (mistakes could make the product illegal or unviable), and contested (reasonable analysts disagree on where prediction markets should sit legally and operationally).
+- Selected version and reason for selection: Selected version: How should a Georgian fintech, potentially backed by a major Georgian bank such as TBC, launch a Polymarket/Kalshi-type prediction-market product in Georgia in order to achieve regulatory approval, attract early users, and reach sustainable scale while managing legal, reputational, and platform-risk constraints?
+The bank-backed assumption matters because regulatory trust, payment rails, KYC infrastructure, and reputational credibility are likely to be decisive in a market where prediction contracts may otherwise be perceived as gambling.
+This phrasing is specific (focuses on a Georgian fintech potentially backed by a major bank), answerable within the semester (regulatory review + market sizing + product design), consequential (mistakes could make the product illegal or unviable), and contested (reasonable analysts disagree on where prediction markets should sit legally and operationally).
 
 ### Why this question matters
 
@@ -87,6 +88,7 @@ List five to eight specific areas of analysis the project will cover.
 6. Economic model and unit economics, defining revenue models comparing spread-based versus commission structures, assessing market maker requirements and liquidity subsidies needed for network effects, and modeling customer acquisition costs across regulated versus unregulated channels.
 7. Strategic options development, rigorously evaluating three distinct paths: the NBG Sandbox First-Mover approach, the Crypto-Native Trojan Horse strategy, and the Incumbent Partnership Play, establishing clear decision criteria and tradeoffs for each.
 8. Risk governance and implementation, designing responsible use features including self-exclusion tools and deposit limits, building AML and KYC compliance frameworks, and constructing the phased 18-month roadmap with appropriate governance structures.
+9. Evaluation of whether a TBC-backed model improves regulatory credibility, payment access, customer trust, and early distribution compared with a standalone startup.
 
 ### Scope boundaries
 
@@ -125,7 +127,7 @@ We assume [specific condition] for the purpose of this project because [basis or
 
 **Assumption 1**
 
-**Statement**: We assume NBG will classify event-based prediction contracts as a "virtual asset service" or "innovative payment service" rather than gambling, provided the platform implements responsible use features and avoids sports betting overlap for the purpose of this project because NBG has authority to define new virtual asset services via normative acts (September 2025 amendments), the sandbox framework exists for innovative products, and global precedent exists through Kalshi's CFTC approval as "event contracts" versus gambling.
+**Statement**: We assume NBG may be willing to review or test event-based prediction contracts as a virtual-asset service, innovative payment service, financial instrument, or new sandbox category rather than immediately treating them as gambling, provided the platform implements responsible-use features and avoids sports betting overlap. This assumption is based on NBG's authority to define new virtual asset services via normative acts, the existence of a sandbox framework for innovative products, and global precedent through Kalshi's regulated event-contract model.
 
 **Risk of being wrong**: Medium-High
 
