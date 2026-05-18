@@ -1,4 +1,25 @@
-# ROI Model: AI-Driven Collections Transformation for TBC Bank
+# Supporting ROI Model: AI Collections Transformation for TBC Bank
+
+> Note: This model is not the main ROI model for the prediction-market platform. It is a supporting example of how TBC could fund broader AI and fintech transformation through operational efficiency gains. The prediction-market project still needs a separate unit-economics model based on active users, trading volume, take rate, liquidity subsidies, compliance costs, payment costs, and market-resolution costs.
+
+## Prediction-Market ROI Model Still Needed
+
+The final project should include a separate ROI model for the prediction-market launch. At minimum, that model should include:
+
+| Driver | Base-case input needed |
+|---|---|
+| Monthly active traders | TODO |
+| Average monthly trading volume per active user | TODO |
+| Gross take rate / spread capture | TODO |
+| Payment processing cost | TODO |
+| Market-maker or liquidity subsidy | TODO |
+| Compliance and legal run cost | TODO |
+| Customer acquisition cost | TODO |
+| Average revenue per user | TODO |
+| Contribution margin per user | TODO |
+| Breakeven active users | TODO |
+
+The current collections model should not be presented as proof that the prediction-market platform itself has positive ROI.
 
 ## Executive Summary
 

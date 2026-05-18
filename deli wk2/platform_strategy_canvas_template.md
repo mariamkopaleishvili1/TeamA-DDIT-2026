@@ -27,7 +27,7 @@ This canvas maps the client's position in the platform competitive structure and
 **What they receive:**
 - Profit potential from superior information or analysis
 - Risk hedging capabilities (e.g., exporters hedging GEL/USD exposure, political consultants monetizing polling insights)
-- 3.75-4% APY on idle balances (following Kalshi model) [[Kashi]](https://www.kalshi.com/)
+- 3.75-4% APY on idle balances (following Kalshi model) [[Kalshi]](https://www.kalshi.com/)
 - Zero maker fees; taker fees only on expected earnings (following Kalshi) (https://www.kalshi.com/)
 
 **Current number or market size:** In Georgia, the addressable producer base includes:
@@ -36,7 +36,7 @@ This canvas maps the client's position in the platform competitive structure and
 - Exporters/importers with GEL/USD exposure (significant given 4.53% GEL depreciation in 2024 and ongoing volatility) [[Geostat]](https://www.geostat.ge/en/modules/categories/26/exchange-rates)
 - Political consultants and civil society organizations with election insights (64 municipalities, 40.93% turnout in 2025 local elections creates information asymmetries) [[Cesko]](https://www.cec.gov.ge/en/cec/municipal-elections-2025)
 
-Global benchmark: Kalshi reaches $7 million maximum exposure per market with retail and institutional participation [[Kashi]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)
+Global benchmark: Kalshi reaches $7 million maximum exposure per market with retail and institutional participation [[Kalshi]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)
 
 ---
 
@@ -67,14 +67,14 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 **Primary network effect type:** Data network effects (cross-side with indirect network effects)
 
-**Mechanism description:** As more traders participate, the price discovery improves,Kalshi's mode has "perfectly matched the realized federal funds rate by the day of each meeting since 2022, a feat not achieved by either surveys or futures" [[Kalshi]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory). Improved accuracy attracts more sophisticated traders (producers), which improves liquidity and spreads, attracting more retail consumers. The platform becomes the "source of truth" for Georgian macro expectations, creating a self-reinforcing information monopoly. Federal Reserve research confirms Kalshi provides "statistically significant improvement" over Bloomberg consensus for CPI forecasting [[Kalshi]](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)
+**Mechanism description:** As more traders participate, price discovery may improve if markets are liquid, well-designed, and based on verifiable events. Kalshi's public materials suggest that some regulated event markets can produce useful forecasting signals, but the strength of that evidence and its applicability to Georgia should be verified before being used as proof. Improved liquidity could attract more informed traders, which could narrow spreads and improve user trust. The Georgian platform should aim to become a credible local signal for macro and civic expectations, not assume it will become an information monopoly.
 
-**Critical mass threshold:** Based on Kalshi's development trajectory and Georgian market size, approximately 10,000 active users with GEL 5 million in open interest needed for self-sustaining liquidity. At this threshold, bid-ask spreads tighten to <5%, attracting institutional hedgers and justifying market maker investment.
+**Critical mass threshold:** TODO: verify source. The project currently uses 10,000 active users and GEL 5 million in open interest as a planning hypothesis, but the actual threshold for self-sustaining liquidity should be validated through market-maker discussions, pilot data, and unit-economics modeling.
 
 **Risk of negative network effects:**
-- **Information cascade risk:** High concentration of Georgian Dream supporters (81.68% vote share in 2025 elections) [[CEC]](https://www.cec.gov.ge/en/cec/municipal-elections-2025) could create one-sided markets with poor price discovery
+- **Information cascade risk:** TODO: verify source. If a market attracts a politically or informationally concentrated user base, it could create one-sided markets with poor price discovery.
 - **Regulatory shutdown:** If classified as gambling rather than financial instruments, platform faces GEL 15,000-30,000 fines and under-25 user prohibition [[Gaming Intelligigence]]([https://www.gamingintelligence.com/regulation/georgia-tightens-gambling-regulations-further/](https://www.gamingintelligence.com))
-- **NBG intervention correlation:** Central bank's $754 million reserve depletion (Sept-Oct 2024) to stabilize GEL [[Economist]](https://www.economist.com) could make GEL-rate markets politically sensitive
+- **NBG intervention correlation:** TODO: verify source. GEL-rate markets could be politically sensitive if they are perceived as speculating on central bank actions or currency stress.
 
 ---
 
@@ -84,7 +84,7 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 **Current leverage in the market:**
 - First-mover advantage: No regulated prediction market exists in Georgia as of March 2026
-- Regulatory relationship pathway: NBG's Innovation Office (innovationoffice@nbg.gov.ge) accepts sandbox applications [[NBG]](https://nbg.gov.ge/en)
+- Regulatory relationship pathway: NBG engagement, including the Innovation Office and/or sandbox-style testing framework, may provide a path for pre-consultation, subject to eligibility and NBG confirmation [[NBG]](https://nbg.gov.ge/en)
 - Technical infrastructure: Can leverage existing VASP registration framework (if crypto-settled) or payment service provider partnerships (if GEL-settled)
 
 **Data assets available:**
@@ -101,23 +101,25 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 ## Section 6. Strategic Recommendation
 
-**Recommendation:** Build
+**Recommendation:** Build, but only through a regulatory-first sandbox pathway.
 
-**Reason 1 (client capabilities):** The client possesses (or can assemble) the technical and regulatory capabilities to build a CFTC-aligned prediction market platform. NBG's regulatory sandbox framework explicitly supports "testing innovative financial services in a controlled environment" with "continuous collaboration with the regulator" [[TBC Capital]](https://tbccapital.ge/en/). The sandbox allows defining "new regulatory requirements or amend existing ones based on practical experience," creating a viable path to establish prediction markets as financial instruments rather than gambling. The NBG's 2023-2025 supervisory strategy prioritizes fintech development, and the tokenized deposits sandbox project (launched February 2025) demonstrates openness to novel financial products [[NBG]](https://www.nbg.gov.ge).
+The strongest path is not to launch first and seek approval later. The platform should be structured as a bank-backed, sandbox-tested financial innovation with limited contract types, capped user exposure, full KYC/AML, and transparent event-resolution rules.
 
-**Reason 2 (competitive dynamics):** No incumbent in Georgia offers event-based macro-economic or civic outcome trading. TBC Capital and Galt & Taggart focus on traditional securities with $1,000+ minimums and fee structures that exclude retail participation [[Galt and Taggart]](https://www.galtandtaggart.com/ge). Daily fantasy sports (DFS) apps demonstrate user appetite for event-based speculation but operate in regulatory gray areas and lack financial instrument credibility. By securing NBG sandbox approval and positioning as a "financial derivative tool for information aggregation" (distinct from gambling), the client creates a defensible regulatory moat. The Federal Reserve's validation that Kalshi macro markets match or exceed traditional forecasting accuracy[[Kashi]](https://www.kalshi.com) provides powerful evidence for NBG approval.
+**Reason 1 (regulatory feasibility):** Prediction markets sit in a legal grey zone between financial instruments, gambling products, and virtual-asset services. A sandbox-first approach gives the client a controlled route to test product mechanics while seeking formal feedback from NBG and avoiding the reputational damage of appearing like an unlicensed betting product.
 
-**Reason 3 (financial logic):** Unit economics favor building over joining/acquiring. At 100,000 active users with GEL 50 average monthly volume and 2% take rate, monthly revenue reaches GEL 100,000 (~$37,000). With Georgia's low operational costs and zero maker fees reducing friction, break-even is achievable at 25,000-30,000 active users. The NBG sandbox requires no upfront licensing fees (unlike full VASP registration at GEL 5,000 [[GFSIS]](https://www.gfsis.org.ge)), reducing initial capital requirements to GEL 500,000-1,000,000 for technology development and regulatory compliance. Kalshi's $20 billion valuation and $44 billion 2025 volume demonstrate massive TAM if Georgian model expands regionally.
+**Reason 2 (strategic fit):** A bank-backed model creates trust that a standalone startup would lack. In Georgia, where financial services are heavily trust-based and dominated by major banking brands, association with TBC or another large bank can help secure payment rails, KYC infrastructure, compliance credibility, and early user confidence.
+
+**Reason 3 (market entry logic):** The platform should not compete with TBC Capital or Galt & Taggart only on price, because low-cost brokerage already exists. The wedge is product simplicity: binary, locally relevant event contracts that are easier to understand than stocks, bonds, options, or crypto derivatives.
 
 ---
 
 ## Section 7. First Move
 
-**Action:** Submit formal application to NBG Innovation Office for regulatory sandbox participation, specifically requesting classification of macro-economic and civic event contracts as "financial information markets" under NBG supervision, with a 12-month testing period, GEL 1 million maximum user deposits, and mandatory AML/KYC compliance.
+**Action:** Submit a sandbox/pre-consultation proposal asking NBG whether limited macro and civic event contracts can be tested as a supervised financial innovation, and what legal classification, restrictions, caps, and consumer-protection controls would apply.
 
 **Owner:** Chief Regulatory Officer (or external legal counsel with NBG relationships)
 
-**Success metric:** NBG grants sandbox approval within 90 days of application, with written confirmation that event contracts on GEL/USD rates and municipal election outcomes will be treated as financial instruments subject to NBG supervision rather than gambling activities under the 2005 Law on Organizing Lotteries, Games of Chance and Other Prize Games.
+**Success metric:** NBG provides written feedback on whether event contracts on GEL/USD rates and municipal election outcomes can be tested in the sandbox and what classification, limits, or restrictions would apply.
 
 **Investment required (order of magnitude):** GEL 150,000-250,000 ($55,000-92,000 USD) for legal counsel, regulatory documentation, compliance infrastructure setup, and initial NBG engagement; separate GEL 300,000-500,000 for technology MVP development.
 
@@ -129,9 +131,9 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 **Are the three justification reasons distinct and evidence-based?** Yes,(1) NBG sandbox framework and regulatory flexibility 
 
- **Does the first move pass the specificity test: could someone actually execute it?** Yes,the action specifies exact NBG contact (innovationoffice@nbg.gov.ge), sandbox parameters (12 months, GEL 1M deposits), and regulatory classification sought (financial instruments vs. gambling).
+ **Does the first move pass the specificity test: could someone actually execute it?** Yes, the action specifies a concrete sandbox/pre-consultation proposal to NBG, while leaving classification, caps, restrictions, and consumer-protection controls for NBG confirmation.
 
-**Have you confronted the chicken-and-egg problem if you recommended Build?** Yes,critical mass threshold (10,000 users, GEL 5M open interest) is defined; seed liquidity will come from market maker partnerships and potential NBG tolerance for internal market making during sandbox phase; GEL/USD rate contracts have natural hedging demand from exporters/importers facing 4.53% annual volatility 
+**Have you confronted the chicken-and-egg problem if you recommended Build?** Yes, but the exact critical mass threshold remains a planning hypothesis. Seed liquidity should come from market-maker partnerships or other NBG-reviewed structures, and demand for GEL/USD contracts should be validated before launch.
 
 ## Reference Links
 [1] https://fintechs.ge  
@@ -153,6 +155,8 @@ Global benchmark: Kalshi reaches $7 million maximum exposure per market with ret
 
 This canvas maps the client's position in the platform competitive structure and produces a specific strategic recommendation: build, join, defend, or acquire.
 
+Important caution: VASP registration may support a crypto-settled version of the platform, but it does not automatically solve the legal classification of event contracts. The core regulatory question remains whether prediction tokens are treated as virtual assets, financial instruments, gambling products, or a new category. Therefore, the VASP route should be treated as a fallback or niche crypto-native option, not as the default mass-market strategy.
+
 ---
 
 ## Industry Context
@@ -169,7 +173,7 @@ What is the minimum unit of interaction the platform could facilitate in this in
 
 - **Value unit:** Convertible Virtual Asset Event Contract (a blockchain-based prediction token representing a binary outcome position)
 
-- **Description:** The minimum unit is a tokenized event contract representing a position (YES/NO) on a specific verifiable outcome (e.g., "Will GEL/USD exceed 2.85 by March 31?"). These contracts function as convertible virtual assets under Georgian VASP law,interchangeable, digitally transferable, and exchangeable for other virtual assets or fiat through registered VASP channels. Unlike traditional betting slips, these are investment instruments with transparent on-chain settlement, where the token itself carries the probabilistic pricing information and can be traded prior to event resolution.
+- **Description:** The minimum unit is a tokenized event contract representing a position (YES/NO) on a specific verifiable outcome (e.g., "Will GEL/USD exceed 2.85 by March 31?"). These contracts may be structured as convertible virtual assets if NBG confirms that treatment, but the event-contract classification remains unresolved. Unlike traditional betting slips, the proposed design would aim for transparent on-chain settlement, where the token itself carries probabilistic pricing information and can be traded prior to event resolution.
 
 ---
 
@@ -264,13 +268,13 @@ Where does the client sit today?
 
 Choose one: Build / Join / Defend / Acquire
 
-- **Recommendation:** **BUILD**
+- **Recommendation:** **FALLBACK / NICHE BUILD**
 
-- **Reason 1 (client capabilities):** The VASP registration pathway provides a clear, time-bound regulatory route (2-4 months, €15,000 registration fee) [[Statista]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia) with defined compliance requirements rather than ambiguous gambling or securities law interpretations. The NBG's "learning-by-doing" approach to fintech supervision creates regulatory breathing room for innovative products like event contracts, especially when positioned as virtual asset trading rather than betting.
+- **Reason 1 (client capabilities):** The VASP registration pathway may provide a defined framework for crypto custody, exchange, and AML/KYC controls, but it does not by itself resolve whether event contracts are permissible. The client should use this route only if NBG or counsel confirms that prediction tokens can be offered within a compliant virtual-asset structure.
 
-- **Reason 2 (competitive dynamics):** No Georgian incumbent offers prediction markets,neither banks (focused on traditional lending/deposits) nor existing VASPs (focused on crypto exchange/wallets). Globally, Polymarket and Kalshi demonstrate two viable models; Georgia's regulatory neutrality allows a hybrid approach combining Polymarket's crypto-native UX with Kalshi's compliance rigor. The NBG's alignment with EU MiCA and FATF standards positions a Georgian platform for future regional expansion across Middle Corridor markets.
+- **Reason 2 (competitive dynamics):** No Georgian incumbent offers prediction markets, neither banks (focused on traditional lending/deposits) nor existing VASPs (focused on crypto exchange/wallets). However, a crypto-native route would likely narrow the target market to crypto-literate users and could weaken the bank-backed, mass-market trust proposition.
 
-- **Reason 3 (financial logic):** Unit economics favor a VASP-native model: zero payment processing fees via USDC settlement (vs. 2-3% card fees), 15% corporate tax only on distributed profits (vs. 20%+ gambling taxes in many jurisdictions), and minimal physical infrastructure requirements. The GEL 2.31 billion digital payments market [[Statista]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia) with high mobile penetration but low investment product saturation creates a large addressable market with customer acquisition costs likely 50-70% lower than mature markets.
+- **Reason 3 (financial logic):** A crypto-settled model may reduce some payment-processing friction, but the project should not assume lower costs or faster scale until legal classification, banking access, user demand, and liquidity subsidies are verified.
 
 ---
 
@@ -282,7 +286,7 @@ What is the one specific action the client must take in the next 6 months?
 
 - **Owner:** CEO/Regulatory Lead (external Georgian legal counsel with NBG relationships mandatory)
 
-- **Success metric:** NBG written confirmation that event contracts fall within permissible VASP activities (exchange between convertible virtual assets and administration of trading platforms) [[NBG]](https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf)[[Statista]](https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape) within 90 days; failure mode is requirement to restructure as securities or gambling entity.
+- **Success metric:** NBG written feedback on whether a crypto-settled event-contract pilot could fit within VASP activities, and what additional restrictions would apply if event contracts are treated as financial instruments, gambling products, or a new category.
 
 - **Investment required (order of magnitude):** GEL 100,000-GEL 150,000 (legal/consulting for VASP registration, technical MVP development, initial liquidity seeding)
 
@@ -293,7 +297,7 @@ What is the one specific action the client must take in the next 6 months?
 Before finalizing:
 
  **Is the recommendation specific, not vague?** 
-  - Yes: BUILD via VASP registration, not generic "enter market"
+  - Yes: fallback or niche build via VASP consultation, not the default mass-market path
 
  **Are the three justification reasons distinct and evidence-based?**
   - Yes: Regulatory pathway (capability), competitive whitespace (dynamics), tax/unit economics (financial)
@@ -311,9 +315,9 @@ Before finalizing:
 **Polymarket (Decentralized Model):** Operates on Polygon with UMA optimistic oracle resolution, achieving $140M TVL and $40M daily volume through permissionless market creation and global accessibility. Georgia's VASP model cannot replicate full decentralization (NBG requires registered entity with local physical presence and identified administrators) [[Statista]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia), but can adopt the automated market maker infrastructure and transparent settlement mechanics.
 
 **Kalshi (Regulated Exchange Model):** CFTC-regulated with centralized order books, recently expanding on-chain via Solana for tokenized markets and "Builder Codes" for ecosystem development
-The Georgian platform should emulate Kalshi's regulatory rigor (NBG registration equivalent to CFTC approval) while leveraging crypto-native composability that Kalshi is only now adopting.
+The Georgian platform can learn from Kalshi's regulatory-first discipline, but NBG registration should not be treated as equivalent to CFTC approval.
 
-**Key Differentiation:** Georgia's framework permits a unique hybrid,CFTC-grade compliance with DeFi-grade capital efficiency,because NBG explicitly permits commercial banks to provide virtual asset services [[NBG]](https://www.nbg.gov.ge/uploads/pressreleases/2025/PressRelease_on_the_NBG_Supervisory_Strategy_for_2023-2025.pdf), enabling potential partnerships for fiat on-ramps that Polymarket lacks and Kalshi only achieves through traditional banking relationships.
+**Key Differentiation:** Georgia may allow a hybrid model if NBG confirms both the virtual-asset and event-contract classifications, enabling potential partnerships for fiat on-ramps that Polymarket lacks and Kalshi achieves through traditional banking relationships.
 
 ---
 
@@ -341,7 +345,7 @@ This canvas maps the client's position in the platform competitive structure and
 
 ## Industry Context
 
-The Republic of Georgia has implemented some of the strictest gambling regulations globally while simultaneously building a progressive fintech infrastructure. As of January 2026, **1.57 million Georgians (40% of the population)** are on the national gambling exclusion registry, with the legal gambling age raised to 25 and biometric identification mandatory for all gambling venues [[Public Gaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling). This creates a massive vacuum for regulated, responsible speculation products that are legally distinct from gambling.
+The Republic of Georgia has implemented strict gambling regulations while simultaneously building a progressive fintech infrastructure. As of January 2026, **1.57 million Georgians (40% of the population)** are reported to be on the national gambling exclusion registry, with the legal gambling age raised to 25 and biometric identification mandatory for all gambling venues [[Public Gaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling). This is evidence that gambling-related harm is politically and socially sensitive in Georgia, making responsible-use controls essential for any event-contract platform.
 
 The National Bank of Georgia (NBG) has established robust consumer protection frameworks, including payment-to-income (PTI) limits on FX lending (20-30% depending on income level) and loan-to-value (LTV) caps [[ELibrary]](https://www.elibrary.imf.org/view/journals/002/2024/135/article-A001-en.xml). The NBG settled **85% of consumer disputes in favor of citizens in 2024**, securing GEL 300,000 in refunds and demonstrating strong regulatory commitment to financial consumer protection [[GeorgiaToday]](https://georgiatoday.ge/nbg-over-90-consumer-disputes-settled-in-favor-of-citizens-in-2024/). The NBG also runs extensive financial literacy programs through FinEdu, reaching **950,000 children, youth and adults during Global Money Week 2024** [[GlobalMoneyWeek]](https://globalmoneyweek.org/countries/142-georgia.html).
 
@@ -355,7 +359,7 @@ What is the minimum unit of interaction the platform could facilitate in this in
 
 - **Value unit:** Responsible Event Contract with Embedded Risk Guardrails (a regulated prediction instrument with mandatory daily loss limits, educational checkpoints, and negative balance protection)
 
-- **Description:** The minimum unit is a structured event contract that incorporates consumer protection mechanisms directly into the product architecture. Unlike standard prediction markets, each contract includes: (1) pre-trade educational confirmation requiring user acknowledgment of risk; (2) automatic daily loss limits (e.g., maximum 50 GEL loss per day per user); (3) cooling-off periods after consecutive losses; and (4) negative balance protection ensuring users cannot lose more than deposited funds. The contract represents a position on a verifiable outcome (macroeconomic indicators, civic events, sports) but is legally classified as a financial education/training instrument rather than gambling or derivatives trading. Value exchanges between users seeking regulated speculation and the platform providing structured, protected market access.
+- **Description:** The minimum unit is a structured event contract that incorporates consumer protection mechanisms directly into the product architecture. Unlike standard prediction markets, each contract includes: (1) pre-trade educational confirmation requiring user acknowledgment of risk; (2) automatic daily loss limits; (3) cooling-off periods after consecutive losses; and (4) negative balance protection ensuring users cannot lose more than deposited funds. The contract represents a position on a verifiable outcome, but "financial education platform" should not be presented as a proven legal classification unless confirmed by Georgian counsel or NBG.
 
 ---
 
@@ -372,12 +376,12 @@ Who produces value on the platform? What do they get from participation?
   - Liquidity provision with reduced leverage (maximum 1:5 vs. industry standard 1:100) to minimize catastrophic losses
 
 - **What they receive:**
-  - Regulatory approval as "financial education platform" avoiding gambling classification and associated restrictions
-  - Access to 1.57 million excluded Georgians seeking legal speculation alternatives [[PublicGaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling)
+  - Stronger regulatory trust through a responsible-use product layer
+  - Evidence that gambling-related harm is politically and socially sensitive in Georgia, making responsible-use controls essential for any event-contract platform.
   - Partnership opportunities with NBG financial literacy initiatives (FinEdu)
-  - First-mover advantage in responsible speculation category with potential regional expansion to other strict gambling jurisdictions
+  - Stronger trust if responsible-use controls become part of the approved sandbox design
 
-- **Current number or market size:** Georgia's **1.57 million excluded gambling population** represents immediate addressable market [[PublicGaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling). Global responsible trading features are now standard,eToro's policy has been in place since 2012 [[GlobalBankingandFinance]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/), IG's negative balance protection applies across 19 countries [[IGGroup]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf), and Interactive Brokers' education platform serves millions. No Georgian platform currently combines prediction markets with mandatory consumer protection guardrails.
+- **Current number or market size:** Georgia's reported gambling exclusion figures are evidence that gambling-related harm is politically and socially sensitive in Georgia, making responsible-use controls essential for any event-contract platform. Global responsible trading features are now standard,eToro's policy has been in place since 2012 [[GlobalBankingandFinance]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/), IG's negative balance protection applies across 19 countries [[IGGroup]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf), and Interactive Brokers' education platform serves millions. No Georgian platform currently combines prediction markets with mandatory consumer protection guardrails.
 
 ---
 
@@ -385,10 +389,10 @@ Who produces value on the platform? What do they get from participation?
 
 Who consumes value on the platform? What do they get from participation?
 
-- **Consumer type:** Financially excluded Georgians seeking regulated speculation, novice retail investors requiring education-first onboarding, and self-excluded gambling addicts seeking safer alternatives
+- **Consumer type:** Digitally active Georgian retail users and novice retail investors requiring education-first onboarding, with responsible-use protections designed to prevent harm.
 
 - **What they seek:**
-  - Legal access to speculation following gambling exclusion (1.57 million citizens) [[PublicGaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling)
+  - Transparent, regulated-feeling access to event contracts without being targeted because of gambling vulnerability
   - Structured financial education integrated with practical experience
   - Protection from catastrophic losses through mandatory limits
   - Socially acceptable "investment gaming" distinct from stigmatized gambling
@@ -401,7 +405,7 @@ Who consumes value on the platform? What do they get from participation?
   - **Transparent probability displays:** Clear odds visualization with historical accuracy data, avoiding opaque bookmaker margins
   - **Progressive unlocking:** Beginner markets only (high-probability outcomes) until educational milestones completed; advanced markets unlock with demonstrated competence
 
-- **Current number or market size:** **1.57 million excluded gambling population** **92% of Georgians uninvested in capital markets**; NBG financial literacy programs reached **950,000 in 2024** [[GlobalMoneyWeek]](https://globalmoneyweek.org/countries/142-georgia.html); Digital payments market **$2.31 billion** [[Statista]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia). The intersection of excluded gamblers + digital natives + financially literate represents approximately **400,000-600,000 immediate addressable users**.
+- **Current number or market size:** **92% of Georgians uninvested in capital markets**; NBG financial literacy programs reached **950,000 in 2024** [[GlobalMoneyWeek]](https://globalmoneyweek.org/countries/142-georgia.html); Digital payments market **$2.31 billion** [[Statista]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia). TODO: verify source before estimating the addressable user base for a responsible-use event-contract product.
 
 ---
 
@@ -409,16 +413,16 @@ Who consumes value on the platform? What do they get from participation?
 
 - **Primary network effect type (direct, indirect, data, local):** Data network effects with indirect (cross-side) network effects
 
-- **Mechanism description:** The platform accumulates behavioral data on responsible trading patterns,specifically, which educational interventions reduce problematic trading, optimal loss limit thresholds by demographic, and predictive accuracy improvements as users progress through curriculum. This dataset becomes valuable to: (1) NBG for macroprudential policy refinement; (2) international regulators seeking gambling harm reduction models; (3) academic researchers studying behavioral finance. As more users generate data, the platform's risk models improve, enabling dynamic personalization of loss limits and educational content. Additionally, a community of "responsible traders" creates social proof that attracts excluded gamblers seeking legitimate alternatives,similar to how eToro's CopyTrader network reduced individual risk-taking through social learning [[5]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/).
+- **Mechanism description:** The platform accumulates behavioral data on responsible trading patterns, specifically, which educational interventions reduce problematic trading, optimal loss limit thresholds by demographic, and predictive accuracy improvements as users progress through curriculum. This dataset becomes valuable to: (1) NBG for macroprudential policy refinement; (2) international regulators seeking gambling harm reduction models; (3) academic researchers studying behavioral finance. As more users generate data, the platform's risk models improve, enabling dynamic personalization of loss limits and educational content. Additionally, a community of responsible traders creates social proof for transparent, protected event-contract participation, similar to how eToro's CopyTrader network reduced individual risk-taking through social learning [[5]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/).
 
 - **Critical mass threshold: what scale is needed for the effect to become self-sustaining?**
   - **Data network effects:** 10,000 active users generating sufficient behavioral data to train predictive risk models with 80%+ accuracy in identifying at-risk behavior patterns
   - **Community effects:** 5,000 users with demonstrated positive outcomes (profitability + educational completion) creating social proof and referral network
-  - **Regulatory validation:** NBG public endorsement as "approved financial education platform" requiring 2+ years of compliance history and <2% complaint rate
+  - **Regulatory validation:** NBG and payment-partner comfort with the responsible-use product layer after compliance history and low complaint rates
   - **Combined:** Self-sustaining when 40% of new users arrive via organic referral (vs. paid acquisition) and NBG features platform in official financial literacy materials
 
 - **Risk of negative network effects:**
-  - **Stigma contagion:** If early users are predominantly self-excluded gamblers, platform may acquire "gambling substitute" reputation rather than "financial education" positioning
+  - **Stigma contagion:** If early marketing implies the platform is a gambling substitute, the product may lose financial-market credibility.
   - **Regulatory overreach:** Success may trigger NBG to impose additional restrictions (e.g., lowering loss limits further) that undermine unit economics
   - **Data privacy concerns:** Behavioral risk profiling requires sensitive personal data; breach or misuse could destroy trust
   - **Platform gaming:** Sophisticated users may create multiple accounts to circumvent loss limits, requiring costly identity verification infrastructure
@@ -434,17 +438,17 @@ Where does the client sit today?
 - **Current leverage in the market:**
   - **Regulatory whitespace:** No Georgian platform currently occupies the "responsible speculation" niche,gambling is heavily restricted, traditional brokerages require minimum balances and complex onboarding, crypto platforms lack educational guardrails
   - **NBG relationship opportunity:** NBG's demonstrated commitment to consumer protection (85% dispute resolution in consumer favor) [[GeorgiaToday]](https://georgiatoday.ge/nbg-over-90-consumer-disputes-settled-in-favor-of-citizens-in-2024/) and financial literacy investment (950,000 reached) [[GlobalMoneyWeek]](https://globalmoneyweek.org/countries/142-georgia.html) creates receptive environment for education-first platform
-  - **Social license:** 40% gambling exclusion rate [[Public Gaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling) creates societal demand for legal alternatives that don't carry gambling stigma
+  - **Social license:** Reported gambling exclusion figures show that gambling-related harm is politically and socially sensitive in Georgia, so responsible-use controls are essential.
   - **Global precedent:** eToro (12+ years), IG Group (50+ years), Interactive Brokers (40+ years) have validated responsible trading features [[Global Banking and Finance]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/) [[Ig Group]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf) [[Interactive Brokers]](https://www.interactivebrokers.com/campus/trading-lessons/ibkr-campus-education-and-tutorials/),client can license/adapt proven frameworks rather than inventing new standards
 
 - **Data assets available:**
   - None currently (greenfield opportunity)
   - Potential partnership with NBG FinEdu for anonymized financial literacy assessment data [[Global Money Week]](https://globalmoneyweek.org/countries/142-georgia.html)
-  - Access to public gambling exclusion registry (1.57 million records) for targeted marketing to legal alternatives
+  - The platform should screen against legally required exclusion or restriction lists if required by regulators, but should not use vulnerable or excluded populations as a marketing segment.
 
 - **Customer relationship strength:**
   - No existing retail customer base
-  - Must build trust through NBG co-branding and transparent responsible gaming features
+  - Must build trust through NBG-reviewed controls and transparent responsible-use features
   - Opportunity to leverage NBG's 123 participating organizations in Global Money Week 2024 [[Global Money Week]](https://globalmoneyweek.org/countries/142-georgia.html) for B2B2C distribution (banks, universities, youth programs)
 
 ---
@@ -453,13 +457,10 @@ Where does the client sit today?
 
 Choose one: Build / Join / Defend / Acquire
 
-- **Recommendation:** **BUILD**
+- **Recommendation:** Do not treat this as a standalone licensing route. Use it as a product-governance layer inside Option A.
 
-- **Reason 1 (client capabilities):** Georgia's unique regulatory environment,strict gambling exclusion (1.57 million citizens) [[Public Gaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling) combined with progressive financial consumer protection (NBG's 85% dispute resolution rate) [[Georgia Today]](https://georgiatoday.ge/nbg-over-90-consumer-disputes-settled-in-favor-of-citizens-in-2024/),creates a regulatory sandbox where "responsible speculation" can be defined as distinct from both gambling and traditional investing. The NBG's existing PTI/LTV limits on FX lending [[Elibrary]](https://www.elibrary.imf.org/view/journals/002/2024/135/article-A001-en.xml) provide precedent for mandatory loss limits on speculation platforms.
+Responsible-use features are essential for regulatory trust, payment-partner comfort, and reputational protection. However, "financial education platform" should not be presented as a proven legal classification unless confirmed by Georgian counsel or NBG. The stronger use of this option is to embed daily limits, loss caps, cooling-off periods, risk disclosures, market-integrity monitoring, and educational onboarding into the sandbox-first platform design.
 
-- **Reason 2 (competitive dynamics):** No incumbent occupies this space,banks focus on wealthy clients, crypto platforms ignore consumer protection, and gambling operators are legally excluded from 40% of population. Global platforms (eToro, IG, Interactive Brokers) have proven responsible trading features work at scale [[Global Banking And Finance]](https://www.globalbankingandfinance.com/trading-responsibly-your-ticket-to-long-term-success/) [[Ig Group]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf) [[Interactive Brokers]](https://www.interactivebrokers.com/campus/trading-lessons/ibkr-campus-education-and-tutorials/), but none have adapted to Georgia's specific regulatory context. First-mover can establish "responsible speculation" as new asset class with NBG blessing.
-
-- **Reason 3 (financial logic):** Addressable market of 1.57 million excluded gamblers [[Public Gaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling) + 92% uninvested population creates TAM of ~2.5 million Georgians. With 10% penetration and 50 GEL average daily loss limits, platform generates sustainable revenue through spread capture (not user losses) while maintaining social license. NBG partnership reduces customer acquisition costs via financial literacy program integration [[GlobalMoneyWeek]](https://globalmoneyweek.org/countries/142-georgia.html).
 
 ---
 
@@ -467,11 +468,11 @@ Choose one: Build / Join / Defend / Acquire
 
 What is the one specific action the client must take in the next 6 months?
 
-- **Action:** Submit formal proposal to NBG Financial Stability and Supervision Department requesting "Financial Education Platform" classification (distinct from VASP and gambling licenses), including: (1) technical specification of mandatory daily loss limits (50 GEL default, user-customizable down to 10 GEL); (2) integration plan with NBG FinEdu curriculum [[Global Money Week]](https://globalmoneyweek.org/countries/142-georgia.html); (3) pilot program commitment with 1,000 users demonstrating <5% complaint rate and >80% educational completion; (4) negative balance protection mechanism ensuring platform absorbs all losses exceeding user deposits [[IgGroup]](https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/debt-investors/ig-group-emtn-update-2025-base-prospectus-v1.pdf).
+- **Action:** Include responsible-use controls in the Option A sandbox proposal, including daily limits, exposure caps, cooling-off periods, risk disclosures, market-integrity monitoring, and educational onboarding.
 
 - **Owner:** CEO/Regulatory Lead with NBG relationship + Chief Product Officer with responsible trading platform experience (eToro/IG/Interactive Brokers alumni preferred)
 
-- **Success metric:** NBG written approval for "Financial Education Platform" pilot with explicit exemption from gambling regulations and VASP registration requirements, contingent on 6-month pilot demonstrating: (a) zero negative balance events; (b) >80% user educational completion; (c) <2% complaint rate; (d) no users on gambling exclusion registry accessing platform.
+- **Success metric:** NBG and payment partners confirm which responsible-use controls are required before a sandbox pilot, including whether any exclusion or restriction lists must be screened.
 
 - **Investment required (order of magnitude):** $200,000-$350,000 (regulatory consulting, NBG relationship development, MVP with embedded risk guardrails, educational content production, pilot user acquisition subsidy)
 
@@ -482,16 +483,16 @@ What is the one specific action the client must take in the next 6 months?
 Before finalizing:
 
  **Is the recommendation specific, not vague?** 
-  - Yes: BUILD via "Financial Education Platform" classification with mandatory loss limits and NBG FinEdu integration, not generic "enter market"
+  - Yes: responsible-use product layer embedded inside the sandbox-first path, not a separate legal route
 
  **Are the three justification reasons distinct and evidence-based?**
-  - Yes: Regulatory whitespace (capability), competitive absence + global precedent (dynamics), TAM of 1.57M excluded gamblers + NBG partnership reducing CAC (financial)
+  - Yes: regulatory trust, payment-partner comfort, and reputational protection are distinct benefits.
 
  **Does the first move pass the specificity test: could someone actually execute it?**
-  - Yes: Concrete deliverable (formal NBG proposal with 4 components), defined owner (CEO + CPO with specific experience), measurable success metric (written approval + 4 pilot KPIs), budget range
+  - Yes: concrete controls can be included in the sandbox proposal and reviewed by NBG, counsel, and payment partners.
 
  **Have you confronted the chicken-and-egg problem if you recommended Build?**
-  - Yes: Platform will subsidize initial liquidity and absorb negative balance risk to attract first users; NBG FinEdu partnership provides distribution channel to 950,000 financially literate prospects; 1.57M excluded gamblers create pent-up demand for legal alternative
+  - Yes: the layer reduces harm and reputational risk while the platform solves liquidity through controlled market design and market-maker planning.
 
 ---
 
@@ -503,7 +504,7 @@ Before finalizing:
 
 **Interactive Brokers IBKR Campus:** Eight-pillar education platform including Traders' Academy, webinars, podcasts, and quant resources [[InteractiveBrokers]](https://www.interactivebrokers.com/campus/trading-lessons/ibkr-campus-education-and-tutorials/). Georgian platform should license/adapt IBKR curriculum structure but localize content (Georgian language, GEL-denominated examples, local market case studies).
 
-**Key Differentiation:** Georgia's platform combines all three global best practices (eToro limits + IG protection + IBKR education) with NBG regulatory co-branding, creating world's first "regulator-approved responsible speculation" category. The 1.57 million gambling-excluded population [[PublicGaming]](https://www.publicgaming.com/news-categories/responsible-gaming/15364-the-country-of-georgia-bans-40-of-population-from-gambling) provides immediate product-market fit unavailable in jurisdictions with looser gambling regulations.
+**Key Differentiation:** Georgia's platform can combine responsible trading practices (limits, protection, and education) with the sandbox-first recommendation. It should not claim a new "regulator-approved responsible speculation" category unless NBG confirms that classification.
 
 ---
 
