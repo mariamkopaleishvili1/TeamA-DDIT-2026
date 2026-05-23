@@ -10,7 +10,7 @@ This canvas maps the client's position in the platform competitive structure and
 
 **Value unit:** Event contract (binary outcome contract) on macro-economic or civic outcomes
 
-**Description:** A standardized digital contract that pays out 1 GEL (or equivalent) if a specific measurable event occurs (e.g., "GEL/USD rate exceeds 2.80 by December 31, 2026" or "Mayoral candidate X wins Tbilisi election with >50% of vote"), and zero otherwise. Contracts trade between 0.01-0.99 GEL based on market-implied probability, with prices reflecting real-time information aggregation from diverse market participants. The minimum trade size is 1 GEL (approximately $0.37 USD), enabling true micro-stakes participation.
+**Description:** Users can take a position on whether a specific event will happen or not, such as changes in currency rates or election results. The value of the contract changes based on how likely the market thinks the event is. This makes the product simple, understandable, and accessible for everyday users.
 
 ---
 
