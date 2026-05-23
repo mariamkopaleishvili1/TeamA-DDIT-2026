@@ -121,8 +121,6 @@ The strongest path is not to launch first and seek approval later. The platform 
 
 **Success metric:** NBG provides written feedback on whether event contracts on GEL/USD rates and municipal election outcomes can be tested in the sandbox and what classification, limits, or restrictions would apply.
 
-**Investment required (order of magnitude):** GEL 150,000-250,000 ($55,000-92,000 USD) for legal counsel, regulatory documentation, compliance infrastructure setup, and initial NBG engagement; separate GEL 300,000-500,000 for technology MVP development.
-
 ---
 
 ## Quality Check
