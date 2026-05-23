@@ -168,17 +168,6 @@ The base case assumes partial bank support and negotiated pricing.
 
 The upside case assumes the product is embedded inside TBC or another large bank ecosystem, using lower-cost internal wallet, account-transfer, or closed-loop payment rails.
 
-### What to validate
-
-Before final submission, the team should request quotes or estimates from:
-
-- TBC Pay,
-- Bank of Georgia payment gateway,
-- Payze,
-- Georgian Card,
-- card acquiring provider,
-- bank transfer / wallet provider.
-
 ---
 
 ## 2. Market-Maker / Liquidity Subsidy
