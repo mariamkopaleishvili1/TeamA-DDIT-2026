@@ -201,7 +201,7 @@ Prediction markets need liquidity providers or automated market-making structure
 
 This line item assumes the platform has liquidity management capability, but staff salaries should stay inside **platform run cost** to avoid double counting.
 
-| Role | FTE | Monthly cost assumption |
+| Role | FTE (Full-Time Equivalent) | Monthly cost assumption |
 |---|---:|---:|
 | Liquidity Manager | 1.0 | GEL 8,000–12,000 |
 | Market Operations Analyst | 1.0 | GEL 4,000–7,000 |
