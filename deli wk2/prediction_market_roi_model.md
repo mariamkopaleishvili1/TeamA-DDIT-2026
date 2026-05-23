@@ -111,31 +111,397 @@ Market-Maker / Liquidity Subsidy
 
 ### Scenario Assumptions
 
-| Driver | Conservative | Base Case | Upside | Source / Proxy | Confidence |
+The original model used five major cost drivers: payment processing cost, liquidity subsidy, compliance and legal run cost, platform run cost, and customer acquisition cost. This section breaks those assumptions into more specific components so the cost model is easier to defend and validate.
+
+These are still **analyst assumptions**, not final vendor quotes. Payment costs should be validated with PSPs and banks, liquidity costs with market makers, and compliance costs with Georgian legal counsel or bank compliance teams.
+
+| Driver | Conservative | Base Case | Upside | Main components | Confidence |
 |---|---:|---:|---:|---|---|
-| Payment processing cost | 1.5% | 1.0% | 0.5% | Analyst assumption; requires quotes from Georgian PSPs, banks, card acquirers, or wallet providers | Low |
-| Market-maker / liquidity subsidy | GEL 50,000/month | GEL 50,000/month | GEL 100,000/month | Analyst assumption; prediction markets require liquidity providers or automated market-making structures, and AMM research shows liquidity providers require compensation for risk | Low-Medium |
-| Compliance and legal run cost | GEL 50,000/month | GEL 30,000/month | GEL 50,000/month | Analyst assumption; higher in conservative and upside cases due to legal uncertainty or broader scale | Low |
-| Platform run cost | GEL 60,000/month | GEL 70,000/month | GEL 120,000/month | Analyst assumption covering cloud, engineering, support, data, product, security, and monitoring | Low |
-| Customer acquisition cost | GEL 150 | GEL 75 | GEL 30 | Analyst assumption; upside depends on bank-backed distribution reducing paid acquisition needs | Low |
+| Payment processing cost | 1.5% | 1.0% | 0.5% | PSP/card fee, bank/wallet transfer fee, chargeback reserve, reconciliation, gateway/API cost | Low |
+| Market-maker / liquidity subsidy | GEL 50k/month | GEL 50k/month | GEL 100k/month | External market-maker retainer, liquidity rewards, seed liquidity usage, spread support, monitoring tools | Low-Medium |
+| Compliance and legal run cost | GEL 50k/month | GEL 30k/month | GEL 50k/month | Legal counsel, compliance officer, AML/KYC monitoring, regulatory reporting, responsible-use review, market surveillance | Low |
+| Platform run cost | GEL 60k/month | GEL 70k/month | GEL 120k/month | Product, engineering, DevOps, data/AI, QA, support, cloud, monitoring, security, analytics | Low |
+| Customer acquisition cost | GEL 150 | GEL 75 | GEL 30 | Paid ads, referral bonuses, onboarding incentive, influencer/community, education content, KYC drop-off | Low |
+
+---
+
+### Detailed Cost Breakdown
+
+## 1. Payment Processing Cost
+
+### Original assumption
+
+| Scenario | Cost |
+|---|---:|
+| Conservative | 1.5% |
+| Base case | 1.0% |
+| Upside | 0.5% |
+
+### What this includes
+
+Payment processing cost should include:
+
+- card acquiring / PSP fee,
+- bank transfer or wallet fee,
+- refund and failed transaction handling,
+- fraud and chargeback reserve,
+- reconciliation cost,
+- payment gateway / API fee,
+- possible FX cost if crypto or USD rails are used.
+
+### Scenario breakdown
+
+| Component | Conservative | Base Case | Upside |
+|---|---:|---:|---:|
+| PSP / card acquiring fee | 1.00% | 0.70% | 0.30% |
+| Bank transfer / wallet fee | 0.20% | 0.10% | 0.05% |
+| Fraud / chargeback reserve | 0.20% | 0.10% | 0.05% |
+| Reconciliation / failed payment cost | 0.10% | 0.10% | 0.05% |
+| Payment API / gateway cost | Included | Included | Included |
+| **Total** | **1.50%** | **1.00%** | **0.50%** |
+
+### Interpretation
+
+The conservative case assumes the platform behaves like a standalone fintech using external PSP or card rails. The repository’s competitive landscape notes Payze’s 2.5–3% commission-rate range as a Georgian payment-gateway proxy, which supports the idea that external payment rails may be expensive for a micro-stakes trading product.
+
+The base case assumes partial bank support and negotiated pricing.
+
+The upside case assumes the product is embedded inside TBC or another large bank ecosystem, using lower-cost internal wallet, account-transfer, or closed-loop payment rails.
+
+### What to validate
+
+Before final submission, the team should request quotes or estimates from:
+
+- TBC Pay,
+- Bank of Georgia payment gateway,
+- Payze,
+- Georgian Card,
+- card acquiring provider,
+- bank transfer / wallet provider.
+
+---
+
+## 2. Market-Maker / Liquidity Subsidy
+
+### Original assumption
+
+| Scenario | Cost |
+|---|---:|
+| Conservative | GEL 50,000 / month |
+| Base case | GEL 50,000 / month |
+| Upside | GEL 100,000 / month |
+
+### Why upside is higher
+
+The upside case has more users, more markets, and higher trading activity. Therefore, the platform needs deeper order books, tighter spreads, and more market-maker capacity. Even though the upside case is more attractive economically, it also requires more liquidity support.
+
+Prediction markets need liquidity providers or automated market-making structures because early markets may not naturally have enough buyers and sellers on both sides. Liquidity providers must be compensated because they take inventory risk, adverse-selection risk, and volatility risk.
+
+### Scenario breakdown
+
+| Component | Conservative | Base Case | Upside |
+|---|---:|---:|---:|
+| External market-maker retainer | GEL 20,000 | GEL 20,000 | GEL 40,000 |
+| Liquidity rewards / spread support | GEL 15,000 | GEL 15,000 | GEL 30,000 |
+| Platform seed liquidity reserve usage | GEL 10,000 | GEL 10,000 | GEL 20,000 |
+| Market-maker monitoring tools | GEL 3,000 | GEL 3,000 | GEL 5,000 |
+| Risk buffer for volatile markets | GEL 2,000 | GEL 2,000 | GEL 5,000 |
+| **Total** | **GEL 50,000** | **GEL 50,000** | **GEL 100,000** |
+
+### Team / role implication
+
+This line item assumes the platform has liquidity management capability, but staff salaries should stay inside **platform run cost** to avoid double counting.
+
+| Role | FTE | Monthly cost assumption |
+|---|---:|---:|
+| Liquidity Manager | 1.0 | GEL 8,000–12,000 |
+| Market Operations Analyst | 1.0 | GEL 4,000–7,000 |
+| Part-time trading / risk advisor | 0.25–0.5 | GEL 5,000–10,000 equivalent |
+
+### What to validate
+
+Before final submission, the team should validate:
+
+- number of markets live at launch,
+- minimum order-book depth required per market,
+- maximum acceptable bid-ask spread,
+- whether liquidity is provided internally, externally, or through an AMM,
+- whether NBG would allow internal market-making by the platform or bank sponsor.
+
+---
+
+## 3. Compliance and Legal Run Cost
+
+### Original assumption
+
+| Scenario | Cost |
+|---|---:|
+| Conservative | GEL 50,000 / month |
+| Base case | GEL 30,000 / month |
+| Upside | GEL 50,000 / month |
+
+### What this includes
+
+Compliance and legal run cost should include:
+
+- Georgian legal counsel,
+- regulatory counsel / sandbox application support,
+- compliance officer or MLRO allocation,
+- AML/KYC review,
+- market-surveillance policy,
+- responsible-use policy,
+- dispute-resolution policy,
+- NBG reporting,
+- payment-partner reporting,
+- audit and documentation.
+
+### Scenario breakdown
+
+| Component | Conservative | Base Case | Upside |
+|---|---:|---:|---:|
+| External legal counsel | GEL 15,000 | GEL 8,000 | GEL 12,000 |
+| Compliance officer / MLRO allocation | GEL 8,000 | GEL 7,000 | GEL 10,000 |
+| Regulatory reporting / documentation | GEL 5,000 | GEL 4,000 | GEL 7,000 |
+| AML/KYC monitoring support | GEL 5,000 | GEL 4,000 | GEL 7,000 |
+| Market surveillance / integrity review | GEL 5,000 | GEL 3,000 | GEL 6,000 |
+| Responsible-use / consumer protection review | GEL 5,000 | GEL 2,000 | GEL 4,000 |
+| Audit / policy / governance buffer | GEL 7,000 | GEL 2,000 | GEL 4,000 |
+| **Total** | **GEL 50,000** | **GEL 30,000** | **GEL 50,000** |
+
+### Why base case is lower than conservative
+
+The base case assumes:
+
+- the bank partner already has compliance infrastructure,
+- KYC/AML processes can be reused,
+- the legal category is partially clarified through NBG pre-consultation,
+- reporting can piggyback on existing bank controls.
+
+The conservative case is higher because uncertainty remains high and more external legal review is needed.
+
+The upside case rises again because scale increases the volume of monitoring, reporting, disputes, and market-integrity work.
+
+### Suggested staffing
+
+| Role | Conservative | Base Case | Upside |
+|---|---:|---:|---:|
+| Compliance Lead / MLRO | 0.5 FTE | 0.5 FTE | 1.0 FTE |
+| Legal Counsel | External | External / part-time | External + internal counsel |
+| Market Surveillance Analyst | 0.5 FTE | 0.5 FTE | 1.0 FTE |
+| Responsible-Use / Customer Protection Lead | 0.5 FTE | 0.25 FTE | 1.0 FTE |
+| Regulatory Reporting Analyst | 0.25 FTE | 0.25 FTE | 0.5 FTE |
+
+### What to validate
+
+Before final submission, the team should get estimates from:
+
+- Georgian legal counsel,
+- bank compliance team,
+- AML/KYC vendor,
+- external audit or regulatory advisory provider.
+
+---
+
+## 4. Platform Run Cost
+
+### Original assumption
+
+| Scenario | Cost |
+|---|---:|
+| Conservative | GEL 60,000 / month |
+| Base case | GEL 70,000 / month |
+| Upside | GEL 120,000 / month |
+
+### What this includes
+
+Platform run cost should include:
+
+- software engineering,
+- product management,
+- cloud hosting,
+- APIs and data pipelines,
+- market admin tools,
+- security monitoring,
+- customer support,
+- DevOps / infrastructure,
+- analytics and dashboards,
+- official data-source ingestion.
+
+---
+
+### Conservative platform team: GEL 60,000 / month
+
+This is a lean sandbox / MVP team.
+
+| Role / cost item | FTE | Monthly cost assumption | Monthly total |
+|---|---:|---:|---:|
+| Product Manager | 0.5 | GEL 8,000 | GEL 4,000 |
+| Backend Engineer | 1.0 | GEL 9,000 | GEL 9,000 |
+| Frontend Engineer | 1.0 | GEL 8,000 | GEL 8,000 |
+| Data / AI Engineer | 0.5 | GEL 10,000 | GEL 5,000 |
+| DevOps / Security Engineer | 0.5 | GEL 10,000 | GEL 5,000 |
+| QA / Test Engineer | 0.5 | GEL 4,000 | GEL 2,000 |
+| Customer Support / Ops | 1.0 | GEL 3,000 | GEL 3,000 |
+| UX / Content Designer | 0.25 | GEL 6,000 | GEL 1,500 |
+| Cloud / infrastructure | n/a | n/a | GEL 8,000 |
+| Monitoring / security tools | n/a | n/a | GEL 4,000 |
+| Data/API subscriptions | n/a | n/a | GEL 3,000 |
+| Admin tools / analytics | n/a | n/a | GEL 2,500 |
+| Contingency | n/a | n/a | GEL 5,000 |
+| **Total** |  |  | **GEL 60,000** |
+
+---
+
+### Base-case platform team: GEL 70,000 / month
+
+This assumes a controlled pilot with stronger reliability and monitoring.
+
+| Role / cost item | FTE | Monthly cost assumption | Monthly total |
+|---|---:|---:|---:|
+| Product Manager | 0.75 | GEL 8,000 | GEL 6,000 |
+| Backend Engineer | 1.0 | GEL 9,000 | GEL 9,000 |
+| Frontend Engineer | 1.0 | GEL 8,000 | GEL 8,000 |
+| Data / AI Engineer | 1.0 | GEL 10,000 | GEL 10,000 |
+| DevOps / Security Engineer | 0.75 | GEL 10,000 | GEL 7,500 |
+| QA / Test Engineer | 0.75 | GEL 4,000 | GEL 3,000 |
+| Customer Support / Ops | 1.5 | GEL 3,000 | GEL 4,500 |
+| UX / Content Designer | 0.5 | GEL 6,000 | GEL 3,000 |
+| Cloud / infrastructure | n/a | n/a | GEL 8,000 |
+| Monitoring / security tools | n/a | n/a | GEL 4,000 |
+| Data/API subscriptions | n/a | n/a | GEL 3,000 |
+| Admin tools / analytics | n/a | n/a | GEL 2,000 |
+| Contingency | n/a | n/a | GEL 2,000 |
+| **Total** |  |  | **GEL 70,000** |
+
+---
+
+### Upside platform team: GEL 120,000 / month
+
+This assumes stronger user activity, more markets, live surveillance, and a larger support burden.
+
+| Role / cost item | FTE | Monthly cost assumption | Monthly total |
+|---|---:|---:|---:|
+| Product Manager | 1.0 | GEL 9,000 | GEL 9,000 |
+| Engineering Lead | 1.0 | GEL 14,000 | GEL 14,000 |
+| Backend Engineers | 2.0 | GEL 9,000 | GEL 18,000 |
+| Frontend / Mobile Engineers | 1.5 | GEL 8,000 | GEL 12,000 |
+| Data / AI Engineers | 1.5 | GEL 11,000 | GEL 16,500 |
+| DevOps / Security Engineer | 1.0 | GEL 11,000 | GEL 11,000 |
+| QA / Test Engineer | 1.0 | GEL 5,000 | GEL 5,000 |
+| Customer Support / Ops | 3.0 | GEL 3,500 | GEL 10,500 |
+| UX / Content Designer | 0.5 | GEL 6,000 | GEL 3,000 |
+| Cloud / infrastructure | n/a | n/a | GEL 10,000 |
+| Monitoring / security tools | n/a | n/a | GEL 5,000 |
+| Data/API subscriptions | n/a | n/a | GEL 4,000 |
+| Admin tools / analytics | n/a | n/a | GEL 2,000 |
+| Contingency | n/a | n/a | GEL 10,000 |
+| **Total** |  |  | **GEL 120,000** |
+
+### Roles that matter most
+
+For a Polymarket/Kalshi-type platform, the most important technical roles are not only generic app developers. The platform needs:
+
+- backend / trading systems engineer,
+- frontend / mobile engineer,
+- data / AI engineer,
+- DevOps / security engineer,
+- market operations analyst,
+- product manager,
+- compliance / risk integration owner,
+- support / dispute operations.
+
+---
+
+## 5. Data Source Fees
+
+For the Georgian MVP, data costs should be modest because the first markets should rely on official public sources. The more important cost is not raw data purchase, but data governance: making sure every market has an approved source, backup source, timestamp, and resolution rule.
+
+| Data source | Use | Expected cost |
+|---|---|---:|
+| Geostat | Inflation, economic indicators | Likely free / public |
+| NBG | Policy rate, exchange rates, monetary data | Likely free / public |
+| CEC | Election results, turnout | Likely free / public |
+| FX reference data provider | Backup GEL/USD or global FX feeds | GEL 500–2,000 / month |
+| Cloud database / data warehouse | Market data, user behavior, audit logs | Included in cloud / infrastructure |
+| Analytics / BI tool | Dashboards, reporting | GEL 500–2,000 / month |
+
+---
+
+## 6. Customer Acquisition Cost
+
+### Original assumption
+
+| Scenario | CAC |
+|---|---:|
+| Conservative | GEL 150 |
+| Base case | GEL 75 |
+| Upside | GEL 30 |
+
+### What CAC includes
+
+Customer acquisition cost should include:
+
+- paid social ads,
+- influencer / podcast sponsorship,
+- referral bonus,
+- onboarding incentive,
+- education content,
+- app-store optimization,
+- KYC drop-off cost,
+- conversion funnel testing,
+- affiliate / community campaigns.
+
+### Scenario breakdown
+
+| Component | Conservative | Base Case | Upside |
+|---|---:|---:|---:|
+| Paid social / performance marketing | GEL 60 | GEL 30 | GEL 8 |
+| Referral bonus / user incentive | GEL 40 | GEL 25 | GEL 12 |
+| Influencer / podcast / community | GEL 20 | GEL 10 | GEL 3 |
+| Education / onboarding content | GEL 10 | GEL 5 | GEL 3 |
+| KYC / onboarding drop-off cost | GEL 15 | GEL 4 | GEL 3 |
+| Campaign tools / CRM | GEL 5 | GEL 1 | GEL 1 |
+| **Total CAC** | **GEL 150** | **GEL 75** | **GEL 30** |
+
+### Interpretation
+
+The conservative CAC assumes the platform is mostly standalone and must buy attention through paid acquisition.
+
+The base case assumes some bank or payment-partner support, but not full app integration.
+
+The upside case assumes TBC or another major bank embeds the product inside its existing app, reducing the need for paid acquisition.
+
+### What to validate
+
+Before final submission, validate:
+
+- bank in-app campaign conversion rate,
+- paid social cost per verified signup,
+- KYC completion rate,
+- cost per first deposit,
+- cost per first trade,
+- referral conversion rate,
+- 30-day retained trader rate.
+
+---
 
 ### Cost Interpretation
 
-Liquidity support is one of the most important uncertain costs. Prediction markets require enough two-sided liquidity for users to enter and exit positions without wide spreads.
+These costs behave differently as the platform scales.
 
-In decentralized market structures, liquidity providers supply capital in exchange for fees and take risk when prices move against them. Research on automated market makers emphasizes that liquidity providers face trading and adverse-selection risks, meaning they must be compensated through fees or subsidies.
+**Payment cost** improves in the upside case because bank-backed rails reduce external PSP dependence.
 
-Source: [Automated market maker and liquidity-provider risk research, arXiv](https://arxiv.org/abs/2311.08725)
+**Liquidity subsidy** rises in the upside case because more users and more markets require deeper order books.
 
-This is why the model includes a recurring liquidity subsidy. In a real launch, the platform could provide liquidity through:
+**Compliance cost** is lower in the base case if the bank can reuse existing compliance infrastructure, but rises again in the upside case because more users, disputes, and market surveillance require more oversight.
 
-- internal treasury market-making, if approved by the regulator,
-- third-party market makers,
-- bank-backed liquidity support,
-- automated market maker pools, or
-- a hybrid approach.
+**Platform run cost** increases with scale because the product needs stronger engineering, data, security, and support.
 
-Each structure has different regulatory and conflict-of-interest implications.
+**CAC** falls sharply in the upside case because distribution shifts from paid acquisition to bank-embedded acquisition.
+
+The strongest strategic conclusion is:
+
+> The platform does not become viable just because users trade micro-stakes. It becomes viable only if bank backing reduces CAC and payment cost while liquidity support makes markets usable before network effects form.
 
 ---
 
