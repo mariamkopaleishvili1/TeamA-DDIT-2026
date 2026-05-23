@@ -1,4 +1,4 @@
-# Competitive Landscape Template
+# Competitive Landscape v1
 
 
 **Industry Context Note:** Georgia's fintech sector is concentrated in payments and digital banking, with approximately 50 active fintech firms as of 2022 [BTU](https://btu.edu.ge/wp-content/uploads/2024/01/Fintech-market-in-Georgia-structure-and-main-trends.pdf), a $1.18 billion payments market in 2023 projected to reach $2.2 billion by 2027 [The Finech Times](https://thefintechtimes.com/richie-not-done-yet-fintech-in-the-caucasus-armenia-azerbaijan-georgia/), and two banks (TBC Bank and Bank of Georgia) controlling approximately 70-74% of banking assets through their combined market share in loans and deposits [MarketBeat](https://www.marketbeat.com/instant-alerts/tbc-bank-group-investor-day-targets-15-loan-growth-23-roe-and-teases-uzbekistan-ipo-option-2026-02-24/).
