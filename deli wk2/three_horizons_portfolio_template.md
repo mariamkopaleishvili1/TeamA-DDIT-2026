@@ -1,160 +1,234 @@
 # Three Horizons Framework
 
 ## Source
-McKinsey strategy research. Widely applied in transformation and innovation portfolio management.
+
+The Three Horizons Framework is commonly associated with McKinsey strategy research. It is widely used in transformation and innovation portfolio management to help organisations manage current performance, emerging opportunities, and long-term growth options at the same time.
+
+Useful source: [McKinsey - Three Horizons of Growth](https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/enduring-ideas-the-three-horizons-of-growth)
 
 ## Core idea
 
-Every organisation undergoing transformation must manage three portfolios simultaneously. The common error is treating them as sequential rather than parallel.
+Every organisation undergoing transformation must manage three portfolios simultaneously. The common mistake is treating them as sequential steps. In reality, the company must improve the current business, build new capabilities, and prepare future growth options in parallel.
+
+For this project, the Three Horizons Framework helps explain why the Georgian prediction-market / event-contract platform should not be launched immediately at full scale. The platform first needs stronger data governance, regulatory comfort, payment rails, user protection, and market-integrity controls.
 
 ## The three horizons
 
-| Horizon | Time frame | Focus | AI-era characteristics |
+| Horizon | Time frame | Focus | Meaning for this project |
 |---|---|---|---|
-| H1: Defend and Extend | Now to 12 months | Maximise performance of existing model using AI for efficiency | AI augmentation of existing processes. High readiness, high near-term ROI. |
-| H2: Nurture and Build | 12 to 36 months | Develop emerging opportunities; build platform and data capabilities | AI-enabled new services, platform pilots, data infrastructure. Requires capital before ROI. |
-| H3: Create and Options | 36 months+ | Create viable options on future scenarios; experiment with disruptive models | AI-first operating model experiments. Low probability, high upside. |
+| H1: Improve the Current Business | Now to 12 months | Use AI to improve existing financial-service operations | Build practical AI capabilities such as fraud detection, customer support automation, data cleaning, and basic risk monitoring. |
+| H2: Build New Capabilities | 12 to 36 months | Develop platform, data, regulatory, and partner capabilities | Build open-banking personalization, market-intelligence tools, compliance infrastructure, and regulator/partner readiness. |
+| H3: Create Future Options | 36+ months | Launch or scale a new long-term business model | Launch a regulated, bank-backed event-contract platform only after legal, technical, and market conditions are ready. |
 
-### H1: Defend and Extend
+The main transformation logic is simple: H1 builds operational trust, H2 builds platform readiness, and H3 becomes possible only when the organisation has enough regulatory, technical, and commercial credibility.
 
-### 
+---
 
-#### H1.1: Loan A/R Collections Optimization
-| Attribute                    | Detail                                                                                                                                                                                                               |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Capabilities**          | Prediction (default probability, optimal contact timing, propensity-to-pay), Synthesis (transaction pattern analysis, behavioral integration), Agent workflow (automated escalation, personalized negotiation paths) |
-| **Business Value**           | **High** - Prevents 0.5% portfolio deterioration on \$3.5B loan book = **\$17.5M annual value preservation**; reduces cost-to-collect 50%                                                                            |
-| **Evidence**                 | Georgian banks lose 2-3% of portfolio value annually to delayed collections; relationship-based SME lending lacks early warning before 90-day delinquencies crystallize                                              |
-| **Implementation Readiness** | **High** - 6 months. Barrier: NBG consumer protection requires human-in-the-loop design for settlement negotiations                                                                                                  |
-| **Funding Source**           | Current operations efficiency                                                                                                                                                                                        |
+# H1: Improve the Current Business  
+## Now to 12 months
 
-#### H1.2: Real-Time Payment Fraud Detection
+The first horizon should focus on practical AI use cases that improve the current financial-services operating model. These initiatives are realistic in the short term and help create the foundations needed for a more advanced platform later.
 
-| Attribute                    | Detail                                                                                                                                                                 |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Capabilities**          | Prediction (anomaly detection, behavioral biometrics), Synthesis (device fingerprinting, location correlation), Agent workflow (auto-blocking, step-up authentication) |
-| **Business Value**           | **High** — Cards dominate 89% of e-purchases; mobile wallet concentration creates attack surface; fraud losses directly impact 6-8% net interest margins               |
-| **Evidence**                 | Georgian Card instant payment infrastructure exists; mobile commerce penetration shifts fraud risk to digital channels                                                 |
-| **Implementation Readiness** | **High** — 4-6 months on existing transaction monitoring systems                                                                                                       |
-| **Funding Source**           | Current operations efficiency                                                                                                                                          |
+## H1.1: Real-Time Fraud and Risk Detection
 
-#### H1.3: Customer Service Automation
+| Attribute | Detail |
+|---|---|
+| AI capabilities | Anomaly detection, transaction monitoring, behavioral pattern analysis, suspicious activity alerts |
+| Business value | Helps reduce payment fraud, suspicious transactions, and operational risk in digital financial services |
+| Why it matters | As financial services become more digital, banks, PSPs, and fintech platforms need stronger monitoring systems |
+| Implementation readiness | High. This can be built on existing transaction monitoring and compliance systems |
+| Strategic link | Creates a safer operating environment before any event-contract or market-based product is tested |
 
-| Attribute                    | Detail                                                                                                                                      |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Capabilities**          | Generation (Georgian-language conversational AI), Synthesis (customer history integration), Agent workflow (intent classification, routing) |
-| **Business Value**           | **Medium** — Addresses "non-negotiable" mobile-first UX requirement; Georgian consumers show "low tolerance for friction"                   |
-| **Evidence**                 | Mobile commerce adoption creates demand for frictionless digital service; existing chatbot infrastructure reduces build complexity          |
-| **Implementation Readiness** | **High** — 3-6 months with established escalation protocols                                                                                 |
-| **Funding Source**           | Current operations efficiency                                                                                                               |
+This initiative supports the broader direction of the project because a future regulated event-contract platform will need strong risk monitoring from the beginning. Fraud detection and transaction monitoring are not only operational tools; they are also part of building trust with regulators, banks, and users.
 
-#### H1.4: Wealth Management Robo-Advisory (MVP)
+Useful source: [World Bank - Digital Payments in Georgia](https://www.worldbank.org/en/news/feature/2023/10/02/digital-payments-in-georgia-bolstering-the-regulatory-environment-and-developing-infrastructure-for-an-inclusive-future)
 
-| Attribute                    | Detail                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **AI Capabilities**          | Generation (natural language portfolio explanations), Prediction (risk profiling, return forecasting), Synthesis (market data aggregation)                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Business Value**           | **High** — TBC Capital launched zero-commission, \$1-minimum fractional investing in October 2023 via mobile app, offering 6,000+ US stocks and ETFs ([NBG Annual Report 2023](https://nbg.gov.ge/fm/%E1%83%9E%E1%83%A3%E1%83%91%E1%83%9A%E1%83%98%E1%83%99%E1%83%90%E1%83%AA%E1%83%98%E1%83%94%E1%83%91%E1%83%98/%E1%83%90%E1%83%9C%E1%83%92%E1%83%90%E1%83%A0%E1%83%98%E1%83%A8%E1%83%94%E1%83%91%E1%83%98/%E1%83%AC%E1%83%9A%E1%83%98%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%90%E1%83%9C%E1%83%92%E1%83%90%E1%83%A0%E1%83%98%E1%83%A8%E1%83%98/2023/annual-report-eng-2023.pdf?v=0u27f&utm_source=chatgpt.com)); captures 92% of adults excluded from equity markets (retail participation in GSE equities is approximately 8%.                                                                                              |
-| **Evidence**                 | Galt & Taggart maintains \$1,000 entry threshold and \$5 minimum transaction fees ; TBC Capital has no minimum threshold and no account opening fees ; "pervasive lack of knowledge" among Georgian investors creates advisory gap  |
-| **Implementation Readiness** | **High** — 6 months leveraging existing TBC Capital brokerage infrastructure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Funding Source**           | Current operations efficiency                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **H2 Dependency**            | Creates customer base and transaction data for H2.1 Open Banking personalization                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+## H1.2: Customer Service Automation
 
+| Attribute | Detail |
+|---|---|
+| AI capabilities | Georgian-language chatbot support, customer intent classification, support ticket routing, FAQ automation |
+| Business value | Improves digital customer experience and reduces pressure on support teams |
+| Why it matters | A future event-contract platform will need simple explanations, fast support, and clear communication |
+| Implementation readiness | High. It can be introduced as a controlled support tool with human escalation |
+| Strategic link | Builds customer trust and improves digital-service quality before more complex products are introduced |
 
-### H2: Nurture and Build (12-36 months)
+Customer service automation should not replace human support completely. In regulated financial services, AI can help explain basic product rules and guide users, but important complaints, disputes, risk cases, and settlement questions should still be reviewed by people.
 
-#### H2.1: Open Banking-Powered Personalization Platform
+## H1.3: Data Cleaning and Governance
 
-| Attribute                    | Detail                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Capabilities**          | Synthesis (multi-account transaction analysis), Prediction (spending forecasting, cash flow optimization), Generation (personalized insights), Agent workflow (automated savings, bill optimization)                                                                                                                                                                                                                                                                                   |
-| **Business Value**           | **High** — NBG launched first phase of Open Banking in 2021 and issued regulations for non-bank inclusion in May 2023 ([Fintech Georgia → NBG Fintech Development Strategy](https://nbg.gov.ge/fm/ზედამხედველობა/ფინტექ_დეპარტამენტი/strategia/fintech-development-strategy-of-georgia.pdf)); non-banking institutions can now engage as providers of account information and payment initiation services                                                                              |
-| **Evidence**                 | NBG established Financial Innovation Office in 2019, introduced regulatory sandbox in 2020, and is applying to join SEPA ([Fintech Georgia → S&P Global / BM.GE fintech ecosystem summary](https://bm.ge/en/news/sp-global-ratings-national-bank-of-georgia-establishes-comprehensive-ecosystem-for-fintech-development-with-open-banking)); World Bank Georgia Financial Inclusion and Accountability Project (2019-2023) improved financial infrastructure and consumer protection ([the National Fintech Development Strategy](https://nbg.gov.ge/en/media/news/the-national-bank-of-georgia-releases-the-first-draft-of-the-national-fintech-development)) |
-| **Implementation Readiness** | **Medium** — 12-18 months. Barrier: API standardization incomplete across Georgian banks; requires NBG-mandated common specifications                                                                                                                                                                                                                                                                                                                                                  |
-| **Funding Source**           | H1 cash reserves (\$17.5M+ annually from H1.1, \$2-3M from H1.4)                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **H1 Prerequisites**         | H1.4 customer base; H1.1-H1.3 data governance maturity                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **H3 Enabler**               | **Critical path item**: Clean, governed, accessible customer data and API infrastructure required for H3.1 prediction market settlement and KYC                                                                                                                                                                                                                                                                                                                                        |
+| Attribute | Detail |
+|---|---|
+| AI capabilities | Data classification, duplicate detection, error detection, source validation, reporting support |
+| Business value | Improves the quality of customer, transaction, compliance, and market data |
+| Why it matters | A regulated event-contract platform cannot operate with unclear or unreliable data |
+| Implementation readiness | High to medium. The technical work is feasible, but internal data ownership and governance rules must be clear |
+| Strategic link | Creates the data foundation for H2 and H3 |
 
-#### H2.2: AI-Powered SME Credit Scoring
+For this project, data governance is not just an internal efficiency issue. It is directly connected to regulatory trust. If the platform later uses official sources such as NBG, Geostat, or election data, the company must clearly define which source is authoritative and how outcomes are verified.
 
-| Attribute                    | Detail                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **AI Capabilities**          | Prediction (credit default probability, loan pricing), Synthesis (alternative data integration), Generation (automated decision explanations for NBG compliance)                                                                                                                                                                                                                                                                                                                                                               |
-| **Business Value**           | **Medium-High** — Alternative lending identified as key fintech segment; SME segment underserved by collateral-based traditional lending                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Evidence**                 | World Bank FIA project (2019-2023) supported enabling framework for capital market development and movable assets-based lending ([World Bank Financial Inclusion Georgia](https://www.worldbank.org/en/country/georgia/publication/financial-inclusion-national-survey-2022)); financial reporting accuracy improved to 85% for medium enterprises and 91% for small enterprises ([World Bank Financial Inclusion Georgia](https://www.worldbank.org/en/country/georgia/publication/financial-inclusion-national-survey-2022)) |
-| **Implementation Readiness** | **Medium** — 18-24 months. Barrier: Limited alternative data availability; requires utility payments, mobile money, e-commerce integration via H2.1 infrastructure                                                                                                                                                                                                                                                                                                                                                             |
-| **Funding Source**           | H1 cash reserves                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **H1 Prerequisites**         | H1.1 collections data                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **H2 Prerequisites**         | H2.1 data architecture for alternative data integration                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+## H1.4: Basic Financial Education and Explanation Layer
 
+| Attribute | Detail |
+|---|---|
+| AI capabilities | Simple explanations, risk warnings, personalized educational content, user guidance |
+| Business value | Helps users understand financial products in a safer and simpler way |
+| Why it matters | The future platform must be clearly separated from gambling-style speculation |
+| Implementation readiness | High. It can begin as educational content inside the digital banking or fintech experience |
+| Strategic link | Prepares users for simple, transparent event-contract logic later |
 
-### H3: Create and Options
+This initiative is important because the proposed platform should win through simplicity, trust, and transparency, not through aggressive speculation. Users need to understand what they are doing, what the risks are, and how event outcomes are resolved.
 
-#### H3.1: Georgian Prediction Market Platform
+---
 
-Prediction-market platform is a Horizon 2/Horizon 3 bridge, not a pure 36+ month future option. The regulatory and infrastructure groundwork starts immediately, but full-scale public launch should only happen after sandbox testing, legal classification, and market-integrity controls are in place.
+# H2: Build New Capabilities  
+## 12 to 36 months
 
-| Attribute                    | Detail                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **AI Capabilities**          | Prediction (probability pricing, market sentiment), Generation (natural language market explanations), Synthesis (multi-source outcome resolution), Agent workflow (automated market making, liquidity management)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **Business Value**           | **High** — No regulated prediction market exists in Georgia; Kalshi and Polymarket generated combined volume exceeding \$37 billion in 2025 ([International Banker](https://internationalbanker.com/finance/accounting-for-the-explosive-growth-in-prediction-markets/)); Kalshi's macro prediction markets on CPI, unemployment, and Fed decisions outperform Bloomberg consensus forecasts ([Kalshi Blog - CPI Prediction](https://www.kalshi.com/blog/kalshi-beats-bloomberg-consensus-on-cpi))                                                                                                                                                                                                           |
-| **Evidence**                 | Kalshi secured CFTC approval as Designated Contract Market and won legal victory in September 2024 to offer election event contracts ([Kalshi Blog - Legal Victory](https://www.kalshi.com/blog/kalshi-wins-historic-legal-victory)); NBG has authority to "define new virtual asset services independently through normative acts" ([NBG Virtual Assets Regulation](https://nbg.gov.ge/en/media/news/the-national-bank-of-georgia-develops-regulation-on-virtual-asset-services)); NBG launched AI Sandbox pilot project in June 2025 for fintech innovation ([NBG AI Sandbox](https://nbg.gov.ge/en/media/news/the-national-bank-of-georgia-launches-a-pilot-project-for-an-a-i-sandbox-within-its-regul)) |
-| **Implementation Readiness** | **Medium-Low** - regulatory work can begin immediately, controlled pilot may be possible within 12-18 months, but full-scale launch depends on NBG classification and payment-partner approval. |
-| **Funding Source**           | H1 cash reserves + H2 platform credibility with NBG                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **H2 Prerequisites**         | **H2.1 clean data infrastructure** (settlement, KYC, outcome resolution); H1.4 proven AI advisory customer base; H1-H2 established NBG relationship for sandbox application (<innovationoffice@nbg.gov.ge>) ([NBG Financial Innovation Office](https://www.nbg.gov.ge/en/pages/financial-innovation-office))                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **Critical Sequencing**      | **H3.1 fails if H2.1 skipped**: prediction markets require real-time, governed, API-accessible data for transparent outcome resolution and customer fund management                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+The second horizon should focus on building the capabilities that must exist before the platform can become credible. These include open banking, personalization, market intelligence, compliance systems, and early engagement with regulators and partners.
 
+## H2.1: Open-Banking-Powered Personalization
 
-#### H3.2: AI-First Regulatory Compliance Automation
+| Attribute | Detail |
+|---|---|
+| AI capabilities | Transaction analysis, spending insights, cash-flow forecasting, personalized recommendations |
+| Business value | Creates better digital engagement and more useful financial insights for customers |
+| Why it matters | Open banking can help financial institutions build more connected and personalized services |
+| Implementation readiness | Medium. It depends on API maturity, bank participation, customer consent, and regulatory compliance |
+| Strategic link | Creates the data and customer-understanding foundation needed for future platform services |
 
-| Attribute                    | Detail                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI Capabilities**          | Synthesis (regulatory document monitoring), Prediction (compliance risk scoring), Generation (automated filing drafts), Agent workflow (compliance calendar, escalation)                                                                                                                                                                                                                                                                                                                                                                |
-| **Business Value**           | **Medium** — NBG's "proactive fintech supervision framework" prioritizes enhancing fintech supervision in 2023-2025 strategy ([Fintech Georgia](https://www.fintechgeorgia.ge/fintech-in-georgia/)); VASP registration mandatory since July 2023; NBG adopted comprehensive VASP supervisory framework including prudential supervision, consumer protection, cybersecurity, and operational risk management ([Cointelegraph Georgia VASP](https://cointelegraph.com/news/georgian-central-bank-to-launch-aml-probe-into-crypto-firms)) |
-| **Evidence**                 | NBG's authority to define new virtual asset services creates regulatory uncertainty requiring adaptive systems ([NBG Virtual Assets Regulation](https://nbg.gov.ge/en/media/news/the-national-bank-of-georgia-develops-regulation-on-virtual-asset-services)); 0% corporate tax on foreign IT services creates compliance complexity ([Cointelegraph Georgia Crypto](https://cointelegraph.com/news/georgian-central-bank-to-launch-aml-probe-into-crypto-firms))                                                                       |
-| **Implementation Readiness** | **Medium** — 24-30 months. Barrier: Georgian reporting standards still evolving; requires H3-level adaptive AI                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Funding Source**           | H2 platform monetization                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **H2 Prerequisites**         | H2.1 platform governance maturity                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **H3 Prerequisites**         | H3.1 regulatory classification precedent                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+Open banking is important because the future platform depends on trusted customer data, payment access, and secure financial-service integration. It can also help the organisation understand user behavior before launching more complex event-contract products.
 
+Useful source: [NBG - Open Banking and Non-Banking Institutions](https://nbg.gov.ge/en/media/news/nbg-invites-non-banking-institutions-to-open-banking)
 
-#### 
+## H2.2: Market-Intelligence and Event-Resolution Layer
 
-## Sequencing logic
+| Attribute | Detail |
+|---|---|
+| AI capabilities | Source monitoring, data synthesis, event tracking, explanation generation, anomaly alerts |
+| Business value | Prepares the analytical layer needed for a regulated event-contract platform |
+| Why it matters | Users, banks, and regulators need to know how event outcomes are selected, monitored, and resolved |
+| Implementation readiness | Medium. It can begin with simulated markets or internal dashboards before public launch |
+| Strategic link | Acts as the bridge between normal fintech analytics and a future supervised event-contract marketplace |
 
-H3 initiatives fail if the foundational work of H2 has not been done. You cannot run an AI-first operating model if your data is not clean, governed, and accessible.
+This section should be interpreted carefully. AI should not first be used to “predict winners.” The more credible first use is to make the platform safer and more transparent by supporting market monitoring, official source tracking, event rules, and outcome verification.
 
-| Horizon | Prerequisite | Consequence if skipped |
+## H2.3: Compliance and Responsible-Use Infrastructure
+
+| Attribute | Detail |
+|---|---|
+| AI capabilities | Compliance monitoring, risk scoring, suspicious behavior alerts, automated reporting support |
+| Business value | Reduces legal, operational, and reputational risk |
+| Why it matters | The biggest risk is that the platform could be misunderstood or classified as gambling if the structure is not clear |
+| Implementation readiness | Medium. Legal review, NBG engagement, and partner-bank comfort are required |
+| Strategic link | Makes the future platform look like a supervised financial marketplace, not a betting product |
+
+Compliance infrastructure is central to the project. The platform should include KYC/AML controls, exposure limits, responsible-use rules, clear market listing standards, transparent event-resolution rules, and audit trails for regulators and payment partners.
+
+Useful source: [NBG - Financial Innovation Office](https://nbg.gov.ge/en/page/financial-innovation-office)
+
+## H2.4: Partner and Regulator Engagement
+
+| Attribute | Detail |
+|---|---|
+| Main activities | Early legal review, NBG pre-consultation, sandbox analysis, bank partner discussions, payment-rail assessment |
+| Business value | Reduces uncertainty before investing in a full platform |
+| Why it matters | The platform depends on trust, GEL settlement, KYC/AML, and payment access |
+| Implementation readiness | Medium. It can start early, but approval and classification may take time |
+| Strategic link | Necessary before moving toward public launch |
+
+This fits the corrected strategic direction of the project. The recommended path is not “launch fast and fix later.” The stronger path is sandbox-first, bank-backed, and regulatory-first.
+
+Useful source: [NBG - Regulatory Sandbox Guide](https://nbg.gov.ge/en/page/regulatory-sandbox-guide)
+
+---
+
+# H3: Create Future Options  
+## 36+ months
+
+The third horizon is where the larger platform becomes possible. However, it should only move forward if H1 and H2 have created enough trust, data quality, regulatory comfort, and operational readiness.
+
+## H3.1: Georgian Regulated Event-Contract Platform
+
+The future platform should be positioned as a regulated, GEL-settled event-contract marketplace. It should not be presented as a gambling app or as a crypto-first product. It would allow users to participate in simple, clearly defined event contracts based on verifiable Georgian events, but only if the legal classification is clear.
+
+| Attribute | Detail |
+|---|---|
+| AI capabilities | Market monitoring, liquidity alerts, risk detection, event explanation, outcome-resolution support |
+| Business value | Creates a new regulated digital marketplace category in Georgia |
+| Why it matters | The project identifies a white space between bank trust, payment rails, and simple event-based participation |
+| Implementation readiness | Medium-low. Regulatory and infrastructure work can start earlier, but full launch depends on NBG comfort, payment access, liquidity, and legal classification |
+| Preferred route | TBC-backed regulatory sandbox pathway |
+| Fallback route | VASP / stablecoin route only if legally confirmed and strategically necessary |
+| Main risk | Misclassification as gambling, weak liquidity, low user trust, or lack of payment-partner support |
+| Mitigation | NBG engagement, bank-backed structure, GEL settlement, micro-stakes, responsible-use controls, transparent rules, and official data sources |
+
+This platform should be described as a Horizon 2 / Horizon 3 bridge. Research, legal review, partner discussion, and simulated testing can begin earlier, but broad public launch belongs later.
+
+## H3.2: AI-First Market Integrity and Regulatory Reporting
+
+| Attribute | Detail |
+|---|---|
+| AI capabilities | Market surveillance, suspicious-pattern detection, automated reporting support, dispute analytics |
+| Business value | Helps the platform remain transparent to regulators, banks, partners, and users |
+| Why it matters | A supervised event-contract platform needs strong monitoring and auditability |
+| Implementation readiness | Medium. It depends on H2 data infrastructure and regulatory requirements |
+| Strategic link | Makes the platform more credible as a financial-market tool rather than a speculative entertainment product |
+
+This capability is especially important because a platform dealing with event contracts must prove that markets are fair, outcomes are transparent, and user protection rules are being followed.
+
+Useful source: [NBG - AI Sandbox Pilot Project](https://nbg.gov.ge/en/media/news/the-national-bank-of-georgia-launches-a-pilot-project-for-an-a-i-sandbox-within-its-regul)
+
+---
+
+# Sequencing Logic
+
+The platform should not jump directly to H3. Each horizon creates the foundation for the next one.
+
+| From | To | Dependency | Why it matters |
+|---|---|---|---|
+| H1 fraud and risk detection | H2 compliance infrastructure | Risk data and monitoring discipline | Helps build safer financial operations |
+| H1 customer support automation | H2 responsible-use layer | Clear explanations and escalation flows | Users must understand the product and its risks |
+| H1 data governance | H2 market-intelligence layer | Clean and trusted data | Event outcomes must be verifiable |
+| H2 open banking | H3 event-contract platform | Customer consent, payment data, KYC support | The platform needs reliable user and payment infrastructure |
+| H2 regulator engagement | H3 public launch | Legal classification and sandbox comfort | The product cannot scale without regulatory confidence |
+| H2 market intelligence | H3 market operations | Event rules, monitoring, and outcome-resolution logic | Markets must feel fair, transparent, and trustworthy |
+
+The sequencing logic is important because the event-contract platform is not mainly a technology bet. It is a trust, regulation, payment-rail, and liquidity bet.
+
+---
+
+# Funding Logic
+
+The funding logic should be realistic and careful. Instead of relying on exact savings or guaranteed returns, the project should explain how each horizon can support the next one.
+
+| Horizon | Funding source | Purpose |
 |---|---|---|
-| H1 | Clean data for the process; governance for AI output; change management | AI pilot cannot scale; employees work around it |
-| H2 | Modern data architecture; API integration; platform governance | H2 platform cannot integrate with H1 operations |
-| H3 | Full H2 infrastructure; AI-literate leadership; proven change management | H3 vision is credible to announce but not to execute |
+| H1 | Existing operational budget | Fund practical AI tools such as fraud detection, customer support, and data cleaning |
+| H1 to H2 | Efficiency gains and stronger internal data capability | Fund open banking, personalization, compliance tools, and market-intelligence infrastructure |
+| H2 to H3 | Partner support, bank backing, investor funding, or approved innovation budget | Fund sandbox testing, legal classification, liquidity design, and controlled pilot development |
+| H3 | Only after validation | Scale the event-contract platform if regulation, payment rails, liquidity, and user trust are ready |
 
-| From               | To   | Dependency Type               | Criticality                                                      |
-| ------------------ | ---- | ----------------------------- | ---------------------------------------------------------------- |
-| H1.1 Collections   | H2.1 | Cash flow funding             | **Critical** — No H2 build without \$17.5M annual preservation   |
-| H1.4 Robo-Advisory | H2.1 | Customer base + data          | **Critical** — No personalization without users and transactions |
-| H1.1-H1.3          | H2.1 | Data governance maturity      | **Critical** — Fragmented data breaks platform integration       |
-| H2.1               | H2.2 | Alternative data architecture | Required — SME scoring needs unified data pipes                  |
-| H2.1               | H3.1 | Settlement/KYC infrastructure | **Existential** — Prediction market cannot operate without       |
-| H1-H2              | H3.1 | NBG regulatory relationship   | **Critical** — Sandbox application requires credibility          |
-| H2.1               | H3.2 | Platform governance           | Required — Adaptive compliance needs mature data governance      |
+The most important financial point is that the project should not be evaluated only as a software build. It also requires regulatory approval, bank or payment-partner confidence, market liquidity, user education, and responsible-use controls.
 
+---
 
-## Funding logic
+# Final Summary
 
-The most sophisticated midterm recommendations show: fund H1 from current efficiency gains, use H1 cash and credibility to fund H2 infrastructure, and reserve H3 optionality for when the data foundation is in place.
+The Three Horizons Framework shows that the proposed platform should be developed step by step. In Horizon 1, the organisation should improve existing financial operations through practical AI use cases such as fraud detection, customer support automation, data cleaning, and financial education. These initiatives are realistic in the short term and help create stronger data and risk-control foundations.
 
-| Horizon     | Source                         | Amount                    | Destination                                         |
-| ----------- | ------------------------------ | ------------------------- | --------------------------------------------------- |
-| **H1**      | Current operations efficiency  | Base funding              | Self-funding via efficiency gains                   |
-| **H1 → H2** | H1.1 Collections optimization  | **\$17.5M annually**      | H2.1 Open Banking platform infrastructure (\$8-12M) |
-| **H1 → H2** | H1.4 Robo-advisory fees        | **\$2-3M annually**       | H2.2 SME credit scoring alternative data (\$3-5M)   |
-| **H2 → H3** | H2.1 platform monetization     | Projected \$10M+ annually | H3.1 Prediction market sandbox and build (\$15-25M) |
-| **Reserve** | H1 efficiency + H2 credibility | NBG relationship capital  | H3.1 sandbox application, legal classification      |
+In Horizon 2, the organisation should build the platform capabilities needed for a future event-contract marketplace. This includes open-banking personalization, market-intelligence tools, responsible-use infrastructure, and early engagement with NBG and potential bank partners. This stage is important because the platform depends on trusted data, clear rules, and regulatory comfort.
 
+In Horizon 3, the organisation can consider launching a regulated Georgian event-contract platform. The recommended direction is a TBC-backed regulatory sandbox pathway with GEL settlement, strong KYC/AML, transparent event-resolution rules, exposure limits, and responsible-use controls. The platform should not be positioned as gambling or as a crypto-first product. It should be positioned as a supervised financial marketplace that uses simple event contracts and trusted official data sources.
 
-## How to use in this course
+Therefore, the correct transformation logic is: use H1 to build operational trust, use H2 to build data and regulatory readiness, and use H3 to launch only if the platform is legally, technically, and commercially credible.
 
-1. Assign AI Opportunity Map initiatives to the appropriate horizon.
-2. Show explicit sequencing and dependencies.
-3. Include the funding logic in the midterm transformation roadmap section.
+---
+
+# Useful Sources
+
+1. [McKinsey - Three Horizons of Growth](https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/enduring-ideas-the-three-horizons-of-growth)  
+2. [National Bank of Georgia - Financial Innovation Office](https://nbg.gov.ge/en/page/financial-innovation-office)  
+3. [National Bank of Georgia - Regulatory Sandbox Guide](https://nbg.gov.ge/en/page/regulatory-sandbox-guide)  
+4. [National Bank of Georgia - Open Banking and Non-Banking Institutions](https://nbg.gov.ge/en/media/news/nbg-invites-non-banking-institutions-to-open-banking)  
+5. [World Bank - Digital Payments in Georgia](https://www.worldbank.org/en/news/feature/2023/10/02/digital-payments-in-georgia-bolstering-the-regulatory-environment-and-developing-infrastructure-for-an-inclusive-future)  
+6. [National Bank of Georgia - AI Sandbox Pilot Project](https://nbg.gov.ge/en/media/news/the-national-bank-of-georgia-launches-a-pilot-project-for-an-a-i-sandbox-within-its-regul)
