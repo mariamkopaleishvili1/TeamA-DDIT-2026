@@ -2,7 +2,7 @@
 
 ## Project
 
-Team A — Georgian Prediction-Market Platform  
+Team A - Georgian Prediction-Market Platform  
 Industry: Fintech  
 Market: Republic of Georgia  
 Recommended option: Regulatory Sandbox Pathway with responsible-use controls embedded from day one
