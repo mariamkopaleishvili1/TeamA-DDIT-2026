@@ -215,8 +215,6 @@ Who consumes value on the platform? What do they get from participation?
   - Non-custodial or custodial wallet options with instant conversion to fiat via VASP partners
   - Educational guardrails (daily loss limits, risk warnings) embedded in the platform
 
-- **Current number or market size:** The Georgian digital payments market exceeded **$1 billion in 2023** and is projected to reach **$2.31 billion by 2024** [[Statista]](https://www.statista.com/outlook/dmo/fintech/digital-payments/georgia). Internet banking penetration is growing rapidly,**114.8 million online operations** conducted in 2022 (+16.4% YoY) with **8.16 billion GEL transferred** (+25.6% YoY) [[NBG]](https://nbg.gov.ge/en). Critically, Georgia's population shows high digital adoption but **92% remain uninvested in capital markets**, representing a massive latent demand for accessible speculation vehicles. The Fintech Association of Georgia reports approximately **35 member companies** as of April 2025 [[Fintechs]](https://fintechs.ge), indicating a maturing ecosystem but still early-stage retail investment penetration.
-
 ---
 
 ## Section 4. Network effect mechanism
@@ -227,8 +225,6 @@ Who consumes value on the platform? What do they get from participation?
 
 - **Critical mass threshold: what scale is needed for the effect to become self-sustaining?**
   - **Producer side:** 3-5 professional market makers providing liquidity on 50+ active markets with >$100,000 total value locked per major event category
-  - **Consumer side:** 5,000 monthly active users generating  GEL 100,000+ monthly trading volume
-  - **Combined:** Self-sustaining liquidity when 60% of markets maintain <5% bid-ask spreads without platform subsidy
 
 - **Risk of negative network effects:**
   - **Liquidity fragmentation:** Too many illiquid markets dilute trading activity and create poor user experience
