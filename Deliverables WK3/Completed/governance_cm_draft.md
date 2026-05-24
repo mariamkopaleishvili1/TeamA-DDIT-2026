@@ -331,6 +331,66 @@ H3 governance must be stricter than sandbox governance because the platform beco
 | Scaled responsible-use governance | Responsible Use & Customer Trust | Expanded limits, user protection, and harm monitoring |
 
 ---
+---
+
+# Part 5. Activity Insert: Governance and Change Management Draft
+
+## Recommended AI use case selected
+
+The recommended AI use case for this activity is:
+
+> **AI Market Surveillance and Responsible-Use Scoring for the Georgian Prediction-Market Platform**
+
+This use case is the most important governance priority because it directly affects user trading access, account restrictions, market pauses, responsible-use interventions, payment-partner confidence, and regulator trust.
+
+It connects to the roadmap through:
+
+- **Initiative 06: Market Governance and AI Risk Function**
+- **Initiative 09: Responsible-Use and Customer Protection Framework**
+- **Initiative 16: AI Market Surveillance and Responsible-Use Scoring**
+- **Initiative 17: Outcome Resolution and Regulator Reporting Automation**
+
+---
+
+## Part 5.1 Governance plan
+
+### EU AI Act-style risk tier
+
+| AI use case | Risk tier | Rationale |
+|---|---|---|
+| AI Market Surveillance and Responsible-Use Scoring | High Risk | The system may trigger trading restrictions, deposit limits, cooling-off periods, account reviews, market pauses, or payout delays. These decisions affect users’ financial activity and access to the platform, so the model should be governed as high-risk even if final decisions remain human-approved. |
+
+### Specific obligation created for the client
+
+The client must implement an **Adverse Action Notice and Human Review Mechanism** for every AI-supported user restriction.
+
+This means:
+
+> If AI-supported surveillance or responsible-use scoring leads to a trading restriction, deposit limit, cooling-off period, account freeze, or delayed payout, the user must receive a notice explaining the action, the main reason code, whether AI was used, the duration of the restriction, and the appeal channel.
+
+This is more specific than simply saying “transparency.” The mechanism must be built into the product and support workflow.
+
+### Named governance mechanism
+
+| Governance question | Entry |
+|---|---|
+| Oversight body | **Market Governance and AI Risk Committee** |
+| Review cadence | Monthly during H1 build; bi-weekly during H2 sandbox; emergency review within 24 hours for severe incidents |
+| Who holds the human override protocol? | **Responsible Use Lead** for user restrictions, **Market Integrity Lead** for trading surveillance actions, and **Resolution Committee Chair** for payout or dispute decisions |
+| Who can approve deployment? | Market Governance and AI Risk Committee, with sign-off from Head of Data & AI, Compliance Lead, Responsible Use Lead, and Prediction Market General Manager |
+| Who can trigger rollback? | Compliance Lead, Chief Risk Officer delegate, Head of Data & AI, Responsible Use Lead, or Market Integrity Lead |
+| Required evidence | AI model registry entry, training data description, escalation thresholds, human override log, adverse action notice template, model performance dashboard, and incident rollback protocol |
+
+### Human override protocol
+
+```text
+AI alert
+→ human review queue
+→ reviewer approves, rejects, or modifies action
+→ rationale logged
+→ user notice sent if adverse
+→ appeal path opened if user is affected
+→ model monitoring dashboard updated
 
 # Governance Mechanisms by AI Use Case
 
