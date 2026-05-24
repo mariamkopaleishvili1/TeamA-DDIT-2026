@@ -46,7 +46,7 @@ The EU AI Act follows a risk-based structure:
 
 - **Unacceptable risk:** banned AI practices.
 - **High risk:** AI systems that can materially affect health, safety, fundamental rights, financial access, employment, education, essential services, or democratic processes.
-- **Limited risk:** AI systems requiring transparency, such as chatbots or AI-generated content.
+- **Limited / transparency risk:** AI systems requiring transparency, such as chatbots or AI-generated content.
 - **Minimal risk:** low-impact AI tools with no meaningful adverse decision effect.
 
 For this project, several AI systems are treated conservatively as **High Risk** even when the strict EU legal classification may be debatable. This is because the client is a bank-backed regulated platform and the AI systems may affect user access, trading restrictions, payment flows, financial recommendations, account freezes, or payout timing.
@@ -184,7 +184,7 @@ Before sandbox deployment, the model must have:
 | Missing KYC or duplicate account signal | Account blocked from sandbox trading until reviewed |
 | Incomplete timestamp, trade ID, or user ID in order-book data | Data excluded from model training and flagged for engineering fix |
 | Unauthorized access to user-risk dataset | Immediate security review and access suspension |
-| More than 5% missing values in required surveillance features | Model retraining blocked until data issue resolved |
+| More than 5% missing values in required surveillance features | Model retraining blocked until data issue is resolved |
 
 ---
 
@@ -210,3 +210,275 @@ AI alert
 → user notice if adverse
 → appeal path if user affected
 → model monitoring update
+```
+
+### Specific adverse decision rules
+
+| AI-triggered condition | Automatic action allowed? | Human approval required? | Owner |
+|---|---:|---:|---|
+| User reaches GEL 100 sandbox daily loss limit | Yes, temporary same-day stop | No, if rule is pre-disclosed | Responsible Use System |
+| User deposits more than GEL 500 in 24 hours | No | Yes, for further restriction | Responsible Use Lead |
+| User makes more than 20 trades in one hour | Yes, friction warning | Yes, for trading restriction | Responsible Use Lead |
+| User hits loss limit 3 times in 7 days | Yes, 48-hour cooling-off if pre-disclosed | Human review after cooling-off starts | Responsible Use Lead |
+| One account cluster holds more than 25% of one side of market | No | Yes | Market Integrity Lead |
+| Price moves more than 20 percentage points in 15 minutes without public news | Temporary market pause allowed for 30 minutes | Yes, for extended pause | Market Integrity Lead |
+| AI flags multi-accounting | Temporary withdrawal hold allowed | Yes, for account suspension | Fraud / KYC Lead |
+| AI extracts official outcome result | No final payout without human confirmation | Yes | Resolution Committee |
+| More than 10 disputes filed on one market | No automated final decision | Yes | Resolution Committee |
+
+### User appeal process
+
+Affected users must have access to an appeal process when AI-supported decisions affect them.
+
+| Decision type | Appeal owner | SLA |
+|---|---|---:|
+| Deposit restriction | Responsible Use Lead | 2 business days |
+| Trading restriction | Responsible Use Lead + Compliance | 3 business days |
+| Account freeze | Fraud / KYC Lead + Compliance | 3 business days |
+| Market payout dispute | Resolution Committee | 5 business days |
+| Permanent user restriction | Responsible Use Lead + Compliance + General Manager | 5 business days |
+
+### Adverse action notice template
+
+Every adverse user-facing AI-supported decision should include:
+
+- what action was taken,
+- whether AI was used in the review,
+- the main reason code,
+- what data category was considered,
+- how long the restriction lasts,
+- how the user can appeal,
+- and when the case will be reviewed.
+
+---
+
+# Part 3. Responsible AI Principles with Implementation Mechanisms
+
+| Principle | What it requires in this context | Named implementation mechanism |
+|---|---|---|
+| Fairness | AI systems must not unfairly restrict users based on age proxy, location, language, device type, income proxy, or banking relationship. Responsible-use and fraud models must be checked for disproportionate impact. | **Fairness and Disparate Impact Dashboard** reviewed monthly by Market Governance and AI Risk Committee |
+| Transparency | Users must know when AI is used in chatbot support, market explanations, risk warnings, responsible-use restrictions, or payment/security reviews. | **AI Disclosure Banner and Adverse Action Notice System** embedded in app and support workflows |
+| Accountability | Every AI-supported decision must have a named human owner. No model can approve final adverse action without accountable human review during sandbox. | **AI Decision Register and Human Override Log** owned by Data, AI & Market Integrity |
+| Reliability | Models must perform consistently under live-market conditions and must not drift silently. Market surveillance and responsible-use models need threshold monitoring and rollback rules. | **Model Performance and Drift Dashboard** with rollback trigger owned by Head of Data & AI |
+| Privacy | User financial, trading, KYC, and responsible-use data must be processed only for approved purposes, with access limits and audit logs. | **Role-Based Access Control, Consent Register, and Data Lineage Log** owned by Payments/KYC and Data Governance |
+| Inclusion | The platform must be understandable for Georgian retail users and should not rely on complex financial language that excludes entry-level users. | **Plain-Language Georgian UX Review and Risk-Literacy Testing** before sandbox launch |
+| Human oversight | Humans must be able to review, override, pause, or roll back AI outputs affecting users, markets, or payouts. | **Human-in-the-Loop Review Queue** for surveillance, responsible-use, and resolution decisions |
+| Contestability | Users must have a way to challenge AI-supported restrictions, settlement decisions, or payout delays. | **User Appeal and Dispute Workflow** owned by Customer Trust and Resolution Committee |
+| Market integrity | AI must help detect manipulation, suspicious timing, concentrated positions, and related-account behavior without creating unchecked automated enforcement. | **Market Integrity Alert System** with human approval for account sanctions and extended market pauses |
+| Regulatory readiness | The platform must be able to show regulators and payment partners how AI decisions were made, reviewed, challenged, and corrected. | **Regulator-Ready Audit Pack** generated monthly during sandbox |
+
+---
+
+# Part 4. Governance Roadmap Integration
+
+## Governance-roadmap connection table
+
+| Governance element | Roadmap initiative | Horizon | Why it must precede AI deployment |
+|---|---|---|---|
+| Data governance framework | Initiative 07: Data Governance and Official Event-Source Registry | H1 | AI event scoring, outcome resolution, and market surveillance require clean official sources, lineage, and audit logs before deployment |
+| Model review board | Initiative 06: Market Governance and AI Risk Function | H1 | High-risk AI systems need named human oversight, deployment approval, rollback authority, and accountability before sandbox use |
+| Adverse action notice system | Initiative 09: Responsible-Use and Customer Protection Framework | H1 | Users must be informed when AI-supported review leads to limits, cooling-off, payment holds, account restrictions, or payout delays |
+| Human override protocol | Initiative 06: Market Governance and AI Risk Function | H1 | AI cannot autonomously approve market listings, freeze accounts, or resolve payouts during sandbox |
+| Consent and data-use register | Initiative 13: Open Banking Personalization and Consent Foundation | H2 | Personalization and responsible-use scoring require clear consent, data-use boundaries, and revocation logic |
+| Bias monitoring dashboard | Initiative 16: AI Market Surveillance and Responsible-Use Scoring | H2 | Once live user data exists, the platform must check whether alerts or restrictions disproportionately affect specific user groups |
+| Regular audit process | Initiative 17: Outcome Resolution and Regulator Reporting Automation | H2 | Regulators and payment partners need recurring evidence that decisions, outcomes, disputes, and AI interventions are traceable |
+| Model performance monitoring | Initiative 16: AI Market Surveillance and Responsible-Use Scoring | H2 | Live-market AI tools require drift monitoring, false-positive tracking, and rollback thresholds |
+| Appeal and dispute workflow | Initiative 09: Responsible-Use and Customer Protection Framework; Initiative 17: Reporting Automation | H1 / H2 | User restrictions and payout disputes must be contestable before public launch |
+| Regulator-ready reporting | Initiative 17: Outcome Resolution and Regulator Reporting Automation | H2 | NBG and payment partners need audit evidence before the platform can scale beyond sandbox |
+| Public launch governance gate | Initiative 19: Unit Economics and Public Launch Gate | H2 | Board should approve public launch only after AI governance, data quality, liquidity, responsible-use, and unit economics are validated |
+
+---
+
+## Detailed governance sequencing
+
+### H1: Governance before AI deployment
+
+H1 must establish the minimum safe governance foundation before any AI system affects users or markets.
+
+| H1 governance item | Owner | Output |
+|---|---|---|
+| Market Governance and AI Risk Committee | Regulatory & Platform Governance | Committee charter, decision rights, review cadence |
+| AI Model Registry | Data, AI & Market Integrity | Inventory of AI models, owners, versions, risk tier |
+| Event Source Registry | Data Governance Lead | Official sources, backup sources, source-confidence rules |
+| Human Override Protocol | Market Governance and AI Risk Committee | Required human review rules and override log |
+| Responsible-Use Policy | Responsible Use & Customer Trust | Loss limits, cooling-off rules, deposit alerts, appeal rights |
+| AI Disclosure and User Notice Rules | Product + Compliance | Chatbot notices, adverse action notice templates |
+| NBG Pre-Consultation Package | Regulatory & Platform Governance | Sandbox scope, sample contracts, risk-control documentation |
+
+### H2: Governance during sandbox
+
+H2 tests whether governance works under live conditions.
+
+| H2 governance item | Owner | Output |
+|---|---|---|
+| Live Model Performance Dashboard | Data, AI & Market Integrity | Alert quality, drift, false positives, override rate |
+| Bias Monitoring Dashboard | Data, AI & Market Integrity + Responsible Use | Subgroup impact and fairness review |
+| Market Integrity Review Process | Market Integrity Lead | Investigation log and escalation record |
+| Outcome Resolution Audit Trail | Resolution Committee + Data Governance | Official source evidence and payout decision record |
+| Regulator Reporting Automation | Regulatory & Platform Governance | Monthly NBG / payment-partner reports |
+| User Appeal Workflow | Customer Trust | Appeal SLA tracking and resolution outcomes |
+
+### H3: Governance before public launch
+
+H3 governance must be stricter than sandbox governance because the platform becomes more visible and higher-risk.
+
+| H3 governance item | Owner | Output |
+|---|---|---|
+| External AI / model audit | Board + Chief Risk Officer | Independent model and governance review |
+| Public launch governance pack | Executive Steering Committee | Board-ready evidence on risk, compliance, liquidity, and unit economics |
+| Advanced market-integrity graph | Data, AI & Market Integrity | Related-account detection and insider-risk monitoring |
+| AI-first regulatory compliance automation | Regulatory & Platform Governance | Automated filing drafts and regulatory change monitoring |
+| Scaled responsible-use governance | Responsible Use & Customer Trust | Expanded limits, user protection, and harm monitoring |
+
+---
+
+# Governance Mechanisms by AI Use Case
+
+| AI use case | Minimum governance mechanism | Human owner | Evidence required |
+|---|---|---|---|
+| Loan A/R Collections Optimization | Human-in-the-loop collections review | Head of Collections | Contact recommendation log, escalation record, customer complaint log |
+| Payment Fraud Detection | Payment hold review queue | Fraud Risk Lead | Alert log, false-positive rate, release/hold decision record |
+| Customer Service Automation | Chatbot disclosure and escalation button | Customer Experience Lead | Conversation logs, escalation rate, CSAT |
+| Robo-Advisory MVP | Investment explanation review and suitability boundary | TBC Capital / Brokerage Lead | User disclosure, advisor review sample, recommendation logs |
+| Event Risk Scoring | Market approval committee review | Market Governance Committee | Event-risk score, source-confidence score, approval memo |
+| Market Surveillance | Market integrity alert workflow | Market Integrity Lead | Price-move alert, investigation memo, action taken |
+| Responsible-Use Scoring | Responsible-use intervention workflow | Responsible Use Lead | Loss/deposit trigger log, notice, appeal result |
+| Outcome Resolution | Resolution Committee sign-off | Resolution Committee Chair | Official-source evidence, resolution memo, dispute log |
+| Open Banking Personalization | Consent and purpose-limitation register | Open Banking Lead | Consent record, data-use log, opt-out tracking |
+| SME Credit Scoring | Credit officer review and adverse action notice | Credit Risk Lead | Explainability report, decision log, appeal record |
+| Regulatory Compliance Automation | Compliance sign-off before filing | Compliance Lead | Draft history, source citations, filing approval |
+
+---
+
+# High-Risk AI Controls
+
+## Required controls for high-risk use cases
+
+Every high-risk AI use case must have:
+
+1. named business owner,
+2. named model owner,
+3. model registry entry,
+4. data owner,
+5. approved training dataset,
+6. documented limitations,
+7. human override process,
+8. user notice where applicable,
+9. appeal or dispute process where applicable,
+10. monitoring dashboard,
+11. audit trail,
+12. rollback procedure,
+13. monthly governance review.
+
+## High-risk use cases in this project
+
+| Use case | Why high-risk | Required additional control |
+|---|---|---|
+| Loan A/R Collections Optimization | Affects credit collection treatment | Human collections officer approves escalation |
+| Payment Fraud Detection | Can block payments or freeze transactions | Human review for prolonged holds |
+| Market Surveillance | Can trigger account or market restrictions | Human approval for sanctions or extended market pause |
+| Responsible-Use Scoring | Can restrict user trading access | User notice and appeal pathway |
+| Outcome Resolution | Affects payout and user trust | Resolution Committee sign-off before payout |
+| SME Credit Scoring | Affects loan approval or pricing | Credit officer review and adverse action notice |
+
+---
+
+# AI Incident Management
+
+## Incident severity levels
+
+| Severity | Definition | Example | Response |
+|---|---|---|---|
+| Level 1: Low | AI output is wrong but no user harm or market impact occurs | Chatbot gives incomplete FAQ answer | Correct content and log issue |
+| Level 2: Medium | AI creates operational rework or user confusion | Event-risk model misclassifies market category | Human review, model correction, committee note |
+| Level 3: High | AI-supported action affects user access, payout, or market operation | False fraud alert causes payment hold | Human review within SLA, user notice, incident report |
+| Level 4: Critical | AI failure creates regulatory, financial, or reputational harm | Incorrect outcome resolution triggers wrong payout | Immediate rollback, freeze affected workflow, board and regulator notification if required |
+
+## Incident response workflow
+
+```text
+Incident detected
+→ severity classification
+→ workflow paused if Level 3 or Level 4
+→ human review
+→ user notification if affected
+→ correction or rollback
+→ root-cause analysis
+→ model / data update
+→ governance committee review
+```
+
+## Rollback triggers
+
+AI system rollback is required if:
+
+- false-positive rate doubles for two consecutive review periods,
+- model drift exceeds approved threshold,
+- more than 5% of alerts are overturned by humans in high-impact cases,
+- a model causes a Level 4 incident,
+- regulator or payment partner raises formal concern,
+- audit trail is incomplete for high-risk decisions,
+- or the model uses unauthorized data.
+
+---
+
+# Governance KPIs
+
+| Governance area | KPI | Target |
+|---|---|---:|
+| Model governance | Percentage of AI models registered | 100% |
+| Model governance | High-risk models reviewed on schedule | 100% |
+| Human oversight | High-risk AI alerts reviewed within SLA | 95%+ |
+| Transparency | AI-supported adverse decisions with user notice | 100% |
+| Data governance | Critical datasets with named owner | 100% |
+| Data governance | Market contracts with approved source | 100% |
+| Reliability | Severe model incidents unresolved beyond SLA | 0 |
+| Privacy | Unauthorized access incidents | 0 |
+| Accountability | Overrides with documented reason | 100% |
+| Responsible use | High-risk user interventions logged | 100% |
+| Market integrity | Abnormal price moves reviewed within SLA | 100% |
+| Dispute handling | Market disputes resolved within SLA | 90%+ |
+| Regulatory readiness | Monthly governance report delivered on time | 100% |
+
+---
+
+# Quality Check
+
+Before finalising:
+
+- **Every AI use case has a named EU AI Act risk tier with rationale.**  
+  Yes.
+
+- **Every tier in the three-tier architecture has a named owner function.**  
+  Yes.
+
+- **Every Responsible AI principle has a named mechanism, not just a definition.**  
+  Yes.
+
+- **Every governance element is connected to a named roadmap initiative.**  
+  Yes.
+
+- **High-risk use cases have human override protocols stated explicitly.**  
+  Yes.
+
+---
+
+# References
+
+European Commission. (2026). *AI Act*. Shaping Europe’s Digital Future. https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+
+Christensen, C. M. (1997). *The innovator’s dilemma: When new technologies cause great firms to fail*. Harvard Business School Press.
+
+Rogers, D. L. (2023). *The digital transformation roadmap: Rebuild your organization for continuous change*. Columbia Business School Publishing.
+
+National Bank of Georgia. (2025). *Financial Innovation Office*. https://www.nbg.gov.ge/en/pages/financial-innovation-office
+
+National Bank of Georgia. (2025). *Financial Literacy Survey 2024*. https://www.nbg.gov.ge/uploads/pressreleases/2025/Financial_Literacy_Survey_2024.pdf
+
+National Bank of Georgia. (2025). *Amendments to the Law on Operating of the Virtual Assets*. https://www.nbg.gov.ge/uploads/pressreleases/2025/Amendments_to_the_Law_on_Operating_of_the_Virtual_Assets.pdf
+
+Georgian Foundation for Strategic and International Studies. (2024). *Georgia’s cryptocurrency regulation landscape*. https://www.gfsis.org.ge/publications/georgia-s-cryptocurrency-regulation-landscape
+
+TBC Bank. (2024). *TBC Capital individual brokerage services*. https://www.tbcbank.ge/en/corporate/tbc-capital/tbc-capital-individuals
+
+CoinDesk. (2024, November 12). *Polymarket crypto prediction market hits $1B in monthly volume for first time*. https://www.coindesk.com/markets/2024/11/12/polymarket-crypto-prediction-market-hits-1b-in-monthly-volume-for-first-time/
