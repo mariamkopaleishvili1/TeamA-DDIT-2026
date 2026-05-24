@@ -2,527 +2,532 @@
 
 ## Project
 
-Team A — Georgian Prediction-Market Platform  
+Team A: Georgian Prediction-Market Platform  
 Industry: Fintech  
 Market: Republic of Georgia  
-Recommended strategic option: Regulatory Sandbox Pathway with responsible-use controls embedded from day one  
+Recommended strategic option: NBG sandbox-first, GEL-settled where possible, bank-backed, with responsible-use controls embedded from day one  
 Submission file: `responsible_ai_assessment.pdf`  
-Working Markdown file: `responsible_ai_assessment.md`
+Working file: `responsible_ai_assessment.md`
 
 ---
 
 ## 1. Purpose
 
-This standalone document applies the EU AI Act framework and Responsible AI principles to the AI use-case portfolio in the transformation roadmap.
+This document applies the EU AI Act risk framework and Responsible AI principles to the AI use cases required for a Georgian prediction-market platform.
 
-The assessment extends the governance plan by adding ethical and regulatory analysis for each AI use case. It evaluates:
+The scope is deliberately narrow. This is not a general bank AI assessment. It does not assess loan collections, SME credit scoring, generic banking chatbots, or unrelated bank automation. The only AI systems assessed here are those needed to launch, operate, monitor, and govern a bank-backed event-contract marketplace in Georgia.
 
-- EU AI Act risk tier,
-- bias and fairness risk,
-- transparency obligation,
-- accountability structure,
-- Georgian personal data protection obligation,
-- and measurable human override threshold.
+The platform’s strategic idea is simple but sensitive: users take positions on clearly defined public outcomes, such as inflation releases, exchange-rate bands, central-bank decisions, election turnout, or other official-data events. The product can only be credible if regulators, payment partners, bank leadership, and users believe that markets are listed carefully, monitored fairly, resolved transparently, and controlled for harm.
 
-The purpose is not only to show that the platform can technically deploy AI, but to show how the client can deploy AI responsibly in a regulated Georgian fintech context.
+Responsible AI is therefore not an add-on. It is part of the operating license of the platform.
 
 ---
 
-## 2. Scope
+## 2. Scope of AI Use Cases
 
-This assessment covers the AI use cases included in the roadmap:
+The assessment covers nine AI use cases that are directly tied to the prediction-market platform:
 
-1. Loan A/R Collections Optimization
-2. Real-Time Payment Fraud Detection Upgrade
-3. Customer Service Automation for Digital Banking
-4. Wealth Management Robo-Advisory MVP
-5. AI-Assisted Event Risk Scoring
-6. Open Banking Personalization and Consent Foundation
-7. AI Market Surveillance
-8. Responsible-Use Scoring
-9. Outcome Resolution and Regulator Reporting Automation
-10. SME Credit Scoring Alternative Data Pilot
-11. AI-First Regulatory Compliance Automation
-12. Advanced Market-Integrity and Account-Linkage Graph
+1. AI-assisted event eligibility screening
+2. AI-assisted contract drafting and risk-disclosure generation
+3. Market surveillance and manipulation detection
+4. Responsible-use scoring and intervention routing
+5. Payment, KYC, and fraud-risk monitoring for platform wallets
+6. Outcome-resolution support
+7. Dispute triage and user-support routing
+8. Liquidity and market-maker monitoring
+9. Regulatory and payment-partner reporting automation
 
-The prediction-market product itself is not treated as a single AI system. Instead, the assessment separates the AI systems that support the platform: event screening, market surveillance, responsible-use scoring, outcome resolution, fraud detection, and reporting automation.
+These use cases should be treated as one connected control system. A failure in one area can create failures elsewhere. For example, a poorly screened market can create outcome disputes. Weak surveillance can create manipulation risk. Poor responsible-use scoring can make the product look like gambling. Weak reporting can reduce regulator or payment-partner confidence.
 
----
-
-## 3. Method
-
-The assessment uses three reference layers.
-
-### 3.1 EU AI Act-style risk classification
-
-Each use case is classified as:
-
-| Risk tier | Meaning in this assessment |
-|---|---|
-| Unacceptable | AI use should not be deployed because it is incompatible with rights, safety, or responsible use |
-| High | AI may materially affect user access, financial activity, credit, payment access, trading restrictions, market integrity, or payout outcomes |
-| Limited | AI interacts with users or generates content, but does not make final adverse decisions |
-| Minimal | AI has low impact and does not affect user rights, financial access, or adverse decisions |
-
-This project treats high-impact banking and platform decisions conservatively. If a model can restrict a user, influence credit, block payment access, pause markets, or affect payouts, it is treated as **High Risk** even if the strict legal classification may require further legal review.
-
-### 3.2 Responsible AI principles
-
-The assessment applies the following principles:
-
-- fairness,
-- transparency,
-- accountability,
-- reliability,
-- privacy,
-- inclusion,
-- human oversight,
-- contestability,
-- market integrity,
-- regulatory readiness.
-
-### 3.3 Georgian law lens
-
-The Georgian law obligation column is based on the **Law of Georgia on Personal Data Protection** and guidance from the Personal Data Protection Service of Georgia.
-
-For this project, the recurring Georgian-law obligations are:
-
-| Obligation | Operational meaning for this project |
-|---|---|
-| Lawful, fair, and purpose-specific processing | The platform must define why each category of personal data is processed and avoid using it for unrelated AI purposes |
-| Privacy by design and by default | New product and AI workflows must minimize personal data by default and restrict access to only what is necessary |
-| Data minimization | AI models should use only the data needed for the specific use case |
-| Data security | Technical and organizational measures must protect data against unauthorized or unlawful processing, accidental loss, destruction, or damage |
-| Data subject information and access | Users must be informed about processing and have an accessible route to request information or correction |
-| Consent where required | Open-banking personalization and optional profiling should not proceed without clear user consent |
-| Auditability | High-risk AI workflows need logs showing what data was used, what the model recommended, who reviewed it, and what decision was made |
-
-This assessment is not a legal opinion. Final wording should be validated by Georgian legal counsel before submission or client use.
+The assessment is written as a practical consulting deliverable. It identifies the risk tier, bias risk, transparency obligation, accountability structure, Georgian personal-data obligation, and human override threshold for each use case.
 
 ---
 
-# 4. Portfolio-Level Assessment Summary
+## 3. Assessment Method
 
-| AI use case | EU AI Act risk tier | Main reason |
-|---|---|---|
-| Loan A/R Collections Optimization | High | Affects credit treatment, collection escalation, and customer financial outcomes |
-| Real-Time Payment Fraud Detection | High | May block payments, trigger holds, or restrict access to funds |
-| Customer Service Automation | Limited | User-facing chatbot/content tool, but should not make final adverse decisions |
-| Wealth Management Robo-Advisory MVP | Limited; High if it gives regulated investment advice automatically | Educational explanation is limited risk; automated suitability/recommendation becomes high risk |
-| AI-Assisted Event Risk Scoring | Limited; High if it auto-approves/rejects markets | Decision-support is limited risk; autonomous listing control is high risk |
-| Open Banking Personalization | High | Uses sensitive financial behavior and may shape product access, risk warnings, or affordability controls |
-| AI Market Surveillance | High | May trigger market pauses, account reviews, trading restrictions, or manipulation investigations |
-| Responsible-Use Scoring | High | May impose limits, cooling-off periods, or user restrictions |
-| Outcome Resolution and Reporting Automation | High | Errors can affect payouts, disputes, and regulator trust |
-| SME Credit Scoring | High | Affects credit access, pricing, and approval decisions |
-| Regulatory Compliance Automation | Limited; High if it files or changes controls automatically | Drafting is limited risk; automatic filing/control execution becomes high risk |
-| Advanced Market-Integrity and Account-Linkage Graph | High | Can identify related accounts, trigger sanctions, or support fraud/manipulation enforcement |
+The EU AI Act is used as the risk-classification benchmark. The Act defines four broad levels of AI risk: unacceptable, high, limited or transparency risk, and minimal risk. High-risk AI systems are subject to stronger obligations, including risk assessment, high-quality data, logging, documentation, clear information to deployers, human oversight, robustness, cybersecurity, and accuracy.
 
----
+The Georgian legal lens is based on the Law of Georgia on Personal Data Protection and guidance from the Personal Data Protection Service. For this platform, the most relevant obligations are:
 
-# 5. Detailed Responsible AI Assessment Matrix
+- process personal data only for a defined and lawful purpose;
+- collect only the data needed for that purpose;
+- design the product so that privacy protections are built in by default;
+- limit access to sensitive user, payment, and trading data;
+- protect data through technical and organizational security controls;
+- keep evidence of how data was used in high-impact decisions;
+- inform users when their data is used in a way that affects access, restrictions, payout review, or dispute handling.
 
-## 5.1 Loan A/R Collections Optimization
-
-| Item | Assessment |
-|---|---|
-| EU AI Act risk tier | **High Risk** |
-| Risk-tier rationale | The model affects credit treatment, collection priority, borrower contact strategy, and potential escalation from early delinquency to later-stage collections. It can influence user financial outcomes and treatment by the bank. |
-| Bias and fairness risk | The model may over-prioritize borrowers from lower-income regions, unstable employment groups, or users with thin digital histories. It may also penalize users who transact mostly in cash or have irregular income patterns. |
-| Bias mitigation | Disaggregate performance by region, income proxy, employment type, language, age band, and digital activity level. Require quarterly fairness audit. Remove features that act as strong proxies for protected or socioeconomic disadvantage unless legally justified and risk-approved. |
-| Transparency obligation | If AI changes the customer’s treatment path, the customer should be informed that automated risk assessment was used to prioritize review or contact strategy. If a harsher collections action is taken, the notice should include the main reason categories: missed payment history, repayment pattern, account activity, or contact failure. |
-| Accountability structure | **Head of Collections** owns operational use. **Credit Risk Lead** owns model risk. Escalation path: Collections Officer → Collections Team Lead → Credit Risk Lead → Model Governance Committee. |
-| Georgian law obligation | Lawful and purpose-specific processing; data minimization; privacy by design; security of borrower financial data; explainable handling of customer information if challenged. |
-| Human override threshold | Human review required if model recommends escalation to legal collection, restructuring refusal, or high-intensity contact for any borrower with exposure above GEL 5,000 or where repayment-history data completeness is below 95%. |
-| Required control artifact | Collections AI decision log, reason-code record, human override log, monthly fairness dashboard. |
-| Roadmap connection | Initiative 01: Loan A/R Collections Optimization; Initiative 06: Market Governance and AI Risk Function. |
+This is not a legal opinion. The legal classification of event contracts and the final interpretation of Georgian personal-data obligations should be validated by Georgian counsel before launch.
 
 ---
 
-## 5.2 Real-Time Payment Fraud Detection Upgrade
+## 4. Portfolio-Level Risk View
 
-| Item | Assessment |
-|---|---|
-| EU AI Act risk tier | **High Risk** |
-| Risk-tier rationale | The model may block payments, delay withdrawals, freeze transactions, trigger step-up authentication, or restrict access to funds. This directly affects user access to payment services. |
-| Bias and fairness risk | False positives may disproportionately affect users who travel, use older devices, live in border regions, transact at unusual hours, or have lower digital consistency. Users with shared family devices may be misclassified as suspicious. |
-| Bias mitigation | Monitor false-positive rates by device type, region, time-of-day pattern, language preference, customer segment, and transaction channel. Tune thresholds separately for known benign patterns such as travel or shared-device use. |
-| Transparency obligation | If a payment is held, the user must receive a clear notice that the transaction is under security review, the general trigger category, expected review time, and appeal/support route. Do not disclose fraud rules that would enable evasion. |
-| Accountability structure | **Fraud Risk Lead** owns alert policy. **Payments, KYC & Settlement Lead** owns operational resolution. Escalation path: Fraud Analyst → Fraud Risk Lead → Compliance Lead → Chief Risk Officer delegate. |
-| Georgian law obligation | Data security; purpose limitation for payment-risk data; audit trail for transaction monitoring; access control over payment and identity data; breach response if payment data is exposed. |
-| Human override threshold | Human review required if payment hold exceeds 30 minutes, transaction value exceeds GEL 1,000, user has two false-positive holds within 30 days, or account freeze is proposed. |
-| Required control artifact | Fraud alert log, payment hold register, false-positive dashboard, customer notice template. |
-| Roadmap connection | Initiative 02: Real-Time Payment Fraud Detection Upgrade; Initiative 10: KYC, AML, and GEL Payment-Rail Design. |
+The platform should not use any unacceptable-risk AI. In practical terms, this means the platform should not use social scoring, biometric surveillance, emotion detection, political profiling, or vulnerability exploitation to segment users.
 
----
+Most of the platform’s important AI systems should be governed as high-risk, even if they are technically used for decision support rather than autonomous decision-making. The reason is that the platform operates in a sensitive financial context. AI outputs may affect user access, account review, market pauses, payout timing, or regulatory reporting.
 
-## 5.3 Customer Service Automation for Digital Banking
+The platform’s lower-risk AI use cases are limited to explanation, routing, and content generation. Even there, users need disclosure when they are interacting with AI or receiving AI-generated market explanations.
 
-| Item | Assessment |
-|---|---|
-| EU AI Act risk tier | **Limited Risk** |
-| Risk-tier rationale | The chatbot interacts with users and provides answers or routing. It should not make final decisions on payments, trading restrictions, credit, disputes, or complaints. The main obligation is user disclosure and human escalation. |
-| Bias and fairness risk | Georgian-language users, minority-language users, older users, or users with low digital literacy may receive lower-quality support. The chatbot may misunderstand emotional distress, financial hardship, or dispute urgency. |
-| Bias mitigation | Test answer quality in Georgian and English; monitor escalation rates by language, age proxy, and channel. Require human fallback on sensitive categories such as complaints, payout disputes, fraud, hardship, or responsible-use concerns. |
-| Transparency obligation | Users must be clearly told they are interacting with AI. The interface must show a human-support option at all times. AI-generated answers must not be presented as legal, financial, or regulatory advice. |
-| Accountability structure | **Customer Experience Lead** owns chatbot performance. **Product Lead** owns interface disclosure. Escalation path: Chatbot → Support Agent → Customer Trust Lead → Compliance if complaint involves adverse decision. |
-| Georgian law obligation | Inform users about processing; limit conversation data to support purposes; avoid using support conversations for unrelated profiling without consent; protect chat logs as personal data. |
-| Human override threshold | Immediate human handoff required if user mentions fraud, gambling harm, addiction, self-exclusion, complaint, legal threat, payout dispute, account freeze, or failed identity verification. |
-| Required control artifact | Chatbot disclosure banner, escalation log, answer-quality review, conversation-retention policy. |
-| Roadmap connection | Initiative 03: Customer Service Automation; Initiative 09: Responsible-Use and Customer Protection Framework. |
+The highest-risk AI systems are:
+
+- market surveillance;
+- responsible-use scoring;
+- payment and fraud-risk monitoring;
+- outcome-resolution support;
+- account-linkage analysis;
+- regulator and payment-partner reporting automation, if reports are sent without human sign-off.
+
+These systems should never take final adverse action without human accountability during the sandbox phase.
 
 ---
 
-## 5.4 Wealth Management Robo-Advisory MVP
+## 5. AI Use Case Assessments
 
-| Item | Assessment |
-|---|---|
-| EU AI Act risk tier | **Limited Risk if educational; High Risk if suitability decisions are automated** |
-| Risk-tier rationale | If the system only explains portfolios and teaches basic investing concepts, it is limited risk. If it recommends specific securities, portfolio allocation, risk classification, or suitability decisions without advisor review, it becomes high risk. |
-| Bias and fairness risk | Users with low balances, lower financial literacy, or less complete transaction history may receive generic or overly conservative guidance. The model may also steer users toward products that fit bank economics rather than user needs. |
-| Bias mitigation | Separate education from advice. Monitor recommendations by income proxy, age band, balance size, and risk profile. Require suitability review for any product-specific advice. |
-| Transparency obligation | The user must be told whether the output is educational explanation, investment guidance, or regulated advice. If AI generates portfolio explanations, the app must label them as AI-assisted. |
-| Accountability structure | **TBC Capital / Brokerage Lead** owns investment-content governance. **Compliance Lead** owns suitability boundary. Escalation path: AI output → Advisor review if product-specific → Brokerage Compliance → Investment Committee. |
-| Georgian law obligation | Purpose-specific processing of financial profile data; data minimization; consent for using banking behavior in investment personalization; secure processing of portfolio and identity data. |
-| Human override threshold | Human/advisor review required before any recommendation to buy, sell, rebalance, change risk category, or move more than GEL 1,000 into a specific investment product. |
-| Required control artifact | Advice-boundary policy, AI output log, suitability review record, user disclosure. |
-| Roadmap connection | Initiative 04: Wealth Management Robo-Advisory MVP; Initiative 13: Open Banking Personalization and Consent Foundation. |
+### 5.1 AI-Assisted Event Eligibility Screening
 
----
+This model screens proposed markets before listing. It checks whether an event belongs to an approved category, whether it has an official source, whether it resembles gambling, whether it is politically or socially sensitive, and whether it can be resolved cleanly.
 
-## 5.5 AI-Assisted Event Risk Scoring
+The risk tier should be treated as **limited risk** if the model only supports human review. It becomes **high risk** if it can automatically approve or reject markets. For the sandbox phase, the model must remain advisory. The final listing decision should stay with the Market Governance Committee.
 
-| Item | Assessment |
-|---|---|
-| EU AI Act risk tier | **Limited Risk if advisory; High Risk if automated approval/rejection is allowed** |
-| Risk-tier rationale | Event scoring is acceptable as decision support. It becomes high risk if it automatically approves or rejects market listings because market availability affects users, regulatory exposure, and reputational risk. |
-| Bias and fairness risk | The system may over-flag politically sensitive Georgian events, under-flag imported global events, or misclassify civic events based on language ambiguity. It may also treat some event categories as safe because global platforms list them, even if Georgian regulation is different. |
-| Bias mitigation | Use a Georgian-specific prohibited-market taxonomy. Require bilingual review for Georgian and English event wording. Compare AI classification against human compliance review. Keep VASP, gambling, sports, war, medical, and private-person events in restricted categories. |
-| Transparency obligation | Users do not need to see internal risk scores, but listed markets should disclose why the event is eligible: official source, resolution date, payout rule, and risk warning. Regulators and payment partners should receive the event approval log. |
-| Accountability structure | **Market Governance Committee** owns final listing. **Compliance Lead** owns legal classification. Escalation path: AI score → Market Operations review → Compliance review → Market Governance Committee. |
-| Georgian law obligation | Privacy by design if user demand or behavior data informs event selection; purpose limitation for market-interest analytics; avoid using personal data to infer political preference without a lawful basis. |
-| Human override threshold | Human review required if event-risk score exceeds 30/100, source-confidence score is below 95%, projected exposure exceeds GEL 50,000 during sandbox, or market category is new/restricted. |
-| Required control artifact | Event-risk score log, source-confidence record, approval memo, override register. |
-| Roadmap connection | Initiative 07: Data Governance and Official Event-Source Registry; Initiative 11: MVP Market Listing Workflow; Initiative 12: AI-Assisted Event Risk Scoring Prototype. |
+The main fairness risk is not traditional demographic discrimination. The larger risk is category bias. The model may over-reject Georgian civic or political events because they appear sensitive, while under-rejecting imported event formats copied from global prediction-market platforms. It may also treat sports, war, crime, celebrity, or medical outcomes as acceptable because they exist on global platforms, even though these categories would be inappropriate for the Georgian bank-backed launch.
+
+The mitigation is a Georgian-specific event taxonomy. Approved categories should be narrow at first: inflation releases, NBG policy decisions, GEL exchange-rate bands, election turnout, and other official-data public outcomes. Restricted categories should include sports, individual criminal cases, war outcomes, medical outcomes, private-person events, ambiguous political claims, and anything without an official source.
+
+Users do not need to see the internal AI risk score. However, every listed market should disclose why the contract is resolvable. The market page should show the official source, resolution date, payout rule, dispute window, and a plain-language risk warning.
+
+The accountable owner is the **Market Governance Committee**. Compliance owns the legal classification check. Market Operations owns contract readiness. The escalation path should be: AI screening output, Market Operations review, Compliance review, Market Governance Committee decision.
+
+The Georgian personal-data obligation is limited unless personal user behavior is used to decide which markets to list. If user search, watchlist, or trading-interest data is used for event selection, the platform must apply purpose limitation, data minimization, and privacy-by-design controls.
+
+Human review is required when any of the following thresholds are met:
+
+- event-risk score above 30 out of 100;
+- official-source confidence below 95%;
+- proposed market is outside the approved sandbox taxonomy;
+- projected exposure above GEL 50,000 during sandbox;
+- event involves NBG, elections, regulated financial institutions, war, medical outcomes, crime, sports, or private individuals;
+- more than one official source could produce different results.
+
+The control artifacts are the event-risk score log, official-source record, approval memo, and human override log.
 
 ---
 
-## 5.6 Open Banking Personalization and Consent Foundation
+### 5.2 AI-Assisted Contract Drafting and Risk-Disclosure Generation
 
-| Item | Assessment |
-|---|---|
-| EU AI Act risk tier | **High Risk if used for affordability, eligibility, or responsible-use controls; Limited Risk if used only for generic education** |
-| Risk-tier rationale | Open-banking data can reveal income, spending, debt burden, financial stress, and behavioral patterns. If used to shape access, warnings, limits, or product offers, it can materially affect users. |
-| Bias and fairness risk | Users with irregular income, informal employment, cash-heavy behavior, rural payment patterns, or low digital banking usage may be misclassified as higher risk or lower value. |
-| Bias mitigation | Require consent-based personalization. Do not use open-banking data as the sole basis for restrictions. Compare model outcomes across income patterns, region, age bands, and digital activity levels. |
-| Transparency obligation | Users must be told what banking data is used, for what purpose, for how long, whether it affects personalization or restrictions, and how consent can be withdrawn. |
-| Accountability structure | **Open Banking Lead** owns consent architecture. **Data Protection Officer / Privacy Owner** owns lawful processing controls. Escalation path: Product Owner → Open Banking Lead → DPO/Privacy Owner → Compliance. |
-| Georgian law obligation | Explicit consent where required; purpose limitation; data minimization; privacy by design/default; access logs; user rights to information/correction; secure processing of financial behavior data. |
-| Human override threshold | Human review required if personalization logic would impose a restriction, affordability warning, or exclusion based on open-banking data, or if data completeness is below 90%. |
-| Required control artifact | Consent register, data-use map, opt-out log, open-banking DPIA-style assessment. |
-| Roadmap connection | Initiative 13: Open Banking Personalization and Consent Foundation. |
+This system drafts the first version of the market question, contract description, payout rule, risk warning, and user explanation. It helps users understand what they are trading, but it should not define the legally binding contract without review.
 
----
+The risk tier is **limited risk** if the system only drafts text for human approval. It becomes **high risk** if the AI-generated wording becomes the binding market contract without human review. During sandbox, all generated wording must be reviewed by Market Operations and Compliance.
 
-## 5.7 AI Market Surveillance
+The fairness risk is comprehension inequality. Users with lower financial literacy may misunderstand probabilistic pricing, fixed downside, settlement rules, or market cancellation conditions. Georgian-language wording may also lose precision if it is translated from English. A vague or overly promotional explanation can make the product look safer than it is.
 
-| Item | Assessment |
-|---|---|
-| EU AI Act risk tier | **High Risk** |
-| Risk-tier rationale | The model detects manipulation, suspicious trading, price jumps, concentration, related accounts, and abnormal market behavior. It can trigger account review, market pause, or regulatory reporting. |
-| Bias and fairness risk | Active traders, professional users, crypto-native users, users with shared devices, and users trading during unusual hours may be over-flagged. New users may be under-flagged due to limited history. |
-| Bias mitigation | Monitor alert rates by account age, device type, trading frequency, geography, payment method, and market category. Separate “high activity” from “suspicious activity.” Require human investigation before sanctions. |
-| Transparency obligation | Users do not need disclosure of surveillance rules, but must be informed if a surveillance alert leads to restriction, account review, market pause affecting positions, or delayed withdrawal. |
-| Accountability structure | **Market Integrity Lead** owns surveillance actions. **Head of Data & AI** owns model performance. Escalation path: Surveillance alert → Market Integrity Analyst → Market Integrity Lead → Compliance / Market Governance Committee. |
-| Georgian law obligation | Purpose-specific processing of trading data; data security; access control; audit trail for surveillance decisions; privacy by design/default for account-linkage analytics. |
-| Human override threshold | Human review required if price moves more than 20 percentage points in 15 minutes without verified public news, one account cluster holds more than 25% of one side, or market pause would exceed 30 minutes. |
-| Required control artifact | Surveillance alert log, investigation memo, market-pause register, model drift dashboard. |
-| Roadmap connection | Initiative 16: AI Market Surveillance and Responsible-Use Scoring; Initiative 23: Advanced Market-Integrity and Account-Linkage Graph. |
+The mitigation is a plain-language review process. Each contract should be tested for clarity in Georgian and English. The contract should separate three things: the user-friendly explanation, the legally controlling resolution rule, and the responsible-use warning. The explanation should never suggest that the platform is investment advice or guaranteed income.
+
+The transparency obligation is direct. If market explanations are AI-assisted, internal reviewers should know that. Users do not necessarily need a label on every sentence, but the platform should disclose in its terms and market information policy that AI may assist in preparing explanations that are reviewed before publication.
+
+The accountable owner is the **Head of Market Operations**. Compliance signs off on risk warnings. The Resolution Committee signs off on the clarity of payout and dispute terms.
+
+The Georgian personal-data obligation is low for generic contract drafting. It becomes relevant if the model personalizes explanations based on user behavior, financial profile, or open-banking data. In that case, the platform needs purpose limitation, data minimization, and user notice.
+
+Human review is required when:
+
+- contract text confidence is below 98%;
+- the contract is in a new market category;
+- the Georgian and English versions differ in legal meaning;
+- the payout rule depends on a revised or delayed official data source;
+- the explanation mentions expected profit, investment advice, guaranteed outcome, or language similar to betting promotion;
+- the contract would be shown to sandbox users for the first time.
+
+The control artifacts are the contract template library, AI-draft version history, compliance sign-off record, and plain-language review checklist.
 
 ---
 
-## 5.8 Responsible-Use Scoring
+### 5.3 Market Surveillance and Manipulation Detection
 
-| Item | Assessment |
-|---|---|
-| EU AI Act risk tier | **High Risk** |
-| Risk-tier rationale | The model may lead to deposit limits, cooling-off periods, trading restrictions, risk warnings, or account review. It directly affects user access and consumer protection. |
-| Bias and fairness risk | The model may over-flag users with low income, irregular work schedules, high engagement but low losses, or culturally different payment behavior. It may under-flag affluent users who can lose more money but show fewer standard risk signals. |
-| Bias mitigation | Use behavior-based signals rather than demographic proxies. Test outcomes by age band, region, income proxy, device type, and account tenure. Keep hard limits transparent and uniform during sandbox. |
-| Transparency obligation | Users must be informed before trading about loss limits, deposit alerts, cooling-off periods, and what behavior can trigger a review. Any restriction must include reason code, duration, and appeal route. |
-| Accountability structure | **Responsible Use Lead** owns interventions. **Customer Trust Lead** owns user communication. Escalation path: AI score → Responsible Use Review Queue → Responsible Use Lead → Compliance if restriction is extended. |
-| Georgian law obligation | Purpose limitation for responsible-use data; data minimization; transparent user notice; secure processing of behavioral and payment data; user ability to request information about restrictions. |
-| Human override threshold | Human review required if user deposits more than GEL 500 in 24 hours, makes more than 20 trades in one hour, hits GEL 100 daily loss limit 3 times in 7 days, or restriction would last longer than 48 hours. |
-| Required control artifact | Responsible-use trigger log, adverse action notice, appeal log, fairness dashboard. |
-| Roadmap connection | Initiative 09: Responsible-Use and Customer Protection Framework; Initiative 16: AI Market Surveillance and Responsible-Use Scoring. |
+This system monitors trading activity to detect manipulation, suspicious timing, abnormal price movement, concentrated positions, coordinated accounts, and potential insider-informed trading.
 
----
+The risk tier is **high risk**. Even if the model is used to protect the market, its outputs may trigger market pauses, account reviews, withdrawal holds, or regulatory escalation. These are adverse or high-impact decisions.
 
-## 5.9 Outcome Resolution and Regulator Reporting Automation
+The main fairness risk is over-enforcement against active but legitimate users. A user who trades frequently, uses shared Wi-Fi, trades during unusual hours, or has a crypto-native trading pattern may look suspicious even when their behavior is lawful. Shared devices in families, universities, or workplaces can also create false account-linkage signals.
 
-| Item | Assessment |
-|---|---|
-| EU AI Act risk tier | **High Risk** |
-| Risk-tier rationale | Outcome resolution affects payouts. Reporting automation affects regulator and payment-partner trust. A wrong result extraction or incomplete evidence pack can create financial, legal, and reputational harm. |
-| Bias and fairness risk | Bias risk is lower demographically but high operationally. Georgian-language sources, delayed official publications, revised data, or ambiguous event wording could produce inconsistent outcomes. Users in less-informed groups may be less able to dispute errors. |
-| Bias mitigation | Use only pre-approved official sources. Require bilingual verification for Georgian-language source extraction. Keep a 48-hour dispute window for eligible markets. Publish plain-language resolution memos. |
-| Transparency obligation | Every market must disclose official source, resolution date/time, payout rule, dispute process, and whether AI assisted with result extraction. If payout is delayed, users must receive reason and expected review timeline. |
-| Accountability structure | **Resolution Committee Chair** owns final payout decisions. **Regulatory & Platform Governance Lead** owns reporting. Escalation path: AI extraction → Data Governance verification → Resolution Committee → Compliance/NBG reporting. |
-| Georgian law obligation | Data accuracy; data security; auditability; purpose limitation for dispute and payout data; user information rights if personal data is involved in payout delay or dispute handling. |
-| Human override threshold | Human verification required if AI extraction confidence is below 98%, official result is delayed more than 24 hours, source is revised within 48 hours, more than 10 disputes are filed, or more than 1% of active traders in a market dispute the result. |
-| Required control artifact | Resolution memo, official-source evidence archive, dispute register, regulator-ready audit pack. |
-| Roadmap connection | Initiative 17: Outcome Resolution and Regulator Reporting Automation. |
+The mitigation is multi-signal review. No enforcement action should rely on a single signal such as IP address, device match, or trade frequency. The platform should require a combination of behavior, timing, order pattern, payment instrument, identity signal, and market context before sanctions are considered.
+
+The transparency obligation is careful. The platform should not disclose surveillance rules in a way that helps manipulation. However, if surveillance leads to a user restriction, withdrawal hold, account review, or delayed payout, the user should receive an adverse action notice. The notice should explain the action at a category level, such as unusual account-linkage signal or abnormal trading pattern, without revealing the detection logic.
+
+The accountable owner is the **Market Integrity Lead**. The Head of Data and AI owns model performance. Compliance owns escalation for suspicious activity reports or regulator-facing issues. The escalation path is Market Integrity Analyst, Market Integrity Lead, Compliance Lead, then Market Governance Committee for severe cases.
+
+The Georgian personal-data obligation is significant. Surveillance uses trading behavior, account metadata, device signals, payment data, and sometimes identity information. The platform must apply purpose limitation, privacy by design, access control, logging, and security measures. Account-linkage datasets should be tightly permissioned.
+
+Human review is required when:
+
+- market price moves by more than 20 percentage points within 15 minutes without verified public news;
+- one account or related-account cluster holds more than 25% of one side of a market;
+- a proposed market pause would last more than 30 minutes;
+- withdrawal hold would exceed 30 minutes;
+- more than GEL 1,000 of user funds is affected;
+- account suspension is proposed;
+- the model’s account-linkage confidence exceeds 80% but enforcement action is considered.
+
+The control artifacts are the surveillance alert log, investigation memo, market-pause register, account-linkage evidence bundle, and human approval record.
 
 ---
 
-## 5.10 SME Credit Scoring Alternative Data Pilot
+### 5.4 Responsible-Use Scoring and Intervention Routing
 
-| Item | Assessment |
-|---|---|
-| EU AI Act risk tier | **High Risk** |
-| Risk-tier rationale | Credit scoring affects access to finance, pricing, limits, and approval decisions for SMEs. Under EU AI Act-style logic, credit access is a high-risk area. |
-| Bias and fairness risk | The model may disadvantage SMEs outside Tbilisi, cash-heavy businesses, women-owned businesses if historical lending patterns are biased, new firms, seasonal firms, or businesses with thin digital data. |
-| Bias mitigation | Validate model performance by region, sector, firm age, owner profile where legally permitted, turnover volatility, and banking history. Require explainability and compare model output to human credit committee decisions. |
-| Transparency obligation | If the model contributes to rejection, lower limit, or worse pricing, the SME must receive an adverse action notice with the main reason categories and a human review channel. |
-| Accountability structure | **Credit Risk Lead** owns model use. **Credit Committee** owns final lending decision. Escalation path: AI score → Credit Officer review → Credit Risk Lead → Credit Committee. |
-| Georgian law obligation | Lawful and purpose-specific processing of SME and owner personal data; data minimization; transparency notice; accuracy of credit-relevant data; security; human review for materially adverse automated decisions. |
-| Human override threshold | Human credit officer review required for every rejection, limit reduction, pricing deterioration above 2 percentage points, or application above GEL 50,000. |
-| Required control artifact | Credit model validation report, adverse action notice, human review record, bias monitoring dashboard. |
-| Roadmap connection | Initiative 18: SME Credit Scoring Alternative Data Pilot. |
+This system monitors user behavior to detect harmful trading patterns. It looks at losses, deposits, trading frequency, failed risk checks, cooling-off history, and repeated disputes.
 
----
+The risk tier is **high risk** because the model can affect access to trading, deposit limits, cooling-off periods, and account reviews. It is also central to the platform’s claim that it is not a gambling substitute.
 
-## 5.11 AI-First Regulatory Compliance Automation
+The fairness risk is over-restriction or under-protection. Users with irregular income or unusual schedules may be over-flagged. Wealthier users may avoid alerts because their losses look affordable in relative terms. Younger users, first-time traders, or users with low financial literacy may need stronger protection even if their absolute losses are small.
 
-| Item | Assessment |
-|---|---|
-| EU AI Act risk tier | **Limited Risk if drafting only; High Risk if it submits filings or changes controls automatically** |
-| Risk-tier rationale | Drafting reports and monitoring rules is limited risk. Automatically submitting regulatory reports or changing compliance controls is high risk because it may misrepresent the platform’s regulatory position. |
-| Bias and fairness risk | The model may over-rely on English-language or EU sources, underweight Georgian-language legal updates, or misinterpret NBG guidance. It may also hallucinate legal obligations if not grounded in approved sources. |
-| Bias mitigation | Use retrieval from approved legal sources only. Require Georgian-language legal review. Maintain source citations and version history. Do not allow automatic submission. |
-| Transparency obligation | Internal users must know when a report or legal summary was AI-generated. Any regulator-facing output must be human-reviewed and signed off before submission. |
-| Accountability structure | **Compliance Lead** owns filings. **Regulatory & Platform Governance Lead** owns reporting workflow. Escalation path: AI draft → Compliance review → Legal review if needed → Authorized signatory. |
-| Georgian law obligation | Accuracy and accountability in processing compliance data; security of regulatory documents; access control; no reuse of personal data in compliance summaries beyond stated purpose. |
-| Human override threshold | Human sign-off required for 100% of regulator-facing filings, legal classification updates, NBG communication, payment-partner reports, or changes to compliance controls. |
-| Required control artifact | AI-generated report log, source citation archive, legal review checklist, sign-off record. |
-| Roadmap connection | Initiative 17: Outcome Resolution and Regulator Reporting Automation; Initiative 22: AI-First Regulatory Compliance Automation. |
+The mitigation is to base the system on observed trading harm rather than demographic assumptions. During sandbox, the rules should be simple and uniform. The model can support routing, but hard limits should be clearly disclosed and applied consistently.
+
+The transparency obligation is strong. Before trading, users should see the core responsible-use rules. These include daily loss limits, deposit alerts, cooling-off periods, risk quiz requirements, and appeal rights. If a restriction is applied, the user should receive the reason, duration, and review channel.
+
+The accountable owner is the **Responsible Use Lead**. Customer Trust owns user communication. Compliance oversees whether the responsible-use framework is sufficient for regulator and payment-partner confidence.
+
+The Georgian personal-data obligation is important because responsible-use scoring processes behavioral, payment, and trading data. The platform must process that data for a clearly defined safety purpose, use only necessary variables, restrict access, and keep an intervention log.
+
+Human review is required when:
+
+- user deposits more than GEL 500 within 24 hours during sandbox;
+- user makes more than 20 trades in one hour;
+- user hits the GEL 100 daily loss limit three times in seven days;
+- restriction would last more than 48 hours;
+- user requests review of a cooling-off decision;
+- responsible-use score changes by more than 30 points in one day;
+- user shows repeated rapid deposits after losses.
+
+The control artifacts are the responsible-use trigger log, user notice, appeal record, intervention history, and fairness review.
 
 ---
 
-## 5.12 Advanced Market-Integrity and Account-Linkage Graph
+### 5.5 Payment, KYC, and Fraud-Risk Monitoring for Platform Wallets
 
-| Item | Assessment |
-|---|---|
-| EU AI Act risk tier | **High Risk** |
-| Risk-tier rationale | Account-linkage graphs can identify related accounts, suspected manipulation, multi-accounting, insider-risk clusters, and potential coordinated trading. Outputs may lead to account freezes, withdrawal holds, sanctions, or regulator reports. |
-| Bias and fairness risk | Shared households, family devices, university networks, workplace IP addresses, or rural shared connectivity may be falsely classified as coordinated manipulation. Crypto-native users may also be over-flagged due to wallet behavior. |
-| Bias mitigation | Require multiple independent signals before enforcement: device, payment instrument, behavior timing, account metadata, and trade pattern. Do not sanction based on IP/device alone. Monitor false positives by household/device-sharing indicators. |
-| Transparency obligation | Do not disclose detection logic in detail, but users must receive notice if account linkage contributes to restriction, withdrawal hold, suspension, or dispute outcome. |
-| Accountability structure | **Market Integrity Lead** owns investigations. **Fraud/KYC Lead** owns identity and account-linkage review. Escalation path: Graph alert → Market Integrity Analyst → Fraud/KYC review → Compliance → Market Governance Committee for severe cases. |
-| Georgian law obligation | Privacy by design/default; data minimization; purpose limitation; strict access controls for identity and behavioral graph data; security measures to prevent unauthorized processing. |
-| Human override threshold | Human review required if related-account confidence exceeds 80%, if a withdrawal hold would exceed 30 minutes, if more than GEL 1,000 is affected, or if account suspension is proposed. |
-| Required control artifact | Account-linkage investigation log, evidence bundle, human approval record, appeal route. |
-| Roadmap connection | Initiative 23: Advanced Market-Integrity and Account-Linkage Graph. |
+This system monitors deposits, withdrawals, identity signals, account duplication, payment failures, and suspicious wallet behavior. It is not a generic bank fraud model. It is specifically the control layer for prediction-market payments and settlement.
+
+The risk tier is **high risk** because it can block deposits, delay withdrawals, freeze platform wallet activity, or prevent onboarding. The model directly affects access to funds and platform participation.
+
+The fairness risk is false positives. Users who travel, use shared devices, use older phones, change cards, rely on family payment instruments, or have irregular deposit patterns may be flagged. A bank-backed product may also over-trust existing bank customers and under-protect users onboarding through external rails.
+
+The mitigation is a tiered review process. Low-risk anomalies should trigger step-up authentication rather than account freezes. Freezes and withdrawal holds should require human review. The model should be tuned using sandbox evidence rather than copied from generic card-fraud rules.
+
+The transparency obligation is limited but real. The platform should not reveal fraud-detection logic. Still, users must be told if their deposit, withdrawal, onboarding, or account access is delayed because of a security review. The notice should include expected review time and support channel.
+
+The accountable owner is the **Fraud and KYC Lead**. Payments owns operational resolution. Compliance owns AML escalation. The escalation path is Fraud Analyst, Fraud and KYC Lead, Compliance Lead, Chief Risk delegate if funds are frozen or reporting is required.
+
+The Georgian personal-data obligation is significant. The system processes identity, payment, device, wallet, and transaction data. The platform must apply data minimization, access restrictions, security controls, audit logs, and purpose limitation.
+
+Human review is required when:
+
+- payment hold exceeds 30 minutes;
+- withdrawal hold exceeds 30 minutes;
+- transaction value exceeds GEL 1,000;
+- the same user has two false-positive holds within 30 days;
+- account freeze is proposed;
+- duplicate identity or device signal would block onboarding;
+- AML escalation is considered.
+
+The control artifacts are the payment hold log, KYC review record, fraud false-positive dashboard, wallet ledger audit, and user notice template.
 
 ---
 
-# 6. Cross-Cutting Bias and Fairness Register
+### 5.6 Outcome-Resolution Support
 
-| Bias category | Where it may appear | Mitigation |
-|---|---|---|
-| Geographic bias | Collections, SME scoring, fraud detection, responsible-use scoring | Segment testing by region, urban/rural pattern, and payment-channel access |
-| Digital-access bias | Chatbot, open banking, fraud detection, robo-advisory | Human fallback channel; non-digital support route; device-type monitoring |
-| Income-proxy bias | Collections, responsible use, SME scoring, personalization | Avoid using income proxy as sole adverse factor; review disparate impacts |
-| Language bias | Customer service, event scoring, regulatory automation, outcome resolution | Georgian-language testing; bilingual review; plain-language UX review |
-| Behavioral bias | Market surveillance, responsible-use scoring, account-linkage graph | Distinguish high activity from suspicious activity; require multi-signal confirmation |
-| Historical-data bias | Collections, SME scoring, robo-advisory | Compare outcomes to policy goals; review historical patterns before training |
-| Shared-device bias | Fraud detection and account-linkage graph | Do not sanction based only on IP/device; require payment and behavioral corroboration |
+This system reads official sources and prepares a draft resolution memo. For example, it may extract the published inflation figure from Geostat, a policy-rate decision from NBG, an exchange-rate reference, or election turnout from CEC.
+
+The risk tier is **high risk**. Outcome resolution determines payouts. A wrong extraction, wrong timestamp, wrong source, or ambiguous interpretation can create direct financial harm and destroy trust.
+
+The main risk is not demographic bias. It is source and language reliability. Georgian-language official publications may be formatted inconsistently. Data may be revised. Publication may be delayed. Multiple sources may describe the same event differently. Users with less information may be less able to challenge an incorrect resolution.
+
+The mitigation is a strict source registry. Every market must have an official source, publication time, backup-source rule, revision rule, and dispute window before it is listed. AI can prepare evidence, but humans must approve final resolution.
+
+The transparency obligation is strong. Each market must disclose its official source, resolution rule, expected timing, dispute process, and payout logic before trading opens. If resolution is delayed, users should receive a notice with the reason and expected review timeline.
+
+The accountable owner is the **Resolution Committee Chair**. Data Governance owns the source registry. Market Operations owns user notification. Compliance is involved when delay or dispute becomes material.
+
+The Georgian personal-data obligation is usually limited if resolution depends only on public official data. It becomes relevant when payout records, user positions, disputes, and support logs are connected to the resolution. Those records must be secured, limited to the resolution purpose, and auditable.
+
+Human review is required when:
+
+- AI extraction confidence is below 98%;
+- official result is delayed by more than 24 hours;
+- official source revises the result within 48 hours;
+- more than 10 disputes are filed on one market;
+- more than 1% of active traders in a market dispute the result;
+- official source is unavailable for more than two hours after expected publication;
+- two approved sources conflict.
+
+The control artifacts are the resolution memo, official-source evidence archive, payout approval record, dispute register, and user notification log.
 
 ---
 
-# 7. Transparency and User Notice Standard
+### 5.7 Dispute Triage and User-Support Routing
 
-## 7.1 When disclosure is required
+This system classifies user complaints and routes them to the right team. It may identify whether the issue concerns payout, account restriction, deposit delay, responsible-use limit, market wording, or technical error.
 
-The organization must disclose AI use when:
+The risk tier is **limited risk** if the model only routes cases. It becomes **high risk** if it closes disputes, rejects appeals, or decides payout outcomes automatically. The sandbox design should prohibit automatic closure of material complaints.
 
-- a chatbot interacts with the user,
-- AI generates market explanations,
-- AI contributes to a trading restriction,
-- AI contributes to a deposit limit or cooling-off period,
-- AI contributes to payment hold or account freeze,
-- AI contributes to credit scoring,
-- AI contributes to payout delay or dispute handling,
-- AI contributes to user personalization using open-banking data.
+The fairness risk is unequal access to support. Users writing in Georgian, using informal language, showing distress, or lacking financial vocabulary may be routed incorrectly. Users who are less persistent may receive weaker outcomes than users who know how to phrase complaints.
 
-## 7.2 Adverse action notice contents
+The mitigation is human escalation for sensitive categories. Any dispute involving payout, account freeze, withdrawal hold, responsible-use restriction, legal threat, self-exclusion, or user harm should go to a human queue. The AI should assist routing, not decide the dispute.
 
-Every adverse action notice should include:
+The transparency obligation is simple. Users should know when the first response is automated and how to request human review. If a case affects money, access, or payout, the user should receive a human-reviewed response.
 
-1. action taken,
-2. whether AI-supported review contributed,
-3. main reason code,
-4. data category considered,
-5. duration of restriction or delay,
-6. human review owner,
-7. appeal route,
-8. expected review timeline.
+The accountable owner is the **Customer Trust Lead**. The Resolution Committee owns payout disputes. Responsible Use owns trading-limit appeals. Payments owns deposit and withdrawal cases.
 
-## 7.3 Example notice
+The Georgian personal-data obligation is relevant because support tickets can include identity data, financial distress, payment details, screenshots, and behavioral information. The platform must limit support-data access, define retention periods, and prevent support conversations from being reused for unrelated profiling.
+
+Human review is required when:
+
+- user mentions payout dispute;
+- user mentions fraud, account freeze, withdrawal hold, legal complaint, self-exclusion, gambling harm, addiction, or financial distress;
+- complaint remains unresolved after 24 hours;
+- user files more than three complaints in 30 days;
+- ticket involves more than GEL 100;
+- AI confidence in routing is below 90%.
+
+The control artifacts are the case-routing log, escalation record, complaint category taxonomy, and human response record.
+
+---
+
+### 5.8 Liquidity and Market-Maker Monitoring
+
+This system monitors bid-ask spreads, depth, quote uptime, market-maker performance, and whether users are seeing fair entry and exit conditions. It supports liquidity operations and market-quality governance.
+
+The risk tier is **limited risk** if it only monitors and reports. It becomes **high risk** if it automatically changes market-maker incentives, pauses markets, cancels orders, or changes user-facing market status.
+
+The fairness risk is market-quality inequality. Some markets may be liquid and easy to trade, while others have wide spreads and poor depth. Less experienced users may trade in markets where the price is technically available but economically unfair. Market makers may also prioritize high-volume categories while leaving public-interest markets thin.
+
+The mitigation is minimum market-quality standards. The platform should not list too many markets before liquidity capacity exists. It should monitor spread, depth, quote uptime, and abandonment after users see prices. Markets below quality thresholds should be labeled or paused for review.
+
+The transparency obligation is user-facing in a practical way. Users should see that prices may move, liquidity may be limited, and exit prices are not guaranteed. If a market is paused or labeled illiquid, the interface should explain the status clearly.
+
+The accountable owner is the **Market Operations and Liquidity Lead**. The CFO or Risk Lead should review internal liquidity support because it creates conflict-of-interest concerns.
+
+The Georgian personal-data obligation is moderate. The model mainly uses market data, but it can touch user trading behavior and order history. Access should be limited, and user-level trading data should not be reused for unrelated profiling.
+
+Human review is required when:
+
+- bid-ask spread is above 8% for more than 30 minutes;
+- order-book depth is below GEL 10,000 on either side for a top-20 market;
+- market-maker misses quote obligations for three monitoring intervals;
+- internal liquidity provision exceeds 20% of open interest;
+- market quality warning would be removed after a breach;
+- user complaints about execution exceed five cases in 24 hours.
+
+The control artifacts are the liquidity dashboard, market-maker scorecard, spread breach log, and subsidy review memo.
+
+---
+
+### 5.9 Regulatory and Payment-Partner Reporting Automation
+
+This system drafts reports for NBG, payment partners, bank leadership, or internal governance committees. It summarizes market activity, user restrictions, disputes, payout delays, fraud alerts, responsible-use interventions, and market-integrity incidents.
+
+The risk tier is **limited risk** if the system drafts internal reports for human review. It becomes **high risk** if it submits regulatory reports, changes compliance classifications, or communicates with NBG or payment partners without human sign-off.
+
+The main risk is accuracy and omission. A reporting model may understate disputes, misclassify incidents, omit user-harm signals, or produce a confident but legally inaccurate summary. It may also rely too heavily on English-language regulatory references and miss Georgian-language legal nuance.
+
+The mitigation is source-bound reporting. The system should only generate reports from approved internal logs and official sources. Every regulator-facing report should include source references and be signed off by Compliance and Regulatory Governance.
+
+The transparency obligation is mostly internal and regulator-facing. Internal reviewers must know what was AI-generated, what sources were used, and what requires verification. Regulator-facing content should never be represented as fully automated.
+
+The accountable owner is the **Regulatory and Platform Governance Lead**. Compliance signs off on external reports. Legal counsel reviews classification-sensitive content.
+
+The Georgian personal-data obligation is important because reports may include user-level incidents, complaints, payment holds, and trading restrictions. Reports should use aggregated data where possible. User-identifiable details should be included only when necessary and access should be restricted.
+
+Human review is required for:
+
+- 100% of NBG-facing reports;
+- 100% of payment-partner reports;
+- any report mentioning legal classification of event contracts;
+- any report including user-identifiable data;
+- any serious incident report;
+- any change to compliance controls;
+- any report where source completeness is below 100%.
+
+The control artifacts are the reporting source log, draft history, compliance sign-off record, external submission register, and redaction checklist.
+
+---
+
+## 6. Cross-Cutting Responsible AI Controls
+
+The prediction-market platform needs a small number of non-negotiable controls that apply across all AI systems.
+
+First, the platform needs an **AI Model Register**. Every model should have a named owner, risk tier, purpose, input data, output, deployment status, monitoring metric, and rollback rule.
+
+Second, the platform needs an **Event Source Register**. Every market must have an official source before listing. No official source means no market. This is one of the cleanest ways to separate a regulated event-contract platform from informal betting.
+
+Third, the platform needs a **Human Override Log**. When a human approves, rejects, or changes an AI recommendation, the reason must be recorded. This protects users, regulators, and the bank.
+
+Fourth, the platform needs an **Adverse Action Notice** system. Users must be told when an AI-supported review contributes to a restriction, hold, delay, or dispute outcome. The notice does not need to disclose trade-surveillance logic, but it must give a meaningful reason and appeal route.
+
+Fifth, the platform needs a **Fairness and False Positive Review**. The most likely fairness problem is not classic demographic discrimination alone. It is the over-flagging of users with unusual but legitimate behavior: high-frequency traders, shared-device users, rural users, users with irregular deposits, and users who trade around news.
+
+Finally, the platform needs a **Regulator-Ready Audit Pack**. For each month of sandbox operation, the team should be able to show what markets were listed, why they were approved, what sources resolved them, what disputes occurred, what AI alerts were triggered, what humans overrode, and what user restrictions were applied.
+
+---
+
+## 7. Georgian Personal Data Protection Control Map
+
+The platform processes sensitive personal and behavioral data. That includes KYC data, wallet transactions, deposits, withdrawals, trading history, device signals, complaints, disputes, and responsible-use indicators.
+
+The Georgian-law control environment should be designed around the following obligations.
+
+**Purpose limitation.** Each dataset must have a defined purpose. Trading behavior used for surveillance should not automatically be reused for marketing. Responsible-use data should not be reused to profile users for speculative engagement.
+
+**Data minimization.** The platform should collect only what is necessary for KYC, settlement, market integrity, responsible-use controls, and reporting. Optional personalization should be separated from mandatory safety controls.
+
+**Privacy by design and by default.** Access to user-level data should be restricted from the beginning. Market Operations should not see more identity data than needed. Customer Support should not see full surveillance scores unless required for a case. Reporting should use aggregated data unless user-level evidence is necessary.
+
+**Security of processing.** KYC records, wallet ledgers, user restrictions, device signals, and account-linkage data require strong access controls, audit logs, encryption, and incident response. This is especially important because a leak of responsible-use or account-linkage data could damage users and the bank.
+
+**Transparency and user rights.** Users should be informed that the platform uses automated monitoring for market integrity, fraud prevention, responsible use, and outcome-resolution support. They should have a route to request human review when an AI-supported process affects access, payment, trading, or payout.
+
+**Auditability.** Every high-impact AI-supported decision must leave a trace: model output, data used, human reviewer, decision, reason, user notice, and appeal outcome.
+
+---
+
+## 8. Human Override Register
+
+The following thresholds should be treated as hard handoff rules during sandbox.
+
+**Event eligibility screening** requires human review if the event-risk score is above 30 out of 100, official-source confidence is below 95%, the event is outside the approved sandbox taxonomy, or projected exposure exceeds GEL 50,000.
+
+**Contract drafting** requires human review if text confidence is below 98%, the Georgian and English versions differ materially, the market belongs to a new category, or the wording could be read as investment advice or betting promotion.
+
+**Market surveillance** requires human review if price moves more than 20 percentage points within 15 minutes without verified public news, one account cluster holds more than 25% of one side, or a market pause would exceed 30 minutes.
+
+**Responsible-use scoring** requires human review if a user deposits more than GEL 500 within 24 hours, makes more than 20 trades in one hour, hits the GEL 100 daily loss limit three times in seven days, or restriction would last more than 48 hours.
+
+**Payment and fraud monitoring** requires human review if a payment or withdrawal hold exceeds 30 minutes, transaction value exceeds GEL 1,000, duplicate identity would block onboarding, or account freeze is proposed.
+
+**Outcome resolution** requires human review if AI extraction confidence is below 98%, official result is delayed by more than 24 hours, more than 10 disputes are filed, or more than 1% of active traders in the market dispute the outcome.
+
+**Dispute triage** requires human review if the user mentions payout, fraud, account freeze, withdrawal hold, legal complaint, self-exclusion, gambling harm, addiction, or financial distress.
+
+**Liquidity monitoring** requires human review if bid-ask spread is above 8% for more than 30 minutes, order-book depth is below GEL 10,000 on either side for a top-20 market, or internal liquidity provision exceeds 20% of open interest.
+
+**Regulatory reporting automation** requires human review for every NBG-facing report, payment-partner report, serious incident report, legal classification update, or report that includes user-identifiable data.
+
+---
+
+## 9. Transparency and Notice Standard
+
+The platform should not overwhelm users with technical AI explanations. The standard should be plain, practical, and tied to user impact.
+
+Before trading, users should be told that the platform uses automated systems to monitor market integrity, detect fraud, apply responsible-use controls, assist with outcome resolution, and route support cases.
+
+When AI has no adverse effect, a general disclosure is enough. For example, AI-generated explanations can be covered by a platform notice and internal review.
+
+When AI contributes to an adverse action, a specific notice is needed. This includes trading restrictions, deposit limits, cooling-off periods, payment holds, account freezes, payout delays, and dispute decisions.
+
+A good notice should include:
+
+- what happened;
+- whether AI-supported review contributed;
+- the main reason category;
+- how long the action lasts;
+- who reviews it;
+- how the user can appeal;
+- when the user can expect a response.
+
+Example wording:
 
 ```text
-Your trading access has been temporarily limited because your account reached the sandbox daily loss limit. This limit is part of the platform’s responsible-use controls. AI-supported monitoring detected the threshold, but the rule applies automatically to all sandbox users and was disclosed before trading. You may continue to view markets, but trading will reopen after the cooling-off period. If you believe this was applied incorrectly, you may request a human review through Customer Support.
+Your trading access has been temporarily limited because your account reached a responsible-use threshold during the sandbox. Automated monitoring detected the threshold, and the rule applies to all sandbox users. You can still view markets, but trading will reopen after the cooling-off period unless a human review extends the restriction. If you believe the limit was applied incorrectly, you can request a review through Customer Support.
 ```
 
 ---
 
-# 8. Accountability Structure
+## 10. Accountability Model
 
-| AI use case | Accountable owner | Escalation path |
-|---|---|---|
-| Collections Optimization | Head of Collections | Collections Officer → Team Lead → Credit Risk Lead → Model Governance Committee |
-| Payment Fraud Detection | Fraud Risk Lead | Fraud Analyst → Fraud Risk Lead → Compliance → Chief Risk Officer delegate |
-| Customer Service Automation | Customer Experience Lead | Chatbot → Support Agent → Customer Trust Lead → Compliance if complaint |
-| Robo-Advisory MVP | TBC Capital / Brokerage Lead | AI output → Advisor review → Brokerage Compliance → Investment Committee |
-| Event Risk Scoring | Market Governance Committee | AI score → Market Operations → Compliance → Market Governance Committee |
-| Open Banking Personalization | Open Banking Lead | Product Owner → Open Banking Lead → DPO/Privacy Owner → Compliance |
-| Market Surveillance | Market Integrity Lead | Alert → Market Integrity Analyst → Market Integrity Lead → Compliance |
-| Responsible-Use Scoring | Responsible Use Lead | AI score → Review Queue → Responsible Use Lead → Compliance |
-| Outcome Resolution | Resolution Committee Chair | AI extraction → Data Governance → Resolution Committee → Compliance/NBG reporting |
-| SME Credit Scoring | Credit Risk Lead | AI score → Credit Officer → Credit Risk Lead → Credit Committee |
-| Regulatory Compliance Automation | Compliance Lead | AI draft → Compliance Review → Legal Review → Authorized Signatory |
-| Account-Linkage Graph | Market Integrity Lead + Fraud/KYC Lead | Graph alert → Market Integrity → Fraud/KYC → Compliance → Governance Committee |
+The platform should avoid accountability gaps. For every AI-supported decision, one human function should own the outcome.
 
----
+**Market Governance Committee** owns the decision to approve or reject event categories and high-risk market listings.
 
-# 9. Human Override Threshold Register
+**Market Operations Lead** owns contract readiness, market templates, and listing workflow.
 
-| AI use case | Human override threshold |
-|---|---|
-| Loan A/R Collections Optimization | Exposure above GEL 5,000, legal escalation, restructuring refusal, or training data completeness below 95% |
-| Real-Time Payment Fraud Detection | Payment hold above 30 minutes, transaction above GEL 1,000, two false-positive holds in 30 days, or account freeze proposed |
-| Customer Service Automation | Any mention of fraud, gambling harm, addiction, complaint, legal threat, payout dispute, account freeze, or failed identity verification |
-| Wealth Management Robo-Advisory | Any recommendation to buy/sell/rebalance, change risk category, or move more than GEL 1,000 into a product |
-| AI-Assisted Event Risk Scoring | Event-risk score above 30/100, source-confidence below 95%, projected exposure above GEL 50,000, or new/restricted category |
-| Open Banking Personalization | Any restriction, affordability warning, exclusion, or data completeness below 90% |
-| AI Market Surveillance | Price move above 20 percentage points in 15 minutes, account cluster above 25% of one side, or pause above 30 minutes |
-| Responsible-Use Scoring | Deposit above GEL 500 in 24 hours, more than 20 trades/hour, GEL 100 loss limit hit 3 times in 7 days, or restriction above 48 hours |
-| Outcome Resolution | AI confidence below 98%, result delayed more than 24 hours, source revised within 48 hours, more than 10 disputes, or more than 1% trader dispute rate |
-| SME Credit Scoring | Rejection, limit reduction, pricing deterioration above 2 percentage points, or application above GEL 50,000 |
-| Regulatory Compliance Automation | 100% of regulator-facing filings, NBG communication, legal classification updates, and control changes |
-| Account-Linkage Graph | Related-account confidence above 80%, withdrawal hold above 30 minutes, more than GEL 1,000 affected, or suspension proposed |
+**Compliance Lead** owns legal classification review, regulator-facing assumptions, and policy exceptions.
+
+**Market Integrity Lead** owns manipulation alerts, market pauses, and trading-surveillance investigations.
+
+**Responsible Use Lead** owns user limits, cooling-off periods, and high-risk user interventions.
+
+**Fraud and KYC Lead** owns onboarding blocks, duplicate-account reviews, payment holds, and suspicious payment escalation.
+
+**Resolution Committee Chair** owns final payout resolution and dispute decisions.
+
+**Regulatory and Platform Governance Lead** owns NBG and payment-partner reporting.
+
+**Head of Data and AI** owns model performance, drift monitoring, version control, and rollback readiness.
+
+The board should not approve public launch until this accountability model has operated through a sandbox period and produced evidence.
 
 ---
 
-# 10. Georgian Law Compliance Control Map
+## 11. Residual Risk Assessment
 
-| Georgian personal data protection obligation | Implementation control |
-|---|---|
-| Lawful and purpose-specific processing | Data-use register for each AI model |
-| Privacy by design and by default | Product launch checklist requiring data minimization and default access restrictions |
-| Data minimization | Feature approval list for each model; unnecessary personal fields blocked |
-| Security of processing | Role-based access control, encryption, access logs, incident response plan |
-| Data accuracy | Data-quality thresholds before training and inference |
-| Transparency and data subject information | Privacy notice, AI disclosure, adverse action notice |
-| Consent where needed | Open-banking consent register and opt-out workflow |
-| User rights | Support route for information, correction, appeal, and deletion where legally applicable |
-| Accountability | Named model owner, data owner, and decision owner |
-| Auditability | AI decision log, model registry, training dataset register, human override log |
+After controls, some risk remains. The platform cannot remove all risk because prediction markets are inherently sensitive. The realistic goal is to make risks visible, bounded, and governable.
 
----
+**Event eligibility screening** has medium residual risk. Human approval and official-source requirements reduce the risk, but controversial events may still create reputational exposure.
 
-# 11. Implementation Priorities
+**Contract drafting** has low to medium residual risk if all user-facing wording is reviewed. The main remaining risk is user misunderstanding.
 
-## Priority 1: Before any sandbox trading
+**Market surveillance** has high residual risk. Manipulation detection is difficult, and false positives can harm legitimate users. This is one of the most important controls to test in sandbox.
 
-The following controls must exist before users trade:
+**Responsible-use scoring** has high residual risk. It is necessary for regulator and payment-partner trust, but it can over-restrict users or fail to detect harm early enough.
 
-- Market Governance Committee,
-- AI Model Registry,
-- Event Source Registry,
-- Responsible-Use Policy,
-- Adverse Action Notice template,
-- Human Override Protocol,
-- KYC/AML and payment-risk review,
-- chatbot escalation rules,
-- official market contract templates.
+**Payment and fraud monitoring** has medium residual risk. False positives will occur, but fast human review can reduce user harm.
 
-## Priority 2: During sandbox
+**Outcome resolution** has high residual risk. Payout decisions are central to user trust, and source ambiguity can create disputes even with strong controls.
 
-The following controls must be active during the pilot:
+**Dispute triage** has medium residual risk. Human escalation for sensitive cases keeps the risk manageable.
 
-- market surveillance dashboard,
-- responsible-use trigger log,
-- payment fraud false-positive tracking,
-- model performance dashboard,
-- dispute and payout audit trail,
-- monthly governance report,
-- bias and fairness dashboard.
+**Liquidity monitoring** has medium residual risk. The model can identify poor market quality, but it cannot guarantee liquidity without sufficient market-maker support.
 
-## Priority 3: Before public launch
-
-The following controls must be completed before public launch:
-
-- external model-risk review,
-- full legal review of event-contract classification,
-- regulator-ready reporting pack,
-- payment-partner risk approval,
-- final responsible-use policy,
-- board approval of risk appetite,
-- final unit-economics gate.
+**Regulatory reporting automation** has medium residual risk if every external report is human-signed. It becomes high risk if the platform allows automatic reporting without review.
 
 ---
 
-# 12. Final Risk View
+## 12. Implementation Priorities
 
-| Use case | Residual risk after controls | Reason |
-|---|---|---|
-| Collections Optimization | Medium | High impact on borrowers, but risk is controllable with human review |
-| Payment Fraud Detection | Medium | False positives remain likely, but payment holds can be reviewed quickly |
-| Customer Service Automation | Low-Medium | Risk is manageable if chatbot cannot make final decisions |
-| Robo-Advisory MVP | Medium | Risk rises if educational content becomes advice |
-| Event Risk Scoring | Medium | Human committee approval prevents autonomous market listing |
-| Open Banking Personalization | Medium-High | Sensitive financial behavior data requires strict consent and minimization |
-| Market Surveillance | High | Manipulation detection is necessary but enforcement mistakes can harm users |
-| Responsible-Use Scoring | High | Strong consumer-protection value, but high risk of overrestriction or stigma |
-| Outcome Resolution | High | Payout errors directly harm trust and platform legitimacy |
-| SME Credit Scoring | High | Credit access is a high-impact decision |
-| Regulatory Compliance Automation | Medium | Drafting risk is manageable; automatic filing should be prohibited |
-| Account-Linkage Graph | High | Graph errors can falsely associate users with manipulation |
+The platform should not try to automate everything at launch. The first phase should prioritize governance over speed.
+
+Before sandbox trading, the platform needs the Market Governance Committee, event-source register, approved event taxonomy, contract templates, responsible-use policy, KYC and payment-risk workflow, adverse action notice template, and human override log.
+
+During sandbox, the platform should activate surveillance dashboards, responsible-use logs, payment false-positive monitoring, dispute tracking, resolution memos, and monthly governance reports.
+
+Before public launch, the platform should complete a full review of model performance, false-positive rates, dispute outcomes, responsible-use interventions, liquidity quality, payment-partner feedback, and NBG feedback. If these do not support a credible control story, the platform should stay in sandbox or stop.
+
+The key implementation principle is simple: AI can assist, route, monitor, and summarize. It should not autonomously approve markets, freeze users, resolve payouts, or communicate with regulators during the first operating phase.
 
 ---
 
-# 13. Conclusion
+## 13. Conclusion
 
-The AI portfolio can support the Georgian prediction-market strategy, but only if the client treats AI governance as decision governance rather than IT governance.
+The responsible AI assessment supports the project’s strategic recommendation: a Georgian prediction-market platform should be launched only through a controlled, regulator-first pathway.
 
-The highest-risk systems are not the chatbot or content-generation tools. The highest-risk systems are:
+The platform’s AI systems are not mainly about prediction. They are about trust. They help decide which markets can be listed, which trading behavior looks suspicious, which users may need protection, which official result resolves a market, and what evidence regulators receive.
 
-- market surveillance,
-- responsible-use scoring,
-- outcome resolution,
-- payment fraud detection,
-- account-linkage graph,
-- and SME credit scoring.
+That makes the AI portfolio high impact. The strongest controls are not abstract principles. They are specific operating mechanisms: official-source registry, market approval committee, adverse action notices, human override thresholds, responsible-use logs, resolution memos, market-surveillance investigations, and regulator-ready audit packs.
 
-These systems can affect user access, payment access, trading rights, payout outcomes, and credit decisions. Therefore, they require human oversight, audit trails, adverse action notices, measurable override thresholds, and clear accountability.
-
-The platform should not move to public launch until the responsible AI controls are tested in sandbox conditions and reviewed by the board.
+A bank-backed platform can be defensible only if these controls are in place before scale. The public launch decision should therefore depend not only on user demand and unit economics, but also on whether the platform proves that its AI-supported decisions are fair, explainable, secure, contestable, and accountable.
 
 ---
 
-# 14. References
+## References
 
-European Commission. (2026). *AI Act*. Shaping Europe’s Digital Future. https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+European Commission. (2026). AI Act. Shaping Europe’s Digital Future. https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
 
-European Union. (2024). *Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence*.
+European Union. (2024). Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence.
 
-Organisation for Economic Co-operation and Development. (2019). *OECD principles on artificial intelligence*.
+Personal Data Protection Service of Georgia. (2024). Current Law of Georgia on Personal Data Protection. https://pdps.ge/content/1063/LAWS
 
-Personal Data Protection Service of Georgia. (2024). *Current Law of Georgia on Personal Data Protection*. https://pdps.ge/content/1063/LAWS
+Personal Data Protection Service of Georgia. (2024). Guide for business, Part III: Compliance assurance. https://pdps.ge/content/1085/nawili-III.-kanonSesabamisobis-uzrunvelyofa
 
-Personal Data Protection Service of Georgia. (2024). *Guide for business: Compliance assurance*. https://pdps.ge/content/1085/nawili-III.-kanonSesabamisobis-uzrunvelyofa
+Personal Data Protection Service of Georgia. (2024). Guide for business, Part IV: Personal data security. https://pdps.ge/content/1086/nawili-IV.-personalur-monacemTa-usafrTxoebis-dacva
 
-Personal Data Protection Service of Georgia. (2024). *Guide for business: Personal data security*. https://pdps.ge/content/1086/nawili-IV.-personalur-monacemTa-usafrTxoebis-dacva
+Organisation for Economic Co-operation and Development. (2019). OECD principles on artificial intelligence.
 
-Westerman, G., Bonnet, D., & McAfee, A. (2014). *Leading digital: Turning technology into business transformation*. Harvard Business Review Press.
+Westerman, G., Bonnet, D., & McAfee, A. (2014). Leading digital: Turning technology into business transformation. Harvard Business Review Press.
