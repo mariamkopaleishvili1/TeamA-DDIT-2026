@@ -472,19 +472,113 @@ The PMO owns execution discipline. The General Manager owns adoption inside prod
 
 Change management budget should be **20 to 30 percent of the first 18-month transformation investment**.
 
-For planning, the prediction-market-specific first 18-month transformation investment is **GEL 15.93 million**.
+For planning, the prediction-market-specific first 18-month transformation investment is **GEL 15.93 million**. This includes the H1 foundation and H2 sandbox-validation period before full public launch.
 
-The resulting change management budget is:
+The resulting change management range is:
 
 - 20 percent: **GEL 3.19 million**
 - 25 percent: **GEL 3.98 million**
 - 30 percent: **GEL 4.78 million**
 
-Recommended planning figure: **GEL 4.0 million**
+The recommended planning figure is **GEL 4.0 million**, equal to approximately 25 percent of the first 18-month transformation investment.
 
-This should cover stakeholder analysis, training, workshops, communication, adoption measurement, process redesign support, compliance training, support readiness, and board reporting preparation.
+This budget should be treated as a dedicated workstream budget. It is not a communications reserve and not a general contingency line. The platform changes how the organization approves markets, reviews AI alerts, handles user restrictions, validates official sources, resolves outcomes, reports to regulators, and decides whether the product can scale. Those changes require structured adoption work.
 
-The exact GEL amount should be updated before final submission using the chosen FX assumption and the final transformation budget.
+### Budget breakdown
+
+| Budget category | GEL amount | What it funds | Main owner |
+|---|---:|---|---|
+| PMO and change leadership | GEL 550k | Change lead, PMO support, workstream planning, dependency tracking, adoption dashboard, board-gate preparation | Transformation Office / PMO |
+| Stakeholder analysis and process redesign | GEL 350k | Role-impact mapping, decision-rights mapping, process redesign workshops, RACI documentation, handoff design across Product, Compliance, Legal, Market Operations, Payments, Data, and Customer Trust | PMO with Prediction Market General Manager |
+| Role-based training and certification | GEL 750k | Training modules, staff certification, market-approval training, AI override training, responsible-use training, dispute-handling training, payment-hold training, and onboarding for new team members | PMO with functional leads |
+| Tabletop exercises and sandbox rehearsals | GEL 450k | Simulations for disputed outcomes, suspicious trading, payment holds, account freezes, responsible-use restrictions, market pauses, and regulator incident reporting | Compliance Lead, Market Integrity Lead, Customer Trust Lead |
+| Communication plan and leadership alignment | GEL 300k | Internal communication, leadership briefings, employee FAQs, bank-sponsor materials, payment-partner narrative, and board-readiness materials | Prediction Market General Manager and PMO |
+| Customer Trust and support readiness | GEL 450k | Georgian and English support scripts, adverse-action notice templates, escalation playbooks, appeal-handling process, complaint taxonomy, and quality review | Customer Trust Lead |
+| Compliance, legal, and governance adoption | GEL 500k | Committee operating routines, approval-pack templates, compliance review workflow, legal decision log, controlled market approval process, and regulator-ready documentation habits | Compliance Lead and Legal Counsel |
+| Data, AI, and audit-log adoption | GEL 400k | Training and process adoption for AI model register, human override log, event source registry, resolution evidence archive, surveillance alert logs, and data-access controls | Head of Data and AI |
+| Adoption measurement and post-launch reinforcement | GEL 250k | Monthly adoption reporting, training refreshers, workflow-compliance reviews, resistance log, lessons learned, and month-18 change readiness assessment | PMO |
+| **Total recommended change-management budget** | **GEL 4.0M** |  |  |
+
+### What will change because of this budget
+
+The change-management budget funds concrete operating changes, not general awareness.
+
+**Market Operations will change from content preparation to controlled market approval.**  
+The team will no longer treat event pages as normal product content. Each market must have an official source, payout rule, risk disclosure, dispute path, and approval record. The change budget funds templates, training, review checklists, and process rehearsals.
+
+**Compliance and Legal will change from late-stage reviewers to embedded decision owners.**  
+Compliance cannot be asked to approve a legally ambiguous product at the end of the process. The budget funds early involvement in market taxonomy, event-category rules, legal classification logs, approval-pack design, and escalation routines.
+
+**Product and Engineering will change from feature delivery to controlled workflow delivery.**  
+The product team must build around auditability, source validation, user notices, human override logs, and responsible-use controls. The budget funds the adoption work needed so that product requirements reflect governance requirements before sandbox launch.
+
+**Customer Trust will change from normal support handling to regulated dispute and appeal handling.**  
+Support agents must distinguish ordinary technical issues from payout disputes, payment holds, market-resolution complaints, account restrictions, and responsible-use appeals. The budget funds scripts, escalation trees, bilingual notices, quality review, and case-handling training.
+
+**Data and AI teams will change from model development to model accountability.**  
+AI systems cannot only produce alerts or scores. Each high-impact AI output needs a record of input data, model output, human reviewer, final decision, reason code, and user notice where applicable. The budget funds training and adoption around the AI model register, human override log, and model monitoring routines.
+
+**Payments, KYC, and Fraud teams will change from standard onboarding controls to platform-specific wallet and trading controls.**  
+Prediction-market users may deposit, withdraw, trade frequently, recycle balances, and trigger account-linkage or payment-risk alerts. The budget funds new review procedures for payment holds, duplicate-identity signals, suspicious wallet activity, and withdrawal delays.
+
+**Senior leadership will change from project sponsorship to stage-gate decision-making.**  
+The board and executive sponsors must not approve public launch based only on technical readiness. They need evidence on regulatory comfort, market quality, liquidity, user harm, dispute rates, payment reliability, and unit economics. The budget funds board-pack preparation and adoption measurement.
+
+### Required change-management outputs
+
+The GEL 4.0M budget should produce the following artifacts:
+
+- stakeholder impact map;
+- decision-rights map;
+- RACI for market approval, market pause, outcome resolution, payment holds, user restrictions, and regulator reporting;
+- role-based training materials;
+- staff certification records;
+- market approval checklist;
+- event source validation checklist;
+- adverse-action notice templates;
+- user appeal playbook;
+- support escalation scripts in Georgian and English;
+- human override log procedure;
+- AI model register adoption guide;
+- tabletop exercise results;
+- sandbox readiness pack;
+- monthly adoption dashboard;
+- resistance log;
+- month-18 change readiness assessment for the board.
+
+### Budget release logic
+
+The change budget should be released in phases rather than spent upfront.
+
+| Phase | Timing | Budget release | Purpose |
+|---|---:|---:|---|
+| Phase 1: Governance setup and stakeholder alignment | Months 1 to 3 | GEL 900k | Establish decision rights, committee routines, stakeholder map, and early training |
+| Phase 2: Process adoption and sandbox readiness | Months 4 to 6 | GEL 1.20M | Train teams, build templates, run tabletop exercises, and prepare sandbox workflows |
+| Phase 3: Live sandbox adoption | Months 7 to 12 | GEL 1.10M | Support live adoption, monitor workflow compliance, correct process failures, and refresh training |
+| Phase 4: Scale readiness and institutionalization | Months 13 to 18 | GEL 800k | Prepare board decision materials, institutionalize routines, and assess readiness for public launch |
+| **Total** | **Months 1 to 18** | **GEL 4.0M** |  |
+
+### Adoption metrics tied to the budget
+
+The change-management workstream should be judged through operational evidence.
+
+| Metric | Target |
+|---|---:|
+| Impacted staff completing role-specific training before sandbox | 90 percent or higher |
+| High-risk workflows with named owner, threshold, and documentation template before user onboarding | 100 percent |
+| Market approval files with complete source, payout rule, risk warning, and approval record | 95 percent or higher |
+| High-risk AI alerts reviewed within SLA during sandbox | 95 percent or higher |
+| Adverse user actions with documented reason code and owner | 100 percent |
+| Sensitive support cases routed correctly on first review | 90 percent or higher |
+| Tabletop exercises completed before sandbox launch | At least 4 |
+| Monthly adoption reports delivered to the governance committee | 100 percent on time |
+| Unresolved process failures older than two review cycles | 0 |
+
+### Why this budget is necessary
+
+A prediction-market platform fails if the organization treats it like a normal app launch. The product requires new decision habits across market approval, source validation, user protection, dispute handling, market surveillance, payment review, outcome resolution, and regulator reporting.
+
+The GEL 4.0M change-management budget is therefore a control investment. It reduces the risk that the platform is technically built but operationally ungovernable. It also gives the board evidence that the organization can follow the operating model before approving public launch.
 
 ## 9.4 Why the budget is justified
 
