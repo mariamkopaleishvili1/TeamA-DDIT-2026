@@ -86,17 +86,17 @@ The redesigned process should create a formal **Market Lifecycle Governance Proc
 
 ```text
 Market idea
-→ AI pre-screening
-→ official data-source validation
-→ legal / regulatory review
-→ market design review
-→ liquidity and exposure check
-→ human approval
-→ controlled listing
-→ real-time monitoring
-→ outcome resolution
-→ dispute handling
-→ regulator-ready reporting
+- AI pre-screening
+- official data-source validation
+- legal / regulatory review
+- market design review
+- liquidity and exposure check
+- human approval
+- controlled listing
+- real-time monitoring
+- outcome resolution
+- dispute handling
+- regulator-ready reporting
 ```
 
 | Decision point | AI handles | Human handles | Escalation threshold |
@@ -147,12 +147,12 @@ Confirm you redesigned the process rather than automating the existing one.
 
 | Team name | Mandate (one sentence) | Dataset owned | Agile level | Reporting line |
 |---|---|---|---|---|
-| Regulatory & Platform Governance | Own NBG engagement, legal classification, market-approval policy, and regulator-ready reporting. | NBG correspondence log, legal memo repository, approved event taxonomy, regulatory decision log, policy exception log | Governance / control function | Head of Regulatory & Governance → Prediction Market General Manager; dotted line to Chief Compliance Officer |
-| Market Operations & Liquidity | Design, list, monitor, and resolve event-contract markets while maintaining liquidity and market quality. | Market registry, contract templates, order-book data, spread data, market-maker performance data, resolution logs | Product squad | Head of Market Operations → Prediction Market General Manager |
-| Data, AI & Market Integrity | Build AI screening, market surveillance, risk scoring, data pipelines, model monitoring, and audit logs. | Event-source registry, AI model registry, feature store, anomaly alerts, account-linkage graph, manipulation alerts, model audit logs | Platform squad | Head of Data & AI → CTO / Chief Data Officer; dotted line to Chief Risk Officer |
-| Payments, KYC & Settlement | Own GEL payment rails, wallet ledger, KYC / AML integration, settlement operations, and PSP / bank partner controls. | KYC records, payment transactions, wallet ledger, deposit / withdrawal logs, AML alerts, settlement records | Platform squad | Head of Payments & KYC → COO / Payments Lead; dotted line to Compliance |
-| Responsible Use & Customer Trust | Own loss limits, cooling-off rules, user education, complaint handling, customer protection, and high-risk user review. | Responsible-use score dataset, limits history, cooling-off logs, complaints, disputes, education completion, support tickets | Product squad | Head of Customer Trust → Prediction Market General Manager; dotted line to Chief Risk Officer |
-| Product, Engineering & UX | Build the user interface, admin tools, market-listing workflow, dashboards, and platform reliability layer. | Product analytics, onboarding funnel, clickstream data, feature flags, uptime logs, incident logs, user research data | Product squad | Product Lead / Engineering Lead → CTO and Prediction Market General Manager |
+| Regulatory & Platform Governance | Own NBG engagement, legal classification, market-approval policy, and regulator-ready reporting. | NBG correspondence log, legal memo repository, approved event taxonomy, regulatory decision log, policy exception log | Governance / control function | Head of Regulatory & Governance - Prediction Market General Manager; dotted line to Chief Compliance Officer |
+| Market Operations & Liquidity | Design, list, monitor, and resolve event-contract markets while maintaining liquidity and market quality. | Market registry, contract templates, order-book data, spread data, market-maker performance data, resolution logs | Product squad | Head of Market Operations - Prediction Market General Manager |
+| Data, AI & Market Integrity | Build AI screening, market surveillance, risk scoring, data pipelines, model monitoring, and audit logs. | Event-source registry, AI model registry, feature store, anomaly alerts, account-linkage graph, manipulation alerts, model audit logs | Platform squad | Head of Data & AI - CTO / Chief Data Officer; dotted line to Chief Risk Officer |
+| Payments, KYC & Settlement | Own GEL payment rails, wallet ledger, KYC / AML integration, settlement operations, and PSP / bank partner controls. | KYC records, payment transactions, wallet ledger, deposit / withdrawal logs, AML alerts, settlement records | Platform squad | Head of Payments & KYC - COO / Payments Lead; dotted line to Compliance |
+| Responsible Use & Customer Trust | Own loss limits, cooling-off rules, user education, complaint handling, customer protection, and high-risk user review. | Responsible-use score dataset, limits history, cooling-off logs, complaints, disputes, education completion, support tickets | Product squad | Head of Customer Trust - Prediction Market General Manager; dotted line to Chief Risk Officer |
+| Product, Engineering & UX | Build the user interface, admin tools, market-listing workflow, dashboards, and platform reliability layer. | Product analytics, onboarding funnel, clickstream data, feature flags, uptime logs, incident logs, user research data | Product squad | Product Lead / Engineering Lead - CTO and Prediction Market General Manager |
 | Market Governance Committee | Approve high-risk markets, policy exceptions, AI model deployment, event categories, and dispute escalations. | Committee minutes, approval records, override logs, risk-acceptance register | Executive governance layer | Chaired by Prediction Market General Manager; reports to Executive Steering Committee |
 
 ---

@@ -2,9 +2,9 @@
 
 ## Project
 
-Team A — Georgian Prediction-Market Platform  
-Industry: Fintech  
-Market: Republic of Georgia  
+Team A - Georgian Prediction-Market Platform  
+Industry: Fintech
+Market: Republic of Georgia
 Recommended strategic option: Regulatory Sandbox Pathway with responsible-use controls embedded from day one
 
 ---
@@ -214,12 +214,12 @@ Decision governance controls how AI-supported decisions are made, communicated, 
 
 ```text
 AI alert
-→ human review queue
-→ reviewer decision
-→ rationale logged
-→ user notice if adverse
-→ appeal path opened if affected
-→ model monitoring dashboard updated
+- human review queue
+- reviewer decision
+- rationale logged
+- user notice if adverse
+- appeal path opened if affected
+- model monitoring dashboard updated
 ```
 
 ### Specific decision rules
@@ -444,14 +444,14 @@ It still protects the bank, but it allows the prediction-market pilot to proceed
 
 ```text
 Incident detected
-→ severity classification
-→ workflow paused if Level 3 or Level 4
-→ human review
-→ user notification if affected
-→ correction or rollback
-→ root-cause analysis
-→ model / data update
-→ governance committee review
+- severity classification
+- workflow paused if Level 3 or Level 4
+- human review
+- user notification if affected
+- correction or rollback
+- root-cause analysis
+- model / data update
+- governance committee review
 ```
 
 ---

@@ -160,15 +160,15 @@ The commercial product is a full operating system for event markets:
 
 ```text
 Event design
-→ legal review
-→ source validation
-→ liquidity support
-→ controlled listing
-→ user protection
-→ trading surveillance
-→ outcome resolution
-→ dispute handling
-→ regulator reporting
+- legal review
+- source validation
+- liquidity support
+- controlled listing
+- user protection
+- trading surveillance
+- outcome resolution
+- dispute handling
+- regulator reporting
 ```
 
 ## Required mitigation
