@@ -6,7 +6,6 @@ Team A: Georgian Prediction-Market Platform
 Industry: Fintech  
 Market: Republic of Georgia  
 Recommended strategic option: NBG sandbox-first, GEL-settled where possible, bank-backed, with responsible-use controls embedded from day one  
-Repository file: `deli wk2/Completed/prediction_market_roi_model.md`
 
 ---
 
