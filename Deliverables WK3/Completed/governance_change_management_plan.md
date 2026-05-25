@@ -470,17 +470,17 @@ The PMO owns execution discipline. The General Manager owns adoption inside prod
 
 ## 9.3 Budget
 
-Change management budget should be **20 to 30 percent of total transformation cost**.
+Change management budget should be **20 to 30 percent of the first 18-month transformation investment**.
 
-For planning, the prediction-market-specific first 18-month transformation budget is estimated at **GEL 14.6 million**, using a planning assumption of USD/GEL 2.70 applied to the earlier platform-specific budget of approximately USD 5.4 million. This excludes the post-18-month public launch capital.
+For planning, the prediction-market-specific first 18-month transformation investment is **GEL 15.93 million**.
 
 The resulting change management budget is:
 
-- 20 percent: **GEL 2.9 million**
-- 25 percent: **GEL 3.7 million**
-- 30 percent: **GEL 4.4 million**
+- 20 percent: **GEL 3.19 million**
+- 25 percent: **GEL 3.98 million**
+- 30 percent: **GEL 4.78 million**
 
-Recommended planning figure: **GEL 3.7 million**
+Recommended planning figure: **GEL 4.0 million**
 
 This should cover stakeholder analysis, training, workshops, communication, adoption measurement, process redesign support, compliance training, support readiness, and board reporting preparation.
 
@@ -663,6 +663,17 @@ Timing: month 18
 The board should decide whether to launch publicly, extend sandbox, pivot to fallback route, or stop.
 
 The launch decision should require regulatory comfort, payment-partner acceptance, reliable outcome resolution, low dispute rate, acceptable responsible-use evidence, manageable liquidity subsidy, and credible unit economics.
+
+The board pack should explicitly include:
+
+- total investment to recover;
+- Year 1 capital requirement, including GEL 7.40M CapEx and GEL 4.60M OpEx;
+- annual benefit;
+- payback period;
+- IRR;
+- 5-year NPV at 18 percent discount rate;
+- severe downside stress test; and
+- sensitivity analysis for adoption and turnover per active user.
 
 ---
 

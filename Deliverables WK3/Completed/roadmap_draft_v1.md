@@ -208,7 +208,7 @@ The success metric is an internal end-to-end test: market creation, approval, us
 
 The sandbox pilot tests whether the platform works in practice. It should not be open to the full market. User access should be capped, markets should be limited, and every high-risk process should be logged.
 
-The $1M budget covers six months of pilot operations. The repository’s existing ROI file explicitly notes that the prediction-market model still needs a separate unit-economics model based on active users, trading volume, take rate, payment costs, liquidity subsidies, compliance costs, and market-resolution costs. That is the correct lens for this pilot.
+The $1M budget covers six months of pilot operations. The completed prediction-market ROI model now provides the platform’s unit-economics inputs, including adoption, turnover, take rate, payment cost, liquidity support, compliance cost, CAC, contribution margin, and breakeven thresholds. This roadmap uses that model to align sandbox evidence with board decision criteria.
 
 The sandbox budget includes operating team, engineering support, compliance and legal run cost, customer support, user education, data/reporting, and contingency. It does not include the full liquidity programme, which is separated as Initiative 09.
 
@@ -218,7 +218,7 @@ The success metric is not signups. The success metric is whether users can trade
 
 Liquidity is a cold-start problem. Prediction markets are not useful if users see wide spreads, empty order books, or no exit price.
 
-The $500K budget covers a market-maker retainer, spread support, quote monitoring, internal liquidity risk review, and market-quality reporting. The earlier unit-economics work used GEL 50,000 per month as a base liquidity subsidy assumption. Over six months, that equals GEL 300,000, before monitoring and governance overhead. At a planning exchange rate of 1 USD equals 2.70 GEL, that is about $111K. A $500K roadmap budget is therefore not saying the subsidy alone is $500K. It includes reserve capacity, tooling, market-maker contracting, risk oversight, and contingency.
+The $500K budget covers a market-maker retainer, spread support, quote monitoring, internal liquidity risk review, and market-quality reporting. The updated unit-economics model now uses liquidity support planning assumptions of GEL 150,000 conservative, GEL 300,000 base, and GEL 650,000 upside. This roadmap budget includes reserve capacity, tooling, market-maker contracting, risk oversight, and contingency to support those scenarios.
 
 The success metric is bid-ask spread below 8 percent for 80 percent of monitored trading hours in top pilot markets. If this cannot be achieved without excessive subsidy, the platform should not scale.
 
@@ -248,9 +248,14 @@ The $100K budget covers final ROI model update, external review, legal update, p
 
 The gate should include:
 
-- monthly active traders;
-- monthly volume per active user;
-- take rate or spread capture;
+- total investment to recover;
+- Year 1 capital requirement, including GEL 7.40M CapEx and GEL 4.60M OpEx;
+- annual benefit;
+- payback period;
+- IRR;
+- 5-year NPV at 18 percent discount rate;
+- severe downside stress test;
+- sensitivity to adoption and turnover per active user;
 - payment processing cost;
 - CAC;
 - liquidity subsidy;
@@ -347,7 +352,7 @@ The fallback VASP or USDC route is budgeted at approximately $1M, or GEL 2.7M. T
 
 The budget is based on five evidence points.
 
-First, the repository’s ROI file already warns that the current collections ROI model is not proof of prediction-market ROI. It states that the prediction-market launch requires its own model based on active users, trading volume, take rate, payment costs, liquidity subsidies, compliance costs, CAC, ARPU, contribution margin, and breakeven users. This roadmap follows that instruction by funding the sandbox to generate those exact inputs.
+First, the completed prediction-market ROI model now provides the platform’s unit-economics inputs. It details adoption, turnover, take rate, payment cost, liquidity support, compliance cost, customer acquisition cost, contribution margin, and breakeven thresholds. This roadmap uses that model to align sandbox evidence with board decision criteria.
 
 Second, local payment economics matter. The repository’s competitive landscape uses Payze as a Georgian payment-gateway proxy and lists 2.5 to 3 percent commission rates. A micro-stakes trading product cannot ignore this. If payment cost remains near external PSP levels, the platform’s economics become weak. This is why H1 includes payment-rail validation and why bank-backed rails are strategically important.
 
@@ -359,23 +364,36 @@ Fifth, institutional interest, including ICE’s announced investment of up to $
 
 ### 6.5 Unit economics to validate before public launch
 
-The month-18 board gate should require the following evidence.
+The month-18 board gate should require the completed prediction-market ROI model and evidence that the platform can support public launch.
 
-Monthly active traders should be measured from real sandbox usage, not survey interest. Base-case public launch should require evidence that the product can reach at least 7,500 to 15,000 active monthly traders within the first public year. Below 2,000 active users, the product is unlikely to cover fixed costs.
+The model uses the following core assumptions:
 
-Average monthly trading volume per active user should be measured net of duplicate trading and churn. The base-case planning target is GEL 300 per active trader per month. Below GEL 100, the product remains too low-volume for the required compliance and liquidity cost.
+- risk-active user pool: 651,000;
+- conservative adoption: 4 percent, equal to 26,040 monthly active users;
+- base-case adoption: 10 percent, equal to 65,100 monthly active users;
+- upside adoption: 18 percent, equal to 117,180 monthly active users;
+- monthly turnover per active user: GEL 6,546;
+- take rate: 1 percent;
+- funding-flow ratio: 20 percent across all primary scenarios.
 
-Take rate or spread capture should be validated from actual trades. A 2 percent base case is defensible for modeling, but users may resist explicit fees. If the platform relies on spread capture, market quality and transparency become more important.
+The board pack should include:
 
-Payment processing cost should be validated through quotes. The base case should target around 1 percent or lower. If it remains closer to 2.5 to 3 percent external PSP pricing, micro-stakes economics weaken.
+- base-case monthly platform turnover: GEL 426.1M;
+- base-case monthly gross revenue: GEL 4.26M;
+- base-case monthly payment cost: GEL 852k;
+- base-case monthly operating profit before CAC recovery: GEL 2.33M;
+- base-case annual benefit: GEL 27.95M;
+- base-case total investment to recover, including CAC: GEL 20.81M;
+- base-case payback period: 8.9 months;
+- base-case 5-year NPV at 18 percent discount rate: GEL 57.99M;
+- base-case IRR: 99.9 percent;
+- Year 1 capital requirement: GEL 12.00M total, including GEL 7.40M CapEx and GEL 4.60M OpEx;
+- first 18-month transformation investment: GEL 15.93M;
+- change management budget range: 20 percent = GEL 3.19M, 25 percent = GEL 3.98M, 30 percent = GEL 4.78M, with GEL 4.0M recommended;
+- severe downside stress test: 2 percent adoption, GEL 3,273 monthly turnover per active user, 0.75 percent take rate, negative operating profit, no payback, negative NPV;
+- sensitivity to adoption and turnover per active user.
 
-Liquidity subsidy should be measured by market. The base planning assumption remains GEL 50,000 per month during early operation. If spreads stay wide even with subsidy, the public launch case weakens.
-
-Compliance and legal run cost should be tracked separately from one-time legal setup. The base planning assumption remains GEL 30,000 to GEL 50,000 per month during sandbox and early launch.
-
-Platform run cost should be tracked as engineering, support, cloud, monitoring, security, and reporting. The base planning assumption remains around GEL 70,000 per month for controlled pilot operation, rising with scale.
-
-The board should approve public launch only if contribution margin per user and active-user growth create a credible breakeven path.
+The board should approve public launch only if the sandbox shows a credible path toward these assumptions and the model demonstrates robustness to adoption and turnover outcomes.
 
 ---
 
@@ -502,7 +520,7 @@ Personal Data Protection Service of Georgia. Current Law of Georgia on Personal 
 
 Payze commission-rate proxy is taken from the project repository file: `deliverables/competitive_landscape_matrix.md`.
 
-The prediction-market ROI warning is taken from the project repository file: `deli wk2/roi_model_template.md`, which states that the collections ROI model is not proof of prediction-market ROI and that the prediction-market launch needs a separate unit-economics model.
+The completed prediction-market ROI model is documented in `Deliverables WK3/Completed/pm_roi_v3.md`. It provides the platform's updated unit economics, funding-flow assumptions, investment requirements, payback period, IRR, NPV, and downside stress test.
 
 MarketWatch. Wall Street is finding a new use for the latest retail-trading obsession. 2026.
 

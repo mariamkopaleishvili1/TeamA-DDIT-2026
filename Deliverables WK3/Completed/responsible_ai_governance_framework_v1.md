@@ -83,9 +83,7 @@ This does not mean EU AI Act rules automatically apply in Georgia exactly as the
 | KYC / AML risk scoring | High | May affect onboarding, continued access, or account restrictions. | Compliance review, audit trail, appeal route where applicable |
 | Customer service chatbot | Limited | Users interact with AI, but it should not make final financial or legal decisions. | AI disclosure, escalation to human support, answer-quality review |
 | AI-generated market explanations | Limited | Helps explain contracts, probabilities, and risk warnings. It should not recommend trades. | AI-generated content label; compliance-approved templates; human review for new market categories |
-| Open-banking personalization | High if used for affordability or eligibility; Limited if used only for generic education | Uses sensitive financial behavior and may influence product access or risk warnings. | Consent register, purpose limitation, opt-out process, explainability |
-| SME credit scoring | High | Affects access to credit, pricing, and approval decisions. | Credit officer review, adverse action notice, model validation |
-| Regulatory compliance automation | Limited, upgraded to High if it submits filings or changes controls automatically | Drafting reports is lower risk; automatic filing or control execution is higher risk. | Compliance sign-off before filing; version history; source traceability |
+| Regulatory and payment-partner reporting automation | Limited, upgraded to High if it submits filings or changes controls automatically | Drafting reports is lower risk; automatic filing or control execution is higher risk. | Compliance sign-off before filing; version history; source traceability |
 
 ---
 
@@ -168,7 +166,7 @@ Data governance controls which data enters AI training and inference pipelines.
 |---|---|
 | Named data owner | Head of Data, AI & Market Integrity |
 | Quality threshold for training data | 95% completeness for required fields; 98% timestamp accuracy for trading events; 100% official-source mapping for market-resolution data |
-| Consent requirement | Explicit consent for open-banking personalization and responsible-use use cases where personal financial behavior is used beyond safety/compliance necessity |
+| Consent requirement | Explicit consent for personal financial behavior used beyond platform safety, compliance, or responsible-use scoring purposes |
 | Access audit mechanism | Role-based access control, monthly access review, privileged-access logs, and unauthorized export alerts |
 | Data lineage documentation | Event Source Registry, Feature Store Lineage Log, Model Training Dataset Register, Resolution Evidence Archive |
 
