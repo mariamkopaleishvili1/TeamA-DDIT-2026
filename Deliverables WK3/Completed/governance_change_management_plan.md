@@ -32,7 +32,11 @@ The answer depends on four controls:
 
 ## 2. Governance Scope
 
-The governance plan covers nine AI-enabled capabilities required for the prediction-market platform.
+The governance plan covers the AI-enabled and operational capabilities required for the prediction-market platform. The scope is not limited to market surveillance or event approval. It also includes the integration of the prediction-market product into the TBC mobile banking app.
+
+This matters because the recommended model is not a standalone speculative application. It is a TBC-backed, GEL-settled event-contract marketplace that should sit inside or alongside the bank's existing mobile banking ecosystem. The mobile app becomes the main customer access point, funding route, wallet interface, risk-warning channel, and support entry point.
+
+The governance plan therefore covers ten platform capabilities.
 
 1. AI-assisted event eligibility screening
 2. AI-assisted contract drafting and risk-disclosure generation
@@ -43,10 +47,50 @@ The governance plan covers nine AI-enabled capabilities required for the predict
 7. Dispute triage and user-support routing
 8. Liquidity and market-maker monitoring
 9. Regulatory and payment-partner reporting automation
+10. Mobile banking app integration and customer journey controls
 
-These are not separate experiments. They form one control system. A weak event-screening process creates bad markets. Bad markets create disputes. Poor dispute handling damages trust. Weak surveillance invites manipulation. Weak responsible-use controls make the platform look like gambling. Weak reporting makes regulators and payment partners uncomfortable.
+These are not separate experiments. They form one control system. A weak event-screening process creates bad markets. Bad markets create disputes. Poor dispute handling damages trust. Weak surveillance invites manipulation. Weak responsible-use controls make the product look like gambling. Weak mobile-app integration can make the product too easy to access, too poorly explained, or too disconnected from bank-grade controls.
 
 For that reason, governance must be designed before scale, not added after launch.
+
+## 2.1 Mobile banking app integration scope
+
+The mobile banking app integration covers the customer-facing journey from discovery to wallet settlement.
+
+The integration must define:
+
+- where the prediction-market product appears inside the mobile app;
+- which customers can access it during sandbox;
+- how users are screened before first use;
+- how the product is explained before trading;
+- how the TBC-linked GEL wallet is funded;
+- how exposure, deposit, and loss limits appear in the app;
+- how risk warnings are displayed before order placement;
+- how users view open positions, settlement status, and dispute options;
+- how responsible-use alerts and cooling-off periods are communicated;
+- how support cases are routed from the app to Customer Trust;
+- how audit logs connect the app journey to governance reporting.
+
+The product must not be placed in the app like a normal promotional feature. It should not be positioned beside loans, deposits, or brokerage products without clear separation. It should have its own controlled entry point, risk explanation, eligibility check, and user confirmation flow.
+
+## 2.2 Minimum app controls before sandbox
+
+Before any sandbox user can access the product through the mobile app, the following controls must be implemented:
+
+- sandbox eligibility gate;
+- KYC and AML status check;
+- product education screen;
+- short risk quiz or user confirmation;
+- daily exposure limit display;
+- daily loss limit display;
+- deposit alert threshold;
+- cooling-off explanation;
+- official-source explanation on each market;
+- order confirmation screen showing maximum possible loss;
+- dispute and support entry point;
+- audit log for every user-impacting action.
+
+The mobile app should make the product easy to understand, but not frictionless in a way that encourages impulsive use. The goal is controlled access, not maximum click-through.
 
 ---
 
@@ -154,6 +198,36 @@ For user-harm concerns, responsible-use thresholds, or public reputation risk, t
 For technical model failure, drift, or incomplete audit logs, the decision escalates to the Head of Data and AI, Information Security Lead, and Internal Audit observer.
 
 If the unresolved issue affects legality, payout accuracy, user funds, account restrictions, or regulator communication, the default decision is to pause the relevant workflow until the escalation is resolved.
+
+## 4.6 Mobile Banking App Integration Decision Rights
+
+The Prediction Market Governance and AI Risk Committee should have decision rights over the mobile-app integration because the app is the main channel through which users encounter the product.
+
+The committee should approve the following before sandbox launch:
+
+- placement of the prediction-market product inside the mobile banking app;
+- naming and positioning of the product;
+- onboarding flow before first trade;
+- risk quiz or user-confirmation language;
+- exposure and loss-limit displays;
+- order confirmation wording;
+- responsible-use alert wording;
+- cooling-off period communication;
+- wallet funding and withdrawal flow;
+- customer-support escalation path;
+- app analytics used for adoption and risk monitoring;
+- criteria for expanding access beyond the sandbox user group.
+
+The **Product Lead** owns the app journey design.
+The **Payments, KYC, and Settlement Lead** owns wallet funding, settlement, withdrawal, and reconciliation controls.
+The **Compliance Lead** owns risk-warning language and regulatory positioning.
+The **Responsible Use Lead** owns responsible-use warnings, cooling-off messages, and intervention thresholds.
+The **Customer Trust Lead** owns support routing, complaint handling, and appeal communication.
+The **Information Security Lead** owns access control, security review, and user-data protection inside the app.
+
+No mobile-app release should go live unless the Governance Committee has approved the customer journey, risk warnings, wallet flow, support routing, and audit-log requirements.
+
+If the committee cannot agree on the app integration, the default decision is not to launch the feature in the mobile app until the issue is resolved. If the disagreement involves regulatory classification, responsible-use risk, wallet controls, or user-data exposure, the decision escalates to the Board Risk Committee.
 
 ---
 
@@ -474,7 +548,7 @@ Change management budget should be **20 to 30 percent of the first 18-month tran
 
 For planning, the prediction-market-specific first 18-month transformation investment is **GEL 15.93 million**. This includes the H1 foundation and H2 sandbox-validation period before full public launch.
 
-The resulting change management range is:
+The resulting change-management range is:
 
 - 20 percent: **GEL 3.19 million**
 - 25 percent: **GEL 3.98 million**
@@ -482,55 +556,65 @@ The resulting change management range is:
 
 The recommended planning figure is **GEL 4.0 million**, equal to approximately 25 percent of the first 18-month transformation investment.
 
-This budget should be treated as a dedicated workstream budget. It is not a communications reserve and not a general contingency line. The platform changes how the organization approves markets, reviews AI alerts, handles user restrictions, validates official sources, resolves outcomes, reports to regulators, and decides whether the product can scale. Those changes require structured adoption work.
+This budget should be treated as a dedicated workstream budget. It is not a communications reserve and not a general contingency line. The platform changes how the organization approves markets, reviews AI alerts, handles user restrictions, validates official sources, resolves outcomes, reports to regulators, and integrates a controlled event-contract product into the mobile banking app.
 
-### Budget breakdown
+The mobile app integration is now a core part of change management. The bank is not only training a new product team. It is changing how the existing digital banking channel presents, restricts, explains, funds, monitors, and supports a high-risk financial marketplace.
+
+## Budget breakdown
 
 | Budget category | GEL amount | What it funds | Main owner |
 |---|---:|---|---|
-| PMO and change leadership | GEL 550k | Change lead, PMO support, workstream planning, dependency tracking, adoption dashboard, board-gate preparation | Transformation Office / PMO |
-| Stakeholder analysis and process redesign | GEL 350k | Role-impact mapping, decision-rights mapping, process redesign workshops, RACI documentation, handoff design across Product, Compliance, Legal, Market Operations, Payments, Data, and Customer Trust | PMO with Prediction Market General Manager |
-| Role-based training and certification | GEL 750k | Training modules, staff certification, market-approval training, AI override training, responsible-use training, dispute-handling training, payment-hold training, and onboarding for new team members | PMO with functional leads |
-| Tabletop exercises and sandbox rehearsals | GEL 450k | Simulations for disputed outcomes, suspicious trading, payment holds, account freezes, responsible-use restrictions, market pauses, and regulator incident reporting | Compliance Lead, Market Integrity Lead, Customer Trust Lead |
-| Communication plan and leadership alignment | GEL 300k | Internal communication, leadership briefings, employee FAQs, bank-sponsor materials, payment-partner narrative, and board-readiness materials | Prediction Market General Manager and PMO |
-| Customer Trust and support readiness | GEL 450k | Georgian and English support scripts, adverse-action notice templates, escalation playbooks, appeal-handling process, complaint taxonomy, and quality review | Customer Trust Lead |
-| Compliance, legal, and governance adoption | GEL 500k | Committee operating routines, approval-pack templates, compliance review workflow, legal decision log, controlled market approval process, and regulator-ready documentation habits | Compliance Lead and Legal Counsel |
-| Data, AI, and audit-log adoption | GEL 400k | Training and process adoption for AI model register, human override log, event source registry, resolution evidence archive, surveillance alert logs, and data-access controls | Head of Data and AI |
-| Adoption measurement and post-launch reinforcement | GEL 250k | Monthly adoption reporting, training refreshers, workflow-compliance reviews, resistance log, lessons learned, and month-18 change readiness assessment | PMO |
+| PMO and change leadership | GEL 500k | Change lead, PMO support, workstream planning, dependency tracking, adoption dashboard, and board-gate preparation | Transformation Office / PMO |
+| Stakeholder analysis and decision-rights mapping | GEL 300k | Role-impact mapping, decision-rights mapping, RACI documentation, and handoff design across Product, Mobile Banking, Compliance, Legal, Market Operations, Payments, Data, and Customer Trust | PMO with Prediction Market General Manager |
+| Mobile banking app integration adoption | GEL 600k | Mobile-app customer journey workshops, product placement decisions, onboarding flow design, risk-warning UX, wallet funding flow adoption, support-entry routing, app-release governance, and branch/contact-center briefing materials | Mobile Banking Product Lead with Compliance Lead |
+| Role-based training and certification | GEL 700k | Training modules and certification for market approval, AI override, responsible-use review, mobile-app support, dispute handling, payment holds, wallet monitoring, and customer communication | PMO with functional leads |
+| Tabletop exercises and sandbox rehearsals | GEL 450k | Simulations for disputed outcomes, suspicious trading, payment holds, account freezes, responsible-use restrictions, market pauses, app notification failures, and regulator incident reporting | Compliance Lead, Market Integrity Lead, Customer Trust Lead |
+| Communication plan and leadership alignment | GEL 300k | Internal communication, leadership briefings, employee FAQs, mobile-channel narrative, bank-sponsor materials, payment-partner narrative, and board-readiness materials | Prediction Market General Manager and PMO |
+| Customer Trust and support readiness | GEL 450k | Georgian and English support scripts, adverse-action notice templates, in-app escalation scripts, appeal-handling process, complaint taxonomy, and support quality review | Customer Trust Lead |
+| Compliance, legal, and governance adoption | GEL 500k | Committee routines, approval-pack templates, compliance review workflow, legal decision log, mobile-app release approval procedure, controlled market approval process, and regulator-ready documentation habits | Compliance Lead and Legal Counsel |
+| Data, AI, wallet, and audit-log adoption | GEL 450k | AI model register, human override log, wallet event logs, app-interaction logs, event source registry, resolution evidence archive, surveillance alert logs, and data-access controls | Head of Data and AI with Payments, KYC, and Settlement Lead |
+| Adoption measurement and post-launch reinforcement | GEL 250k | Monthly adoption reporting, training refreshers, workflow-compliance reviews, resistance log, app-journey analytics, lessons learned, and month-18 change readiness assessment | PMO |
 | **Total recommended change-management budget** | **GEL 4.0M** |  |  |
 
-### What will change because of this budget
+## What will change because of this budget
 
 The change-management budget funds concrete operating changes, not general awareness.
 
-**Market Operations will change from content preparation to controlled market approval.**  
-The team will no longer treat event pages as normal product content. Each market must have an official source, payout rule, risk disclosure, dispute path, and approval record. The change budget funds templates, training, review checklists, and process rehearsals.
+**Mobile Banking Product will change from channel delivery to controlled product distribution.**
+The mobile app team cannot treat the prediction-market product like a standard feature release. The product needs controlled placement, eligibility checks, onboarding screens, risk warnings, exposure displays, wallet controls, cooling-off messages, and support routing. The change budget funds the workshops, release governance, testing, and training required to make the app journey safe before sandbox launch.
 
-**Compliance and Legal will change from late-stage reviewers to embedded decision owners.**  
-Compliance cannot be asked to approve a legally ambiguous product at the end of the process. The budget funds early involvement in market taxonomy, event-category rules, legal classification logs, approval-pack design, and escalation routines.
+**Product and Engineering will change from feature delivery to controlled workflow delivery.**
+The product team must build around auditability, source validation, wallet flows, user notices, human override logs, and responsible-use controls. The mobile interface must be connected to the governance model. If a user is restricted, warned, paused, or placed under review, the app must show the correct message and create the correct audit record.
 
-**Product and Engineering will change from feature delivery to controlled workflow delivery.**  
-The product team must build around auditability, source validation, user notices, human override logs, and responsible-use controls. The budget funds the adoption work needed so that product requirements reflect governance requirements before sandbox launch.
+**Payments, KYC, and Fraud teams will change from standard onboarding controls to platform-specific wallet and trading controls.**
+Prediction-market users may deposit, withdraw, trade frequently, recycle balances, and trigger account-linkage or payment-risk alerts. The budget funds new review procedures for wallet funding, payment holds, duplicate-identity signals, suspicious wallet activity, and withdrawal delays.
 
-**Customer Trust will change from normal support handling to regulated dispute and appeal handling.**  
-Support agents must distinguish ordinary technical issues from payout disputes, payment holds, market-resolution complaints, account restrictions, and responsible-use appeals. The budget funds scripts, escalation trees, bilingual notices, quality review, and case-handling training.
+**Market Operations will change from content preparation to controlled market approval.**
+Each market must have an official source, payout rule, risk disclosure, dispute path, and approval record before appearing in the app. The change budget funds templates, review checklists, app-content approval, and process rehearsals.
 
-**Data and AI teams will change from model development to model accountability.**  
-AI systems cannot only produce alerts or scores. Each high-impact AI output needs a record of input data, model output, human reviewer, final decision, reason code, and user notice where applicable. The budget funds training and adoption around the AI model register, human override log, and model monitoring routines.
+**Compliance and Legal will change from late-stage reviewers to embedded decision owners.**
+Compliance must approve the market taxonomy, user warnings, mobile-app product positioning, adverse-action notices, and escalation rules before the feature reaches sandbox users.
 
-**Payments, KYC, and Fraud teams will change from standard onboarding controls to platform-specific wallet and trading controls.**  
-Prediction-market users may deposit, withdraw, trade frequently, recycle balances, and trigger account-linkage or payment-risk alerts. The budget funds new review procedures for payment holds, duplicate-identity signals, suspicious wallet activity, and withdrawal delays.
+**Customer Trust will change from normal support handling to regulated dispute and appeal handling.**
+Support teams must distinguish ordinary app issues from payout disputes, payment holds, market-resolution complaints, account restrictions, wallet settlement questions, and responsible-use appeals. The budget funds scripts, escalation trees, bilingual notices, quality review, and case-handling training.
 
-**Senior leadership will change from project sponsorship to stage-gate decision-making.**  
-The board and executive sponsors must not approve public launch based only on technical readiness. They need evidence on regulatory comfort, market quality, liquidity, user harm, dispute rates, payment reliability, and unit economics. The budget funds board-pack preparation and adoption measurement.
+**Data and AI teams will change from model development to model accountability.**
+Each high-impact AI output needs a record of input data, model output, human reviewer, final decision, reason code, and user notice where applicable. App analytics and wallet-event data must be governed as sensitive platform data, not reused casually for marketing.
 
-### Required change-management outputs
+**Senior leadership will change from project sponsorship to stage-gate decision-making.**
+The board and executive sponsors must not approve public launch based only on technical readiness. They need evidence on regulatory comfort, mobile-app adoption, wallet funding behavior, market quality, liquidity, user harm, dispute rates, payment reliability, and unit economics.
+
+## Required change-management outputs
 
 The GEL 4.0M budget should produce the following artifacts:
 
 - stakeholder impact map;
 - decision-rights map;
-- RACI for market approval, market pause, outcome resolution, payment holds, user restrictions, and regulator reporting;
+- RACI for market approval, market pause, outcome resolution, payment holds, user restrictions, mobile-app release approval, and regulator reporting;
+- mobile-app customer journey map;
+- mobile-app risk-warning and onboarding script;
+- wallet funding and withdrawal control map;
+- app-release governance checklist;
 - role-based training materials;
 - staff certification records;
 - market approval checklist;
@@ -540,45 +624,49 @@ The GEL 4.0M budget should produce the following artifacts:
 - support escalation scripts in Georgian and English;
 - human override log procedure;
 - AI model register adoption guide;
+- app analytics and wallet-event data governance guide;
 - tabletop exercise results;
 - sandbox readiness pack;
 - monthly adoption dashboard;
 - resistance log;
 - month-18 change readiness assessment for the board.
 
-### Budget release logic
+## Budget release logic
 
 The change budget should be released in phases rather than spent upfront.
 
 | Phase | Timing | Budget release | Purpose |
 |---|---:|---:|---|
-| Phase 1: Governance setup and stakeholder alignment | Months 1 to 3 | GEL 900k | Establish decision rights, committee routines, stakeholder map, and early training |
-| Phase 2: Process adoption and sandbox readiness | Months 4 to 6 | GEL 1.20M | Train teams, build templates, run tabletop exercises, and prepare sandbox workflows |
-| Phase 3: Live sandbox adoption | Months 7 to 12 | GEL 1.10M | Support live adoption, monitor workflow compliance, correct process failures, and refresh training |
-| Phase 4: Scale readiness and institutionalization | Months 13 to 18 | GEL 800k | Prepare board decision materials, institutionalize routines, and assess readiness for public launch |
+| Phase 1: Governance setup and stakeholder alignment | Months 1 to 3 | GEL 900k | Establish decision rights, committee routines, stakeholder map, mobile-app ownership, and early training |
+| Phase 2: Process adoption and sandbox readiness | Months 4 to 6 | GEL 1.20M | Train teams, build templates, approve mobile-app journey, run tabletop exercises, and prepare sandbox workflows |
+| Phase 3: Live sandbox adoption | Months 7 to 12 | GEL 1.10M | Support live adoption, monitor app journey performance, review workflow compliance, correct process failures, and refresh training |
+| Phase 4: Scale readiness and institutionalization | Months 13 to 18 | GEL 800k | Prepare board decision materials, institutionalize routines, validate app-channel readiness, and assess readiness for public launch |
 | **Total** | **Months 1 to 18** | **GEL 4.0M** |  |
 
-### Adoption metrics tied to the budget
+## Adoption metrics tied to the budget
 
 The change-management workstream should be judged through operational evidence.
 
 | Metric | Target |
 |---|---:|
 | Impacted staff completing role-specific training before sandbox | 90 percent or higher |
+| Mobile-app customer journey approved by Governance Committee before sandbox | 100 percent |
 | High-risk workflows with named owner, threshold, and documentation template before user onboarding | 100 percent |
 | Market approval files with complete source, payout rule, risk warning, and approval record | 95 percent or higher |
+| App-listed markets matching approved market taxonomy and source registry | 100 percent |
 | High-risk AI alerts reviewed within SLA during sandbox | 95 percent or higher |
 | Adverse user actions with documented reason code and owner | 100 percent |
+| Payment holds, wallet restrictions, and withdrawal delays routed to correct owner | 95 percent or higher |
 | Sensitive support cases routed correctly on first review | 90 percent or higher |
-| Tabletop exercises completed before sandbox launch | At least 4 |
-| Monthly adoption reports delivered to the governance committee | 100 percent on time |
+| Tabletop exercises completed before sandbox launch | At least 5, including one mobile-app failure scenario |
+| Monthly adoption reports delivered to the Governance Committee | 100 percent on time |
 | Unresolved process failures older than two review cycles | 0 |
 
-### Why this budget is necessary
+## Why this budget is necessary
 
-A prediction-market platform fails if the organization treats it like a normal app launch. The product requires new decision habits across market approval, source validation, user protection, dispute handling, market surveillance, payment review, outcome resolution, and regulator reporting.
+A prediction-market platform fails if the organization treats it like a normal app launch. The product requires new decision habits across market approval, source validation, app journey design, wallet funding, user protection, dispute handling, market surveillance, payment review, outcome resolution, and regulator reporting.
 
-The GEL 4.0M change-management budget is therefore a control investment. It reduces the risk that the platform is technically built but operationally ungovernable. It also gives the board evidence that the organization can follow the operating model before approving public launch.
+The GEL 4.0M change-management budget is therefore a control investment. It reduces the risk that the platform is technically built but operationally ungovernable. It also gives the board evidence that the organization can integrate the product into mobile banking without weakening trust, compliance, user protection, or payment controls.
 
 ## 9.4 Why the budget is justified
 
@@ -606,16 +694,19 @@ The first phase establishes ownership and reduces resistance before technical bu
 Key activities:
 
 - identify affected stakeholder groups;
-- map decision rights across Product, Compliance, Legal, Data, Market Operations, Payments, Customer Trust, and Risk;
-- confirm the Market Governance Committee membership;
+- map decision rights across Product, Mobile Banking, Compliance, Legal, Data, Market Operations, Payments, Customer Trust, Risk, and Information Security;
+- confirm the Prediction Market Governance and AI Risk Committee membership;
+- assign a Mobile Banking Product Lead as accountable owner for app integration;
 - create the first version of the event taxonomy;
 - define human override roles;
-- prepare the communication narrative for bank leadership and payment partners;
-- train core team members on why the product is a supervised marketplace, not a standard app.
+- define the mobile-app product placement principle;
+- define which users can access the product during sandbox;
+- prepare the communication narrative for bank leadership, mobile banking teams, customer support, and payment partners;
+- train core team members on why the product is a supervised marketplace, not a standard mobile app feature.
 
-The main deliverable is a signed governance charter and stakeholder map.
+The main deliverable is a signed governance charter, stakeholder map, and mobile-app integration ownership map.
 
-The success metric is that all named committee members accept their decision rights and escalation responsibilities by the end of month 3.
+The success metric is that all named committee members and mobile-app owners accept their decision rights and escalation responsibilities by the end of month 3.
 
 ## Phase 2: Process adoption and sandbox readiness, months 4 to 6
 
@@ -624,16 +715,18 @@ The second phase turns governance rules into working practices.
 Key activities:
 
 - train Market Operations on contract templates and source validation;
-- train Compliance and Legal on the market approval workflow;
-- train Customer Trust on adverse action notices and appeal handling;
-- run tabletop exercises for market disputes, payout delays, suspicious trading alerts, and payment holds;
+- train Mobile Banking Product and UX teams on onboarding flow, risk-warning design, and responsible-use screens;
+- train Compliance and Legal on the market approval and app-release approval workflow;
+- train Payments, KYC, and Fraud teams on wallet funding, settlement, withdrawal, and payment-hold procedures;
+- train Customer Trust on adverse-action notices, in-app support routing, and appeal handling;
+- run tabletop exercises for market disputes, payout delays, suspicious trading alerts, payment holds, app notification failures, and responsible-use interventions;
 - test human override logs;
 - prepare support scripts in Georgian and English;
-- create readiness dashboards for board gate review.
+- create readiness dashboards for board-gate review.
 
-The main deliverable is a sandbox readiness pack.
+The main deliverable is a sandbox readiness pack that includes the approved mobile-app customer journey.
 
-The success metric is that 100 percent of sandbox workflows have named owners, review thresholds, and documentation templates before user onboarding.
+The success metric is that 100 percent of sandbox workflows have named owners, review thresholds, documentation templates, and app-facing user messages before user onboarding.
 
 ## Phase 3: Live sandbox adoption, months 7 to 12
 
@@ -643,15 +736,17 @@ Key activities:
 
 - run weekly issue reviews for the first eight weeks of sandbox;
 - measure support escalation accuracy;
+- track mobile-app journey drop-off, risk-warning acknowledgement, and failed funding attempts;
 - track override decisions and false positives;
 - review responsible-use interventions;
 - monitor market approval cycle time;
-- collect feedback from compliance, operations, support, and users;
+- review payment holds, wallet restrictions, and withdrawal delays;
+- collect feedback from compliance, operations, support, mobile banking teams, and sandbox users;
 - adjust training where teams misunderstand procedures.
 
 The main deliverable is a monthly adoption and control report.
 
-The success metric is that at least 95 percent of high-risk AI alerts are reviewed within SLA and 100 percent of adverse user actions have a documented reason.
+The success metric is that at least 95 percent of high-risk AI alerts are reviewed within SLA, 100 percent of adverse user actions have a documented reason, and 95 percent of wallet-related support cases are routed to the correct owner.
 
 ## Phase 4: Scale readiness and institutionalization, months 13 to 18
 
@@ -665,11 +760,13 @@ Key activities:
 - prepare board materials;
 - document control failures and fixes;
 - assess whether additional hiring is required for public launch;
-- finalize the scale or stop recommendation.
+- evaluate mobile-app readiness for larger user access;
+- review whether the wallet, settlement, responsible-use, support, and reporting controls can scale;
+- finalize the scale, continue, pivot, or stop recommendation.
 
 The main deliverable is a change readiness assessment for the board.
 
-The success metric is that the board receives evidence on adoption, control quality, user complaints, override rates, and unresolved organizational risks before deciding on public launch.
+The success metric is that the board receives evidence on adoption, mobile-app performance, wallet funding behavior, control quality, user complaints, override rates, payment reliability, and unresolved organizational risks before deciding on public launch.
 
 ---
 
