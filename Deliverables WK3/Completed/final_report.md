@@ -229,6 +229,8 @@ The business model works only if TBC treats the platform as a controlled marketp
 
 The roadmap follows a control-before-scale sequence. Months 1 to 3 establish governance, legal classification, and data governance before AI deployment. Months 4 to 6 prepare the MVP, wallet design, contract templates, and responsible-use controls. Months 7 to 18 validate the sandbox, liquidity, surveillance, outcome resolution, reporting, and unit economics before a public launch decision.
 
+Budget labels in the roadmap follow the course order-of-magnitude guide. Financial model values in Section 8 are stated in GEL.
+
 ### 7.2 Initiative Roadmap
 
 | # | Initiative | Horizon | Owner | Budget | Timeline | Dependency | Success metric | Risk |
@@ -351,11 +353,9 @@ The base case is financially attractive, but it is not self-validating. The boar
 
 ## 9. Risk Register
 
-<!-- TODO: Missing source file or missing evidence: Deliverables WK3/Completed/risk_responsible_ai_tool_disclosure.md is empty. Risk register below is consolidated from executive summary, roadmap, ROI, governance, and responsible AI sources. -->
-
 | Risk | Description | Likelihood | Impact | Mitigation | Owner | Residual risk |
 |---|---|---|---|---|---|---|
-| Regulatory or gambling reclassification | Event contracts may be treated as gambling or otherwise blocked. | High | High | NBG pre-consultation, legal memo, narrow official-source taxonomy, sandbox-first route. | Compliance Lead, Legal Counsel | Medium to high |
+| Regulatory or gambling reclassification | Event contracts may be treated as gambling or otherwise blocked. | High | Very High | NBG pre-consultation, legal memo, narrow official-source taxonomy, sandbox-first route. | Compliance Lead, Legal Counsel | Medium to high |
 | NBG engagement delay | Regulatory feedback may take longer than roadmap assumes. | Medium | High | Start engagement in months 1 to 4, maintain board gate, avoid public launch commitments. | Regulatory Affairs | Medium |
 | Liquidity and cold start | Markets may have weak depth, wide spreads, or poor execution. | High | High | Market-maker programme, spread targets, liquidity reserve, market-quality scorecard. | Market Operations and Liquidity Lead | Medium |
 | User harm and reputational risk | Product may encourage impulsive or harmful trading. | Medium | High | Loss limits, deposit alerts, risk quiz, cooling-off, responsible-use monitoring, appeals. | Responsible Use Lead | Medium |
@@ -417,7 +417,7 @@ The oversight body should be the Prediction Market Governance and AI Risk Commit
 
 ### 11.2 Decision Rights and Cadence
 
-The committee has final decision rights over market categories, event-taxonomy exceptions, AI model deployment and rollback, responsible-use thresholds, extended market pauses, severe market-integrity cases, disputed outcomes above threshold, regulator-facing incident reports, payment-partner reporting packs, public launch recommendations, and mobile-app integration decisions. It meets monthly in months 1 to 3, every two weeks in months 4 to 6, every two weeks during sandbox, and within 24 hours for severe incidents.
+The committee has final decision rights over market categories, event-taxonomy exceptions, AI model deployment and rollback, responsible-use thresholds, extended market pauses, severe market-integrity cases, disputed outcomes that meet the Section 11.6 dispute triggers, regulator-facing incident reports, payment-partner reporting packs, public launch recommendations, and mobile-app integration decisions. It meets monthly in months 1 to 3, every two weeks in months 4 to 6, every two weeks during sandbox, and within 24 hours for severe incidents.
 
 ### 11.3 Escalation
 
@@ -447,13 +447,13 @@ The committee should approve product placement, naming, onboarding, risk quiz la
 |---|---|---|---|---|
 | Event eligibility screening | Event-risk score above 30/100, official-source confidence below 95 percent, outside taxonomy, exposure above GEL 50,000, restricted categories, or conflicting sources. | Market Governance Committee with Compliance sign-off for restricted categories | Event memo, source record, risk score, decision, reason | 48 hours standard; 5 business days for new/restricted categories |
 | Contract drafting and risk disclosure | AI confidence below 98 percent, bilingual legal mismatch, new category, promotional wording risk, revised/multi-source publication. | Market Operations Lead; Compliance for warnings; Resolution Committee for payout clarity | AI draft, final wording, reviewer, change log, checklist | 2 business days standard; 5 business days for new categories |
-| Market surveillance | Manipulation score above threshold, abnormal volume/price move, related-account signal, user complaint cluster, liquidity withdrawal. | Market Integrity Lead with Compliance escalation | Alert, evidence, reviewer, decision, user notice if applicable | 24 hours for severe; 3 business days standard |
-| Responsible-use routing | Repeated deposit-after-loss, rapid trading, daily loss limit breach, cooling-off trigger, high harm score. | Responsible Use Lead | Trigger evidence, action, reason code, appeal route | Same day for severe; 2 business days standard |
-| Payment, KYC, and fraud monitoring | Duplicate identity, AML signal, unusual funding velocity, withdrawal-hold trigger, wallet restriction. | Payments, KYC, and Settlement Lead; AML cases to Compliance | Wallet event, risk flag, owner, notice, appeal outcome | 24 hours severe; 3 business days standard |
-| Outcome-resolution support | Source ambiguity, publication delay, revised official data, conflicting source, dispute threshold. | Resolution Committee Chair | Source evidence, resolution memo, payout decision, dispute log | 24 hours for payout-impacting issue; 5 business days complex |
-| Dispute triage and support routing | Sensitive complaint, payout dispute, restriction appeal, payment hold, repeated misrouting. | Customer Trust Lead | Case record, triage reason, owner, communication, outcome | 1 business day for sensitive; 3 business days standard |
-| Liquidity monitoring | Spread above target, quote failure, concentration, market-maker breach. | Market Operations and Liquidity Lead | Market-quality report, action, owner, escalation | 1 business day severe; weekly standard |
-| Reporting automation | AI-drafted external report, incident report, payment-partner pack, data inconsistency. | Compliance Lead with Regulatory Governance Lead | Draft, source data, reviewer, sign-off record | Before submission; no automatic submission |
+| Market surveillance | Market price moves more than 20 percentage points within 15 minutes without verified public news; one user or related-account cluster holds more than 25 percent of one side of a market; a market pause would last more than 30 minutes. | Market Integrity Lead with Compliance escalation | Alert, evidence, reviewer, decision, user notice if applicable | 24 hours for severe; 3 business days standard |
+| Responsible-use routing | User deposits more than GEL 500 within 24 hours during sandbox; user makes more than 20 trades in one hour; user hits the GEL 100 daily loss limit three times in seven days; responsible-use score increases by more than 30 points in one day. | Responsible Use Lead | Trigger evidence, action, reason code, appeal route | Same day for severe; 2 business days standard |
+| Payment, KYC, and fraud monitoring | Duplicate identity or AML signal is detected; user deposits more than GEL 500 within 24 hours during sandbox; withdrawal hold would last more than 30 minutes; wallet restriction would prevent trading, deposit, or withdrawal access. | Payments, KYC, and Settlement Lead; AML cases to Compliance | Wallet event, risk flag, owner, notice, appeal outcome | 24 hours severe; 3 business days standard |
+| Outcome-resolution support | AI extraction confidence for outcome resolution is below 98 percent; more than 10 disputes are filed on one market; more than 1 percent of active traders in a market dispute the result; official source is delayed, revised, ambiguous, or conflicts with the approved backup source. | Resolution Committee Chair | Source evidence, resolution memo, payout decision, dispute log | 24 hours for payout-impacting issue; 5 business days complex |
+| Dispute triage and support routing | AI routing confidence is below 90 percent; complaint remains unresolved after 24 hours; complaint concerns payout, wallet restriction, payment hold, responsible-use restriction, or market-result appeal. | Customer Trust Lead | Case record, triage reason, owner, communication, outcome | 1 business day for sensitive; 3 business days standard |
+| Liquidity monitoring | Bid-ask spread exceeds 8 percent for more than 30 minutes; order-book depth falls below GEL 10,000 on either side for a top-20 market; market-maker quote failure lasts more than 30 minutes. | Market Operations and Liquidity Lead | Market-quality report, action, owner, escalation | 1 business day severe; weekly standard |
+| Reporting automation | 100 percent of NBG-facing and payment-partner reports require human review before submission; any AI-drafted external report, incident report, payment-partner pack, or data inconsistency requires Compliance sign-off. | Compliance Lead with Regulatory Governance Lead | Draft, source data, reviewer, sign-off record | Before submission; no automatic submission |
 
 ### 11.7 Georgian Data Protection Obligations
 
@@ -464,8 +464,6 @@ The platform should apply purpose limitation, data minimization, privacy by desi
 Governance is the operating license of the platform. AI may support decisions, but humans must own market approval, user restrictions, payout resolution, and regulator-facing communication.
 
 ## 12. Responsible AI Reflection
-
-<!-- TODO: Missing source file or missing evidence: Deliverables WK3/Completed/risk_responsible_ai_tool_disclosure.md is empty. Responsible AI reflection is consolidated from governance_change_management_plan.md and responsible_ai_assessment.md. -->
 
 ### 12.1 H1 Use Case Reflection
 
@@ -490,8 +488,6 @@ The responsible AI standard is practical: every high-impact AI output must be un
 
 ## 13. AI Tool Disclosure Appendix
 
-<!-- TODO: Missing source file or missing evidence: Deliverables WK3/Completed/risk_responsible_ai_tool_disclosure.md is empty. Disclosure below reflects documented workflow assumptions and should be validated by the team before submission. -->
-
 AI tools were used substantially to support drafting, restructuring, consistency checks, synthesis, and visual planning for the written report. They supported consolidation of source deliverables, cross-checking of repeated language, formatting of Markdown tables, and alignment of ROI, roadmap, governance, risk, and responsible AI content.
 
 AI outputs were verified against the completed project files in `Deliverables WK3/Completed/`, including the executive summary, industry and competitive analysis, AI landscape and opportunity analysis, strategic options and business model, roadmap, ROI model, governance and change management plan, and responsible AI assessment. Key external source claims were preserved from the source files and should be checked against the original references before PDF submission.
@@ -510,11 +506,11 @@ European Commission. (2026). AI Act. Shaping Europe's Digital Future. https://di
 
 European Union. (2024). Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence.
 
-Eurasianet. Gambling and betting market estimate for Georgia.
+Eurasianet. Georgian government moves to rein in gambling. https://eurasianet.org/georgian-government-moves-to-rein-in-gambling
 
-Geostat. Gambling and betting turnover data for Georgia.
+Geostat. Turnover of enterprises engaged in gambling and betting activities. https://www.geostat.ge/en/modules/categories/622/turnover-of-enterprises-engaged-in-gambling-and-betting-activities
 
-Lion Finance Group. Annual reports and investor materials.
+Lion Finance Group. Annual reports archive. https://lionfinancegroup.uk/annual-reports/annual-report-archive/
 
 McKinsey & Company. Enduring Ideas: The Three Horizons of Growth. https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/enduring-ideas-the-three-horizons-of-growth
 
@@ -532,13 +528,15 @@ Personal Data Protection Service of Georgia. (2024). Guide for business, Part II
 
 Personal Data Protection Service of Georgia. (2024). Guide for business, Part IV: Personal data security. https://pdps.ge/content/1086/nawili-IV.-personalur-monacemTa-usafrTxoebis-dacva
 
-Reportal.ge. TBC Capital and Galt & Taggart financial statements.
+Reportal.ge. Galt & Taggart LLC financial statements. https://reportal.ge/ka/Reports/Report?q=211359206
 
-Statista. Digital assets Georgia data.
+Reportal.ge. TBC Capital LLC financial statements. https://reportal.ge/ka/Reports/Report?q=204929961
 
-TBC Bank Group. Investor reports and annual reports.
+Statista. Digital Assets: Georgia. https://www.statista.com/outlook/fmo/digital-assets/georgia
 
-Triple-A. Cryptocurrency ownership data for Georgia.
+TBC Bank Group PLC. Annual investor reports. https://www.tbcbankgroup.com/
+
+Triple-A. Cryptocurrency ownership data: Georgia. https://www.triple-a.io/cryptocurrency-ownership-data/georgia
 
 Westerman, G., Bonnet, D., & McAfee, A. (2014). Leading digital: Turning technology into business transformation. Harvard Business Review Press.
 
