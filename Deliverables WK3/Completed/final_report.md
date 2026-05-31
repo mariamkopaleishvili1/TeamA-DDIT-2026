@@ -62,7 +62,7 @@ The central conclusion is:
 
 ---
 
-### 1. Industry Definition
+### Industry Definition
 
 #### Industry boundary
 
@@ -99,7 +99,7 @@ The industry should be analyzed as a platform opportunity, not as a normal app l
 
 ---
 
-### 2. Market Context
+### Market Context
 
 Georgia already has the behavioral and infrastructure foundations for a prediction-market product.
 
@@ -120,7 +120,7 @@ The attractive market gap is not “cheap trading.” Low-cost brokerage access 
 
 ---
 
-### 3. Rogers’ Five Domains Applied to Georgian Prediction Markets
+### Rogers’ Five Domains Applied to Georgian Prediction Markets
 
 Rogers’ five domains help explain why prediction markets are not just a new product category. They change customers, competition, data, innovation, and value.
 
@@ -217,7 +217,7 @@ This means the business case is not only “fees from trades.” The stronger TB
 
 ---
 
-### 4. Christensen Disruption Classification
+### Christensen Disruption Classification
 
 #### Classification
 
@@ -283,7 +283,7 @@ This means TBC should not view prediction markets only as a threat to brokerage.
 
 ---
 
-### 5. Porter Five Forces
+### Porter Five Forces
 
 The Porter analysis evaluates industry attractiveness after assuming that an NBG special-designation or sandbox route is plausible. That assumption matters. If regulation is completely blocked, the market is not attractive. If a controlled path exists, the competition shifts to execution: trust, wallet access, liquidity, data sources, responsible use, and settlement.
 
@@ -445,7 +445,7 @@ This means TBC’s window is time-sensitive. If another actor combines wallet, e
 
 ---
 
-### 6. Competitive Landscape
+### Competitive Landscape
 
 #### 6.1 Competitive positioning
 
@@ -497,7 +497,7 @@ TBC should partner for knowledge, liquidity, or technical support only if it kee
 
 ---
 
-### 7. Key Competitive Dynamics
+### Key Competitive Dynamics
 
 #### Dynamic 1: Wallet ownership is becoming the strategic control point
 
@@ -583,7 +583,7 @@ The question shifts from “can prediction markets exist?” to “who can desig
 
 ---
 
-### 8. Strategic Consequences for TBC
+### Strategic Consequences for TBC
 
 #### Consequence 1: TBC should own the category, not outsource it
 
@@ -617,7 +617,7 @@ The platform should scale only after the sandbox validates:
 
 ---
 
-### 9. Board-Level Conclusion
+### Board-Level Conclusion
 
 The industry is attractive because Georgia already has risk-active behavior, strong digital banking, growing payment infrastructure, and no regulated local prediction-market category.
 
@@ -630,19 +630,6 @@ A standalone fintech would struggle with trust, CAC, payments, and regulation. A
 The recommended competitive position is therefore:
 
 > TBC should build the first regulated Georgian event-contract marketplace inside a TBC-controlled wallet and mobile banking environment, using NBG designation, GEL settlement, official-source resolution, responsible-use controls, and liquidity support as the core strategic advantages.
-
----
-
-### 10. Presentation Takeaways
-
-For the final presentation, this section should support four slide-level conclusions:
-
-1. **Georgia has a real category gap:** risk-active behavior exists, but no regulated local event-contract platform owns it.
-2. **This is new-market creation:** the product is not cheaper brokerage, but a new job-to-be-done around event exposure.
-3. **The strongest forces are execution forces:** regulation, wallet control, payments, liquidity, and substitutes determine attractiveness.
-4. **TBC’s advantage is ownership:** TBC can own the wallet, mobile distribution, KYC, GEL settlement, and governance model before another platform does.
-
----
 
 ---
 
@@ -664,7 +651,7 @@ The core AI thesis is:
 
 ---
 
-### 1. AI Adoption State in the Relevant Industry
+### AI Adoption State in the Relevant Industry
 
 #### 1.1 Industry context
 
@@ -709,7 +696,7 @@ The correct sequence is:
 
 ---
 
-### 2. AI Opportunity Map
+### AI Opportunity Map
 
 #### 2.1 Scoring method
 
@@ -753,7 +740,7 @@ Total score is out of 25.
 
 ---
 
-### 3. Priority Use Cases With Full Scoring Rationale
+### Priority Use Cases With Full Scoring Rationale
 
 ### 3.1 Market surveillance and manipulation detection
 
@@ -1107,7 +1094,7 @@ The system should not personalize markets or incentives in a way that encourages
 
 ---
 
-### 4. AI Adoption Evidence by Use Case
+### AI Adoption Evidence by Use Case
 
 #### 4.1 Evidence from adjacent financial services
 
@@ -1135,7 +1122,7 @@ Third, the roadmap places data governance, source registry, payment/KYC design, 
 
 ---
 
-### 5. Strategic Implications of the AI Capability Trajectory
+### Strategic Implications of the AI Capability Trajectory
 
 #### 5.1 AI moves from content support to control infrastructure
 
@@ -1231,7 +1218,7 @@ Without this foundation, AI outputs will be difficult to audit and unsafe to use
 
 ---
 
-### 6. Gap Analysis Against the Most Comparable Advanced Organisation
+### Gap Analysis Against the Most Comparable Advanced Organisation
 
 #### 6.1 Benchmark selection
 
@@ -1303,7 +1290,7 @@ The benchmark analysis supports this conclusion:
 
 ---
 
-### 7. AI Roadmap Integration
+### AI Roadmap Integration
 
 #### H1: Months 1 to 6
 
@@ -1358,7 +1345,7 @@ AI prediction of market outcomes should remain a low-priority future option beca
 
 ---
 
-### 8. Governance Requirements for AI Deployment
+### Governance Requirements for AI Deployment
 
 AI deployment must follow four rules.
 
@@ -1397,7 +1384,7 @@ Responsible-use, KYC, wallet, and trading data should not be reused for marketin
 
 ---
 
-### 9. AI Risks and Mitigations
+### AI Risks and Mitigations
 
 | Risk                                 | Why it matters                                              | Mitigation                                                                   |
 | ------------------------------------ | ----------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -1411,7 +1398,7 @@ Responsible-use, KYC, wallet, and trading data should not be reused for marketin
 
 ---
 
-### 10. Board-Level Conclusion
+### Board-Level Conclusion
 
 The AI opportunity is not to make the platform smarter than users. The AI opportunity is to make the platform safer, clearer, and more controllable.
 
@@ -1432,19 +1419,6 @@ AI is therefore not a separate innovation layer. It is part of the operating mod
 
 ---
 
-### 11. Presentation Takeaways
-
-This section should support four slide-level conclusions:
-
-1. **AI should first protect trust, not predict outcomes.**
-2. **The top AI use cases are market integrity, responsible use, wallet-risk monitoring, and contract explanation.**
-3. **The biggest AI gap is not model sophistication; it is controlled data, mobile-app integration, human override, and regulator-ready evidence.**
-4. **Kalshi proves the regulated-market discipline; Polymarket proves demand and liquidity. TBC needs a Georgian model combining product simplicity with bank-grade control.**
-
----
-
----
-
 ## 4. Platform Strategy Analysis
 
 ### Purpose
@@ -1461,7 +1435,7 @@ This matters because the strategic prize is not only trading-fee revenue. The st
 
 ---
 
-### 1. Platform Definition
+### Platform Definition
 
 The proposed platform is a regulated event-contract marketplace.
 
@@ -1482,7 +1456,7 @@ The product should look simple to the user. It should not operate simply underne
 
 ---
 
-### 2. Platform Participants
+### Platform Participants
 
 #### 2.1 Demand side
 
@@ -1538,7 +1512,7 @@ These actors are not side stakeholders. They are part of the platform system bec
 
 ---
 
-### 3. Core Platform Problem
+### Core Platform Problem
 
 The core platform problem is the marketplace cold start.
 
@@ -1566,7 +1540,7 @@ This is why TBC matters. TBC can reduce the trust cold start through brand, mobi
 
 ---
 
-### 4. Platform Flywheel
+### Platform Flywheel
 
 The proposed flywheel is:
 
@@ -1585,7 +1559,7 @@ The flywheel depends on TBC owning the wallet layer. If funding, settlement, and
 
 ---
 
-### 5. MVP Platform Architecture
+### MVP Platform Architecture
 
 The MVP should not be designed as a full public platform. It should prove the wallet-to-market loop under controlled conditions.
 
@@ -1641,7 +1615,7 @@ The MVP is successful only if all three workflows operate together. A working tr
 
 ---
 
-### 6. Mobile Banking Integration Strategy
+### Mobile Banking Integration Strategy
 
 #### 6.1 Why mobile banking integration matters
 
@@ -1707,7 +1681,7 @@ This means the app integration must be governed as part of platform strategy, no
 
 ---
 
-### 7. Network Effects
+### Network Effects
 
 Prediction-market network effects are weaker than social networks but stronger than ordinary financial apps.
 
@@ -1739,7 +1713,7 @@ The strongest network effect is not viral sharing. It is repeated trust in the w
 
 ---
 
-### 8. Platform Governance
+### Platform Governance
 
 The platform requires governance before scale.
 
@@ -1766,7 +1740,7 @@ The governance system is part of the platform. It is not a back-office support f
 
 ---
 
-### 9. Platform Threat Assessment
+### Platform Threat Assessment
 
 #### 9.1 Greatest structural threat
 
@@ -1818,7 +1792,7 @@ The correct partnership logic is:
 
 ---
 
-### 10. Platform Positioning
+### Platform Positioning
 
 The platform should be positioned as:
 
@@ -1845,7 +1819,7 @@ Unlike traditional brokerage, it does not require company analysis or long-term 
 
 ---
 
-### 11. Platform Success Metrics
+### Platform Success Metrics
 
 The platform should not be evaluated only on registered users or trading volume.
 
@@ -1901,7 +1875,7 @@ The key success metrics are:
 
 ---
 
-### 12. Platform Roadmap Connection
+### Platform Roadmap Connection
 
 The platform strategy connects directly to the 18-month roadmap.
 
@@ -1955,7 +1929,7 @@ The launch decision should depend on whether the platform proves:
 
 ---
 
-### 13. Board-Level Conclusion
+### Board-Level Conclusion
 
 The platform strategy is not to build a prediction-market app.
 
@@ -1975,7 +1949,7 @@ The defensible position is:
 
 ### Part 1. Strategic Options Evaluation
 
-#### 1. Strategic options overview
+#### Strategic options overview
 
 The three options are structurally distinct. They are not three versions of the same plan at different budget levels. Each option has a different value proposition, revenue model, ownership logic, and capability requirement.
 
@@ -1987,7 +1961,7 @@ The three options are structurally distinct. They are not three versions of the 
 
 ---
 
-#### 2. Option 1: TBC-owned GEL wallet platform
+#### Option 1: TBC-owned GEL wallet platform
 
 #### Description
 
@@ -2057,7 +2031,7 @@ This is the most defensible option because it keeps the most important value lay
 
 ---
 
-#### 3. Option 2: International platform partnership
+#### Option 2: International platform partnership
 
 #### Description
 
@@ -2122,7 +2096,7 @@ This option is useful as a support route, but weak as the main strategy. TBC can
 
 ---
 
-#### 4. Option 3: Crypto/VASP-first standalone platform
+#### Option 3: Crypto/VASP-first standalone platform
 
 #### Description
 
@@ -2175,7 +2149,7 @@ This option should remain a fallback or niche route, not the recommended base ca
 
 ---
 
-### 5. Four-Criterion Evaluation Matrix
+### Four-Criterion Evaluation Matrix
 
 #### 5.1 Scoring method
 
@@ -2261,7 +2235,7 @@ A crypto-first pilot may be faster technically, but it introduces AML, custody, 
 
 ---
 
-### 6. Recommended Option
+### Recommended Option
 
 The recommended option is:
 
@@ -2336,7 +2310,7 @@ This upside is strongest when TBC owns distribution and payment flow. Bank-backe
 
 ### Part 2. Recommended Business Model
 
-#### 7. Business model summary
+#### Business model summary
 
 The recommended business model is:
 
@@ -2348,7 +2322,7 @@ For TBC, the product is not only a new trading feature. It is a wallet, engageme
 
 ---
 
-#### 8. Value proposition in full
+#### Value proposition in full
 
 #### 8.1 Value proposition for users
 
@@ -2454,7 +2428,7 @@ Payment partners receive:
 
 ---
 
-### 9. Operating Model Changes by Function
+### Operating Model Changes by Function
 
 #### 9.1 Product and Mobile Banking
 
@@ -2721,7 +2695,7 @@ Public launch should depend on evidence, not optimism. The board should approve 
 
 ---
 
-### 10. Revenue Model Logic
+### Revenue Model Logic
 
 #### 10.1 Core revenue formula
 
@@ -2790,7 +2764,7 @@ The business model is viable only if TBC reduces cost and increases trust throug
 
 ---
 
-### 11. Data and AI Infrastructure Requirements
+### Data and AI Infrastructure Requirements
 
 #### 11.1 Data foundation
 
@@ -2893,7 +2867,7 @@ Data and AI are not optional add-ons. They are part of the operating model requi
 
 ---
 
-### 12. Final Recommendation
+### Final Recommendation
 
 The recommended strategy is to proceed with Option 1.
 
@@ -2920,20 +2894,6 @@ If sandbox evidence is closer to the severe downside scenario, the board should 
 
 ---
 
-### 13. Presentation Takeaways
-
-This section should support five slide-level conclusions:
-
-1. **The best option is TBC-owned, not outsourced.**
-2. **The platform should be GEL-settled and wallet-led, not crypto-first.**
-3. **The product is not cheaper brokerage. It is a new event-contract category.**
-4. **The business model works only if TBC controls wallet, trust, liquidity, and governance.**
-5. **AI and data infrastructure are part of the control layer, not a separate technology story.**
-
----
-
----
-
 ## 7. 18-Month Transformation Roadmap
 
 Submission file: transformation_roadmap_final.pdf or transformation_roadmap_final.xlsx
@@ -2956,7 +2916,7 @@ The strategic logic is that a Georgian prediction-market platform cannot be trea
 
 ---
 
-### 1. Roadmap Logic
+### Roadmap Logic
 
 The first six months should not be spent trying to maximize user growth. They should be spent making the product legally, operationally, and reputationally testable.
 
@@ -2974,7 +2934,7 @@ The most important principle is this:
 
 ---
 
-### 2. Initiative Table
+### Initiative Table
 
 | # | Initiative name | Horizon | Timeline | Owner function | Budget estimate | Dependency | Success metric |
 |---|---|---|---|---|---|---|---|
@@ -2996,7 +2956,7 @@ The most important principle is this:
 
 ---
 
-### 3. Horizon Definitions
+### Horizon Definitions
 
 #### Horizon 1: months 1 to 6
 
@@ -3040,7 +3000,7 @@ The preferred H3 path is a public GEL-settled launch. The fallback H3 path is a 
 
 ---
 
-### 4. Detailed Initiative Logic
+### Detailed Initiative Logic
 
 #### 01. Market Governance and Regulatory Design
 
@@ -3164,7 +3124,7 @@ The $500K budget covers a market-maker retainer, spread support, quote monitorin
 
 The success metric is bid-ask spread below 8 percent for 80 percent of monitored trading hours in top pilot markets. If this cannot be achieved without excessive subsidy, the platform should not scale.
 
-#### 10. Market Surveillance and Responsible-Use Monitoring
+#### Market Surveillance and Responsible-Use Monitoring
 
 This initiative turns the safety rules into live monitoring. It covers manipulation alerts, account concentration, unusual price moves, deposit behavior, trade frequency, repeated loss-limit events, and user restrictions.
 
@@ -3172,7 +3132,7 @@ The $1M budget is justified because this is a high-risk control layer. It requir
 
 The success metric is that 95 percent of high-risk alerts are reviewed within SLA and every adverse user action has a reason code, owner, and audit record.
 
-#### 11. Outcome Resolution, Disputes, and Reporting Automation
+#### Outcome Resolution, Disputes, and Reporting Automation
 
 Outcome resolution is the trust core of the business. If users do not trust settlement, the product fails.
 
@@ -3182,7 +3142,7 @@ The $500K budget covers reporting workflow, official-source extraction, dispute 
 
 The success metric is that 100 percent of resolved markets have an official-source evidence package and resolution memo.
 
-#### 12. Unit Economics and Board Launch Gate
+#### Unit Economics and Board Launch Gate
 
 This initiative converts sandbox evidence into a decision. The board should not approve public launch because the app works or because users are curious. It should approve only if the economics and controls are credible.
 
@@ -3210,7 +3170,7 @@ The gate should include:
 
 The success metric is a board-ready recommendation with four options: launch, continue sandbox, pivot to fallback route, or stop.
 
-#### 13. Public GEL-Settled Launch Option
+#### Public GEL-Settled Launch Option
 
 This is the preferred H3 path. It should be activated only if the sandbox proves regulatory comfort, payment feasibility, market quality, user protection, and unit economics.
 
@@ -3218,7 +3178,7 @@ The $5M or more label is appropriate because public launch requires expanded eng
 
 The existence of large global prediction-market volumes does not mean Georgia can support the same scale. It only proves that the category can attract massive attention when regulatory access, distribution, and liquidity align. The Georgian public launch must still be justified by local evidence.
 
-#### 14. VASP or USDC Fallback Option
+#### VASP or USDC Fallback Option
 
 This is not the recommended mass-market path. It is a fallback option if GEL settlement is blocked but a narrower crypto-native model remains legally possible.
 
@@ -3226,7 +3186,7 @@ The $1M budget covers legal work, wallet architecture, VASP-related compliance, 
 
 The trigger condition is strict. VASP status does not automatically solve event-contract legality. It only affects the settlement and virtual-asset side of the product. The event contract still needs legal classification.
 
-#### 15. Advanced Market Integrity and Data Products Option
+#### Advanced Market Integrity and Data Products Option
 
 This option activates only after a public-launch decision. It covers account-linkage graphs, manipulation detection, market-quality analytics, regulator-grade reporting, and possible aggregated data products.
 
@@ -3236,13 +3196,13 @@ The trigger is clear: do not fund this until the platform has passed the month-1
 
 ---
 
-### 5. Dependency Logic
+### Dependency Logic
 
 Initiatives 01 through 07 form the H1 foundation. Market Governance and Regulatory Design is the critical prerequisite because the platform cannot safely list markets, use AI screening, onboard users, or report to regulators without a named body that owns decisions. The second critical prerequisite is the Official Event Source Registry because every market needs a source before it can be listed, traded, resolved, or disputed. The H2 infrastructure then validates the operating model through sandbox trading, liquidity support, surveillance, responsible-use monitoring, resolution, and reporting. H3 options activate only if the board sees evidence that regulation, payments, liquidity, user protection, and unit economics are strong enough for public launch.
 
 ---
 
-### 6. Funding Narrative
+### Funding Narrative
 
 #### 6.1 What funds H1
 
@@ -3339,7 +3299,7 @@ The board should approve public launch only if the sandbox shows a credible path
 
 ---
 
-### 7. Change Management Initiative
+### Change Management Initiative
 
 Change management is a named initiative, not a generic mitigation.
 
@@ -3373,7 +3333,7 @@ The key activities are:
 
 ---
 
-### 8. Board Decision Gates
+### Board Decision Gates
 
 #### Gate 1: regulatory feasibility, month 4
 
@@ -3414,7 +3374,7 @@ The launch condition is that regulation, payment, liquidity, user protection, an
 
 ---
 
-### 9. Roadmap Risk Controls
+### Roadmap Risk Controls
 
 The main roadmap risks are known from the beginning.
 
@@ -3434,7 +3394,7 @@ The seventh risk is building before governance. The control is that no sandbox l
 
 ---
 
-### 10. Quality Check
+### Quality Check
 
 Every initiative has all seven required elements: name, horizon, timeline, owner, budget, dependency, and measurable success metric.
 
@@ -3507,7 +3467,7 @@ The strategic implication is clear:
 
 ---
 
-### 1. Purpose of the Model
+### Purpose of the Model
 
 This model answers four questions.
 
@@ -3523,7 +3483,7 @@ The model is not a final forecast. It is a structured planning model designed fo
 
 ---
 
-### 2. Source Base
+### Source Base
 
 #### 2.1 Gambling and betting turnover
 
@@ -3572,7 +3532,7 @@ Sources:
 
 ---
 
-### 3. Market Sizing Logic
+### Market Sizing Logic
 
 #### 3.1 Risk-active population
 
@@ -3613,7 +3573,7 @@ The financial opportunity depends on whether the platform can migrate part of th
 
 ---
 
-### 4. Revenue Model
+### Revenue Model
 
 #### 4.1 Core formula
 
@@ -3658,7 +3618,7 @@ The upside case assumes 18 percent adoption. This requires strong app distributi
 
 ---
 
-### 5. Payment Cost Logic
+### Payment Cost Logic
 
 #### 5.1 Why payment cost is not applied to full turnover
 
@@ -3717,7 +3677,7 @@ This is why the bank-backed strategy matters financially. Bank backing is not on
 
 ---
 
-### 6. Operating Cost Model
+### Operating Cost Model
 
 The platform requires fixed operating costs even before it reaches scale.
 
@@ -3748,7 +3708,7 @@ Technology and security costs are also material. The platform handles KYC data, 
 
 ---
 
-### 7. Monthly Contribution and Operating Profit
+### Monthly Contribution and Operating Profit
 
 #### 7.1 Formula
 
@@ -3785,7 +3745,7 @@ The model therefore shifts the main strategic risk. The primary risk is not whet
 
 ---
 
-### 8. Breakeven Analysis
+### Breakeven Analysis
 
 #### 8.1 Breakeven formula
 
@@ -3824,7 +3784,7 @@ A separate severe downside stress test is included later because the primary con
 
 ---
 
-### 9. Customer Acquisition Cost and Payback
+### Customer Acquisition Cost and Payback
 
 #### 9.1 CAC assumptions
 
@@ -3846,7 +3806,7 @@ This is why distribution is part of the financial model. The platform is not onl
 
 ---
 
-### 10. Investment Requirement and Payback
+### Investment Requirement and Payback
 
 #### 10.1 Source and proxy basis
 
@@ -4010,7 +3970,7 @@ The severe downside case does not reach breakeven, does not pay back, and produc
 
 ---
 
-### 11. Scenario Narratives
+### Scenario Narratives
 
 #### 11.1 Conservative case
 
@@ -4046,7 +4006,7 @@ This has a clear strategic implication. Public launch should not be approved sim
 
 ---
 
-### 12. Sensitivity Analysis
+### Sensitivity Analysis
 
 #### 12.1 Most important assumptions
 
@@ -4098,7 +4058,7 @@ If both tests fail, the platform should not scale, even if the product works tec
 
 ---
 
-### 13. Strategic Implications
+### Strategic Implications
 
 The model supports five strategic conclusions.
 
@@ -4114,7 +4074,7 @@ Fifth, the public launch decision should depend on sandbox evidence. The key evi
 
 ---
 
-### 14. Board Decision Metrics
+### Board Decision Metrics
 
 Before public launch, the board should require evidence in five areas.
 
@@ -4167,7 +4127,7 @@ Public launch should require:
 
 ---
 
-### 15. Model Limitations and Validation Requirements
+### Model Limitations and Validation Requirements
 
 #### 15.1 User overlap
 
@@ -4203,7 +4163,7 @@ Strong economics do not solve legal classification. The financial case is valid 
 
 ---
 
-### 16. Final Recommendation
+### Final Recommendation
 
 The ROI model supports a bank-backed sandbox strategy.
 
@@ -4230,7 +4190,7 @@ The board should approve scale only if the platform proves that user demand, uni
 
 ## 9. Risk Register
 
-### 1. Risk Register
+### Risk Register
 
 #### 1.1 Risk register overview
 
@@ -4277,7 +4237,7 @@ The mitigation logic is therefore not to launch faster. The mitigation logic is 
 
 ## 10. Change Management Plan
 
-### 9. Change Management Workstream
+### Change Management Workstream
 
 ### 9.1 Definition
 
@@ -4438,7 +4398,7 @@ The change budget is therefore not soft spending. It funds the adoption of the o
 
 ---
 
-### 10. Change Management Timeline
+### Change Management Timeline
 
 ### Phase 1: Governance setup and stakeholder alignment, months 1 to 3
 
@@ -4523,7 +4483,7 @@ The success metric is that the board receives evidence on adoption, mobile-app p
 
 ---
 
-### 11. Stakeholder Resistance
+### Stakeholder Resistance
 
 The role most likely to resist is the **Compliance Lead or MLRO assigned to the prediction-market pilot**.
 
@@ -4556,7 +4516,7 @@ Compensation link: a portion of performance evaluation should recognize safe inn
 
 ---
 
-### 12. Adoption Measurement
+### Adoption Measurement
 
 The change management workstream should track adoption through operational evidence, not surveys alone.
 
@@ -4578,7 +4538,7 @@ The sixth metric is unresolved resistance. The PMO should maintain a resistance 
 
 ## 11. Governance Plan
 
-### 1. Purpose
+### Purpose
 
 This document sets out the governance and change management framework for the proposed Georgian prediction-market platform.
 
@@ -4597,7 +4557,7 @@ The answer depends on four controls:
 
 ---
 
-### 2. Governance Scope
+### Governance Scope
 
 The governance plan covers the AI-enabled and operational capabilities required for the prediction-market platform. The scope is not limited to market surveillance or event approval. It also includes the integration of the prediction-market product into the TBC mobile banking app.
 
@@ -4661,7 +4621,7 @@ The mobile app should make the product easy to understand, but not frictionless 
 
 ---
 
-### 3. Governance Principles
+### Governance Principles
 
 The governance plan follows six practical principles.
 
@@ -4691,7 +4651,7 @@ The platform should not move from sandbox to public launch until the governance 
 
 ---
 
-### 4. Oversight Body
+### Oversight Body
 
 ### 4.1 Name
 
@@ -4798,7 +4758,7 @@ If the committee cannot agree on the app integration, the default decision is no
 
 ---
 
-### 5. EU AI Act Risk Classification
+### EU AI Act Risk Classification
 
 The EU AI Act is used here as a benchmark, not because Georgia is directly applying the EU AI Act in the same way as an EU member state, but because it gives a clear structure for classifying AI systems by user impact.
 
@@ -4822,7 +4782,7 @@ Most platform AI use cases are high risk because they may affect trading access,
 
 ---
 
-### 6. Georgian Data Protection Law Obligations
+### Georgian Data Protection Law Obligations
 
 The platform will process personal data in several ways: KYC, wallet transactions, deposits, withdrawals, trading activity, device signals, responsible-use behavior, complaints, disputes, and support communications.
 
@@ -4854,7 +4814,7 @@ Every high-impact decision should have a record of the input data, model output,
 
 ---
 
-### 7. Human Override Protocols
+### Human Override Protocols
 
 This section is the operational core of the governance plan. Every high-risk use case has a measurable trigger, a named override authority, a documentation requirement, and a maximum review time.
 
@@ -5035,7 +4995,7 @@ The maximum review time is three business days for routine monthly reports and 2
 
 ---
 
-### 8. Responsible AI Principles for H1 Platform Use Cases
+### Responsible AI Principles for H1 Platform Use Cases
 
 The H1 platform use cases are those that must be designed before sandbox trading begins. They are event eligibility screening, contract drafting, payment and KYC design, responsible-use framework, and reporting readiness.
 
@@ -5091,7 +5051,7 @@ If an inaccurate report is produced, the issue escalates to Compliance, the Mark
 
 ---
 
-### 13. Board-Level Governance Gates
+### Board-Level Governance Gates
 
 ### Gate 1: Regulatory feasibility
 
@@ -5138,7 +5098,7 @@ The board pack should explicitly include:
 
 ---
 
-### 14. Final Governance Position
+### Final Governance Position
 
 The governance model should make one thing clear: the platform is not ready for public launch just because the app works.
 
@@ -5154,7 +5114,7 @@ During sandbox, AI should assist. Humans should decide. The audit trail should p
 
 ## 12. Responsible AI Reflection
 
-### 2. Responsible AI Reflection
+### Responsible AI Reflection
 
 #### 2.1 Purpose
 
@@ -5501,7 +5461,7 @@ This is why AI is part of the control layer, not a separate technology story.
 
 ### Detailed Responsible AI Assessment
 
-### 1. Purpose
+### Purpose
 
 This document applies the EU AI Act risk framework and Responsible AI principles to the AI use cases required for a Georgian prediction-market platform.
 
@@ -5513,7 +5473,7 @@ Responsible AI is therefore not an add-on. It is part of the operating license o
 
 ---
 
-### 2. Scope of AI Use Cases
+### Scope of AI Use Cases
 
 The assessment covers nine AI use cases that are directly tied to the prediction-market platform:
 
@@ -5533,7 +5493,7 @@ The assessment is written as a practical consulting deliverable. It identifies t
 
 ---
 
-### 3. Assessment Method
+### Assessment Method
 
 The EU AI Act is used as the risk-classification benchmark. The Act defines four broad levels of AI risk: unacceptable, high, limited or transparency risk, and minimal risk. High-risk AI systems are subject to stronger obligations, including risk assessment, high-quality data, logging, documentation, clear information to deployers, human oversight, robustness, cybersecurity, and accuracy.
 
@@ -5551,7 +5511,7 @@ This is not a legal opinion. The legal classification of event contracts and the
 
 ---
 
-### 4. Portfolio-Level Risk View
+### Portfolio-Level Risk View
 
 The platform should not use any unacceptable-risk AI. In practical terms, this means the platform should not use social scoring, biometric surveillance, emotion detection, political profiling, or vulnerability exploitation to segment users.
 
@@ -5572,7 +5532,7 @@ These systems should never take final adverse action without human accountabilit
 
 ---
 
-### 5. AI Use Case Assessments
+### AI Use Case Assessments
 
 #### 5.1 AI-Assisted Event Eligibility Screening
 
@@ -5840,7 +5800,7 @@ The control artifacts are the reporting source log, draft history, compliance si
 
 ---
 
-### 6. Cross-Cutting Responsible AI Controls
+### Cross-Cutting Responsible AI Controls
 
 The prediction-market platform needs a small number of non-negotiable controls that apply across all AI systems.
 
@@ -5858,7 +5818,7 @@ Finally, the platform needs a **Regulator-Ready Audit Pack**. For each month of 
 
 ---
 
-### 7. Georgian Personal Data Protection Control Map
+### Georgian Personal Data Protection Control Map
 
 The platform processes sensitive personal and behavioral data. That includes KYC data, wallet transactions, deposits, withdrawals, trading history, device signals, complaints, disputes, and responsible-use indicators.
 
@@ -5878,7 +5838,7 @@ The Georgian-law control environment should be designed around the following obl
 
 ---
 
-### 8. Human Override Register
+### Human Override Register
 
 The following thresholds should be treated as hard handoff rules during sandbox.
 
@@ -5902,7 +5862,7 @@ The following thresholds should be treated as hard handoff rules during sandbox.
 
 ---
 
-### 9. Transparency and Notice Standard
+### Transparency and Notice Standard
 
 The platform should not overwhelm users with technical AI explanations. The standard should be plain, practical, and tied to user impact.
 
@@ -5930,7 +5890,7 @@ Your trading access has been temporarily limited because your account reached a 
 
 ---
 
-### 10. Accountability Model
+### Accountability Model
 
 The platform should avoid accountability gaps. For every AI-supported decision, one human function should own the outcome.
 
@@ -5956,7 +5916,7 @@ The board should not approve public launch until this accountability model has o
 
 ---
 
-### 11. Residual Risk Assessment
+### Residual Risk Assessment
 
 After controls, some risk remains. The platform cannot remove all risk because prediction markets are inherently sensitive. The realistic goal is to make risks visible, bounded, and governable.
 
@@ -5980,7 +5940,7 @@ After controls, some risk remains. The platform cannot remove all risk because p
 
 ---
 
-### 12. Implementation Priorities
+### Implementation Priorities
 
 The platform should not try to automate everything at launch. The first phase should prioritize governance over speed.
 
@@ -5994,7 +5954,7 @@ The key implementation principle is simple: AI can assist, route, monitor, and s
 
 ---
 
-### 13. Conclusion
+### Conclusion
 
 The responsible AI assessment supports the project’s strategic recommendation: a Georgian prediction-market platform should be launched only through a controlled, regulator-first pathway.
 
@@ -6010,7 +5970,7 @@ A bank-backed platform can be defensible only if these controls are in place bef
 
 ## 13. AI Tool Disclosure Appendix
 
-### 3. AI Tool Disclosure Appendix
+### AI Tool Disclosure Appendix
 
 #### 3.1 Purpose
 
