@@ -5,7 +5,7 @@
 Team A: Georgian Prediction-Market Platform  
 Industry: Fintech  
 Market: Republic of Georgia  
-Recommended strategic option: NBG sandbox-first, GEL-settled where possible, bank-backed, with responsible-use controls embedded from day one  
+Recommended strategic option: TBC-owned, GEL-settled, mobile-banking-integrated prediction-market platform under an NBG special-designation or sandbox-first route, with responsible-use controls embedded from day one.  
 Submission file: `responsible_ai_assessment.pdf`  
 Working file: `responsible_ai_assessment.md`
 
